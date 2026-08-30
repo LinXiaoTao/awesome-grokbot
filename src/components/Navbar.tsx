@@ -5,8 +5,23 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { Link } from "@/i18n/routing";
+import { AUTHOR } from "@/config/author";
 import { cn } from "@/lib/utils";
+import { GitHubIcon } from "./GitHubIcon";
+import {
+  XIcon,
+  XiaohongshuIcon,
+  DouyinIcon,
+  JikeIcon,
+} from "./SocialIcons";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+
+const SOCIAL_LINKS = [
+  { href: AUTHOR.x, icon: XIcon, label: "X (Twitter)" },
+  { href: AUTHOR.xiaohongshu, icon: XiaohongshuIcon, label: "小红书" },
+  { href: AUTHOR.douyin, icon: DouyinIcon, label: "抖音" },
+  { href: AUTHOR.jike, icon: JikeIcon, label: "即刻" },
+] as const;
 
 export function Navbar() {
   const t = useTranslations("nav");
@@ -29,13 +44,37 @@ export function Navbar() {
           </span>
         </Link>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 pr-1">
           <div className="hidden sm:block">
             <LanguageSwitcher compact />
           </div>
 
+          <div className="hidden items-center gap-2 sm:flex">
+            <a
+              href={AUTHOR.githubRepo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted transition-colors hover:text-black"
+              aria-label="GitHub"
+            >
+              <GitHubIcon />
+            </a>
+            {SOCIAL_LINKS.map(({ href, icon: Icon, label }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted transition-colors hover:text-black"
+                aria-label={label}
+              >
+                <Icon />
+              </a>
+            ))}
+          </div>
+
           <a
-            href="https://forms.gle/Rn4o1qXAAUGGD3ss9"
+            href={`${AUTHOR.githubRepo}/issues/new?template=submit-bot.yml`}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden rounded-full bg-black px-5 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:inline-flex"
@@ -67,8 +106,33 @@ export function Navbar() {
       >
         <div className="flex flex-col gap-3 px-4 py-3">
           <LanguageSwitcher compact />
+          <div className="flex items-center gap-3">
+            <a
+              href={AUTHOR.githubRepo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted transition-colors hover:text-black"
+              aria-label="GitHub"
+              onClick={() => setMobileOpen(false)}
+            >
+              <GitHubIcon className="h-4 w-4" />
+            </a>
+            {SOCIAL_LINKS.map(({ href, icon: Icon, label }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted transition-colors hover:text-black"
+                aria-label={label}
+                onClick={() => setMobileOpen(false)}
+              >
+                <Icon className="h-4 w-4" />
+              </a>
+            ))}
+          </div>
           <a
-            href="https://forms.gle/Rn4o1qXAAUGGD3ss9"
+            href={`${AUTHOR.githubRepo}/issues/new?template=submit-bot.yml`}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-black px-5 py-2.5 text-center text-sm font-medium text-white"

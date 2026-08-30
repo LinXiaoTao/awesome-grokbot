@@ -2,16 +2,15 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
-import { bots } from "@/data/bots";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { IntegrationPill } from "@/components/IntegrationPill";
 import { BotCard } from "@/components/BotCard";
 import XPostEmbed from "@/components/XPostEmbed";
 import { Link } from "@/i18n/routing";
-import { getBotBySlug, getRelatedBots } from "@/lib/utils";
+import { bots } from "@/data/bots";
 import { buildBotJsonLd, buildPageMetadata } from "@/lib/seo";
-import type { Locale } from "@/lib/utils";
+import { getBotBySlug, getRelatedBots, LOCALES, type Locale } from "@/lib/utils";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -19,7 +18,7 @@ type Props = {
 
 export function generateStaticParams() {
   return bots.flatMap((bot) =>
-    ["en", "zh", "ja", "ko", "es", "fr", "de"].map((locale) => ({
+    LOCALES.map((locale) => ({
       locale,
       slug: bot.slug,
     })),
@@ -103,7 +102,7 @@ export default async function BotDetailPage({ params }: Props) {
 
                 <div className="mt-8">
                   <a
-                    href="https://x.ai/bot"
+                    href={bot.xaiBotUrl ?? "https://x.ai/bot"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"

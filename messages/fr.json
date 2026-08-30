@@ -68,7 +68,9 @@
   "common": {
     "loading": "Chargement...",
     "noResults": "Aucun bot trouvé",
-    "tryDifferent": "Essayez un autre terme de recherche ou une autre catégorie"
+    "tryDifferent": "Essayez un autre terme de recherche ou une autre catégorie",
+    "loadMore": "Voir plus",
+    "showingCount": "Affichage de {shown} sur {total} bots"
   },
   "seo": {
     "homeTitle": "Awesome Grok Bot — Découvrir des Grok Bots",

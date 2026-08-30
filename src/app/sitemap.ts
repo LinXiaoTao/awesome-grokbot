@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const bot of bots) {
       entries.push({
         url: `${SITE_URL}/${locale}/bot/${bot.slug}`,
-        lastModified: new Date(bot.createdAt),
+        lastModified: new Date(),
         changeFrequency: "weekly",
         priority: 0.7,
       });

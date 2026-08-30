@@ -6,7 +6,7 @@ Thanks for helping grow the Awesome Grok Bot directory.
 
 You can submit a bot in either of these ways:
 
-1. **Website form** — Use the [submit form](https://awesomegrokbots.com/submit) on awesomegrokbots.com.
+1. **GitHub issue** — Use the [bot submission form](https://github.com/LinXiaoTao/awesome-grokbot/issues/new?template=submit-bot.yml) to submit your bot.
 2. **Pull request** — Open a PR in this repository (see format below).
 
 ## Pull request format
@@ -14,7 +14,7 @@ You can submit a bot in either of these ways:
 When submitting via PR, please update both:
 
 1. **README.md** — Add an entry to the correct category section in [README.md](README.md). Also add the translated description to [README.zh.md](README.zh.md).
-2. **`src/data/bots.ts`** — Add a full bot object matching the existing `Bot` type (slug, name, description, integrations, installs, category, iconColor, createdAt, and authorHandle when applicable).
+2. **`src/data/bots/<category>.ts`** — Add a full bot object matching the existing `Bot` type (slug, name, description, integrations, installs, category, iconColor, createdAt, and authorHandle when applicable).
 
 Entry format in README:
 

@@ -12,6 +12,7 @@ export interface Bot {
   iconColor: string;
   createdAt: string;
   xPostUrl?: string;
+  xaiBotUrl?: string;
 }
 
 export type Category =

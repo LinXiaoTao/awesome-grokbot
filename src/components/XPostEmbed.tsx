@@ -1,62 +1,40 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-
 interface XPostEmbedProps {
   url: string;
 }
 
-declare global {
-  interface Window {
-    twttr?: {
-      widgets: {
-        load: (element?: HTMLElement | null) => void;
-      };
-    };
-  }
+function extractTweetId(url: string): string | null {
+  const match = url.match(/status\/(\d+)/);
+  return match?.[1] ?? null;
 }
 
 export default function XPostEmbed({ url }: XPostEmbedProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
+  const tweetId = extractTweetId(url);
 
-  useEffect(() => {
-    const loadWidgets = () => {
-      window.twttr?.widgets.load(containerRef.current);
-    };
-
-    if (window.twttr) {
-      loadWidgets();
-      return;
-    }
-
-    const existingScript = document.querySelector(
-      'script[src="https://platform.x.com/widgets.js"]',
+  if (!tweetId) {
+    return (
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm text-muted underline"
+      >
+        View on X
+      </a>
     );
-
-    if (existingScript) {
-      existingScript.addEventListener("load", loadWidgets);
-      return () => {
-        existingScript.removeEventListener("load", loadWidgets);
-      };
-    }
-
-    const script = document.createElement("script");
-    script.src = "https://platform.x.com/widgets.js";
-    script.async = true;
-    script.charset = "utf-8";
-    script.addEventListener("load", loadWidgets);
-    document.body.appendChild(script);
-
-    return () => {
-      script.removeEventListener("load", loadWidgets);
-    };
-  }, [url]);
+  }
 
   return (
-    <div ref={containerRef} className="max-w-lg">
-      <blockquote className="twitter-tweet">
-        <a href={url}>Loading post...</a>
-      </blockquote>
+    <div className="max-w-lg overflow-hidden rounded-xl border border-border">
+      <iframe
+        src={`https://platform.x.com/embed/Tweet.html?id=${tweetId}&theme=light`}
+        className="w-full border-0"
+        height="400"
+        allowFullScreen
+        title="X Post"
+        loading="lazy"
+      />
     </div>
   );
 }

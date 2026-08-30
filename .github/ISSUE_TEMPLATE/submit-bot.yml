@@ -1,0 +1,31 @@
+name: "Submit a Grok Bot"
+description: "Submit a new Grok Bot to the awesome list"
+title: "[Bot] "
+labels: ["new bot"]
+body:
+  - type: input
+    id: bot-template-link
+    attributes:
+      label: "Bot template link"
+      description: "https://x.ai/bot/..."
+      placeholder: "https://x.ai/bot/..."
+    validations:
+      required: true
+
+  - type: input
+    id: x-post
+    attributes:
+      label: "X post"
+      description: "Link to the X post about this bot"
+      placeholder: "https://x.com/..."
+    validations:
+      required: false
+
+  - type: input
+    id: x-username
+    attributes:
+      label: "X username"
+      description: "Your X/Twitter username"
+      placeholder: "@username"
+    validations:
+      required: false

@@ -68,7 +68,9 @@
   "common": {
     "loading": "加载中...",
     "noResults": "未找到 Bot",
-    "tryDifferent": "请尝试其他搜索词或分类"
+    "tryDifferent": "请尝试其他搜索词或分类",
+    "loadMore": "加载更多",
+    "showingCount": "显示 {shown} / {total} 个 Bot"
   },
   "seo": {
     "homeTitle": "Awesome Grok Bot — 发现 Grok Bot",

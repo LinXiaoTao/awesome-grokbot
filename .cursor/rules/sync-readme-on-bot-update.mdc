@@ -1,0 +1,21 @@
+---
+description: When new Grok Bots are added to src/data/bots/, also update README.md and README.zh.md
+globs: src/data/bots/*.ts
+alwaysApply: false
+---
+
+# Sync README on bot data changes
+
+When bots are added, removed, or modified in `src/data/bots/*.ts`:
+
+1. Update `README.md` — add/remove/edit entries under the matching category section. Each entry follows the format:
+   ```
+   - **[Bot Name](#slug)** by @handle — Description.
+   ```
+   Omit `by @handle` if no `authorHandle`. The anchor `#slug` uses the bot's slug.
+
+2. Update `README.zh.md` — mirror the same structural changes. Keep the Chinese section headers. Bot names and descriptions stay in English (they are proper nouns / product names).
+
+3. Keep entries sorted in the same order as they appear in the data file.
+
+4. If a new category file is added, add a corresponding section in both READMEs.

@@ -68,7 +68,9 @@
   "common": {
     "loading": "読み込み中...",
     "noResults": "Botが見つかりません",
-    "tryDifferent": "別の検索語やカテゴリをお試しください"
+    "tryDifferent": "別の検索語やカテゴリをお試しください",
+    "loadMore": "もっと見る",
+    "showingCount": "{total}件中{shown}件を表示"
   },
   "seo": {
     "homeTitle": "Awesome Grok Bot — Grok Botを発見",

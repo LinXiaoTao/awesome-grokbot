@@ -66,7 +66,7 @@ export function formatInstallCount(count: number): string {
 }
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://awesomebot.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://awsomebot.com";
 
 export const LOCALES = ["en", "zh", "ja", "ko", "es", "fr", "de"] as const;
 export type Locale = (typeof LOCALES)[number];
