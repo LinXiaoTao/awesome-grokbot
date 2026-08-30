@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "discover": "Descubrir",
+    "categories": "Categorías",
+    "submit": "Enviar un Bot",
+    "brand": "Awesome Grok Bot"
+  },
+  "hero": {
+    "badge": "Descubre y comparte Grok Bots",
+    "title": "Hay un Grok Bot para eso.",
+    "subtitle": "Descubre los mejores Grok Bots para el trabajo, la programación, la investigación y las tareas cotidianas.",
+    "searchPlaceholder": "Buscar bots..."
+  },
+  "filters": {
+    "popular": "Popular",
+    "newest": "Más recientes",
+    "all": "Todos",
+    "allIntegrations": "Todas las integraciones",
+    "productivity": "Productividad",
+    "coding": "Programación",
+    "research": "Investigación",
+    "social": "Social",
+    "finance": "Finanzas",
+    "lifestyle": "Estilo de vida",
+    "enterprise": "Empresas"
+  },
+  "bot": {
+    "installs": "{count} instalaciones",
+    "install": "Instalar Bot",
+    "relatedBots": "Bots relacionados",
+    "by": "por",
+    "backToDiscover": "Volver a Descubrir",
+    "downloadGrok": "¿No tienes Grok Bot?",
+    "download": "Descargar"
+  },
+  "submit": {
+    "title": "Enviar un Grok Bot",
+    "subtitle": "Comparte tu Grok Bot con la comunidad",
+    "botName": "Nombre del Bot",
+    "authorHandle": "Usuario del autor",
+    "description": "Descripción",
+    "category": "Categoría",
+    "integrations": "Integraciones",
+    "botUrl": "URL del Bot",
+    "xPostUrl": "URL de publicación en X (opcional)",
+    "iconColor": "Color del icono",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "review": "Revisar",
+    "submitBot": "Enviar Bot",
+    "success": "¡Bot enviado con éxito!",
+    "successMessage": "Tu bot será revisado y añadido al directorio pronto.",
+    "step": "Paso {current} de {total}",
+    "selectCategory": "Selecciona una categoría",
+    "selectIntegrations": "Selecciona integraciones (opcional)",
+    "reviewTitle": "Revisa tu envío"
+  },
+  "footer": {
+    "tagline": "El mejor directorio curado de Grok Bots.",
+    "links": "Enlaces",
+    "legal": "Legal",
+    "language": "Idioma",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "about": "Acerca de",
+    "copyright": "© 2025 Awesome Grok Bot. No afiliado a xAI."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "noResults": "No se encontraron bots",
+    "tryDifferent": "Prueba con otro término de búsqueda o categoría"
+  },
+  "seo": {
+    "homeTitle": "Awesome Grok Bot — Descubre Grok Bots",
+    "homeDescription": "Descubre los mejores Grok Bots para el trabajo, la programación, la investigación y las tareas cotidianas. Un directorio curado de Grok Bots de la comunidad.",
+    "submitTitle": "Enviar un Grok Bot — Awesome Grok Bot",
+    "submitDescription": "Comparte tu Grok Bot con la comunidad. Envía tu bot al directorio Awesome Grok Bot.",
+    "botTitle": "{name} — Awesome Grok Bot",
+    "botDescription": "{description}"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "discover": "탐색",
+    "categories": "카테고리",
+    "submit": "봇 제출",
+    "brand": "Awesome Grok Bot"
+  },
+  "hero": {
+    "badge": "Grok Bot 발견 및 공유",
+    "title": "당신에게 맞는 Grok Bot이 있습니다.",
+    "subtitle": "업무, 코딩, 리서치, 일상 업무에 최적화된 최고의 Grok Bot을 찾아보세요.",
+    "searchPlaceholder": "봇 검색..."
+  },
+  "filters": {
+    "popular": "인기",
+    "newest": "최신",
+    "all": "전체",
+    "allIntegrations": "모든 연동",
+    "productivity": "생산성",
+    "coding": "코딩",
+    "research": "리서치",
+    "social": "소셜",
+    "finance": "금융",
+    "lifestyle": "라이프스타일",
+    "enterprise": "엔터프라이즈"
+  },
+  "bot": {
+    "installs": "설치 {count}회",
+    "install": "봇 설치",
+    "relatedBots": "관련 봇",
+    "by": "작성자",
+    "backToDiscover": "탐색으로 돌아가기",
+    "downloadGrok": "Grok Bot이 없으신가요?",
+    "download": "다운로드"
+  },
+  "submit": {
+    "title": "Grok Bot 제출",
+    "subtitle": "커뮤니티에 Grok Bot을 공유하세요",
+    "botName": "봇 이름",
+    "authorHandle": "작성자 핸들",
+    "description": "설명",
+    "category": "카테고리",
+    "integrations": "연동",
+    "botUrl": "봇 URL",
+    "xPostUrl": "X 게시물 URL (선택)",
+    "iconColor": "아이콘 색상",
+    "next": "다음",
+    "back": "이전",
+    "review": "검토",
+    "submitBot": "봇 제출",
+    "success": "봇이 성공적으로 제출되었습니다!",
+    "successMessage": "검토 후 디렉터리에 추가됩니다.",
+    "step": "{total}단계 중 {current}단계",
+    "selectCategory": "카테고리 선택",
+    "selectIntegrations": "연동 선택 (선택 사항)",
+    "reviewTitle": "제출 내용 확인"
+  },
+  "footer": {
+    "tagline": "엄선된 Grok Bot 디렉터리.",
+    "links": "링크",
+    "legal": "법적 고지",
+    "language": "언어",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "about": "소개",
+    "copyright": "© 2025 Awesome Grok Bot. xAI와 무관합니다."
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "noResults": "봇을 찾을 수 없습니다",
+    "tryDifferent": "다른 검색어나 카테고리를 시도해 보세요"
+  },
+  "seo": {
+    "homeTitle": "Awesome Grok Bot — Grok Bot 탐색",
+    "homeDescription": "업무, 코딩, 리서치, 일상 업무에 최적화된 최고의 Grok Bot을 찾아보세요. 커뮤니티 엄선 Grok Bot 디렉터리.",
+    "submitTitle": "Grok Bot 제출 — Awesome Grok Bot",
+    "submitDescription": "커뮤니티에 Grok Bot을 공유하세요. Awesome Grok Bot 디렉터리에 제출.",
+    "botTitle": "{name} — Awesome Grok Bot",
+    "botDescription": "{description}"
+  }
+}

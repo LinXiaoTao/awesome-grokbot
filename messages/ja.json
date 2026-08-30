@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "discover": "発見",
+    "categories": "カテゴリ",
+    "submit": "Botを投稿",
+    "brand": "Awesome Grok Bot"
+  },
+  "hero": {
+    "badge": "Grok Botを発見・共有",
+    "title": "あなたにぴったりのGrok Botがある。",
+    "subtitle": "仕事、コーディング、リサーチ、日常タスクに最適なGrok Botを見つけよう。",
+    "searchPlaceholder": "Botを検索..."
+  },
+  "filters": {
+    "popular": "人気",
+    "newest": "新着",
+    "all": "すべて",
+    "allIntegrations": "すべての連携",
+    "productivity": "生産性",
+    "coding": "コーディング",
+    "research": "リサーチ",
+    "social": "ソーシャル",
+    "finance": "ファイナンス",
+    "lifestyle": "ライフスタイル",
+    "enterprise": "エンタープライズ"
+  },
+  "bot": {
+    "installs": "{count} インストール",
+    "install": "Botをインストール",
+    "relatedBots": "関連Bot",
+    "by": "作成者",
+    "backToDiscover": "発見に戻る",
+    "downloadGrok": "Grok Botをお持ちでないですか？",
+    "download": "ダウンロード"
+  },
+  "submit": {
+    "title": "Grok Botを投稿",
+    "subtitle": "コミュニティにGrok Botを共有しましょう",
+    "botName": "Bot名",
+    "authorHandle": "作成者ハンドル",
+    "description": "説明",
+    "category": "カテゴリ",
+    "integrations": "連携",
+    "botUrl": "Bot URL",
+    "xPostUrl": "X投稿URL（任意）",
+    "iconColor": "アイコンカラー",
+    "next": "次へ",
+    "back": "戻る",
+    "review": "確認",
+    "submitBot": "Botを投稿",
+    "success": "Botの投稿が完了しました！",
+    "successMessage": "審査後、ディレクトリに追加されます。",
+    "step": "ステップ {current} / {total}",
+    "selectCategory": "カテゴリを選択",
+    "selectIntegrations": "連携を選択（任意）",
+    "reviewTitle": "投稿内容の確認"
+  },
+  "footer": {
+    "tagline": "厳選されたGrok Botディレクトリ。",
+    "links": "リンク",
+    "legal": "法的情報",
+    "language": "言語",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "about": "概要",
+    "copyright": "© 2025 Awesome Grok Bot。xAIとは無関係です。"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "noResults": "Botが見つかりません",
+    "tryDifferent": "別の検索語やカテゴリをお試しください"
+  },
+  "seo": {
+    "homeTitle": "Awesome Grok Bot — Grok Botを発見",
+    "homeDescription": "仕事、コーディング、リサーチ、日常タスクに最適なGrok Botを見つけよう。コミュニティ厳選のGrok Botディレクトリ。",
+    "submitTitle": "Grok Botを投稿 — Awesome Grok Bot",
+    "submitDescription": "コミュニティにGrok Botを共有しましょう。Awesome Grok Botディレクトリに投稿。",
+    "botTitle": "{name} — Awesome Grok Bot",
+    "botDescription": "{description}"
+  }
+}
