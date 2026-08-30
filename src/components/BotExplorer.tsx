@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { bots } from "@/data/bots";
 import { getAllIntegrationNames } from "@/data/integrations";
-import type { Category, SortOption } from "@/types";
+import type { Category } from "@/types";
 import { filterBots } from "@/lib/utils";
 import { Hero } from "./Hero";
 import { SearchBar } from "./SearchBar";
@@ -12,15 +12,14 @@ import { BotGrid } from "./BotGrid";
 
 export function BotExplorer() {
   const [search, setSearch] = useState("");
-  const [sort, setSort] = useState<SortOption>("popular");
   const [category, setCategory] = useState<Category>("all");
   const [integration, setIntegration] = useState("all");
 
   const integrations = useMemo(() => getAllIntegrationNames(), []);
 
   const filteredBots = useMemo(
-    () => filterBots(bots, { search, category, integration, sort }),
-    [search, category, integration, sort],
+    () => filterBots(bots, { search, category, integration, sort: "popular" }),
+    [search, category, integration],
   );
 
   return (
@@ -29,11 +28,9 @@ export function BotExplorer() {
         <SearchBar value={search} onChange={setSearch} />
         <div id="categories">
           <FilterBar
-            sort={sort}
             category={category}
             integration={integration}
             integrations={integrations}
-            onSortChange={setSort}
             onCategoryChange={setCategory}
             onIntegrationChange={setIntegration}
           />

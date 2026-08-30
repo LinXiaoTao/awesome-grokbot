@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
-import type { Category, SortOption } from "@/types";
+import type { Category } from "@/types";
 import { cn } from "@/lib/utils";
 
 const CATEGORIES: Category[] = [
@@ -17,21 +17,17 @@ const CATEGORIES: Category[] = [
 ];
 
 interface FilterBarProps {
-  sort: SortOption;
   category: Category;
   integration: string;
   integrations: string[];
-  onSortChange: (sort: SortOption) => void;
   onCategoryChange: (category: Category) => void;
   onIntegrationChange: (integration: string) => void;
 }
 
 export function FilterBar({
-  sort,
   category,
   integration,
   integrations,
-  onSortChange,
   onCategoryChange,
   onIntegrationChange,
 }: FilterBarProps) {
@@ -40,24 +36,6 @@ export function FilterBar({
   return (
     <div className="flex flex-col items-center gap-4">
       <div className="flex flex-wrap items-center justify-center gap-2">
-        {(["popular", "newest"] as const).map((option) => (
-          <button
-            key={option}
-            type="button"
-            onClick={() => onSortChange(option)}
-            className={cn(
-              "rounded-full px-4 py-2 text-sm font-medium transition-all duration-200",
-              sort === option
-                ? "bg-black text-white"
-                : "bg-transparent text-muted hover:text-black",
-            )}
-          >
-            {t(option)}
-          </button>
-        ))}
-
-        <span className="mx-1 hidden h-4 w-px bg-border sm:block" aria-hidden="true" />
-
         {CATEGORIES.map((cat) => (
           <motion.button
             key={cat}
