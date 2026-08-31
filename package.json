@@ -2,6 +2,7 @@
   "name": "grokbots",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "author": "LinXiaoTao",
   "homepage": "https://github.com/LinXiaoTao/awesome-grokbot",
   "repository": {

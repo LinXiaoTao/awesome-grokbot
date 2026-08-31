@@ -45,10 +45,14 @@
 - **[den](https://x.ai/bot/0aEcF7mtG_zsDWXEUeOGx)** by @Adamdesgns — 家庭机器人中继，在爸爸和家人的机器人之间传递信息，让他在外也能保持学业、金钱习惯和育儿的一致性。
 - **[Chief](https://x.ai/bot/JugVUSPe_wSZg-in69owM)** — 仅做路由，从不亲自执行，分配单一对象负责人后退出。
 - **[Dewey](https://x.ai/bot/rfAHsaFrz6xHBMtUpxDi5)** — 监控 Gmail，在时间敏感或需要回复的邮件出现时提醒你。自由阅读，除非你要求，否则从不发送、回复或删除邮件。
-- **[Struggle Gate](https://x.ai/bot/struggle-gate)** by @thekuchh — 通过要求在 AI 提供指导前独立思考 10 分钟来强化主动解决问题的能力。
-- **[Feedback Clock](https://x.ai/bot/feedback-clock)** by @thekuchh — 缩短行动与发现错误或改进点之间的反馈周期。
-- **[Just-in-Time Curriculum](https://x.ai/bot/just-in-time-curriculum)** by @thekuchh — 消除臃肿的准备清单，仅针对当前手头的任务提供即时所需的知识。
-- **[Action Loop](https://x.ai/bot/action-loop)** by @thekuchh — 通过行动、反馈、调整和再次执行的快速循环系统化闭环。
+- **[Struggle Gate](https://x.ai/bot/tjN1LsaYsuR7u0dQQvOGV)** by @thekuchh — 通过要求在 AI 提供指导前独立思考 10 分钟来强化主动解决问题的能力。
+- **[Feedback Clock](https://x.ai/bot/ySceLccAh5J8IVnq62mQl)** by @thekuchh — 缩短行动与发现错误或改进点之间的反馈周期。
+- **[Just-in-Time Curriculum](https://x.ai/bot/rpkZERbKrIN_NlDl8ErVZ)** by @thekuchh — 消除臃肿的准备清单，仅针对当前手头的任务提供即时所需的知识。
+- **[Action Loop](https://x.ai/bot/py5cXgcAKPdEYsYK_AmcM)** by @thekuchh — 通过行动、反馈、调整和再次执行的快速循环系统化闭环。
+- **[Bouncer](https://x.ai/bot/cGcG0msqfz7o7J3QMLhbE)** by @bradshannon — 在安装前审计公开的 Grok Bot 分享链接与配置，返回通过、警告或阻断安全判定。
+- **[Grok Deck](https://x.ai/bot/Ja9NzNTRz2ozzQLNfrJwI)** by @MaiYangAI — 生成具有纸张质感、生动表情与平滑过渡动画的交互式 HTML 幻灯片演示。
+- **[Ship Note](https://x.ai/bot/xMCiRCmOCYLeRzW8nS6EL)** by @sol_wright7 — 将发布日志与上线记录自动整理为结构清晰的更新日志与客户邮件草稿。
+- **[EG4 Monitor](https://x.ai/bot/9rxPP70OSzuTtTaOrzeqz)** by @look4terry — 监控家用 EG4 太阳能与储能混合系统，可视化发电图表并在异常时告警。
 
 ## 编程
 
@@ -73,6 +77,8 @@
 - **[Speed Lab](https://x.ai/bot/LEbVr_WZ-cym7XwIm7xf5)** — 渲染速度自动研究循环。遍历排名技术，仅保留实测 LCP 提升，并询问是否提交到 makefaster.dev 排行榜。
 - **[Code Conductor](https://x.ai/bot/code-conductor)** by @bryanofearth — 为你的代码库建立隐式交付团队。五位工作者在分支、PR、审查、测试、文档和合并循环中协同工作。
 - **[Mercury (Product Lead)](https://x.ai/bot/lk1yHfim5A)** by @chiefjeeb — 在并行 Cursor 代理任务中协调长上下文编码架构，无需直接编写代码。
+- **[Steward](https://x.ai/bot/VMwfgQlHkYfFkbPYDWzAA)** by @cjblev — 监控 Grok Bot 机队的 Cursor 使用量，定位消耗 Token 的具体机器人，并提供降低成本的优化建议。
+- **[Hot Repo](https://x.ai/bot/D9HYH2jAmGiKw7e499mrE)** by @ios_1261142602 — 每日 GitHub Trending 趋势侦察员，发掘热门代码仓库并解析架构要点。
 
 ## 研究
 
@@ -89,6 +95,8 @@
 - **[Index](https://x.ai/bot/Viv2NbC5skPslV1WH9Fs7)** — SEO 和 AEO 项目队友。读取你已连接的内容，推荐工具栈，运行关键词研究、写手简报和技术搜索健康检查。
 - **[News Scout](https://x.ai/bot/9Mo5saoPQYIp45IgzMT7P)** — 工作日早晨为你的细分领域搜集新闻，发送摘要或今日精选，慢新闻日也会告知。
 - **[GrokBotDaily](https://x.ai/bot/grok-bot-daily)** by @grokbotdaily — 每日在 X 上搜寻新发布的 Grok bot 模板，验证所有链接并按类别分类归档。
+- **[GrokHub Bot](https://x.ai/bot/hU1hS8Ug9bx3B4C2vUX91)** by @Grok_Hub_IO — 根据个人工作流推荐 GrokHub 目录中的新 Grok Bot，并协助提交新模板收录。
+- **[Graph Data](https://x.ai/bot/eyFr_G8h9UmrQHNpZpNfx)** by @data_nexus — 区块链分析专家，通过 The Graph MCP 查询 Subgraph 并分析链上协议与数据。
 
 ## 社交
 
@@ -108,8 +116,8 @@
 - **[X High Coach](https://x.ai/bot/EE8sm1OWmn3sZyaj3st_F)** — 输入 X 用户名，获取评分、健康标志、取关提醒和有力改写，适合想要更多曝光和更少意外的人。
 - **[떡이](https://x.ai/bot/WWh_DzFT09A2-d12tUvj1)** — X 账号编辑。诊断账号瓶颈，以其风格撰写下一条帖子，并指出不应发布的内容。
 - **[Paddy](https://x.ai/bot/A42rzhad6J8lhYMOaQ20o)** — YouTube 策略师，为希望整体评估视频而不仅是标题的创作者服务，检查主题、标题、缩略图、开场白和发布后应保留的内容。
-- **[Head of Content](https://x.ai/bot/head-of-content)** by @AntoineBlanco99 — 管理社交媒体日历、循环高表现帖子、制作获客磁铁并排期发布。
-- **[Weekly Top 100 Fans](https://x.ai/bot/weekly-top-100-fans)** by @AdamLowisz — 通过 X API 数据分析并每周排名前 100 位互动最多的粉丝与关注者。
+- **[Social Media GTM Bot](https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ)** by @AntoineBlanco99 — 充当全天候内容负责人，规划多平台内容日历、循环高表现帖子、制作获客磁铁并通过 PlugKit 发布。
+- **[Weekly Top 100 Fans](https://x.ai/bot/HU7XArfGhUgLnzVcr7neB)** by @AdamLowisz — 通过 X API 数据分析并每周排名前 100 位互动最多的粉丝与关注者。
 
 ## 财务
 
@@ -125,6 +133,9 @@
 - **[Tradey](https://x.ai/bot/_CIeV4P17QVoxuaEyeiFZ)** — 自主短期股票交易台。北极星：在专用经纪现金账户上跑赢 SPY。仅在实盘下单或必须知晓的券商拒单后通知。
 - **[porshe](https://x.ai/bot/BXDRX1jaURkI4Tx70zLg6)** — 商业资金侦察，在收件箱中找出未付发票、待付款项和未收款工作，并给出下一步收款行动。
 - **[GROKSTREET](https://x.ai/bot/grokstreet)** by @adiix_official — 24/7 运行的多代理自主金融交易台，涵盖 11 个交易台、3 位主管与风控。
+- **[Sterling](https://x.ai/bot/WNJl5y33yqdOp3CnhR4-k)** by @jchybow — 个人财务助手，跟踪个人支出、待缴账单、账户余额与现金流消耗。
+- **[RevenueDog](https://x.ai/bot/IDFtkYcsl7MpfdfTx09RT)** by @lexrus — 独立应用早间销售与订阅分析师，综合 RevenueCat 指标与 Google Analytics 转化漏斗。
+- **[SubCut](https://x.ai/bot/MzuJZpvaIK2KpexUVY-V0)** by @tahaabuilds — 扫描邮箱中的周期性 SaaS 扣费，对按月和按年计费进行归类并找出成本节省机会。
 
 ## 生活
 
@@ -140,6 +151,11 @@
 - **[TeslrBot](https://x.ai/bot/_S9OOSBgXixedyANQSYjQ)** by @HeresMyEth — 通过你在机器人自己的机器上登录的第三方连接器进行控制，无需复制令牌即可访问车辆。
 - **[Travel Agent](https://x.ai/bot/_yHS4eeajJMAXY1EHAdoO)** — 旅行伙伴，负责行程记录、城市评分和轻量行程规划，在 Notion 旅行日志中记录并在创建或编辑行前确认。
 - **[Friend Cloner](https://x.ai/bot/y_D2m_51Lww_oWJwIEHSg)** — 将 WhatsApp 群组变成 Grok Bot 好友群，学习他们的说话方式，经你批准后起草机器人。
+- **[Flora](https://x.ai/bot/HC7kphHSxDzb639YlmI6O)** by @RichSilver — 维护室内植物养护日记，自动化浇水、换盆和施肥计划。
+- **[Gym Bod](https://x.ai/bot/3mtiwFoZcEMq59w-49DMS)** by @DrPB — 在预约窗口开启时自动预约健身课程，抢订热门教练名额。
+- **[Watch Later](https://x.ai/bot/9-kjE0PVBDhmW-7Fck_R9)** by @jordanwcjackson — 通过 Chrome 历史记录将 YouTube 稍后观看队列转换为分类卡片流（学习、构建、放松、速览）。
+- **[Vinted Seller](https://x.ai/bot/nqMcywYF0Bg35egak7dSh)** by @trytocatchme98 — 根据照片起草并优化 Vinted 二手服装上架信息，发布前校验商品属性。
+- **[Britney](https://x.ai/bot/pNLwpHs8rmtMzAkUi-Zu2)** by @hnshah — 在工作日定时推送精选 Britney Spears 舞蹈片段，带来活力提神。
 
 ## 企业
 
@@ -159,7 +175,9 @@
 - **[Leader 1:1 Bot](https://x.ai/bot/eZhKhPkfxxFSml18TS2X8)** by @scottxmetcalf — 延续对话线程而非每周重新开始，挑选真正值得占用时段的几个话题。
 - **[PhoneZero Operator](https://x.ai/bot/vB2o6vvmHjDQRM5yFH9vn)** — 运行 PhoneZero 外呼。在其计算机上完成 Telnyx 和 xAI 设置，先规划，等待明确确认，然后报告真人回复。
 - **[koala](https://x.ai/bot/55VuCAFXxFDHyaGPU3Bxt)** by @kentcdodds — Kent C. Dodds 为 kody.codes 推出的 GTM 机器人。Kody 是你助手的主页：跨 MCP 主机可移植的记忆、密钥、代码和自动化。
-- **[Hermes SDR](https://x.ai/bot/EAlUWK8yH_)** by @MGallmur — 出海与外呼 SDR Grok Bot，自动化潜在客户触达、商机挖掘与线索推进。
+- **[Hermes SDR](https://x.ai/bot/EAlUWK8yH_xfsBcpdu7e_)** by @MGallmur — 出海与外呼 SDR Grok Bot，自动化潜在客户触达、商机挖掘与线索推进。
+- **[Zeus](https://x.ai/bot/ehQNQQR9apvhVcmxFiFyP)** by @MajdKaid — 指挥中心 HQ 机器人，分析商业机会、以你的语气起草沟通内容并在发送前等待批准。
+- **[Top G](https://x.ai/bot/0fYZ_kKkiXNbLn_KBD3f3)** by @m_check1B — 24/7 全天候公司编排者，管理任务看板并在不修改产品代码的情况下调度并行专家代理。
 
 ## 贡献
 
@@ -179,6 +197,4 @@
 
 ## 许可证
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-在法律允许的范围内，贡献者已放弃对此作品的所有版权及相关或邻接权利。
+[MIT](LICENSE) © 2026 [LinXiaoTao](https://github.com/LinXiaoTao)

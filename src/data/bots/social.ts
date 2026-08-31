@@ -200,19 +200,19 @@ export const socialBots: Bot[] = [
   },
   {
     id: "110",
-    slug: "head-of-content",
-    name: "Head of Content",
+    slug: "social-media-gtm-bot",
+    name: "Social Media GTM Bot",
     author: "Antoine Blanco",
     authorHandle: "@AntoineBlanco99",
     description:
-      "Manages social media calendar, recycles high-performing posts, creates lead magnets, and schedules publishing.",
-    integrations: ["𝕏"],
+      "Acts as a 24/7 Head of Content that plans multi-platform content calendars, recycles winning posts, builds lead magnets, and publishes via PlugKit.",
+    integrations: ["PlugKit", "𝕏", "Instagram", "LinkedIn"],
     installs: 0,
     category: "social",
     iconColor: "bg-rose-500",
     createdAt: "2026-08-31",
     xPostUrl: "https://x.com/AntoineBlanco99/status/2093740909347377378",
-    xaiBotUrl: "https://x.ai/bot/head-of-content",
+    xaiBotUrl: "https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ",
   },
   {
     id: "111",
@@ -228,6 +228,6 @@ export const socialBots: Bot[] = [
     iconColor: "bg-sky-500",
     createdAt: "2026-08-31",
     xPostUrl: "https://x.com/AdamLowisz/status/2094129673793896597",
-    xaiBotUrl: "https://x.ai/bot/weekly-top-100-fans",
+    xaiBotUrl: "https://x.ai/bot/HU7XArfGhUgLnzVcr7neB",
   },
 ];
