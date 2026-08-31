@@ -28,11 +28,37 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://awsomebot.com",
   ),
   title: {
-    default: "Awesome Grok Bot",
+    default: "Awesome Grok Bot — Curated Grok Bot Directory",
     template: "%s | Awesome Grok Bot",
   },
   description:
-    "Discover the best Grok Bots for work, coding, research, and everyday tasks.",
+    "Discover the best Grok Bots for work, coding, research, and everyday tasks. A curated directory of community-built Grok Bots and AI agent templates.",
+  keywords: [
+    "Grok Bot",
+    "Grok Bots",
+    "Awesome Grok Bot",
+    "xAI Grok",
+    "Grok AI",
+    "Grok Bot Templates",
+    "AI Agents",
+    "AI Assistants",
+    "xAI",
+    "AI Directory",
+  ],
+  authors: [{ name: "LinXiaoTao", url: "https://github.com/LinXiaoTao" }],
+  creator: "LinXiaoTao",
+  publisher: "Awesome Grok Bot",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: [
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
@@ -44,11 +70,20 @@ export const metadata: Metadata = {
     other: [{ rel: "manifest", url: "/site.webmanifest" }],
   },
   openGraph: {
-    title: "Awesome Grok Bot",
+    title: "Awesome Grok Bot — Curated Grok Bot Directory",
+    description:
+      "Discover the best Grok Bots for work, coding, research, and everyday tasks. A curated directory of community-built Grok Bots and AI agent templates.",
+    siteName: "Awesome Grok Bot",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Awesome Grok Bot" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Awesome Grok Bot — Curated Grok Bot Directory",
     description:
       "Discover the best Grok Bots for work, coding, research, and everyday tasks.",
-    siteName: "Awesome Grok Bot",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    creator: "@linxiaotao1993",
+    site: "@linxiaotao1993",
+    images: ["/og-image.png"],
   },
 };
 

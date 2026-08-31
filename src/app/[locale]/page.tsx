@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { BotExplorer } from "@/components/BotExplorer";
+import { bots } from "@/data/bots";
 import {
   buildDirectoryJsonLd,
   buildPageMetadata,
@@ -29,7 +30,7 @@ export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const jsonLd = buildDirectoryJsonLd(locale as Locale);
+  const jsonLd = buildDirectoryJsonLd(locale as Locale, bots);
 
   return (
     <>

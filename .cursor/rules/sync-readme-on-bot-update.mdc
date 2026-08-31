@@ -10,9 +10,9 @@ When bots are added, removed, or modified in `src/data/bots/*.ts`:
 
 1. Update `README.md` — add/remove/edit entries under the matching category section. Each entry follows the format:
    ```
-   - **[Bot Name](#slug)** by @handle — Description.
+   - **[Bot Name](xaiBotUrl)** by @handle — Description.
    ```
-   Omit `by @handle` if no `authorHandle`. The anchor `#slug` uses the bot's slug.
+   Omit `by @handle` if no `authorHandle`. The link points directly to the bot's `xaiBotUrl`.
 
 2. Update `README.zh.md` — mirror the same structural changes. Keep the Chinese section headers. Bot names and descriptions stay in English (they are proper nouns / product names).
 

@@ -124,4 +124,20 @@ export const financeBots: Bot[] = [
     createdAt: "2026-08-30",
     xaiBotUrl: "https://x.ai/bot/BXDRX1jaURkI4Tx70zLg6",
   },
+  {
+    id: "113",
+    slug: "grokstreet",
+    name: "GROKSTREET",
+    author: "AdiiX",
+    authorHandle: "@adiix_official",
+    description:
+      "A multi-agent autonomous financial desk spanning 11 desks, 3 chiefs, and risk management operating 24/7.",
+    integrations: [],
+    installs: 0,
+    category: "finance",
+    iconColor: "bg-emerald-700",
+    createdAt: "2026-08-31",
+    xPostUrl: "https://x.com/adiix_official/status/2093903463016960319",
+    xaiBotUrl: "https://x.ai/bot/grokstreet",
+  },
 ];

@@ -137,4 +137,20 @@ export const researchBots: Bot[] = [
     createdAt: "2026-08-30",
     xaiBotUrl: "https://x.ai/bot/9Mo5saoPQYIp45IgzMT7P",
   },
+  {
+    id: "112",
+    slug: "grok-bot-daily",
+    name: "GrokBotDaily",
+    author: "GrokbotDaily",
+    authorHandle: "@grokbotdaily",
+    description:
+      "Hunts down new Grok bot templates on X daily, verifies every link, and files them by category.",
+    integrations: ["𝕏"],
+    installs: 0,
+    category: "research",
+    iconColor: "bg-teal-700",
+    createdAt: "2026-08-31",
+    xPostUrl: "https://x.com/grokbotdaily/status/2093948359358947533",
+    xaiBotUrl: "https://x.ai/bot/grok-bot-daily",
+  },
 ];
