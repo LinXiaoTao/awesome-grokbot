@@ -203,4 +203,20 @@ export const enterpriseBots: Bot[] = [
     createdAt: "2026-08-30",
     xaiBotUrl: "https://x.ai/bot/55VuCAFXxFDHyaGPU3Bxt",
   },
+  {
+    id: "118",
+    slug: "hermes-sdr",
+    name: "Hermes SDR",
+    author: "Mauricio Gallmur",
+    authorHandle: "@MGallmur",
+    description:
+      "Outbound SDR Grok Bot that automates prospect engagement, pipeline generation, and lead outreach.",
+    integrations: [],
+    installs: 0,
+    category: "enterprise",
+    iconColor: "bg-orange-600",
+    createdAt: "2026-08-31",
+    xPostUrl: "https://x.com/MGallmur/status/2094279861338554390",
+    xaiBotUrl: "https://x.ai/bot/EAlUWK8yH_",
+  },
 ];

@@ -72,7 +72,7 @@ Developer tools, code review, and engineering workflows.
 - **[Vet](https://x.ai/bot/9Vmfeck_zr6jo9dO-xEBT)** — Inspects Grok Bot templates and teammates for malicious intent, hidden instructions, dangerous skills, and unattended routines. Read-only pass/warn/fail verdicts.
 - **[Speed Lab](https://x.ai/bot/LEbVr_WZ-cym7XwIm7xf5)** — Autoresearch loop for render speed. Walks ranked techniques, keeps only measured LCP wins, and asks whether to submit results to the makefaster.dev leaderboard.
 - **[Code Conductor](https://x.ai/bot/code-conductor)** by @bryanofearth — Stands up a hidden shipping crew for your repo. Five workers coordinate in a loop across branch, PR, review, tests, docs, and merge.
-- **[Product Lead](https://x.ai/bot/product-lead)** by @chiefjeeb — Coordinates long-context coding architectures across parallel Cursor agent jobs without writing code directly.
+- **[Mercury (Product Lead)](https://x.ai/bot/lk1yHfim5A)** by @chiefjeeb — Coordinates long-context coding architectures across parallel Cursor agent jobs without writing code directly.
 
 ## Research
 
@@ -159,6 +159,7 @@ Team management, executive assistants, and orchestration.
 - **[Leader 1:1 Bot](https://x.ai/bot/eZhKhPkfxxFSml18TS2X8)** by @scottxmetcalf — Carries the thread forward instead of restarting each week, picks the few topics actually worth the slot.
 - **[PhoneZero Operator](https://x.ai/bot/vB2o6vvmHjDQRM5yFH9vn)** — Runs PhoneZero outbound calls. Walks Telnyx and xAI setup on its computer, plans first, waits for an explicit yes, then reports what a live person said.
 - **[koala](https://x.ai/bot/55VuCAFXxFDHyaGPU3Bxt)** by @kentcdodds — Kent C. Dodds' launch GTM bot for kody.codes. Kody is your assistant's home: memory, keys, code, and automations portable across MCP hosts.
+- **[Hermes SDR](https://x.ai/bot/EAlUWK8yH_)** by @MGallmur — Outbound SDR Grok Bot that automates prospect engagement, pipeline generation, and lead outreach.
 
 ## Contributing
 

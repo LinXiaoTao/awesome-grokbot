@@ -251,8 +251,8 @@ export const codingBots: Bot[] = [
   },
   {
     id: "109",
-    slug: "product-lead",
-    name: "Product Lead",
+    slug: "mercury-product-lead",
+    name: "Mercury (Product Lead)",
     author: "Mujeeb",
     authorHandle: "@chiefjeeb",
     description:
@@ -263,6 +263,6 @@ export const codingBots: Bot[] = [
     iconColor: "bg-indigo-600",
     createdAt: "2026-08-31",
     xPostUrl: "https://x.com/chiefjeeb/status/2094223658151502326",
-    xaiBotUrl: "https://x.ai/bot/product-lead",
+    xaiBotUrl: "https://x.ai/bot/lk1yHfim5A",
   },
 ];

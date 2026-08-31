@@ -72,7 +72,7 @@
 - **[Vet](https://x.ai/bot/9Vmfeck_zr6jo9dO-xEBT)** — 检查 Grok Bot 模板和队友是否存在恶意意图、隐藏指令、危险技能和无监督例行程序，给出只读通过/警告/失败判定。
 - **[Speed Lab](https://x.ai/bot/LEbVr_WZ-cym7XwIm7xf5)** — 渲染速度自动研究循环。遍历排名技术，仅保留实测 LCP 提升，并询问是否提交到 makefaster.dev 排行榜。
 - **[Code Conductor](https://x.ai/bot/code-conductor)** by @bryanofearth — 为你的代码库建立隐式交付团队。五位工作者在分支、PR、审查、测试、文档和合并循环中协同工作。
-- **[Product Lead](https://x.ai/bot/product-lead)** by @chiefjeeb — 在并行 Cursor 代理任务中协调长上下文编码架构，无需直接编写代码。
+- **[Mercury (Product Lead)](https://x.ai/bot/lk1yHfim5A)** by @chiefjeeb — 在并行 Cursor 代理任务中协调长上下文编码架构，无需直接编写代码。
 
 ## 研究
 
@@ -159,6 +159,7 @@
 - **[Leader 1:1 Bot](https://x.ai/bot/eZhKhPkfxxFSml18TS2X8)** by @scottxmetcalf — 延续对话线程而非每周重新开始，挑选真正值得占用时段的几个话题。
 - **[PhoneZero Operator](https://x.ai/bot/vB2o6vvmHjDQRM5yFH9vn)** — 运行 PhoneZero 外呼。在其计算机上完成 Telnyx 和 xAI 设置，先规划，等待明确确认，然后报告真人回复。
 - **[koala](https://x.ai/bot/55VuCAFXxFDHyaGPU3Bxt)** by @kentcdodds — Kent C. Dodds 为 kody.codes 推出的 GTM 机器人。Kody 是你助手的主页：跨 MCP 主机可移植的记忆、密钥、代码和自动化。
+- **[Hermes SDR](https://x.ai/bot/EAlUWK8yH_)** by @MGallmur — 出海与外呼 SDR Grok Bot，自动化潜在客户触达、商机挖掘与线索推进。
 
 ## 贡献
 
