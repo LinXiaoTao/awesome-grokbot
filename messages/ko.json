@@ -9,7 +9,10 @@
     "badge": "Grok Bot 발견 및 공유",
     "title": "당신에게 맞는 Grok Bot이 있습니다.",
     "subtitle": "업무, 코딩, 리서치, 일상 업무에 최적화된 최고의 Grok Bot을 찾아보세요.",
-    "searchPlaceholder": "봇 검색..."
+    "searchPlaceholder": "봇 검색...",
+    "statsBots": "200+ 봇",
+    "statsCategories": "7개 카테고리",
+    "statsApi": "Agent API & Feed"
   },
   "filters": {
     "popular": "인기",
@@ -22,7 +25,9 @@
     "social": "소셜",
     "finance": "금융",
     "lifestyle": "라이프스타일",
-    "enterprise": "엔터프라이즈"
+    "enterprise": "엔터프라이즈",
+    "sortLabel": "정렬",
+    "name": "이름 (A-Z)"
   },
   "bot": {
     "installs": "설치 {count}회",
@@ -31,7 +36,12 @@
     "by": "작성자",
     "backToDiscover": "탐색으로 돌아가기",
     "downloadGrok": "Grok Bot이 없으신가요?",
-    "download": "다운로드"
+    "download": "다운로드",
+    "copyPrompt": "프롬프트 복사",
+    "copied": "복사됨!",
+    "openInXai": "xAI에서 열기",
+    "promptHeading": "시스템 지침 및 프롬프트",
+    "promptTip": "x.ai Grok Bot 설정에 직접 붙여넣어 실행하세요."
   },
   "submit": {
     "title": "Grok Bot 제출",
@@ -70,7 +80,8 @@
     "noResults": "봇을 찾을 수 없습니다",
     "tryDifferent": "다른 검색어나 카테고리를 시도해 보세요",
     "loadMore": "더 보기",
-    "showingCount": "총 {total}개 중 {shown}개 표시"
+    "showingCount": "총 {total}개 중 {shown}개 표시",
+    "resetFilters": "필터 초기화"
   },
   "seo": {
     "homeTitle": "Awesome Grok Bot — Grok Bot 탐색",
@@ -79,5 +90,11 @@
     "submitDescription": "커뮤니티에 Grok Bot을 공유하세요. Awesome Grok Bot 디렉터리에 제출.",
     "botTitle": "{name} — Awesome Grok Bot",
     "botDescription": "{description}"
+  },
+  "ticker": {
+    "item1": "🔥 200개 이상의 검증된 Grok Bot 템플릿",
+    "item2": "⚡ 실시간 Feed API: /api/v1/feed.json",
+    "item3": "📡 LLM 프로토콜: /llms.txt",
+    "item4": "✨ GitHub MIT 오픈소스"
   }
 }

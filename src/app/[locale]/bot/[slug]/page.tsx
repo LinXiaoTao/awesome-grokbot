@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { IntegrationPill } from "@/components/IntegrationPill";
 import { BotCard } from "@/components/BotCard";
+import { PromptBox } from "@/components/PromptBox";
 import XPostEmbed from "@/components/XPostEmbed";
 import { Link } from "@/i18n/routing";
 import { bots } from "@/data/bots";
@@ -54,8 +55,13 @@ export default async function BotDetailPage({ params }: Props) {
   }
 
   const t = await getTranslations("bot");
+  const tFilters = await getTranslations("filters");
   const relatedBots = getRelatedBots(bots, bot);
   const jsonLd = buildBotJsonLd(bot, locale as Locale);
+
+  const categoryLabel = tFilters.has(bot.category)
+    ? tFilters(bot.category)
+    : bot.category;
 
   return (
     <>
@@ -64,67 +70,94 @@ export default async function BotDetailPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Navbar />
-      <main className="px-4 py-12 md:py-20">
+      <main className="px-4 py-10 md:py-16">
         <div className="mx-auto max-w-container">
           <Link
             href="/"
-            className="mb-8 inline-flex items-center gap-2 text-sm text-muted transition-colors hover:text-black"
+            className="mb-6 inline-flex items-center gap-2 text-xs font-semibold text-slate-500 transition-colors hover:text-black"
           >
-            <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+            <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
             {t("backToDiscover")}
           </Link>
 
-          <article className="rounded-card border border-border bg-white p-6 md:p-10">
-            <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-2">
+          <article className="rounded-2xl border border-border/80 bg-white p-6 shadow-xs md:p-10">
+            <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-2">
               <div>
-                <div>
-                  <h1 className="text-3xl font-bold text-black md:text-4xl">
+                <div className="flex flex-wrap items-center gap-3">
+                  <span className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-700 capitalize">
+                    <span className="h-1.5 w-1.5 rounded-full bg-blue-500 animate-pulse" />
+                    {categoryLabel}
+                  </span>
+                  {bot.createdAt && (
+                    <span className="text-xs text-slate-400">
+                      {bot.createdAt}
+                    </span>
+                  )}
+                </div>
+
+                <div className="mt-4">
+                  <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 md:text-4xl">
                     {bot.name}
                   </h1>
                   {bot.authorHandle && (
-                    <p className="mt-2 text-muted">
-                      {t("by")} {bot.authorHandle}
+                    <p className="mt-1.5 text-sm font-medium text-slate-500">
+                      {t("by")}{" "}
+                      <span className="text-slate-800 font-semibold">{bot.authorHandle}</span>
                     </p>
                   )}
                 </div>
 
-                <p className="mt-6 text-base leading-relaxed text-muted md:text-lg">
+                <p className="mt-6 text-base leading-relaxed text-slate-700 md:text-lg">
                   {bot.longDescription ?? bot.description}
                 </p>
 
                 {bot.integrations.length > 0 && (
-                  <div className="mt-6 flex flex-wrap gap-2">
-                    {bot.integrations.map((integration) => (
-                      <IntegrationPill key={integration} name={integration} />
-                    ))}
+                  <div className="mt-6">
+                    <h4 className="mb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">
+                      {tFilters("allIntegrations")}
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {bot.integrations.map((integration) => (
+                        <IntegrationPill key={integration} name={integration} />
+                      ))}
+                    </div>
                   </div>
                 )}
 
-                <div className="mt-8">
+                <div className="mt-8 flex flex-wrap items-center gap-4">
                   <a
                     href={bot.xaiBotUrl ?? "https://x.ai/bot"}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
+                    className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-6 py-3 text-sm font-bold text-white transition-all hover:bg-black hover:shadow-md active:scale-95"
                   >
-                    {t("install")}
+                    <span>{t("install")}</span>
+                    <ExternalLink className="h-4 w-4" />
                   </a>
-                  <p className="mt-3 text-sm text-muted">
+                  <p className="text-xs text-slate-500">
                     {t("downloadGrok")}{" "}
                     <a
                       href="https://x.ai/bot"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-medium text-black underline underline-offset-2 transition-colors hover:text-muted"
+                      className="font-semibold text-slate-800 underline underline-offset-2 transition-colors hover:text-black"
                     >
                       {t("download")}
                     </a>
                   </p>
                 </div>
+
+                {/* Prompt Box */}
+                <PromptBox
+                  name={bot.name}
+                  category={bot.category}
+                  description={bot.description}
+                  longDescription={bot.longDescription}
+                />
               </div>
 
               {bot.xPostUrl && (
-                <div className="mt-8 lg:mt-0">
+                <div className="mt-6 lg:mt-0">
                   <XPostEmbed url={bot.xPostUrl} />
                 </div>
               )}
@@ -133,9 +166,11 @@ export default async function BotDetailPage({ params }: Props) {
 
           {relatedBots.length > 0 && (
             <section className="mt-16">
-              <h2 className="mb-6 text-2xl font-bold text-black">
-                {t("relatedBots")}
-              </h2>
+              <div className="mb-6 flex items-center justify-between">
+                <h2 className="text-xl font-bold tracking-tight text-slate-900 md:text-2xl">
+                  {t("relatedBots")}
+                </h2>
+              </div>
               <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 {relatedBots.map((related, index) => (
                   <BotCard key={related.id} bot={related} index={index} />

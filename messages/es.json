@@ -9,7 +9,10 @@
     "badge": "Descubre y comparte Grok Bots",
     "title": "Hay un Grok Bot para eso.",
     "subtitle": "Descubre los mejores Grok Bots para el trabajo, la programación, la investigación y las tareas cotidianas.",
-    "searchPlaceholder": "Buscar bots..."
+    "searchPlaceholder": "Buscar bots...",
+    "statsBots": "200+ Bots",
+    "statsCategories": "7 Categorías",
+    "statsApi": "API y Feed de Agente"
   },
   "filters": {
     "popular": "Popular",
@@ -22,7 +25,9 @@
     "social": "Social",
     "finance": "Finanzas",
     "lifestyle": "Estilo de vida",
-    "enterprise": "Empresas"
+    "enterprise": "Empresas",
+    "sortLabel": "Ordenar por",
+    "name": "Nombre (A-Z)"
   },
   "bot": {
     "installs": "{count} instalaciones",
@@ -31,7 +36,12 @@
     "by": "por",
     "backToDiscover": "Volver a Descubrir",
     "downloadGrok": "¿No tienes Grok Bot?",
-    "download": "Descargar"
+    "download": "Descargar",
+    "copyPrompt": "Copiar Prompt",
+    "copied": "¡Copiado!",
+    "openInXai": "Abrir en xAI",
+    "promptHeading": "Instrucciones del Bot y Prompt",
+    "promptTip": "Copie y pegue en su configuración de Grok Bot en x.ai."
   },
   "submit": {
     "title": "Enviar un Grok Bot",
@@ -70,7 +80,8 @@
     "noResults": "No se encontraron bots",
     "tryDifferent": "Prueba con otro término de búsqueda o categoría",
     "loadMore": "Cargar más",
-    "showingCount": "Mostrando {shown} de {total} bots"
+    "showingCount": "Mostrando {shown} de {total} bots",
+    "resetFilters": "Restablecer filtros"
   },
   "seo": {
     "homeTitle": "Awesome Grok Bot — Descubre Grok Bots",
@@ -79,5 +90,11 @@
     "submitDescription": "Comparte tu Grok Bot con la comunidad. Envía tu bot al directorio Awesome Grok Bot.",
     "botTitle": "{name} — Awesome Grok Bot",
     "botDescription": "{description}"
+  },
+  "ticker": {
+    "item1": "🔥 Más de 200 Grok Bots y plantillas verificadas",
+    "item2": "⚡ API Feed en tiempo real: /api/v1/feed.json",
+    "item3": "📡 Protocolo LLM: /llms.txt",
+    "item4": "✨ Código abierto MIT en GitHub"
   }
 }

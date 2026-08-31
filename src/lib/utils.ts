@@ -40,11 +40,13 @@ export function filterBots(
 
   if (options.sort === "popular") {
     result.sort((a, b) => b.installs - a.installs);
-  } else {
+  } else if (options.sort === "newest") {
     result.sort(
       (a, b) =>
         new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
     );
+  } else if (options.sort === "name") {
+    result.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   return result;

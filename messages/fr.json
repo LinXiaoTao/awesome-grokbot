@@ -9,7 +9,10 @@
     "badge": "Découvrir et partager des Grok Bots",
     "title": "Il existe un Grok Bot pour ça.",
     "subtitle": "Découvrez les meilleurs Grok Bots pour le travail, le code, la recherche et les tâches quotidiennes.",
-    "searchPlaceholder": "Rechercher des bots..."
+    "searchPlaceholder": "Rechercher des bots...",
+    "statsBots": "200+ Bots",
+    "statsCategories": "7 Catégories",
+    "statsApi": "API & Feed d'Agent"
   },
   "filters": {
     "popular": "Populaire",
@@ -22,7 +25,9 @@
     "social": "Social",
     "finance": "Finance",
     "lifestyle": "Style de vie",
-    "enterprise": "Entreprise"
+    "enterprise": "Entreprise",
+    "sortLabel": "Trier par",
+    "name": "Nom (A-Z)"
   },
   "bot": {
     "installs": "{count} installations",
@@ -31,7 +36,12 @@
     "by": "par",
     "backToDiscover": "Retour à Découvrir",
     "downloadGrok": "Vous n'avez pas Grok Bot ?",
-    "download": "Télécharger"
+    "download": "Télécharger",
+    "copyPrompt": "Copier le Prompt",
+    "copied": "Copié !",
+    "openInXai": "Ouvrir sur xAI",
+    "promptHeading": "Instructions du Bot & Prompt",
+    "promptTip": "Copiez et collez dans la configuration de votre Grok Bot sur x.ai."
   },
   "submit": {
     "title": "Soumettre un Grok Bot",
@@ -70,7 +80,8 @@
     "noResults": "Aucun bot trouvé",
     "tryDifferent": "Essayez un autre terme de recherche ou une autre catégorie",
     "loadMore": "Voir plus",
-    "showingCount": "Affichage de {shown} sur {total} bots"
+    "showingCount": "Affichage de {shown} sur {total} bots",
+    "resetFilters": "Réinitialiser les filtres"
   },
   "seo": {
     "homeTitle": "Awesome Grok Bot — Découvrir des Grok Bots",
@@ -79,5 +90,11 @@
     "submitDescription": "Partagez votre Grok Bot avec la communauté. Soumettez votre bot au répertoire Awesome Grok Bot.",
     "botTitle": "{name} — Awesome Grok Bot",
     "botDescription": "{description}"
+  },
+  "ticker": {
+    "item1": "🔥 Plus de 200 Grok Bots et modèles vérifiés",
+    "item2": "⚡ API Feed en temps réel: /api/v1/feed.json",
+    "item3": "📡 Protocole LLM: /llms.txt",
+    "item4": "✨ Open source MIT sur GitHub"
   }
 }

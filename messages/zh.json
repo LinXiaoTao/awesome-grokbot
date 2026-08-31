@@ -9,7 +9,10 @@
     "badge": "发现与分享 Grok Bot",
     "title": "总有一款 Grok Bot 适合你。",
     "subtitle": "发现适用于工作、编程、研究和日常任务的最佳 Grok Bot。",
-    "searchPlaceholder": "搜索 Bot..."
+    "searchPlaceholder": "搜索 Bot...",
+    "statsBots": "200+ 精选 Bot",
+    "statsCategories": "7 大分类",
+    "statsApi": "Agent 接口与订阅"
   },
   "filters": {
     "popular": "热门",
@@ -22,7 +25,9 @@
     "social": "社交",
     "finance": "金融",
     "lifestyle": "生活",
-    "enterprise": "企业"
+    "enterprise": "企业",
+    "sortLabel": "排序",
+    "name": "名称 (A-Z)"
   },
   "bot": {
     "installs": "{count} 次安装",
@@ -31,7 +36,12 @@
     "by": "作者",
     "backToDiscover": "返回发现页",
     "downloadGrok": "还没有 Grok Bot？",
-    "download": "下载"
+    "download": "下载",
+    "copyPrompt": "复制 Prompt",
+    "copied": "已复制！",
+    "openInXai": "在 xAI 打开",
+    "promptHeading": "系统指令与 Prompt 模板",
+    "promptTip": "可直接复制并粘贴至 x.ai Grok Bot 或你的 Agent 运行时中使用。"
   },
   "submit": {
     "title": "提交 Grok Bot",
@@ -70,7 +80,8 @@
     "noResults": "未找到 Bot",
     "tryDifferent": "请尝试其他搜索词或分类",
     "loadMore": "加载更多",
-    "showingCount": "显示 {shown} / {total} 个 Bot"
+    "showingCount": "显示 {shown} / {total} 个 Bot",
+    "resetFilters": "重置筛选"
   },
   "seo": {
     "homeTitle": "Awesome Grok Bot — 发现 Grok Bot",
@@ -79,5 +90,11 @@
     "submitDescription": "与社区分享你的 Grok Bot。提交到 Awesome Grok Bot 目录。",
     "botTitle": "{name} — Awesome Grok Bot",
     "botDescription": "{description}"
+  },
+  "ticker": {
+    "item1": "🔥 精选收录 200+ 优质 Grok Bot 模板与指令",
+    "item2": "⚡ 实时数据接口: /api/v1/feed.json",
+    "item3": "📡 AI Agent 协议: /llms.txt",
+    "item4": "✨ GitHub MIT 开源"
   }
 }

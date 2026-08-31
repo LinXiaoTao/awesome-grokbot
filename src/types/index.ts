@@ -25,7 +25,7 @@ export type Category =
   | "lifestyle"
   | "enterprise";
 
-export type SortOption = "popular" | "newest";
+export type SortOption = "popular" | "newest" | "name";
 
 export interface Integration {
   id: string;

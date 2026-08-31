@@ -9,7 +9,10 @@
     "badge": "Grok Bots entdecken & teilen",
     "title": "Dafür gibt es einen Grok Bot.",
     "subtitle": "Entdecke die besten Grok Bots für Arbeit, Programmierung, Recherche und den Alltag.",
-    "searchPlaceholder": "Bots suchen..."
+    "searchPlaceholder": "Bots suchen...",
+    "statsBots": "200+ Bots",
+    "statsCategories": "7 Kategorien",
+    "statsApi": "Agent API & Feed"
   },
   "filters": {
     "popular": "Beliebt",
@@ -22,7 +25,9 @@
     "social": "Social",
     "finance": "Finanzen",
     "lifestyle": "Lifestyle",
-    "enterprise": "Unternehmen"
+    "enterprise": "Unternehmen",
+    "sortLabel": "Sortieren nach",
+    "name": "Name (A-Z)"
   },
   "bot": {
     "installs": "{count} Installationen",
@@ -31,7 +36,12 @@
     "by": "von",
     "backToDiscover": "Zurück zu Entdecken",
     "downloadGrok": "Noch keinen Grok Bot?",
-    "download": "Herunterladen"
+    "download": "Herunterladen",
+    "copyPrompt": "Prompt kopieren",
+    "copied": "Kopiert!",
+    "openInXai": "Auf xAI öffnen",
+    "promptHeading": "Bot-Anweisungen & System-Prompt",
+    "promptTip": "Kopieren und in Ihr Grok-Bot-Setup auf x.ai einfügen."
   },
   "submit": {
     "title": "Grok Bot einreichen",
@@ -70,7 +80,8 @@
     "noResults": "Keine Bots gefunden",
     "tryDifferent": "Versuche einen anderen Suchbegriff oder eine andere Kategorie",
     "loadMore": "Mehr laden",
-    "showingCount": "{shown} von {total} Bots angezeigt"
+    "showingCount": "{shown} von {total} Bots angezeigt",
+    "resetFilters": "Filter zurücksetzen"
   },
   "seo": {
     "homeTitle": "Awesome Grok Bot — Grok Bots entdecken",
@@ -79,5 +90,11 @@
     "submitDescription": "Teile deinen Grok Bot mit der Community. Reiche deinen Bot beim Awesome Grok Bot Verzeichnis ein.",
     "botTitle": "{name} — Awesome Grok Bot",
     "botDescription": "{description}"
+  },
+  "ticker": {
+    "item1": "🔥 Über 200 verifizierte Grok Bots & Vorlagen",
+    "item2": "⚡ Echtzeit-Feed-API: /api/v1/feed.json",
+    "item3": "📡 LLM-Protokoll: /llms.txt",
+    "item4": "✨ MIT Open Source auf GitHub"
   }
 }

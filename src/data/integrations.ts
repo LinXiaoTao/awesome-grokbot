@@ -1,4 +1,5 @@
 import type { Integration } from "@/types";
+import { bots } from "./bots";
 
 export const integrations: Integration[] = [
   { id: "gmail", name: "Gmail" },
@@ -17,5 +18,8 @@ export const integrations: Integration[] = [
 ];
 
 export function getAllIntegrationNames(): string[] {
-  return integrations.map((i) => i.name);
+  const set = new Set<string>();
+  integrations.forEach((i) => set.add(i.name));
+  bots.forEach((b) => b.integrations.forEach((name) => set.add(name)));
+  return Array.from(set).sort((a, b) => a.localeCompare(b));
 }

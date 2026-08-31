@@ -9,7 +9,10 @@
     "badge": "Discover & Share Grok Bots",
     "title": "There's a Grok Bot for that.",
     "subtitle": "Discover the best Grok Bots for work, coding, research, and everyday tasks.",
-    "searchPlaceholder": "Search bots..."
+    "searchPlaceholder": "Search bots...",
+    "statsBots": "200+ Verified Bots",
+    "statsCategories": "7 Categories",
+    "statsApi": "Agent API & Feed"
   },
   "filters": {
     "popular": "Popular",
@@ -22,7 +25,9 @@
     "social": "Social",
     "finance": "Finance",
     "lifestyle": "Lifestyle",
-    "enterprise": "Enterprise"
+    "enterprise": "Enterprise",
+    "sortLabel": "Sort by",
+    "name": "Name (A-Z)"
   },
   "bot": {
     "installs": "{count} installs",
@@ -31,7 +36,12 @@
     "by": "by",
     "backToDiscover": "Back to Discover",
     "downloadGrok": "Don't have Grok Bot?",
-    "download": "Download"
+    "download": "Download",
+    "copyPrompt": "Copy Prompt",
+    "copied": "Copied!",
+    "openInXai": "Open on xAI",
+    "promptHeading": "Bot Instructions & System Prompt",
+    "promptTip": "Copy and paste into your Grok Bot setup on x.ai or agent runtime."
   },
   "submit": {
     "title": "Submit a Grok Bot",
@@ -70,7 +80,8 @@
     "noResults": "No bots found",
     "tryDifferent": "Try a different search term or category",
     "loadMore": "Load More",
-    "showingCount": "Showing {shown} of {total} bots"
+    "showingCount": "Showing {shown} of {total} bots",
+    "resetFilters": "Reset Filters"
   },
   "seo": {
     "homeTitle": "Awesome Grok Bot — Discover Grok Bots",
@@ -79,5 +90,11 @@
     "submitDescription": "Share your Grok Bot with the community. Submit your bot to the Awesome Grok Bot directory.",
     "botTitle": "{name} — Awesome Grok Bot",
     "botDescription": "{description}"
+  },
+  "ticker": {
+    "item1": "🔥 200+ Verified Grok Bots & Agent templates",
+    "item2": "⚡ Realtime Feed API: /api/v1/feed.json",
+    "item3": "📡 LLM Protocol: /llms.txt",
+    "item4": "✨ MIT Open Source on GitHub"
   }
 }

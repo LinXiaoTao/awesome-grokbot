@@ -28,18 +28,18 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-white/80 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-border bg-white/90 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-container items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2.5">
           <Image
             src="/logo-64.png"
             alt="Awesome Grok Bot"
             width={28}
             height={28}
-            className="rounded-md"
+            className="rounded-md shadow-xs"
             priority
           />
-          <span className="text-sm font-semibold text-black sm:text-base">
+          <span className="text-sm font-bold tracking-tight text-slate-900 sm:text-base">
             {t("brand")}
           </span>
         </Link>
@@ -77,7 +77,7 @@ export function Navbar() {
             href={`${AUTHOR.githubRepo}/issues/new?template=submit-bot.yml`}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-full bg-black px-5 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:inline-flex"
+            className="hidden rounded-full bg-slate-900 px-4 py-2 text-xs font-semibold text-white transition-all hover:bg-black hover:shadow-xs sm:inline-flex"
           >
             {t("submit")}
           </a>
@@ -135,7 +135,7 @@ export function Navbar() {
             href={`${AUTHOR.githubRepo}/issues/new?template=submit-bot.yml`}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-black px-5 py-2.5 text-center text-sm font-medium text-white"
+            className="rounded-full bg-slate-900 px-4 py-2 text-center text-xs font-semibold text-white"
             onClick={() => setMobileOpen(false)}
           >
             {t("submit")}
