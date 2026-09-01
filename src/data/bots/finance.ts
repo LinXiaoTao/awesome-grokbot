@@ -236,4 +236,20 @@ export const financeBots: Bot[] = [
     xPostUrl: "https://x.com/iamigorekk/status/2093538375399616663",
     xaiBotUrl: "https://x.ai/bot/we_JMJA8IuOvy1eUX6EQz",
   },
+  {
+    id: "232",
+    slug: "senior-analyst-bot",
+    name: "Senior Analyst",
+    author: "Tobias Pfütze",
+    authorHandle: "@tobias_pfuetze",
+    description:
+      "OCR for financial statements and other documents into structured data. Drop an image, get a downloadable Excel plus a cited memo. No manual signup.",
+    integrations: [],
+    installs: 0,
+    category: "finance",
+    iconColor: "bg-lime-500",
+    createdAt: "2026-09-01",
+    xPostUrl: "https://x.com/tobias_pfuetze/status/2094386098201911719",
+    xaiBotUrl: "https://x.ai/bot/Q2xW8BIDffTjbDVXZYZhV",
+  },
 ];

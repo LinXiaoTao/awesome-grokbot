@@ -18,6 +18,11 @@ English | [中文](README.zh.md)
 
 ## Productivity
 
+- **[Usage Auditor](https://x.com/maxjean__/status/2094450310232055860)** by @maxjean__ — A weekly usage auditor for Grok Bot teams. Inventories routines, scores relative cost, and writes a usage guide, routines table, and waste report.
+- **[Latch](https://x.com/OliverKorzen/status/2094492533439230267)** by @OliverKorzen — Walks a new Grok Bot user from their role and the tools they use to live connectors, then does a first real job in the same chat.
+- **[Blunt](https://x.com/Talsiach/status/2094532757590294709)** by @Talsiach — Landing-page review from a senior product marketer. Send a URL and get THE MEMO: the good, the bad, and the one thing to fix.
+- **[Set Up](https://x.com/theaaron/status/2094547674766929996)** by @theaaron — Walks someone new to Grok Bot through building a small, intentional team: one chief, a few project leads, and specialists.
+- **[SumoSign](https://x.com/SumoSign/status/2094633660540698719)** by @SumoSign — Sends documents for human signature via SumoSign. Needs only the client's own API key.
 - **[Product Idea Stress Test](https://x.com/hnshah/status/1928820186825941431)** by @hnshah — Investigates a product or startup idea for founders. Surfaces what has to be true, evidence for and against, the assumption most likely to kill it, and what to do next.
 - **[Struggle Gate](https://x.com/thekuchh/status/2094103750399193493)** by @thekuchh — Enforces active problem-solving by requiring 10 minutes of independent thinking before AI provides guidance.
 - **[Feedback Clock](https://x.com/thekuchh/status/2094103738499969334)** by @thekuchh — Minimizes the feedback cycle between taking action and identifying errors or areas of improvement.
@@ -34,6 +39,20 @@ English | [中文](README.zh.md)
 
 ## Coding
 
+- **[The Accountant](https://x.com/brstorrie/status/2094654945488252959)** by @brstorrie — Watches your Grok Bot fleet for runaway tokens: over-polling, retry loops, and empty stubs. Ranked table, drafts only.
+- **[Grok Build](https://x.com/beaudenison/status/2094643423555039703)** by @beaudenison — Builds client websites, deploys a Vercel preview, and emails the client a preview link.
+- **[Grok Build (CLI)](https://x.com/DAssetBuzz/status/2094581981686161879)** by @DAssetBuzz — Runs the real Grok Build CLI for apps, code, and deep research at maximum effort on an agent computer.
+- **[Usage-Pool Orchestrator](https://x.com/JordanHall_dev/status/2094562218889080932)** by @JordanHall_dev — Hands heavy work to Cursor by default, and optionally Grok Build, Claude Code, or Codex.
+- **[figma bro](https://x.com/johnbai/status/2094456490115408172)** by @johnbai — Figma design-system partner. Autolayout-first, real library, edge cases included.
+- **[Cookie Monster](https://x.com/scottxmetcalf/status/2094457258025631943)** by @scottxmetcalf — Keeps Chrome cookies in sync for a fleet of Grok Bots that browse signed-in sites.
+- **[Demo Video](https://x.com/KdJadeja911/status/2094455116925657592)** by @KdJadeja911 — Makes narrated 1080p product demo videos of a web app from live UI captures.
+- **[Sable: Game Art](https://x.com/GrokBotIdeas/status/2094412862144073753)** by @DannyLimanseta — Suggests game-art styles from real games, then produces 2D art or sprite sheets.
+- **[Claude Code](https://x.com/DanielZambrini/status/2094398886429282627)** by @DanielZambrini — Runs all software work through the Claude Code CLI so Anthropic's Claude writes and ships code.
+- **[Brake](https://x.com/FantomBuildz/status/2094396074542662068)** by @FantomBuildz — Finds what is burning Grok Bot usage and names the one repeating job to stop.
+- **[Nightly Audit Engineer](https://x.com/lingxi/status/2094489412537327828)** by @lingxi — Nightly engineering auditor that researches a whole codebase, then ships one cleanup per area.
+- **[Engineer Bot](https://x.com/lingxi/status/2094489411245461677)** by @lingxi — Hands-off engineering supervisor: boards work, launches cloud agents, watches PRs, and only asks you to merge.
+- **[SEOAgent](https://x.com/SEOAgent_/status/2094510412431573427)** by @SEOAgent_ — Autonomous SEO engineer that bootstraps SEOAgent in your website’s GitHub repo.
+- **[Substreams](https://x.com/graphtronauts_c/status/2094476749052555631)** by @graphtronauts_c — Finds and composes packages from the substreams.dev registry and runs them with a Graph JWT.
 - **[Mercury (Product Lead)](https://x.com/chiefjeeb/status/2094223658151502326)** by @chiefjeeb — Coordinates long-context coding architectures across parallel Cursor agent jobs without writing code directly.
 - **[Steward](https://x.com/cjblev/status/2094100993923252291)** by @cjblev — Watches Cursor usage for a Grok Bot fleet, identifies which bot spent tokens, and suggests optimizations to reduce cost.
 - **[Hot Repo](https://x.com/ios_1261142602/status/2094243852932776384)** by @ios_1261142602 — Daily GitHub trending scout that discovers hot repositories and breaks down architectural highlights.
@@ -56,6 +75,9 @@ English | [中文](README.zh.md)
 
 ## Research
 
+- **[Trendspotter](https://x.com/jennananpei/status/2094636558062342285)** by @jennananpei — Weekday digest of sports, entertainment, and culture trends plus AI-in-marketing signals.
+- **[2nd Brain](https://x.com/LeTerryBZH/status/2094616823803314592)** by @LeTerryBZH — Lattice wiki compiler for a personal second brain. Files sources as raw notes and answers from compiled pages — no RAG.
+- **[Lumos](https://x.com/mdafanulh/status/2094605287852507364)** by @mdafanulh — Technical educator that explains a topic so a newcomer can grasp it, using the Feynman technique.
 - **[GrokBotDaily](https://x.com/grokbotdaily/status/2093948359358947533)** by @grokbotdaily — Hunts down new Grok bot templates on X daily, verifies every link, and files them by category.
 - **[GrokHub Bot](https://x.com/Grok_Hub_IO)** by @Grok_Hub_IO — Curates and recommends new Grok Bots from the GrokHub directory based on personal workflows and assists with directory submissions.
 - **[Graph Data](https://x.com/data_nexus/status/2094265024227192946)** by @data_nexus — Blockchain analytics expert that queries subgraphs and analyzes on-chain protocols via The Graph MCP.
@@ -69,6 +91,8 @@ English | [中文](README.zh.md)
 
 ## Social
 
+- **[Harry Dry](https://x.com/joseamijares/status/2094450356147081624)** by @joseamijares — Copy chief trained on Harry Dry. Rewrites landing pages, ads, emails, and share cards so every line is visual and falsifiable.
+- **[Podcast Summary](https://x.com/theadvisorbtc/status/2094388925523775694)** by @theadvisorbtc — Summarizes podcasts and interviews from a YouTube, X, or Spotify link into five reusable insights plus deeper notes.
 - **[Weekly Top 100 Fans](https://x.com/AdamLowisz/status/2094129673793896597)** by @AdamLowisz — Analyzes X API data to identify and rank your top 100 most engaged fans and followers each week.
 - **[Adaptly](https://x.com/tarasshyn/status/2093726077906493508)** by @tarasshyn — Writes a post once, then queues and publishes it across nine networks on a timetable you set.
 - **[IG Publisher](https://x.com/adamuchigabriel/status/2094182045782073384)** by @adamuchigabriel — Schedules and publishes Instagram carousels and posts from finished creative assets.
@@ -81,6 +105,7 @@ English | [中文](README.zh.md)
 
 ## Finance
 
+- **[Senior Analyst](https://x.com/tobias_pfuetze/status/2094386098201911719)** by @tobias_pfuetze — OCR for financial statements into structured data. Drop an image, get a downloadable Excel plus a cited memo.
 - **[GROKSTREET](https://x.com/adiix_official/status/2093903463016960319)** by @adiix_official — A multi-agent autonomous financial desk spanning 11 desks, 3 chiefs, and risk management operating 24/7.
 - **[Sterling](https://x.com/jchybow/status/2094256023498326357)** by @jchybow — Calm financial teammate for tracking personal spending, upcoming bills, account balances, and cash runway.
 - **[SubCut](https://x.com/tahaabuilds/status/2094199255561089356)** by @tahaabuilds — Scans email inboxes for recurring SaaS charges, categorizes monthly vs. yearly billing, and highlights cost-saving opportunities.
@@ -90,6 +115,11 @@ English | [中文](README.zh.md)
 
 ## Lifestyle
 
+- **[Librarian](https://x.com/ShaneMac/status/2094582528203997514)** by @ShaneMac — Builds a personal library site from photos of your shelves. Catalogs books, pulls snippets, and marks the ones you'd lend.
+- **[Homeroom](https://x.com/ahalvor/status/2094564057575739567)** by @ahalvor — Parent helper that pulls Schoology, keeps a family homework site current, and watches school activities.
+- **[UniFi AQ TRMNL](https://x.com/rrrkren/status/2094584750040388071)** by @rrrkren — TRMNL private plugin that surfaces UniFi Protect air-quality sensor data on an e-ink screen.
+- **[Sous Chef](https://x.com/amberdawn1786/status/2094527135608164462)** by @amberdawn1786 — Finds highly rated recipes, builds meal plans and grocery lists, and shops when you want.
+- **[Fantasy GM](https://x.com/TylerNishida/status/2094446128771342374)** by @TylerNishida — Fantasy football GM that connects the owner's leagues and news sources.
 - **[Flora](https://x.com/RichSilver/status/2094267086591680962)** by @RichSilver — Maintains a houseplant care journal with automated watering, repotting, and fertilizing schedules.
 - **[Gym Bod](https://x.com/DrPB/status/2093815967360991485)** by @DrPB — Automates gym class reservations as soon as booking windows open to secure slots with popular instructors.
 - **[Watch Later](https://x.com/jordanwcjackson/status/2094246184940368183)** by @jordanwcjackson — Transforms YouTube Watch Later queues into categorized swipe decks (Learn, Build, Chill, Quick Hit) via Chrome history.
@@ -119,6 +149,9 @@ English | [中文](README.zh.md)
 
 ## Enterprise
 
+- **[Bing Bong](https://x.com/jennananpei/status/2094636558062342285)** by @jennananpei — Partnership ops for sports activations: deadlines, inventory, and in-arena work.
+- **[CoS](https://x.com/theaaron/status/2094547674766929996)** by @theaaron — Personal chief of staff for a small team of specialist AI agents. Coordinates calendar, projects, and inbound mail.
+- **[Steve J](https://x.com/AhuraDeus/status/2094468731934003649)** by @AhuraDeus — Quality-bar CEO for a personal Grok Bot roster. Reviews other bots against their job cards and sends back unfinished work.
 - **[Mercury](https://x.com/chiefjeeb/status/2094223658151502326)** by @chiefjeeb — Persistent technical and product lead: owns system understanding and the release call, then delegates narrow Cursor jobs in parallel.
 - **[Feedback](https://x.com/nytemodeonly/status/2094225527984820492)** by @nytemodeonly — Writes a faithful bug report for Grok Bot, Cursor, or the X connector and files it for you to send to the product teams.
 - **[Club Events](https://x.com/danieldxu_/status/2093480750146552176)** by @danieldxu_ — Runs student-club event paperwork: weekly Slack due dates, funding and venue forms, and follow-ups.
