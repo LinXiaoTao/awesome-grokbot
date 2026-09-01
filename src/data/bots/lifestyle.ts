@@ -671,4 +671,20 @@ export const lifestyleBots: Bot[] = [
     xPostUrl: "https://x.com/TylerNishida/status/2094446128771342374",
     xaiBotUrl: "https://x.ai/bot/vmQChAUGO26cUDqdSqYlH",
   },
+  {
+    id: "254",
+    slug: "palette-bot",
+    name: "Palette",
+    author: "Michael",
+    authorHandle: "@subforti",
+    description:
+      "Turns a photo into a four-role color palette: a labelled 55/20/20/5 bar chart and four hex codes sampled from the image.",
+    integrations: [],
+    installs: 0,
+    category: "lifestyle",
+    iconColor: "bg-violet-500",
+    createdAt: "2026-09-01",
+    xPostUrl: "https://x.com/subforti/status/2094413257482080263",
+    xaiBotUrl: "https://x.ai/bot/yfrTgGSwB_DZNUxx0g05V",
+  },
 ];
