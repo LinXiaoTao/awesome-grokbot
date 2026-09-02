@@ -36,6 +36,7 @@ English | [中文](README.zh.md)
 - **[Teslascope](https://x.com/teslascope/status/2093904429762433255)** by @teslascope — Teslascope MCP assistant for Tesla owners. Answers questions about drives, Superchargers, charging, and your vehicles.
 - **[Box Inspector](https://x.com/SuddenlyJon/status/2093499564988703231)** by @SuddenlyJon — Peek at a Grok Bot share link before you add it. Stamps, an ADD? verdict, and what the copy would inherit. It never Adds.
 - **[Linky](https://x.com/adamludwin/status/2093402167394914392)** by @adamludwin — Turns files, folders, or bot outputs into a shareable here.now URL after you install the here.now plugin.
+- **[Memento](https://x.ai/bot/_xZZE41svJdcq2w6ZWJan)** by @MaheshtheDev — Second-brain coworker powered by SuperMemory. Searches and saves context so you do not re-explain, and never invents a memory.
 
 ## Coding
 
@@ -72,6 +73,8 @@ English | [中文](README.zh.md)
 - **[Flowsery](https://x.com/tarasshyn/status/2093730218145976437)** by @tarasshyn — Pulls bugs and broken flows from session recordings, ranked by how many visits they hit.
 - **[Alchemist](https://x.com/2onism/status/2093723713279803515)** by @2onism — Runs experiments on code, sites, APIs, and local tools until there is a working method.
 - **[Bookshop](https://x.com/rrrkren/status/2093587465290514846)** by @rrrkren — Spins up a paid x402 micro-store on Cloudflare Workers from a Grok Bot template.
+- **[Engineering QA](https://x.ai/bot/b2tS8BNj8BhoQNDcB081S)** by @andreleibovici — Owns pull-request quality gates: waits for CI and Cursor Bugbot, posts a verdict, and auto-merges low-risk changes.
+- **[Baut](https://x.ai/bot/NuFI0dF9FgvO8FfMPHKzx)** by @XAmandaMoore — Transparent copilot for shipping Grok.me games and making cash-honest product calls.
 
 ## Research
 
@@ -88,6 +91,9 @@ English | [中文](README.zh.md)
 - **[Earnings Desk](https://x.com/SachivM99/status/2093945545316606158)** by @SachivM99 — Builds numbered, no-hype earnings tearsheets and keeps a ticker watch list for when a watched name prints.
 - **[Thoth](https://x.ai/bot/W4Z5pvEm6UgCml48Ig4dT)** by @RichSilver — Deep research for dossiers, source briefs, and papers. Uses other models when it helps, then files the result so you can find it later.
 - **[Steal](https://x.com/adxtyahq/status/2093705315607065020)** by @adxtyahq — Reverse-engineers a company you admire into a concrete independent business to build.
+- **[Meta Grok](https://x.ai/bot/HAhgshU4r50gS81LCcpmk)** by @FrankFindsOut — Finds the five most popular Grok bots on X each weekday and sends a short digest you can skim in under a minute.
+- **[Zettelkasten](https://x.ai/bot/35ZO_vGqk_ch51C9qPX1c)** by @pohlipit — Slip-box partner for an Obsidian vault. Turns thoughts into atomic notes, links them, and finds them again.
+- **[Lite Intel Fetch](https://x.ai/bot/FQRA5tERWsasaQGIZmBl_)** by @RandyWhitePDX — Fetches unpaid buy_intel_pack JSON via HTTP 402 on Base for agents that can pay x402.
 
 ## Social
 
@@ -112,6 +118,7 @@ English | [中文](README.zh.md)
 - **[Theta Desk](https://x.com/ThetaVantage/status/2094150193042386996)** by @ThetaVantage — Front-door options desk: dealer gamma, options flow, IV, and key levels for a ticker.
 - **[Watchdog](https://x.com/jxckvibe/status/2093828719374705066)** by @jxckvibe — Scans Gmail on install, then weekly, for receipts, renewals, and trials. Lists what is charging and what is due in 14 days. Never cancels or spends.
 - **[Floor](https://x.com/iamigorekk/status/2093538375399616663)** by @iamigorekk — Runs a trading-floor roster: routes work to six agents, checks handoffs, wakes you only for decisions. Does not trade.
+- **[Convert X Money to Karma](https://x.ai/bot/iCn7r691OdtaB_o8MtHx_)** by @ludiofelix — Converts money, tokens, and engagement into karmic accounting with watermarked royalty chains.
 
 ## Lifestyle
 
@@ -146,6 +153,7 @@ English | [中文](README.zh.md)
 - **[Love](https://x.com/dannybuck/status/2093732626544628001)** by @dannybuck — Date-night concierge that finds restaurants, books tables, and reminds you to treat your partner.
 - **[Friend Finder](https://x.com/pukerrainbrow/status/2093531901730676792)** by @pukerrainbrow — Maps X DM relationships in Quick Radar mode and returns Act now threads instead of drowning you in the inbox.
 - **[Reminder](https://x.com/damonchen/status/2093149926511559062)** by @damonchen — Turns a screenshot or a sentence into a ping on your phone. No calendar required.
+- **[My Krishna](https://x.ai/bot/Mf2MLqJRCmz8sSjFmYedG)** by @AKSHAYBHOPANI — A Krishna you can talk to. Speaks in first person from the Gita: calm, intimate, one teaching and one thing to do today.
 
 ## Enterprise
 

@@ -687,4 +687,20 @@ export const lifestyleBots: Bot[] = [
     xPostUrl: "https://x.com/subforti/status/2094413257482080263",
     xaiBotUrl: "https://x.ai/bot/yfrTgGSwB_DZNUxx0g05V",
   },
+  {
+    id: "259",
+    slug: "my-krishna-bot",
+    name: "My Krishna",
+    author: "AKSHAY BHOPANI",
+    authorHandle: "@AKSHAYBHOPANI",
+    description:
+      "A Krishna you can talk to. Speaks in first person from the Gita: calm, intimate, one teaching and one thing to do today.",
+    integrations: [],
+    installs: 0,
+    category: "lifestyle",
+    iconColor: "bg-cyan-500",
+    createdAt: "2026-09-02",
+    xPostUrl: "https://x.com/AKSHAYBHOPANI/status/2095049479506538710",
+    xaiBotUrl: "https://x.ai/bot/Mf2MLqJRCmz8sSjFmYedG",
+  },
 ];

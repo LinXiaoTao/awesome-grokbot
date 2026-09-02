@@ -252,4 +252,20 @@ export const financeBots: Bot[] = [
     xPostUrl: "https://x.com/tobias_pfuetze/status/2094386098201911719",
     xaiBotUrl: "https://x.ai/bot/Q2xW8BIDffTjbDVXZYZhV",
   },
+  {
+    id: "262",
+    slug: "convert-x-money-to-karma-bot",
+    name: "Convert X Money to Karma",
+    author: "Rob Tromp",
+    authorHandle: "@ludiofelix",
+    description:
+      "Converts money, tokens, and engagement into karmic accounting. Ten percent watermarked up the royalty chain; tokens are evidence, not the cut.",
+    integrations: ["X Money"],
+    installs: 0,
+    category: "finance",
+    iconColor: "bg-emerald-500",
+    createdAt: "2026-09-02",
+    xPostUrl: "https://x.com/ludiofelix/status/2095106072625484123",
+    xaiBotUrl: "https://x.ai/bot/iCn7r691OdtaB_o8MtHx_",
+  },
 ];

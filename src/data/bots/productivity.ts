@@ -656,4 +656,20 @@ export const productivityBots: Bot[] = [
     xPostUrl: "https://x.com/adgapar/status/2094734518687080758",
     xaiBotUrl: "https://x.ai/bot/4mCuSlW34n6l3aYxYJCdj",
   },
+  {
+    id: "256",
+    slug: "memento-bot",
+    name: "Memento",
+    author: "Mahesh",
+    authorHandle: "@MaheshtheDev",
+    description:
+      "Second-brain coworker for Grok Bot, powered by SuperMemory. Searches and saves context so you do not re-explain, and never invents a memory.",
+    integrations: ["SuperMemory"],
+    installs: 0,
+    category: "productivity",
+    iconColor: "bg-blue-500",
+    createdAt: "2026-09-02",
+    xPostUrl: "https://x.com/MaheshtheDev/status/2094947237373890593",
+    xaiBotUrl: "https://x.ai/bot/_xZZE41svJdcq2w6ZWJan",
+  },
 ];
