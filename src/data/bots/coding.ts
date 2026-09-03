@@ -809,4 +809,20 @@ export const codingBots: Bot[] = [
     xPostUrl: "https://x.com/XAmandaMoore/status/2094996505681944790",
     xaiBotUrl: "https://x.ai/bot/NuFI0dF9FgvO8FfMPHKzx",
   },
+  {
+    id: "284",
+    slug: "code-team-spawn-bot",
+    name: "Code Team Spawn",
+    author: "Bryan",
+    authorHandle: "@bryanofearth",
+    description:
+      "Sits idle in your sidebar until you need a coding team. Interviews you, spawns a hidden five-person crew with one job each, and keeps the team as short-lived as possible.",
+    integrations: [],
+    installs: 0,
+    category: "coding",
+    iconColor: "bg-teal-500",
+    createdAt: "2026-09-03",
+    xPostUrl: "https://x.com/bryanofearth/status/2095170967941083494",
+    xaiBotUrl: "https://x.ai/bot/NuOSHSdCZPVkM78K0HkB3",
+  },
 ];

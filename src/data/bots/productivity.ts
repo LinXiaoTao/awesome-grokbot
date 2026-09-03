@@ -688,4 +688,20 @@ export const productivityBots: Bot[] = [
     xPostUrl: "https://x.com/kunalsells/status/2095267534110900400",
     xaiBotUrl: "https://x.ai/bot/-GzMJlSIqdo89K0qs3yC4",
   },
+  {
+    id: "283",
+    slug: "ideabot",
+    name: "ideabot",
+    author: "Rinas",
+    authorHandle: "@onerinas",
+    description:
+      "Hourly idea hunter for founders. Mines your chat for product ideas from the week's pain points, then bounces each through a vitamin-or-painkiller filter.",
+    integrations: [],
+    installs: 0,
+    category: "productivity",
+    iconColor: "bg-orange-500",
+    createdAt: "2026-09-03",
+    xPostUrl: "https://x.com/onerinas/status/2095370142846996705",
+    xaiBotUrl: "https://x.ai/bot/iQ8OWEu7eOI3YuTZFaIe_",
+  },
 ];

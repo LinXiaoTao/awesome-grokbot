@@ -38,6 +38,7 @@ English | [中文](README.zh.md)
 - **[Linky](https://x.com/adamludwin/status/2093402167394914392)** by @adamludwin — Turns files, folders, or bot outputs into a shareable here.now URL after you install the here.now plugin.
 - **[Memento](https://x.ai/bot/_xZZE41svJdcq2w6ZWJan)** by @MaheshtheDev — Second-brain coworker powered by SuperMemory. Searches and saves context so you do not re-explain, and never invents a memory.
 - **[Babel](https://x.ai/bot/-GzMJlSIqdo89K0qs3yC4)** by @kunalsells — Realtime translator Grok Bot template that turns almost any language into English — built for international client Zooms without hiring an interpreter.
+- **[ideabot](https://x.ai/bot/iQ8OWEu7eOI3YuTZFaIe_)** by @onerinas — Hourly idea hunter for founders that mines chat for product ideas from the week's pain points.
 
 ## Coding
 
@@ -76,6 +77,7 @@ English | [中文](README.zh.md)
 - **[Bookshop](https://x.com/rrrkren/status/2093587465290514846)** by @rrrkren — Spins up a paid x402 micro-store on Cloudflare Workers from a Grok Bot template.
 - **[Engineering QA](https://x.ai/bot/b2tS8BNj8BhoQNDcB081S)** by @andreleibovici — Owns pull-request quality gates: waits for CI and Cursor Bugbot, posts a verdict, and auto-merges low-risk changes.
 - **[Baut](https://x.ai/bot/NuFI0dF9FgvO8FfMPHKzx)** by @XAmandaMoore — Transparent copilot for shipping Grok.me games and making cash-honest product calls.
+- **[Code Team Spawn](https://x.ai/bot/NuOSHSdCZPVkM78K0HkB3)** by @bryanofearth — Spawns a hidden five-person coding crew from your sidebar when you need a team, keeping each agent short-lived.
 
 ## Research
 
@@ -124,6 +126,10 @@ English | [中文](README.zh.md)
 - **[Watchdog](https://x.com/jxckvibe/status/2093828719374705066)** by @jxckvibe — Scans Gmail on install, then weekly, for receipts, renewals, and trials. Lists what is charging and what is due in 14 days. Never cancels or spends.
 - **[Floor](https://x.com/iamigorekk/status/2093538375399616663)** by @iamigorekk — Runs a trading-floor roster: routes work to six agents, checks handoffs, wakes you only for decisions. Does not trade.
 - **[Convert X Money to Karma](https://x.ai/bot/iCn7r691OdtaB_o8MtHx_)** by @ludiofelix — Converts money, tokens, and engagement into karmic accounting with watermarked royalty chains.
+- **[Tray](https://x.ai/bot/KDGstUb-ZOovXP6p_v0nO)** by @Ortix008 — Finds hot stock and crypto tickers with a real growth story as weekday trader notes.
+- **[Table Money](https://x.ai/bot/abfx0_FhJ8G_mue5YWQxM)** by @Andrew51786 — Scans the last 30, 60, and 90 days for unsent invoices and leftover spend after one interview.
+- **[Price Error Agent](https://x.ai/bot/cbULQqhzmOeeJ9GT2DX7L)** by @yoda_FDE — Hunts accidental misprices on Australian retailers and cheap AU-origin flights.
+- **[Chained Oblivion](https://x.ai/bot/Loekv1uecl26wWW0lNyfR)** — Hunts unused SaaS seats, forgotten trials, and unrecognized recurring charges.
 
 ## Lifestyle
 
@@ -159,6 +165,8 @@ English | [中文](README.zh.md)
 - **[Friend Finder](https://x.com/pukerrainbrow/status/2093531901730676792)** by @pukerrainbrow — Maps X DM relationships in Quick Radar mode and returns Act now threads instead of drowning you in the inbox.
 - **[Reminder](https://x.com/damonchen/status/2093149926511559062)** by @damonchen — Turns a screenshot or a sentence into a ping on your phone. No calendar required.
 - **[My Krishna](https://x.ai/bot/Mf2MLqJRCmz8sSjFmYedG)** by @AKSHAYBHOPANI — A Krishna you can talk to. Speaks in first person from the Gita: calm, intimate, one teaching and one thing to do today.
+- **[LRT Kelana Jaya Line](https://x.ai/bot/LLScxVm-la-ik4JJde3A1)** by @shahrulestar — Watches LRT Kelana Jaya Line delays and recoveries from Rapid KL X and pings on station issues.
+- **[Magnum Seiba](https://x.ai/bot/1-UWhTw5N6IVgOcDZHrsb)** by @Kamkom05 — Operates your Tesla through Teslr for charge, climate, navigation, and security.
 
 ## Enterprise
 
@@ -186,6 +194,10 @@ English | [中文](README.zh.md)
 - **[Outreach](https://x.ai/bot/wexM_NUvEByvLwrnTR_F3)** by @ericosiu — Supports outreach through HeyReach and LinkedIn Sales Navigator — finds prospects, checks fit, and prepares a capped number of messages daily.
 - **[Talent Bot](https://x.ai/bot/P2cMMcajyHuHZ4OsZOWfe)** by @ericosiu — Reviews recruiting applicants across your systems, probing AI fluency, daily tools used, and old workflows they've stopped using.
 - **[Pre-Call Intelligence](https://x.ai/bot/yQRbVJ7aZL2DyPAWulXn7)** by @ericosiu — Prepares your team before important meetings by reviewing prior conversations and explaining what the other party cares about.
+- **[Denial Desk](https://x.ai/bot/EgfoyJEx7bfDiHlZUwr3P)** by @Andrew51786 — Turns an insurance denial into a draft-only appeal pack with case card, deadline, and missing documents.
+- **[Chief of Staff](https://x.ai/bot/5hqR_5PVUy7WMbNaXPJ8s)** by @BTC_Yogi — One entry point for your agent team that routes work and never sends, spends, or deletes without your yes.
+- **[Dean of Students](https://x.ai/bot/_hsyZUFgPzgxGxW2wIYAj)** by @ErinnFL — Parent dean for one child covering school email, Canvas, forms, grades, calendar, and fees.
+- **[Lockdown](https://x.ai/bot/P1LmE76VG38Ui-XCmzAZE)** by @mjjefford — Checks your controls against SOC 2 requirements and flags gaps before an audit.
 
 ## Contributing
 
