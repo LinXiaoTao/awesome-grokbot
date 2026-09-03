@@ -1446,4 +1446,33 @@ export const enterpriseBots: Bot[] = [
     createdAt: "2026-09-03",
     xaiBotUrl: "https://x.ai/bot/vYIAB3Z6V8gEERewymcw1",
   },
+  {
+    id: "485",
+    slug: "grillo",
+    name: "Grillo",
+    authorHandle: "@aiassesstech",
+    description:
+      "Independent fleet conscience. It answers whether each agent behaves, using runtime behavioral attestation. It does not fix, punish, post, or certify.",
+    integrations: ["Grok Bot", "Grok"],
+    installs: 0,
+    category: "enterprise",
+    iconColor: "bg-slate-600",
+    createdAt: "2026-09-01",
+    xaiBotUrl: "https://x.ai/bot/0K8ZjhfS8SUgIRKt9hS0T",
+  },
+  {
+    id: "486",
+    slug: "zensched",
+    name: "ZenSched",
+    authorHandle: "@zensched",
+    description:
+      "Field workforce scheduling for agents. Connects to ZenSched over MCP so an agent can create the vendor account, schedule crews, run geofenced check-in, and pull timesheets without a human clicking the vendor UI.",
+    integrations: ["Grok Bot", "ZenSched"],
+    installs: 0,
+    category: "enterprise",
+    iconColor: "bg-orange-600",
+    createdAt: "2026-09-01",
+    xPostUrl: "https://x.com/hieudinh_/status/2093973012299264363",
+    xaiBotUrl: "https://x.ai/bot/LK0rEXJnnD1qpEISXd7Ix",
+  },
 ];

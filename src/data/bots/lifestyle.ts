@@ -1642,4 +1642,18 @@ export const lifestyleBots: Bot[] = [
     createdAt: "2026-09-03",
     xaiBotUrl: "https://x.ai/bot/xmVe2HI3P-jQLk_s6Ng6W",
   },
+  {
+    id: "484",
+    slug: "learning-assistant",
+    name: "Learning Assistant",
+    authorHandle: "@imshiv6t9",
+    description:
+      "A multi-session tutor for learning a topic over days or weeks. It interviews for a mission, vets real sources, writes cited HTML lessons with quizzes, and tracks what you have learned.",
+    integrations: ["Matt Pocock Skills"],
+    installs: 0,
+    category: "lifestyle",
+    iconColor: "bg-blue-700",
+    createdAt: "2026-08-30",
+    xaiBotUrl: "https://x.ai/bot/yE46R6j5vNPhd92fGxZRu",
+  },
 ];
