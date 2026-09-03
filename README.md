@@ -37,6 +37,7 @@ English | [中文](README.zh.md)
 - **[Box Inspector](https://x.com/SuddenlyJon/status/2093499564988703231)** by @SuddenlyJon — Peek at a Grok Bot share link before you add it. Stamps, an ADD? verdict, and what the copy would inherit. It never Adds.
 - **[Linky](https://x.com/adamludwin/status/2093402167394914392)** by @adamludwin — Turns files, folders, or bot outputs into a shareable here.now URL after you install the here.now plugin.
 - **[Memento](https://x.ai/bot/_xZZE41svJdcq2w6ZWJan)** by @MaheshtheDev — Second-brain coworker powered by SuperMemory. Searches and saves context so you do not re-explain, and never invents a memory.
+- **[Babel](https://x.ai/bot/-GzMJlSIqdo89K0qs3yC4)** by @kunalsells — Realtime translator Grok Bot template that turns almost any language into English — built for international client Zooms without hiring an interpreter.
 
 ## Coding
 
@@ -94,6 +95,7 @@ English | [中文](README.zh.md)
 - **[Meta Grok](https://x.ai/bot/HAhgshU4r50gS81LCcpmk)** by @FrankFindsOut — Finds the five most popular Grok bots on X each weekday and sends a short digest you can skim in under a minute.
 - **[Zettelkasten](https://x.ai/bot/35ZO_vGqk_ch51C9qPX1c)** by @pohlipit — Slip-box partner for an Obsidian vault. Turns thoughts into atomic notes, links them, and finds them again.
 - **[Lite Intel Fetch](https://x.ai/bot/FQRA5tERWsasaQGIZmBl_)** by @RandyWhitePDX — Fetches unpaid buy_intel_pack JSON via HTTP 402 on Base for agents that can pay x402.
+- **[Autonomous Engine Optimization](https://x.ai/bot/Jyx1Lg-VzYgyjDc-y-GQi)** by @ericosiu — Finds SEO and AEO opportunities daily, surfaces 40 candidates per week, drafts via ClickFlow, and measures whether content produces leads.
 
 ## Social
 
@@ -108,6 +110,9 @@ English | [中文](README.zh.md)
 - **[KeyWire](https://x.com/CryptoVonDoom/status/2093528067650281687)** by @CryptoVonDoom — Would You Rather collector that gathers and organizes prompt-game content for KeyWire.
 - **[Aoty](https://x.com/emrecolakoglu/status/2093780158180175982)** by @emrecolakoglu — Picks the week's 3 best new albums from Album of the Year scores and sends Apple Music links every Friday.
 - **[Webby](https://x.com/farzyness/status/2093485215150744014)** by @farzyness — Rebuilds and updates a personal site plus a public weekday dashboard. Create only, no deletes.
+- **[Trial Reels Bot](https://x.ai/bot/HktaB2ID5y5djGCrRAxvf)** by @ericosiu — Pulls nine Reel candidates from one YouTube video and A/B tests versions against non-followers to find which idea deserves another iteration.
+- **[Short-Form Scaler](https://x.ai/bot/NA1zDLMoKJZVcjl3mZ2tT)** by @ericosiu — Uses the Overlap AI API to find clips inside webinars, podcasts, and long-form videos — targeting at least four candidates per day for human pick.
+- **[Ads Operator](https://x.ai/bot/zj8VKu1CnqkHCM4Na1zex)** by @ericosiu — Builds ad plans for search and social, drafts budget shifts, and never touches your ad account without an explicit yes.
 
 ## Finance
 
@@ -177,6 +182,10 @@ English | [中文](README.zh.md)
 - **[RedReplier](https://x.com/tarasshyn/status/2093730218145976437)** by @tarasshyn — Watches Reddit, X, HN, and Bluesky for product mentions, ranked by buying intent.
 - **[LinkedIn Desk](https://x.com/SEO/status/2093418792546181548)** by @SEO — Learns a Peer-first invite policy, recommends Accept or Ignore, and clicks only the exact batch you approve.
 - **[Overwatch](https://x.com/scheemunai/status/2091446628611699121)** by @scheemunai — Keeps the shared computer clean and backed up. Does not delete another bot's work.
+- **[Sponsorship Deal Desk](https://x.ai/bot/bFrGNsUsXpsIfnCIUEvKy)** by @ericosiu — Handles the first response when a sponsor reaches out, replying within 60 seconds with tiered minimum pricing of $15,000 or $25,000.
+- **[Outreach](https://x.ai/bot/wexM_NUvEByvLwrnTR_F3)** by @ericosiu — Supports outreach through HeyReach and LinkedIn Sales Navigator — finds prospects, checks fit, and prepares a capped number of messages daily.
+- **[Talent Bot](https://x.ai/bot/P2cMMcajyHuHZ4OsZOWfe)** by @ericosiu — Reviews recruiting applicants across your systems, probing AI fluency, daily tools used, and old workflows they've stopped using.
+- **[Pre-Call Intelligence](https://x.ai/bot/yQRbVJ7aZL2DyPAWulXn7)** by @ericosiu — Prepares your team before important meetings by reviewing prior conversations and explaining what the other party cares about.
 
 ## Contributing
 

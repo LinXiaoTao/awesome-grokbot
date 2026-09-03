@@ -393,4 +393,20 @@ export const researchBots: Bot[] = [
     xPostUrl: "https://x.com/RandyWhitePDX/status/2095016143018655911",
     xaiBotUrl: "https://x.ai/bot/FQRA5tERWsasaQGIZmBl_",
   },
+  {
+    id: "265",
+    slug: "autonomous-engine-optimization",
+    name: "Autonomous Engine Optimization",
+    author: "Eric Siu",
+    authorHandle: "@ericosiu",
+    description:
+      "Finds SEO and AEO opportunities daily, surfaces 40 candidates per week, drafts via ClickFlow, and measures whether content produces leads.",
+    integrations: ["ClickFlow", "WordPress"],
+    installs: 0,
+    category: "research",
+    iconColor: "bg-indigo-500",
+    createdAt: "2026-09-03",
+    xPostUrl: "https://x.com/ericosiu/status/2094477191484772488",
+    xaiBotUrl: "https://x.ai/bot/Jyx1Lg-VzYgyjDc-y-GQi",
+  },
 ];

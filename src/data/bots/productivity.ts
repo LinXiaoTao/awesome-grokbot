@@ -672,4 +672,20 @@ export const productivityBots: Bot[] = [
     xPostUrl: "https://x.com/MaheshtheDev/status/2094947237373890593",
     xaiBotUrl: "https://x.ai/bot/_xZZE41svJdcq2w6ZWJan",
   },
+  {
+    id: "264",
+    slug: "babel",
+    name: "Babel",
+    author: "Kunal Makhija",
+    authorHandle: "@kunalsells",
+    description:
+      "Realtime translator Grok Bot template that turns almost any language into English — built for international client Zooms without hiring an interpreter.",
+    integrations: [],
+    installs: 0,
+    category: "productivity",
+    iconColor: "bg-fuchsia-500",
+    createdAt: "2026-09-03",
+    xPostUrl: "https://x.com/kunalsells/status/2095267534110900400",
+    xaiBotUrl: "https://x.ai/bot/-GzMJlSIqdo89K0qs3yC4",
+  },
 ];
