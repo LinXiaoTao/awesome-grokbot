@@ -1375,4 +1375,19 @@ export const codingBots: Bot[] = [
     xPostUrl: "https://x.com/BillZanetti/status/2094534653646356788",
     xaiBotUrl: "https://x.ai/bot/eydijdzrfgtnmlnUyPSI-",
   },
+  {
+    id: "489",
+    slug: "tab-janitor",
+    name: "Tab Janitor",
+    authorHandle: "@SuddenlyJon",
+    description:
+      "Clears abandoned tabs from a shared cloud browser: dry-run first, honors a keep-list, shuts only what is plainly finished, then reports what it did.",
+    integrations: [],
+    installs: 0,
+    category: "coding",
+    iconColor: "bg-cyan-600",
+    createdAt: "2026-09-03",
+    xPostUrl: "https://x.com/SuddenlyJon/status/2095646306085556321",
+    xaiBotUrl: "https://x.ai/bot/XOYBYmHQrUT_Ux88SS409",
+  },
 ];

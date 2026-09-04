@@ -124,6 +124,7 @@
 - **[Grokleros](https://x.ai/bot/vsCDaIn2Od_BkfWp0Vehm)** by @JayBuidl — A 24/7 Kleros V2 juror that reads evidence pixels-first, ignores prompt injection, and votes via AgentKit.
 - **[Tech Demos](https://x.ai/bot/zvkkoHMbclsUBWX8MRGpU)** by @mattyp — Weekday X-bookmark scout that picks one new library to demo, asks for approval, then plans and builds it in a sticky monorepo with a Cursor cloud agent. For anyone who wants a daily public-tech playground, not a changelog digest.
 - **[Grok Build (Hosted)](https://x.ai/bot/eydijdzrfgtnmlnUyPSI-)** by @BillZanetti — Hands the real Grok Build CLI a computer of its own, so you can point it at an app, a code change, or a long research question without installing tooling locally.
+- **[Tab Janitor](https://x.ai/bot/XOYBYmHQrUT_Ux88SS409)** by @SuddenlyJon — Clears abandoned tabs from a shared cloud browser: dry-run first, honors a keep-list, shuts only what is plainly finished, then reports what it did.
 ## 研究
 
 - **[Trendspotter](https://x.com/jennananpei/status/2094636558062342285)** by @jennananpei — Weekday digest of sports, entertainment, and culture trends plus AI-in-marketing signals.
@@ -155,6 +156,8 @@
 - **[The Page](https://x.ai/bot/uFRK1GoAsiopBLPY19QCe)** by @hnshah — Watches 3–5 public pages once each morning and messages only when the thing you care about actually changed. After setup you get a short Watching list; then it stays quiet until something moves.
 - **[Scout (Organic Growth)](https://x.ai/bot/ywADCWWZP0Bcq6bOeQpGt)** by @zeuuss_01 — Client work stalls when the strategy rests on a hunch that nobody can back up. Once a week this pulls together how the account is actually performing and what changed in search and AI visibility.
 - **[Blockchain Data Expert](https://x.ai/bot/xqZS2HUq3XEoQ8oaH0LnA)** by @data_nexus — Open-source Blockchain Data Expert for subgraph Q&A. Uses The Graph official MCP and the user's own Studio query key. The Graph bills that key; this bot does not.
+- **[The Amazing Randibot](https://x.ai/bot/pL_NCKfdF5UgZYEo-jMAx)** by @russbroomell — A cheerful skeptic that hunts for corroboration in the world rather than trusting recall, then names the weak joint in an argument—politely, but without letting it slide.
+- **[PickFu Insights](https://x.ai/bot/9EFVmFgQhjYKjMHAhpCWn)** by @GrokBotMoney — Tests a product idea on real shoppers before you build it. Writes a consumer poll, runs it on a paid PickFu panel, and reads the answers back as a recommendation.
 ## 社交
 
 - **[Harry Dry](https://x.com/joseamijares/status/2094450356147081624)** by @joseamijares — Copy chief trained on Harry Dry. Rewrites landing pages, ads, emails, and share cards so every line is visual and falsifiable.
@@ -192,6 +195,9 @@
 - **[Vidmoat Bot](https://x.ai/bot/okQ3Ka19Qk1-zsxPyUnuc)** by @vidmoat — Cuts, previews, and renders videos in Vidmoat over MCP into an editable timeline.
 - **[Contentdrips Bot](https://x.ai/bot/LZLr3E1ySm7HzuMSKB18s)** by @im_usamakhalid — Creates social media graphics and carousels in ContentDrips, then writes simple captions and schedules them to LinkedIn and Instagram.
 - **[SEO/GEO Specialist](https://x.ai/bot/pImOOCvE7uB1SXENOI9Ng)** by @angelosorbello1 — SEO and GEO operator for people who want measurable rankings and AI citations. Uses Rankdelta.ai for research, rank tracking, technical audits, and AI visibility.
+- **[X Algo](https://x.ai/bot/W0LrVwNwsRHhFY4PG7586)** by @UziObi — Reads the openly published For You ranking source alongside your recent post performance, then recommends whether to post fresh, quote, or wait.
+- **[Shotcraft](https://x.ai/bot/gdZdBNWdgW45IVVU8sv8F)** by @Tferriere — Builds a launch video from storyboard to sound mix: shot cards, live-page screenshots, and Remotion assembly with camera movement and timed cuts.
+- **[AI 视频专家](https://x.ai/bot/ES3LVns98INeXAoYwef_f)** by @KinGao476942 — Turns one photograph and a line of direction into a brief clip with deliberate camera work rather than a drifting animation. Requires approval before anything goes public.
 ## 财务
 
 - **[Senior Analyst](https://x.com/tobias_pfuetze/status/2094386098201911719)** by @tobias_pfuetze — OCR for financial statements into structured data. Drop an image, get a downloadable Excel plus a cited memo.
@@ -221,6 +227,8 @@
 - **[Medical Bill Review](https://x.ai/bot/M9c2tC_-mwY8XNTmSbkUY)** by @MSaintjour — Gets the itemized bill, screens published protections and charity-care policy, and drafts the dispute letter for you to send.
 - **[Investor Bot](https://x.ai/bot/UWNGpcghM9H79JCb4of5Q)** by @MadeItHappenX — Autonomous swing trader for a small (~$1k) brokerage book with defined stops and quiet alerts.
 - **[t2000](https://x.ai/bot/eXQt5VUovcU0HMj_b-CDY)** by @funkii — Marketplace operator for t2000.ai—earn, hire, settle, and sell in USDC.
+- **[Precog wARS](https://x.ai/bot/7M8RpppF2AistbVbeEPyN)** by @ferminrp — Spanish-language lookup desk for Precog prediction markets denominated in wARS on Base and Arbitrum. Returns on-chain probabilities with no commentary and no ability to trade.
+- **[Trading](https://x.ai/bot/XW2DibYh5BRunhH_f373u)** by @TravisWeathers — A news-driven day-trading bot for a live brokerage book. Goes all-in on one liquid large or mid-cap at a time and messages every fill.
 ## 生活
 
 - **[Librarian](https://x.com/ShaneMac/status/2094582528203997514)** by @ShaneMac — Builds a personal library site from photos of your shelves. Catalogs books, pulls snippets, and marks the ones you'd lend.
@@ -320,6 +328,9 @@
 - **[ButterBot](https://x.ai/bot/h1tW8jfXzQIraT-_jNDjJ)** by @GabrieleMonni — Passes butter after each message.
 - **[TeacherBot](https://x.ai/bot/xmVe2HI3P-jQLk_s6Ng6W)** by @DeanoRousselle — Homeschool teacher for one child: writes and administers the yearly plan after SchoolAdminBot admits that student.
 - **[Learning Assistant](https://x.ai/bot/yE46R6j5vNPhd92fGxZRu)** by @imshiv6t9 — A multi-session tutor for learning a topic over days or weeks. It interviews for a mission, vets real sources, writes cited HTML lessons with quizzes, and tracks what you have learned.
+- **[orders](https://x.ai/bot/0taQ6RZdkjsnOfda_A8Ie)** by @wafffls — A personal desk for every parcel, receipt, and refund you are waiting on. Link shopping accounts once and ask what is due, how much you spent, or which returns are still open.
+- **[shoppy](https://x.ai/bot/26SigD00Ar-mArCvNwXN2)** by @vandymeares — Household shopper that finds a price, waits for a yes, then orders and tracks arrival. Lunch and dinner check-ins, morning cart updates, no browsing and no duplicate buys.
+- **[Shopper](https://x.ai/bot/--X3KeUBk4AwgtfcxxKxZ)** — Takes the thinking out of buying: researches options across Amazon, Costco, Instacart, and Walmart, returns the top picks, and waits before checkout.
 ## 企业
 
 - **[Bing Bong](https://x.com/jennananpei/status/2094636558062342285)** by @jennananpei — Partnership ops for sports activations: deadlines, inventory, and in-arena work.
@@ -401,6 +412,8 @@
 - **[InsightfulPipe](https://x.ai/bot/vYIAB3Z6V8gEERewymcw1)** by @insightfulpipe — Senior marketer for ads, SEO, social, and Shopify powered by live InsightfulPipe data.
 - **[Grillo](https://x.ai/bot/0K8ZjhfS8SUgIRKt9hS0T)** by @aiassesstech — Independent fleet conscience. It answers whether each agent behaves, using runtime behavioral attestation. It does not fix, punish, post, or certify.
 - **[ZenSched](https://x.ai/bot/LK0rEXJnnD1qpEISXd7Ix)** by @zensched — Field workforce scheduling for agents. Connects to ZenSched over MCP so an agent can create the vendor account, schedule crews, run geofenced check-in, and pull timesheets without a human clicking the vendor UI.
+- **[Revenue Signal Radar](https://x.ai/bot/9BnpveyF3fbsRRtolSWpp)** by @ericosiu — Each weekday combs HubSpot for accounts worth a call—upsell-ready customers, quiet deals, and old losses worth reopening—then drafts an opening message without changing CRM records.
+- **[Ad-Active Lead Finder](https://x.ai/bot/nHDuTEJd3mC91rtLLPN0p)** by @aferrari — Finds fresh B2B leads actively advertising in your target niche, enriches contact data, and maps approved fields into GoHighLevel or HubSpot after a reviewable dry run.
 ## 贡献
 
 请参阅 [contributing.md](contributing.md) 了解如何提交机器人。
