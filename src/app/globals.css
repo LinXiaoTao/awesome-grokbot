@@ -1,18 +1,25 @@
 @import "tailwindcss";
 
 @theme inline {
+  --color-ink: #0a0a0a;
+  --color-paper: #fafafa;
   --color-accent: #f97316;
-  --color-muted: #64748b;
-  --color-border: #e2e8f0;
-  --color-atmospheric: #cbd5e1;
-  --color-surface: #f8fafc;
+  --color-muted: #737373;
+  --color-border: #e5e5e5;
+  --color-atmospheric: #d4d4d4;
+  --color-surface: #fafafa;
+  --color-archive: #0a0a0a;
+  --color-archive-muted: #a3a3a3;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --shadow-xs: 0 1px 2px rgb(0 0 0 / 0.04);
+  --shadow-subtle: 0 1px 3px rgb(0 0 0 / 0.05);
+  --shadow-lift: 0 12px 32px -8px rgb(0 0 0 / 0.12);
 }
 
 body {
-  background: #f8fafc;
-  color: #0f172a;
+  background: var(--color-paper);
+  color: var(--color-ink);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -22,18 +29,43 @@ body {
   box-sizing: border-box;
 }
 
-/* Retro subtle dot/grid pattern */
-.bg-grid-pattern {
-  background-size: 24px 24px;
-  background-image: radial-gradient(circle, rgba(15, 23, 42, 0.06) 1px, transparent 1px);
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
 }
 
-/* Smooth card hover */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+.bg-grid-pattern {
+  background-size: 24px 24px;
+  background-image: radial-gradient(circle, rgb(10 10 10 / 0.05) 1px, transparent 1px);
+}
+
 .card-hover-glow {
-  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  transition:
+    transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .card-hover-glow:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 28px -6px rgba(15, 23, 42, 0.08), 0 0 0 1px rgba(15, 23, 42, 0.08);
+  box-shadow: var(--shadow-lift);
+  border-color: rgb(10 10 10 / 0.12);
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }

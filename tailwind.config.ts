@@ -5,11 +5,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        ink: "#0a0a0a",
+        paper: "#fafafa",
         accent: "#f97316",
-        muted: "#6b7280",
-        border: "#e5e7eb",
-        atmospheric: "#d1d5db",
+        muted: "#737373",
+        border: "#e5e5e5",
+        atmospheric: "#d4d4d4",
         surface: "#fafafa",
+        archive: "#0a0a0a",
+        "archive-muted": "#a3a3a3",
       },
       maxWidth: {
         container: "1200px",
@@ -18,8 +22,9 @@ const config: Config = {
         card: "16px",
       },
       boxShadow: {
+        xs: "0 1px 2px rgb(0 0 0 / 0.04)",
         card: "0 1px 3px 0 rgb(0 0 0 / 0.05)",
-        "card-hover": "0 8px 24px -4px rgb(0 0 0 / 0.1)",
+        "card-hover": "0 12px 32px -8px rgb(0 0 0 / 0.12)",
       },
     },
   },

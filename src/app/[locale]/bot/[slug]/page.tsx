@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { BotIcon } from "@/components/BotIcon";
 import { IntegrationPill } from "@/components/IntegrationPill";
 import { BotCard } from "@/components/BotCard";
 import { PromptBox } from "@/components/PromptBox";
@@ -12,6 +13,7 @@ import { Link } from "@/i18n/routing";
 import { bots } from "@/data/bots";
 import { buildBotJsonLd, buildPageMetadata } from "@/lib/seo";
 import { getBotBySlug, getRelatedBots, LOCALES, type Locale } from "@/lib/utils";
+import { getCategoryStyle } from "@/lib/category-styles";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -62,6 +64,7 @@ export default async function BotDetailPage({ params }: Props) {
   const categoryLabel = tFilters.has(bot.category)
     ? tFilters(bot.category)
     : bot.category;
+  const categoryStyle = getCategoryStyle(bot.category);
 
   return (
     <>
@@ -84,38 +87,46 @@ export default async function BotDetailPage({ params }: Props) {
             <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-2">
               <div>
                 <div className="flex flex-wrap items-center gap-3">
-                  <span className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-700 capitalize">
-                    <span className="h-1.5 w-1.5 rounded-full bg-blue-500 animate-pulse" />
+                  <BotIcon
+                    name={bot.name}
+                    iconColor={categoryStyle.icon}
+                    size="lg"
+                  />
+                  <span
+                    className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold capitalize ${categoryStyle.badge}`}
+                  >
                     {categoryLabel}
                   </span>
                   {bot.createdAt && (
-                    <span className="text-xs text-slate-400">
+                    <span className="text-xs text-neutral-400">
                       {bot.createdAt}
                     </span>
                   )}
                 </div>
 
-                <div className="mt-4">
-                  <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 md:text-4xl">
+                <div className="mt-5">
+                  <h1 className="text-3xl font-extrabold tracking-tight text-neutral-900 md:text-4xl">
                     {bot.name}
                   </h1>
                   {bot.authorHandle && (
-                    <p className="mt-1.5 text-sm font-medium text-slate-500">
+                    <p className="mt-1.5 text-sm font-medium text-neutral-500">
                       {t("by")}{" "}
-                      <span className="text-slate-800 font-semibold">{bot.authorHandle}</span>
+                      <span className="font-semibold text-neutral-800">
+                        {bot.authorHandle}
+                      </span>
                     </p>
                   )}
                 </div>
 
-                <p className="mt-6 text-base leading-relaxed text-slate-700 md:text-lg">
+                <p className="mt-6 max-w-prose text-base leading-relaxed text-neutral-700 md:text-lg">
                   {bot.longDescription ?? bot.description}
                 </p>
 
                 {bot.integrations.length > 0 && (
                   <div className="mt-6">
-                    <h4 className="mb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">
+                    <h2 className="mb-2 text-xs font-semibold uppercase tracking-wider text-neutral-400">
                       {tFilters("allIntegrations")}
-                    </h4>
+                    </h2>
                     <div className="flex flex-wrap gap-2">
                       {bot.integrations.map((integration) => (
                         <IntegrationPill key={integration} name={integration} />
@@ -124,30 +135,29 @@ export default async function BotDetailPage({ params }: Props) {
                   </div>
                 )}
 
-                <div className="mt-8 flex flex-wrap items-center gap-4">
+                <div className="mt-8 space-y-3">
                   <a
                     href={bot.xaiBotUrl ?? "https://x.ai/bot"}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-6 py-3 text-sm font-bold text-white transition-all hover:bg-black hover:shadow-md active:scale-95"
+                    className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-neutral-950 px-8 py-3.5 text-base font-bold text-white transition-all hover:bg-black hover:shadow-card-hover active:scale-[0.99] sm:w-auto"
                   >
                     <span>{t("install")}</span>
                     <ExternalLink className="h-4 w-4" />
                   </a>
-                  <p className="text-xs text-slate-500">
+                  <p className="text-xs text-neutral-500">
                     {t("downloadGrok")}{" "}
                     <a
                       href="https://x.ai/bot"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-semibold text-slate-800 underline underline-offset-2 transition-colors hover:text-black"
+                      className="font-semibold text-neutral-800 underline underline-offset-2 transition-colors hover:text-black"
                     >
                       {t("download")}
                     </a>
                   </p>
                 </div>
 
-                {/* Prompt Box */}
                 <PromptBox
                   name={bot.name}
                   category={bot.category}
@@ -171,9 +181,9 @@ export default async function BotDetailPage({ params }: Props) {
                   {t("relatedBots")}
                 </h2>
               </div>
-              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-                {relatedBots.map((related, index) => (
-                  <BotCard key={related.id} bot={related} index={index} />
+              <div className="grid auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                {relatedBots.map((related) => (
+                  <BotCard key={related.id} bot={related} />
                 ))}
               </div>
             </section>

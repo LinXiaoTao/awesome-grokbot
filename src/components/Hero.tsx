@@ -78,8 +78,8 @@ export function Hero({ children, botCount }: HeroProps) {
         animate="visible"
       >
         <motion.div variants={itemVariants} className="mb-5 inline-flex items-center gap-2">
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-orange-200/80 bg-orange-50/80 px-3.5 py-1 text-xs font-semibold text-orange-700 shadow-sm">
-            <Sparkles className="h-3.5 w-3.5 text-orange-500" aria-hidden="true" />
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-neutral-300 bg-white px-3.5 py-1 text-xs font-semibold text-neutral-800 shadow-xs">
+            <Sparkles className="h-3.5 w-3.5 text-neutral-500" aria-hidden="true" />
             {t("badge")}
           </span>
         </motion.div>

@@ -2,7 +2,6 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
-import { motion, AnimatePresence } from "framer-motion";
 import type { Bot } from "@/types";
 import { BotCard } from "./BotCard";
 
@@ -52,7 +51,7 @@ export function BotGrid({ bots }: BotGridProps) {
   if (bots.length === 0) {
     return (
       <div className="py-20 text-center">
-        <p className="text-lg font-medium text-black">{t("noResults")}</p>
+        <p className="text-lg font-medium text-ink">{t("noResults")}</p>
         <p className="mt-2 text-sm text-muted">{t("tryDifferent")}</p>
       </div>
     );
@@ -60,28 +59,13 @@ export function BotGrid({ bots }: BotGridProps) {
 
   return (
     <>
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        <AnimatePresence mode="popLayout">
-          {visibleBots.map((bot, index) => (
-            <motion.div
-              key={bot.id}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{
-                duration: 0.3,
-                delay:
-                  index >= visibleCount - PAGE_SIZE
-                    ? (index % PAGE_SIZE) * 0.05
-                    : 0,
-              }}
-            >
-              <BotCard bot={bot} index={index} />
-            </motion.div>
-          ))}
-        </AnimatePresence>
+      <div className="grid auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {visibleBots.map((bot) => (
+          <BotCard key={bot.id} bot={bot} />
+        ))}
       </div>
 
-      {hasMore && <div ref={sentinelRef} className="h-1" />}
+      {hasMore && <div ref={sentinelRef} className="h-1" aria-hidden="true" />}
     </>
   );
 }
