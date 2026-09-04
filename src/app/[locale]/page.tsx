@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { BotExplorer } from "@/components/BotExplorer";
+import { BotCrawlIndex } from "@/components/BotCrawlIndex";
 import { bots } from "@/data/bots";
 import {
   buildDirectoryJsonLd,
@@ -40,7 +41,8 @@ export default async function HomePage({ params }: Props) {
       />
       <Navbar />
       <main>
-        <BotExplorer />
+        <BotExplorer botCount={bots.length} />
+        <BotCrawlIndex bots={bots} />
       </main>
       <Footer />
     </>

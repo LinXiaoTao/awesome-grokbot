@@ -10,7 +10,7 @@
     "title": "あなたにぴったりのGrok Botがある。",
     "subtitle": "仕事、コーディング、リサーチ、日常タスクに最適なGrok Botを見つけよう。",
     "searchPlaceholder": "Botを検索...",
-    "statsBots": "200+ Bot",
+    "statsBots": "{count}+ Bot",
     "statsCategories": "7 カテゴリ",
     "statsApi": "Agent API & Feed"
   },

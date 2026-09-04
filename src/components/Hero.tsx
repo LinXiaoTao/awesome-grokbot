@@ -60,9 +60,10 @@ function GrokBotMascot() {
 
 interface HeroProps {
   children?: ReactNode;
+  botCount: number;
 }
 
-export function Hero({ children }: HeroProps) {
+export function Hero({ children, botCount }: HeroProps) {
   const t = useTranslations("hero");
 
   return (
@@ -104,7 +105,7 @@ export function Hero({ children }: HeroProps) {
         >
           <span className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white/90 px-3 py-1 shadow-xs">
             <Bot className="h-3.5 w-3.5 text-blue-500" />
-            {t("statsBots")}
+            {t("statsBots", { count: botCount })}
           </span>
           <span className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white/90 px-3 py-1 shadow-xs">
             <Layers className="h-3.5 w-3.5 text-emerald-500" />

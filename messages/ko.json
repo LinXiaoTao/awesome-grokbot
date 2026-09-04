@@ -10,7 +10,7 @@
     "title": "당신에게 맞는 Grok Bot이 있습니다.",
     "subtitle": "업무, 코딩, 리서치, 일상 업무에 최적화된 최고의 Grok Bot을 찾아보세요.",
     "searchPlaceholder": "봇 검색...",
-    "statsBots": "200+ 봇",
+    "statsBots": "{count}+ 봇",
     "statsCategories": "7개 카테고리",
     "statsApi": "Agent API & Feed"
   },

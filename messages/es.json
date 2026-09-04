@@ -10,7 +10,7 @@
     "title": "Hay un Grok Bot para eso.",
     "subtitle": "Descubre los mejores Grok Bots para el trabajo, la programación, la investigación y las tareas cotidianas.",
     "searchPlaceholder": "Buscar bots...",
-    "statsBots": "200+ Bots",
+    "statsBots": "{count}+ Bots",
     "statsCategories": "7 Categorías",
     "statsApi": "API y Feed de Agente"
   },

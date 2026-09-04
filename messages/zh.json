@@ -10,7 +10,7 @@
     "title": "总有一款 Grok Bot 适合你。",
     "subtitle": "发现适用于工作、编程、研究和日常任务的最佳 Grok Bot。",
     "searchPlaceholder": "搜索 Bot...",
-    "statsBots": "200+ 精选 Bot",
+    "statsBots": "{count}+ 精选 Bot",
     "statsCategories": "7 大分类",
     "statsApi": "Agent 接口与订阅"
   },
@@ -92,7 +92,7 @@
     "botDescription": "{description}"
   },
   "ticker": {
-    "item1": "🔥 精选收录 200+ 优质 Grok Bot 模板与指令",
+    "item1": "🔥 精选收录 {count}+ 优质 Grok Bot 模板与指令",
     "item2": "⚡ 实时数据接口: /api/v1/feed.json",
     "item3": "📡 AI Agent 协议: /llms.txt",
     "item4": "✨ GitHub MIT 开源"

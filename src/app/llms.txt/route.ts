@@ -4,38 +4,69 @@ import { SITE_URL } from "@/lib/utils";
 
 export const dynamic = "force-static";
 
+const CATEGORIES = [
+  "productivity",
+  "coding",
+  "research",
+  "social",
+  "finance",
+  "lifestyle",
+  "enterprise",
+] as const;
+
 export async function GET() {
   const categoryCounts: Record<string, number> = {};
   bots.forEach((b) => {
     categoryCounts[b.category] = (categoryCounts[b.category] || 0) + 1;
   });
 
+  const categorySamples = CATEGORIES.map((category) => {
+    const items = bots
+      .filter((b) => b.category === category)
+      .slice(0, 8)
+      .map(
+        (b) =>
+          `  - [${b.name}](${SITE_URL}/en/bot/${b.slug}): ${b.description}`,
+      )
+      .join("\n");
+    return `### ${category} (${categoryCounts[category] ?? 0} bots)\n${items}`;
+  }).join("\n\n");
+
+  const fullIndex = bots
+    .map(
+      (b) =>
+        `- [${b.name}](${SITE_URL}/en/bot/${b.slug}) (${b.category}): ${b.description}`,
+    )
+    .join("\n");
+
   const content = `# Awesome Grok Bot (awsomebot.com)
-> A curated directory of 200+ production-ready Grok Bots, templates, and agent recipes.
+> A curated directory of ${bots.length}+ production-ready Grok Bots, templates, and agent recipes for xAI's Grok ecosystem.
 
 ## About
 Awesome Grok Bot collects verified Grok Bots built for xAI's Grok ecosystem, covering coding, enterprise automation, finance, productivity, research, lifestyle, and social workflows.
 
-## Endpoints for AI Agents
-- Feed API: ${SITE_URL}/api/v1/feed.json
+## Machine-Readable Endpoints
+- Sitemap: ${SITE_URL}/sitemap.xml
+- Feed API (JSON): ${SITE_URL}/api/v1/feed.json
 - LLMs Documentation: ${SITE_URL}/llms.txt
+- Homepage: ${SITE_URL}/en
 
 ## Categories & Counts
 ${Object.entries(categoryCounts)
+  .sort(([a], [b]) => a.localeCompare(b))
   .map(([cat, count]) => `- ${cat}: ${count} bots`)
   .join("\n")}
 
-## Sample Bots Directory
-${bots
-  .slice(0, 50)
-  .map(
-    (b) =>
-      `- [${b.name}](${b.xaiBotUrl || `${SITE_URL}/en/bot/${b.slug}`}) (${b.category}): ${b.description}`
-  )
-  .join("\n")}
+Total: ${bots.length} verified Grok Bot templates.
 
-## How to use
-To run any of these bots, open the x.ai template URL or paste the system instructions into your Grok Bot setup.
+## Representative Bots by Category
+${categorySamples}
+
+## Full Bot Index
+${fullIndex}
+
+## How to Use
+Open any bot's x.ai template URL from the feed or detail page, or paste the system instructions into your Grok Bot setup. Detail pages live at \`${SITE_URL}/en/bot/{slug}\`.
 `;
 
   return new NextResponse(content, {

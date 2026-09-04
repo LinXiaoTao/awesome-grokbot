@@ -44,7 +44,7 @@ export function buildPageMetadata({
   const alternateLocales = LOCALES.filter((loc) => loc !== locale);
 
   return {
-    title,
+    title: { absolute: title },
     description,
     keywords: DEFAULT_KEYWORDS,
     authors: [
@@ -188,12 +188,6 @@ export function buildBotJsonLd(bot: Bot, locale: Locale) {
               "@type": "Organization",
               name: "xAI Community",
             },
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "5",
-          bestRating: "5",
-          ratingCount: Math.max(bot.installs, 1),
-        },
       },
       {
         "@type": "BreadcrumbList",

@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Copy, Check, ExternalLink } from "lucide-react";
 import type { Bot } from "@/types";
+import { Link } from "@/i18n/routing";
 import { IntegrationPill } from "./IntegrationPill";
 import { cn } from "@/lib/utils";
 
@@ -59,7 +60,6 @@ const CATEGORY_STYLES: Record<string, { bg: string; text: string; border: string
 };
 
 export function BotCard({ bot, index = 0 }: BotCardProps) {
-  const locale = useLocale();
   const tFilters = useTranslations("filters");
   const tBot = useTranslations("bot");
   const [copied, setCopied] = useState(false);
@@ -99,10 +99,8 @@ export function BotCard({ bot, index = 0 }: BotCardProps) {
       viewport={{ once: true, margin: "-20px" }}
       transition={{ duration: 0.35, delay: Math.min(index * 0.03, 0.3), ease: "easeOut" }}
     >
-      <a
-        href={`/${locale}/bot/${bot.slug}`}
-        target="_blank"
-        rel="noopener noreferrer"
+      <Link
+        href={`/bot/${bot.slug}`}
         className="block flex-1"
       >
         <div className="mb-3 flex items-start justify-between gap-2">
@@ -133,7 +131,7 @@ export function BotCard({ bot, index = 0 }: BotCardProps) {
         <p className="mb-4 line-clamp-3 text-sm leading-relaxed text-slate-600">
           {bot.description}
         </p>
-      </a>
+      </Link>
 
       <div className="mt-auto space-y-3 pt-3 border-t border-slate-100">
         {bot.integrations.length > 0 && (

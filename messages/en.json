@@ -10,7 +10,7 @@
     "title": "There's a Grok Bot for that.",
     "subtitle": "Discover the best Grok Bots for work, coding, research, and everyday tasks.",
     "searchPlaceholder": "Search bots...",
-    "statsBots": "200+ Verified Bots",
+    "statsBots": "{count}+ Verified Bots",
     "statsCategories": "7 Categories",
     "statsApi": "Agent API & Feed"
   },
@@ -92,7 +92,7 @@
     "botDescription": "{description}"
   },
   "ticker": {
-    "item1": "🔥 200+ Verified Grok Bots & Agent templates",
+    "item1": "🔥 {count}+ Verified Grok Bots & Agent templates",
     "item2": "⚡ Realtime Feed API: /api/v1/feed.json",
     "item3": "📡 LLM Protocol: /llms.txt",
     "item4": "✨ MIT Open Source on GitHub"

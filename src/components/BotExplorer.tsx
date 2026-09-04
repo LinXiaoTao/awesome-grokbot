@@ -12,7 +12,11 @@ import { BotGrid } from "./BotGrid";
 import { useTranslations } from "next-intl";
 import { RotateCcw } from "lucide-react";
 
-export function BotExplorer() {
+interface BotExplorerProps {
+  botCount: number;
+}
+
+export function BotExplorer({ botCount }: BotExplorerProps) {
   const t = useTranslations("common");
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState<Category>("all");
@@ -56,7 +60,7 @@ export function BotExplorer() {
 
   return (
     <>
-      <Hero>
+      <Hero botCount={botCount}>
         <SearchBar value={search} onChange={setSearch} />
         <div id="categories">
           <FilterBar
