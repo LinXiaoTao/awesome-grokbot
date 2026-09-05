@@ -89,7 +89,10 @@ export default async function BotDetailPage({ params }: Props) {
                 <div className="flex flex-wrap items-center gap-3">
                   <BotIcon
                     name={bot.name}
-                    iconColor={categoryStyle.icon}
+                    shape={bot.shape}
+                    color={bot.color}
+                    slug={bot.slug}
+                    id={bot.id}
                     size="lg"
                   />
                   <span

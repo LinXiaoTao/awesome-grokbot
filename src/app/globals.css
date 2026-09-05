@@ -69,3 +69,32 @@ summary:focus-visible {
 .scrollbar-none::-webkit-scrollbar {
   display: none;
 }
+
+.share-template-mark {
+  --fg: var(--share-coat-light, currentColor);
+  --bg: #ffffff;
+}
+
+.grok-bot-mark {
+  user-select: none;
+  display: block;
+}
+
+.grok-bot-mark__head {
+  fill: var(--fg);
+  paint-order: stroke fill;
+  stroke: var(--bg);
+  stroke-width: 2.5px;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  transition: transform 0.2s ease, fill 0.2s ease;
+}
+
+.marketplace-bot-mark--thick .grok-bot-mark__head {
+  stroke-width: 6px;
+}
+
+.grok-bot-mark__eye {
+  fill: var(--bg);
+}
+

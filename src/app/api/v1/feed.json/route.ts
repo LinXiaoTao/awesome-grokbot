@@ -15,7 +15,8 @@ export async function GET() {
     template_url: bot.xaiBotUrl || null,
     summary: bot.description,
     description: bot.longDescription || bot.description,
-    categories: [bot.category],
+    categories: bot.categories || [bot.category],
+    is_official: Boolean(bot.isOfficial),
     integrations: bot.integrations,
     installs: bot.installs,
     source: {

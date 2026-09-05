@@ -11,7 +11,7 @@
     "subtitle": "仕事、コーディング、リサーチ、日常タスクに最適なGrok Botを見つけよう。",
     "searchPlaceholder": "Botを検索...",
     "statsBots": "{count}+ Bot",
-    "statsCategories": "7 カテゴリ",
+    "statsCategories": "9 カテゴリ",
     "statsApi": "Agent API & Feed"
   },
   "filters": {
@@ -19,15 +19,17 @@
     "newest": "新着",
     "all": "すべて",
     "allIntegrations": "すべての連携",
-    "productivity": "生産性",
-    "coding": "コーディング",
-    "research": "リサーチ",
-    "social": "ソーシャル",
-    "finance": "ファイナンス",
-    "lifestyle": "ライフスタイル",
-    "enterprise": "エンタープライズ",
     "sortLabel": "並び順",
-    "name": "名前 (A-Z)"
+    "name": "名前 (A-Z)",
+    "from-grok-bot-team": "公式チーム製",
+    "sales": "セールス",
+    "marketing": "マーケティング",
+    "design": "デザイン",
+    "engineering": "エンジニアリング",
+    "personal": "パーソナル",
+    "recruiting-people": "採用・人事",
+    "operations": "オペレーション",
+    "product": "プロダクト"
   },
   "bot": {
     "installs": "{count} インストール",

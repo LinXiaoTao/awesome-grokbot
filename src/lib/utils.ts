@@ -27,7 +27,16 @@ export function filterBots(
   }
 
   if (options.category !== "all") {
-    result = result.filter((bot) => bot.category === options.category);
+    if (options.category === "from-grok-bot-team") {
+      result = result.filter(
+        (bot) =>
+          bot.isOfficial ||
+          bot.category === "from-grok-bot-team" ||
+          bot.categories?.includes("From Grok Bot Team"),
+      );
+    } else {
+      result = result.filter((bot) => bot.category === options.category);
+    }
   }
 
   if (options.integration !== "all") {

@@ -5,13 +5,15 @@ import { SITE_URL } from "@/lib/utils";
 export const dynamic = "force-static";
 
 const CATEGORIES = [
-  "productivity",
-  "coding",
-  "research",
-  "social",
-  "finance",
-  "lifestyle",
-  "enterprise",
+  "from-grok-bot-team",
+  "sales",
+  "marketing",
+  "design",
+  "engineering",
+  "personal",
+  "recruiting-people",
+  "operations",
+  "product",
 ] as const;
 
 export async function GET() {
@@ -22,14 +24,29 @@ export async function GET() {
 
   const categorySamples = CATEGORIES.map((category) => {
     const items = bots
-      .filter((b) => b.category === category)
+      .filter((b) =>
+        category === "from-grok-bot-team"
+          ? b.isOfficial ||
+            b.category === "from-grok-bot-team" ||
+            b.categories?.includes("From Grok Bot Team")
+          : b.category === category,
+      )
       .slice(0, 8)
       .map(
         (b) =>
           `  - [${b.name}](${SITE_URL}/en/bot/${b.slug}): ${b.description}`,
       )
       .join("\n");
-    return `### ${category} (${categoryCounts[category] ?? 0} bots)\n${items}`;
+    const count =
+      category === "from-grok-bot-team"
+        ? bots.filter(
+            (b) =>
+              b.isOfficial ||
+              b.category === "from-grok-bot-team" ||
+              b.categories?.includes("From Grok Bot Team"),
+          ).length
+        : (categoryCounts[category] ?? 0);
+    return `### ${category} (${count} bots)\n${items}`;
   }).join("\n\n");
 
   const fullIndex = bots
@@ -43,7 +60,7 @@ export async function GET() {
 > A curated directory of ${bots.length}+ production-ready Grok Bots, templates, and agent recipes for xAI's Grok ecosystem.
 
 ## About
-Awesome Grok Bot collects verified Grok Bots built for xAI's Grok ecosystem, covering coding, enterprise automation, finance, productivity, research, lifestyle, and social workflows.
+Awesome Grok Bot collects verified Grok Bots built for xAI's Grok ecosystem, covering engineering, product, design, marketing, sales, operations, recruiting & people, and personal workflows.
 
 ## Machine-Readable Endpoints
 - Sitemap: ${SITE_URL}/sitemap.xml

@@ -11,7 +11,7 @@
     "subtitle": "发现适用于工作、编程、研究和日常任务的最佳 Grok Bot。",
     "searchPlaceholder": "搜索 Bot...",
     "statsBots": "{count}+ 精选 Bot",
-    "statsCategories": "7 大分类",
+    "statsCategories": "9 个分类",
     "statsApi": "Agent 接口与订阅"
   },
   "filters": {
@@ -19,15 +19,17 @@
     "newest": "最新",
     "all": "全部",
     "allIntegrations": "全部集成",
-    "productivity": "效率",
-    "coding": "编程",
-    "research": "研究",
-    "social": "社交",
-    "finance": "金融",
-    "lifestyle": "生活",
-    "enterprise": "企业",
     "sortLabel": "排序",
-    "name": "名称 (A-Z)"
+    "name": "名称 (A-Z)",
+    "from-grok-bot-team": "官方出品",
+    "sales": "销售",
+    "marketing": "市场营销",
+    "design": "设计",
+    "engineering": "工程研发",
+    "personal": "个人生活",
+    "recruiting-people": "招聘与人事",
+    "operations": "企业运营",
+    "product": "产品管理"
   },
   "bot": {
     "installs": "{count} 次安装",

@@ -3,13 +3,15 @@
 import {
   ChevronDown,
   LayoutGrid,
-  Zap,
+  BadgeCheck,
+  TrendingUp,
+  Megaphone,
+  Palette,
   Code2,
-  Search,
-  Share2,
-  DollarSign,
   HeartHandshake,
+  Users,
   Building2,
+  Compass,
   ArrowUpDown,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -18,13 +20,15 @@ import { cn } from "@/lib/utils";
 
 const CATEGORIES: { key: Category; icon: React.ComponentType<{ className?: string }> }[] = [
   { key: "all", icon: LayoutGrid },
-  { key: "productivity", icon: Zap },
-  { key: "coding", icon: Code2 },
-  { key: "research", icon: Search },
-  { key: "social", icon: Share2 },
-  { key: "finance", icon: DollarSign },
-  { key: "lifestyle", icon: HeartHandshake },
-  { key: "enterprise", icon: Building2 },
+  { key: "from-grok-bot-team", icon: BadgeCheck },
+  { key: "sales", icon: TrendingUp },
+  { key: "marketing", icon: Megaphone },
+  { key: "design", icon: Palette },
+  { key: "engineering", icon: Code2 },
+  { key: "personal", icon: HeartHandshake },
+  { key: "recruiting-people", icon: Users },
+  { key: "operations", icon: Building2 },
+  { key: "product", icon: Compass },
 ];
 
 interface FilterBarProps {

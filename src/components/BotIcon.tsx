@@ -1,48 +1,77 @@
 import { cn } from "@/lib/utils";
+import type { BotColor, BotShape } from "@/types";
+import { resolveBotMark } from "@/lib/grok-bot-marks";
 
 interface BotIconProps {
   name: string;
-  iconColor: string;
-  size?: "sm" | "md" | "lg";
+  shape?: BotShape;
+  color?: BotColor;
+  slug?: string;
+  id?: string;
+  iconColor?: string;
+  size?: "sm" | "md" | "lg" | "xl";
+  thickStroke?: boolean;
   className?: string;
 }
 
-const sizeClasses = {
-  sm: "h-8 w-8 rounded-lg",
-  md: "h-10 w-10 rounded-xl",
-  lg: "h-16 w-16 rounded-2xl",
-};
-
-const iconSizes = {
-  sm: "h-4 w-4",
-  md: "h-5 w-5",
-  lg: "h-8 w-8",
+const PIXEL_SIZES: Record<"sm" | "md" | "lg" | "xl", number> = {
+  sm: 32,
+  md: 44,
+  lg: 72,
+  xl: 96,
 };
 
 export function BotIcon({
   name,
-  iconColor,
+  shape,
+  color,
+  slug,
+  id,
   size = "md",
+  thickStroke,
   className,
 }: BotIconProps) {
+  const { coat, geometry } = resolveBotMark({
+    shape,
+    color,
+    slug,
+    name,
+    id,
+  });
+
+  const px = PIXEL_SIZES[size];
+  const useThickStroke = thickStroke ?? (size === "lg" || size === "xl");
+
   return (
-    <div
+    <span
       className={cn(
-        "flex shrink-0 items-center justify-center text-white",
-        iconColor,
-        sizeClasses[size],
+        "share-template-mark inline-flex shrink-0 items-center justify-center transition-transform duration-200 group-hover:scale-105",
         className,
       )}
+      style={{
+        width: px,
+        height: px,
+        ["--share-coat-light" as string]: coat.light,
+        ["--share-coat-dark" as string]: coat.dark,
+      }}
       aria-label={`${name} icon`}
     >
       <svg
-        viewBox="0 0 24 24"
-        fill="currentColor"
-        className={cn(iconSizes[size], "text-white")}
         aria-hidden="true"
+        className={cn(
+          "grok-bot-mark marketplace-bot-mark",
+          useThickStroke && "marketplace-bot-mark--thick",
+        )}
+        style={{ width: px, height: px }}
+        viewBox="-15 -15 259 259"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <path d="M12 2C6.48 2 2 5.58 2 10c0 2.24 1.12 4.27 2.94 5.72L4 20l4.5-2.08c1.13.36 2.32.58 3.5.58 5.52 0 10-3.58 10-8s-4.48-8-10-8z" />
+        <g transform={geometry.transform || undefined}>
+          <path className="grok-bot-mark__head" d={geometry.head} />
+          <path className="grok-bot-mark__eye" d={geometry.leftEye} />
+          <path className="grok-bot-mark__eye" d={geometry.rightEye} />
+        </g>
       </svg>
-    </div>
+    </span>
   );
 }

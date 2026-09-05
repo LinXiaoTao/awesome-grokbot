@@ -8,7 +8,11 @@ export interface Bot {
   longDescription?: string;
   integrations: string[];
   installs: number;
-  category: string;
+  category: Category;
+  categories?: string[];
+  isOfficial?: boolean;
+  shape?: BotShape;
+  color?: BotColor;
   iconColor: string;
   createdAt: string;
   xPostUrl?: string;
@@ -17,13 +21,48 @@ export interface Bot {
 
 export type Category =
   | "all"
-  | "productivity"
-  | "coding"
-  | "research"
-  | "social"
-  | "finance"
-  | "lifestyle"
-  | "enterprise";
+  | "from-grok-bot-team"
+  | "sales"
+  | "marketing"
+  | "design"
+  | "engineering"
+  | "personal"
+  | "recruiting-people"
+  | "operations"
+  | "product";
+
+export type BotShape =
+  | "blob"
+  | "pebble"
+  | "bean"
+  | "egg"
+  | "squircle"
+  | "tablet"
+  | "capsule"
+  | "cylinder"
+  | "hex"
+  | "gem"
+  | "crystal"
+  | "wedge"
+  | "shield"
+  | "dome"
+  | "arch"
+  | "cloud"
+  | "teardrop"
+  | "leaf";
+
+export type BotColor =
+  | "black"
+  | "brown"
+  | "red"
+  | "orange"
+  | "yellow"
+  | "green"
+  | "cyan"
+  | "blue"
+  | "violet"
+  | "magenta"
+  | "gray";
 
 export type SortOption = "popular" | "newest" | "name";
 

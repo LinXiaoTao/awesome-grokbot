@@ -11,7 +11,7 @@
     "subtitle": "Entdecke die besten Grok Bots für Arbeit, Programmierung, Recherche und den Alltag.",
     "searchPlaceholder": "Bots suchen...",
     "statsBots": "{count}+ Bots",
-    "statsCategories": "7 Kategorien",
+    "statsCategories": "9 Kategorien",
     "statsApi": "Agent API & Feed"
   },
   "filters": {
@@ -19,15 +19,17 @@
     "newest": "Neueste",
     "all": "Alle",
     "allIntegrations": "Alle Integrationen",
-    "productivity": "Produktivität",
-    "coding": "Programmierung",
-    "research": "Recherche",
-    "social": "Social",
-    "finance": "Finanzen",
-    "lifestyle": "Lifestyle",
-    "enterprise": "Unternehmen",
     "sortLabel": "Sortieren nach",
-    "name": "Name (A-Z)"
+    "name": "Name (A-Z)",
+    "from-grok-bot-team": "Grok Bot-Team",
+    "sales": "Vertrieb",
+    "marketing": "Marketing",
+    "design": "Design",
+    "engineering": "Entwicklung",
+    "personal": "Persönlich",
+    "recruiting-people": "Recruiting & Personal",
+    "operations": "Betrieb",
+    "product": "Produkt"
   },
   "bot": {
     "installs": "{count} Installationen",

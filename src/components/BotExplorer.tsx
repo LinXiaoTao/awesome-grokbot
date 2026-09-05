@@ -28,15 +28,24 @@ export function BotExplorer({ botCount }: BotExplorerProps) {
   const categoryCounts = useMemo(() => {
     const counts: Record<Category, number> = {
       all: bots.length,
-      productivity: 0,
-      coding: 0,
-      research: 0,
-      social: 0,
-      finance: 0,
-      lifestyle: 0,
-      enterprise: 0,
+      "from-grok-bot-team": 0,
+      sales: 0,
+      marketing: 0,
+      design: 0,
+      engineering: 0,
+      personal: 0,
+      "recruiting-people": 0,
+      operations: 0,
+      product: 0,
     };
     bots.forEach((b) => {
+      if (
+        b.isOfficial ||
+        b.category === "from-grok-bot-team" ||
+        b.categories?.includes("From Grok Bot Team")
+      ) {
+        counts["from-grok-bot-team"]++;
+      }
       const cat = b.category as Category;
       if (counts[cat] !== undefined) {
         counts[cat]++;

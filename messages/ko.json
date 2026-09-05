@@ -11,7 +11,7 @@
     "subtitle": "업무, 코딩, 리서치, 일상 업무에 최적화된 최고의 Grok Bot을 찾아보세요.",
     "searchPlaceholder": "봇 검색...",
     "statsBots": "{count}+ 봇",
-    "statsCategories": "7개 카테고리",
+    "statsCategories": "9개 카테고리",
     "statsApi": "Agent API & Feed"
   },
   "filters": {
@@ -19,15 +19,17 @@
     "newest": "최신",
     "all": "전체",
     "allIntegrations": "모든 연동",
-    "productivity": "생산성",
-    "coding": "코딩",
-    "research": "리서치",
-    "social": "소셜",
-    "finance": "금융",
-    "lifestyle": "라이프스타일",
-    "enterprise": "엔터프라이즈",
     "sortLabel": "정렬",
-    "name": "이름 (A-Z)"
+    "name": "이름 (A-Z)",
+    "from-grok-bot-team": "공식 팀 제작",
+    "sales": "영업",
+    "marketing": "마케팅",
+    "design": "디자인",
+    "engineering": "엔지니어링",
+    "personal": "개인 생활",
+    "recruiting-people": "채용 및 인사",
+    "operations": "운영",
+    "product": "프로덕트"
   },
   "bot": {
     "installs": "설치 {count}회",

@@ -1,18 +1,20 @@
 import type { Bot } from "@/types";
-import { codingBots } from "./coding";
-import { enterpriseBots } from "./enterprise";
-import { financeBots } from "./finance";
-import { lifestyleBots } from "./lifestyle";
-import { productivityBots } from "./productivity";
-import { researchBots } from "./research";
-import { socialBots } from "./social";
+import { designBots } from "./design";
+import { engineeringBots } from "./engineering";
+import { marketingBots } from "./marketing";
+import { operationsBots } from "./operations";
+import { personalBots } from "./personal";
+import { productBots } from "./product";
+import { recruitingPeopleBots } from "./recruiting-people";
+import { salesBots } from "./sales";
 
 export const bots: Bot[] = [
-  ...codingBots,
-  ...enterpriseBots,
-  ...financeBots,
-  ...lifestyleBots,
-  ...productivityBots,
-  ...researchBots,
-  ...socialBots,
+  ...engineeringBots,
+  ...productBots,
+  ...designBots,
+  ...marketingBots,
+  ...salesBots,
+  ...operationsBots,
+  ...recruitingPeopleBots,
+  ...personalBots,
 ];

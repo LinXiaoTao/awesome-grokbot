@@ -3,13 +3,15 @@ import type { Bot, Category } from "@/types";
 import { getCategoryStyle } from "@/lib/category-styles";
 
 const CATEGORY_ORDER: Category[] = [
-  "productivity",
-  "coding",
-  "research",
-  "social",
-  "finance",
-  "lifestyle",
-  "enterprise",
+  "from-grok-bot-team",
+  "sales",
+  "marketing",
+  "design",
+  "engineering",
+  "personal",
+  "recruiting-people",
+  "operations",
+  "product",
 ];
 
 interface BotCrawlIndexProps {
@@ -20,7 +22,13 @@ export function BotCrawlIndex({ bots }: BotCrawlIndexProps) {
   const grouped = CATEGORY_ORDER.map((category) => ({
     category,
     items: bots
-      .filter((bot) => bot.category === category)
+      .filter((bot) =>
+        category === "from-grok-bot-team"
+          ? bot.isOfficial ||
+            bot.category === "from-grok-bot-team" ||
+            bot.categories?.includes("From Grok Bot Team")
+          : bot.category === category,
+      )
       .sort((a, b) => a.name.localeCompare(b.name)),
   })).filter((group) => group.items.length > 0);
 

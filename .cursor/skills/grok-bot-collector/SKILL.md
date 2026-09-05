@@ -117,15 +117,16 @@ For each qualifying post, extract:
 
 | Category | Signals |
 |----------|---------|
-| `coding` | code, developer, git, IDE, harness, deploy, API |
-| `productivity` | email, calendar, tasks, inbox, workflow, digest |
-| `research` | research, analyze, sources, data, trends |
-| `social` | posts, social media, X, LinkedIn, Threads, content |
-| `finance` | receipts, expenses, stocks, budget, invoices |
-| `lifestyle` | health, happiness, personal, habits, wellness |
-| `enterprise` | team, 1:1, leader, company, org, manager |
+| `engineering` | code, developer, git, IDE, harness, deploy, API, compiler, SQL |
+| `sales` | sales, prospect, outreach, deal, pipeline, crm, pitch deck, gtm |
+| `marketing` | marketing, social media, X, LinkedIn, copywriter, seo, audience, clips |
+| `design` | design, figma, ui, ux, critique, sprite, palette, art director |
+| `product` | product idea, competitor, user research, roadmap, founder, review |
+| `operations` | workflow, office ops, facilities, admin, notion, legal, audit, invoices, expense |
+| `recruiting-people` | recruit, talent, hiring, interview, ats, candidate, people |
+| `personal` | lifestyle, health, wellness, habits, daily newspaper, credit cards, home robots |
 
-Default to `productivity` when unclear.
+Default to `operations` when unclear.
 
 ### Bot entry defaults
 
@@ -140,6 +141,8 @@ Default to `productivity` when unclear.
   integrations: ["Gmail"],
   installs: 0,
   category: "<category>",
+  shape: "teardrop", // optional: blob, pebble, bean, egg, squircle, tablet, capsule, cylinder, hex, gem, crystal, wedge, shield, dome, arch, cloud, teardrop, leaf
+  color: "blue",     // optional: red, orange, yellow, green, cyan, blue, violet, magenta, gray, brown, black
   iconColor: "bg-blue-500",
   createdAt: "<today YYYY-MM-DD>",
   xPostUrl: "https://x.com/...",
