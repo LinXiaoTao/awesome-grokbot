@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Sparkles, Bot, Layers } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { ReactNode } from "react";
+import { ShareToXButton } from "./ShareToXButton";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -111,6 +112,7 @@ export function Hero({ children, botCount }: HeroProps) {
             <Layers className="h-3.5 w-3.5 text-emerald-500" />
             {t("statsCategories")}
           </span>
+          <ShareToXButton variant="hero" />
         </motion.div>
 
         <motion.div variants={itemVariants} className="space-y-6">

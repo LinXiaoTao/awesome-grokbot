@@ -100,5 +100,11 @@
     "item2": "⚡ API Feed en tiempo real: /api/v1/feed.json",
     "item3": "📡 Protocolo LLM: /llms.txt",
     "item4": "✨ Código abierto MIT en GitHub"
+  },
+  "share": {
+    "button": "Compartir en X",
+    "buttonShort": "Compartir",
+    "tooltip": "Compartir este directorio de Grok Bots en X",
+    "tweetTemplate": "🤖 ¡Descubrí {total} Grok Bots! Con {official} plantillas oficiales de xAI en {categories} categorías de recursos comunitarios curados.\n\n#Grok #xAI #GrokBot"
   }
 }

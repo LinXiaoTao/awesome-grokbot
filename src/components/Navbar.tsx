@@ -15,6 +15,7 @@ import {
   JikeIcon,
 } from "./SocialIcons";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { ShareToXButton } from "./ShareToXButton";
 
 const SOCIAL_LINKS = [
   { href: AUTHOR.x, icon: XIcon, label: "X (Twitter)" },
@@ -72,6 +73,8 @@ export function Navbar() {
               </a>
             ))}
           </div>
+
+          <ShareToXButton />
 
           <a
             href={`${AUTHOR.githubRepo}/issues/new?template=submit-bot.yml`}
@@ -131,6 +134,11 @@ export function Navbar() {
               </a>
             ))}
           </div>
+          <ShareToXButton
+            variant="hero"
+            className="w-full justify-center py-2"
+            onClick={() => setMobileOpen(false)}
+          />
           <a
             href={`${AUTHOR.githubRepo}/issues/new?template=submit-bot.yml`}
             target="_blank"

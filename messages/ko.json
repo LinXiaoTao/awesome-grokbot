@@ -100,5 +100,11 @@
     "item2": "⚡ 실시간 Feed API: /api/v1/feed.json",
     "item3": "📡 LLM 프로토콜: /llms.txt",
     "item4": "✨ GitHub MIT 오픈소스"
+  },
+  "share": {
+    "button": "X에 공유",
+    "buttonShort": "공유",
+    "tooltip": "X에서 Grok Bot 디렉토리 공유",
+    "tweetTemplate": "🤖 {total}개의 Grok Bot 발견! {official}개의 xAI 공식 템플릿과 {categories}개 카테고리의 엄선된 커뮤니티 리소스.\n\n#Grok #xAI #GrokBot"
   }
 }

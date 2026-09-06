@@ -100,5 +100,11 @@
     "item2": "⚡ 实时数据接口: /api/v1/feed.json",
     "item3": "📡 AI Agent 协议: /llms.txt",
     "item4": "✨ GitHub MIT 开源"
+  },
+  "share": {
+    "button": "分享到 X",
+    "buttonShort": "分享",
+    "tooltip": "在 X 上分享本站 Grok Bot 目录",
+    "tweetTemplate": "🤖 发现 {total} 款 Grok Bot！涵盖 {official} 款 xAI 官方模板与 {categories} 个分类的精选社区资源。\n\n#Grok #xAI #GrokBot"
   }
 }

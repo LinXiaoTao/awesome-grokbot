@@ -100,5 +100,11 @@
     "item2": "⚡ リアルタイムFeed API: /api/v1/feed.json",
     "item3": "📡 LLMプロトコル: /llms.txt",
     "item4": "✨ GitHub MITオープンソース"
+  },
+  "share": {
+    "button": "Xでシェア",
+    "buttonShort": "シェア",
+    "tooltip": "XでGrok Botディレクトリをシェア",
+    "tweetTemplate": "🤖 {total}個のGrok Botを発見！{official}個のxAI公式テンプレートと{categories}カテゴリの厳選コミュニティリソース。\n\n#Grok #xAI #GrokBot"
   }
 }

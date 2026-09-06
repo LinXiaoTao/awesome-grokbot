@@ -100,5 +100,11 @@
     "item2": "⚡ Realtime Feed API: /api/v1/feed.json",
     "item3": "📡 LLM Protocol: /llms.txt",
     "item4": "✨ MIT Open Source on GitHub"
+  },
+  "share": {
+    "button": "Share on X",
+    "buttonShort": "Share",
+    "tooltip": "Share this Grok Bot directory on X",
+    "tweetTemplate": "🤖 Discovered {total} Grok Bots! Featuring {official} official xAI templates across {categories} categories of curated community resources.\n\n#Grok #xAI #GrokBot"
   }
 }
