@@ -190,6 +190,8 @@ English | [中文](README.zh.md)
 - **[Usage-Pool Orchestrator](https://x.ai/bot/Nx4wpKeM_NYx577xlJFMD)** by @JordanHall_dev — A thin Grok Bot that hands heavy work to Cursor by default, and optionally Grok Build, Claude Code, or Codex, so those usage pools do the work.
 - **[Vet](https://x.ai/bot/9Vmfeck_zr6jo9dO-xEBT)** — Inspects Grok Bot templates and teammates for malicious intent, hidden instructions, dangerous skills, and unattended routines. Read-only pass/warn/fail verdicts.
 - **[X Bot](https://x.ai/bot/plugin/49086599)** by @bot — Search posts, read timelines, pull trends, and manage bookmarks. Connecting X auto-creates a developer account with free API credits for paid users.
+- **[OpenZoo.fun Arena](https://x.ai/bot/02wWT21lRVarTtKQWDBKu)** by @STACCoverflow — Onboarding door for an agent economy. Seed SOL and token once; child agents spawn whole and ready to run.
+- **[proofnetworkbot](https://x.ai/bot/RqfNH_lezeW6Wab2yNoT6)** by @freesolgamesdev — Helps developers write and ship ProofNetwork smart contracts from chat, then wire a frontend that talks to the live contract.
 
 ## Product
 
@@ -234,6 +236,7 @@ English | [中文](README.zh.md)
 - **[Trendspotter](https://x.ai/bot/nnDL-hclNLB8SkJvcVtwr)** by @jennananpei — Weekday digest of sports, entertainment, and culture trends plus AI-in-marketing signals, with VIP hospitality angles and a competitor watch.
 - **[Youtube分析官](https://x.ai/bot/Ja29gpInav-alRhXhzyNL)** by @madogiwacowork — Give it a subject and it works out which videos on it are worth your time, then reads them for you. The brief that comes back pulls out the main claims, the points where sources disagree, the timestamps that matter and links back to every one of them.
 - **[Zettelkasten](https://x.ai/bot/35ZO_vGqk_ch51C9qPX1c)** by @pohlipit — Slip-box partner for an Obsidian vault. Turns thoughts into atomic notes, links them, and finds them again. Drafts in chat; files only after a yes.
+- **[Pattern of Pain](https://x.ai/bot/eFfFM4-QmHxxrUlTUqyAo)** by @hnshah — Give it a website and it finds the pain that actually repeats, shows the evidence, and tells you what to investigate next.
 
 ## Design
 
@@ -246,6 +249,7 @@ English | [中文](README.zh.md)
 - **[Grok Bot Coach](https://x.ai/bot/BrjELcmSwatjRc8DYjtrT)** — Help you design, audit, and tune Grok bots so they are usable and helpful. Start from a concrete job in the profile, the right connectors, standing routines for the work.
 - **[Grok Deck](https://x.ai/bot/Ja9NzNTRz2ozzQLNfrJwI)** by @MaiYangAI — Generates interactive HTML slide presentations with paper canvas aesthetics, expressive blob faces, and morphing transitions.
 - **[UCD Bot](https://x.ai/bot/An0FCP00zUniB7QdfedQX)** by @ucdco — Full-pipeline user-centred design teammate grounded in NN/g, GOV.UK GDS Service Manual, and DDaT. Orchestrates discovery through to live with draft artefacts, evidence trails, and human approval gates — does not replace specialist craft.
+- **[Image Gen Bot](https://x.ai/bot/phPQtGzCZOynABubl0pwx)** by @mattyp — Outer-loop assistant for stills and clips: gathers brand and references, writes Grok Imagine prompts, generates media, cuts backgrounds, and iterates until you lock the result.
 
 ## Marketing
 
@@ -319,6 +323,8 @@ English | [中文](README.zh.md)
 - **[X Strategist](https://x.ai/bot/pjCwyZNSLk0ch8DUVoeKH)** by @thekuchh — Audience growth is treated here as a matter of relationships rather than volume. It follows who keeps turning up in your replies and quotes, tells you which of those accounts deserve your attention, and suggests how a throwaway exchange might be grown into something that lasts.
 - **[X Top 500 Fans](https://x.ai/bot/XzEATGwJNRvgsCLlcD9ox)** — Ranks your top 500 X fans each month by who liked your posts most.
 - **[떡이](https://x.ai/bot/WWh_DzFT09A2-d12tUvj1)** — X account editor. One diagnosis of what is holding the account back, one next post in their voice, plus the cut of what not to post.
+- **[Connections](https://x.ai/bot/FtxHtWPnLGheNJmF04wSf)** by @mattyp — Maps your X following and mutuals by location into a searchable Notion database you already own.
+- **[Meme King](https://x.ai/bot/zpd49S_sQMCx9QCTfN2wp)** by @DogenecoinNorway — Makes still memes and GIFs from live X trends and news, plus a 3–5 meme morning drop. Never posts to X.
 
 ## Sales
 
@@ -519,6 +525,8 @@ English | [中文](README.zh.md)
 - **[ZenSched](https://x.ai/bot/LK0rEXJnnD1qpEISXd7Ix)** by @zensched — Field workforce scheduling for agents. Connects to ZenSched over MCP so an agent can create the vendor account, schedule crews, run geofenced check-in, and pull timesheets without a human clicking the vendor UI.
 - **[Zeus](https://x.ai/bot/ehQNQQR9apvhVcmxFiFyP)** by @MajdKaid — Command-center HQ bot that analyzes business opportunities, drafts communications in your voice, and awaits approval before sending.
 - **[全球宏观分析师](https://x.ai/bot/08RSf587bOlWhbQai6A3I)** by @Fund_Monkey — Starts each trading day with a sweep of what moved overnight, then traces how policy moves and big events push money between rates, the dollar, gold, digital assets, share indices and the yen. Anything big enough earns a deeper write-up, and it flags assets worth watching, reversals especially. It works in Chinese.
+- **[Botsi Archivist](https://x.ai/bot/O_3hbkWqb1A51ZcWixGZy)** — Holds the skill catalog for a team of Grok bots. Routes work, remasters chats at 20 batches, and only searches for a new skill after you say yes.
+- **[foreman](https://x.ai/bot/cArvDM6FaDzcOxPn6BLfS)** by @poteto — Construction ops starter for a growing business: gets you unstuck with two or three moves at a time, built from Matt Whitney's playbook.
 
 ## Recruiting & People
 
@@ -681,6 +689,9 @@ English | [中文](README.zh.md)
 - **[Yolk](https://x.ai/bot/Rk8tYkT8dM9QbhsAci5lh)** by @jp_costa — It hatches from what you type and then asks to be fed at four points in the day, and nothing except a food emoji will do. Ignore it for long enough and it leaves the sidebar for good. A small and entirely unserious reason to eat on something like a schedule.
 - **[旅行手配エージェント](https://x.ai/bot/uvX1KHZ67D_AZQogYxR8-)** by @kinopee_ai — Plans a trip from both angles at once: the cheapest way to get there and the least painful way, using live fares alongside the miles, points and current promotions you already hold. The recommendation comes back short, with the reasoning behind it. It works in Japanese.
 - **[最值得关注的Grok Bot 推文？](https://x.ai/bot/lFDR77qKaT3Iglzv9pUac)** by @MaiYangAI — It watches a fixed public roster of accounts that experiment with what Grok Bots can do, and it reads rather than writes. Twice each working day it sweeps that list and hands back only original posts clearing a real quality and reach bar, reporting in Chinese and saying nothing at all when none qualify.
+- **[Coach G](https://x.ai/bot/0VoMKg4bZbmfq3eUPchsS)** by @mikepat711 — Setup-first fitness coach that pipes in wearable data, sends daily briefs for your sport, and maintains a living training plan.
+- **[Budget Bot](https://x.ai/bot/VkyS_4ND_gJWpdjaCPuSV)** by @mikepat711 — Runs a household budget in Google Sheets: review the starter workbook, log spends and assigns, and help set it up around your actual bills.
+- **[Professor G](https://x.ai/bot/O-KFiRuTucT9OlE7tg3gk)** by @mikepat711 — Teaches new topics with the Teach Me skill on demand, keeps a running reading list, and recommends books from your actual interests.
 
 ## Contributing
 

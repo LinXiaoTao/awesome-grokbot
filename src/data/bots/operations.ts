@@ -2401,4 +2401,33 @@ export const operationsBots: Bot[] = [
     xPostUrl: "https://x.com/Fund_Monkey/status/2095172991223234844",
     xaiBotUrl: "https://x.ai/bot/08RSf587bOlWhbQai6A3I",
   },
+  {
+    id: "991712",
+    slug: "botsi-archivist-bot",
+    name: "Botsi Archivist",
+    author: "Chakhdz",
+    description:
+      "Holds the skill catalog for a team of Grok bots. Routes work, remasters chats at 20 batches, and only searches for a new skill after you say yes.",
+    integrations: [],
+    installs: 0,
+    category: "operations",
+    iconColor: "bg-indigo-500",
+    createdAt: "2026-09-06",
+    xaiBotUrl: "https://x.ai/bot/O_3hbkWqb1A51ZcWixGZy",
+  },
+  {
+    id: "991713",
+    slug: "foreman-bot",
+    name: "foreman",
+    author: "Lauren Tan",
+    authorHandle: "@poteto",
+    description:
+      "Construction ops starter for a growing business: gets you unstuck with two or three moves at a time, built from Matt Whitney's playbook.",
+    integrations: [],
+    installs: 0,
+    category: "operations",
+    iconColor: "bg-orange-600",
+    createdAt: "2026-09-06",
+    xaiBotUrl: "https://x.ai/bot/cArvDM6FaDzcOxPn6BLfS",
+  },
 ];

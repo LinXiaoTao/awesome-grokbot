@@ -156,4 +156,19 @@ export const designBots: Bot[] = [
     xPostUrl: "https://x.com/ucdco/status/2096373244546765130",
     xaiBotUrl: "https://x.ai/bot/An0FCP00zUniB7QdfedQX",
   },
+  {
+    id: "991709",
+    slug: "image-gen-bot",
+    name: "Image Gen Bot",
+    author: "Matt Palmer",
+    authorHandle: "@mattyp",
+    description:
+      "Outer-loop assistant for stills and clips: gathers brand and references, writes Grok Imagine prompts, generates media, cuts backgrounds, and iterates until you lock the result.",
+    integrations: [],
+    installs: 0,
+    category: "design",
+    iconColor: "bg-fuchsia-500",
+    createdAt: "2026-09-06",
+    xaiBotUrl: "https://x.ai/bot/phPQtGzCZOynABubl0pwx",
+  },
 ];

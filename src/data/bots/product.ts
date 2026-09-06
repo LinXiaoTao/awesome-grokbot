@@ -649,4 +649,19 @@ export const productBots: Bot[] = [
     xPostUrl: "https://x.com/pohlipit/status/2095002640946253831",
     xaiBotUrl: "https://x.ai/bot/35ZO_vGqk_ch51C9qPX1c",
   },
+  {
+    id: "991711",
+    slug: "pattern-of-pain-bot",
+    name: "Pattern of Pain",
+    author: "Hiten Shah",
+    authorHandle: "@hnshah",
+    description:
+      "Give it a website and it finds the pain that actually repeats, shows the evidence, and tells you what to investigate next.",
+    integrations: [],
+    installs: 0,
+    category: "product",
+    iconColor: "bg-rose-500",
+    createdAt: "2026-09-06",
+    xaiBotUrl: "https://x.ai/bot/eFfFM4-QmHxxrUlTUqyAo",
+  },
 ];
