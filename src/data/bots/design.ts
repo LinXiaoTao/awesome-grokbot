@@ -138,4 +138,22 @@ export const designBots: Bot[] = [
     xPostUrl: "https://x.com/MaiYangAI/status/2094305288266666452",
     xaiBotUrl: "https://x.ai/bot/Ja9NzNTRz2ozzQLNfrJwI",
   },
+  {
+    id: "991702",
+    slug: "ucd-bot",
+    name: "UCD Bot",
+    author: "UCDOps",
+    authorHandle: "@ucdco",
+    description:
+      "Full-pipeline user-centred design teammate grounded in NN/g, GOV.UK GDS Service Manual, and DDaT. Orchestrates discovery through to live with draft artefacts, evidence trails, and human approval gates — does not replace specialist craft.",
+    integrations: [],
+    installs: 0,
+    category: "design",
+    shape: "hex",
+    color: "cyan",
+    iconColor: "bg-sky-500",
+    createdAt: "2026-09-05",
+    xPostUrl: "https://x.com/ucdco/status/2096373244546765130",
+    xaiBotUrl: "https://x.ai/bot/An0FCP00zUniB7QdfedQX",
+  },
 ];
