@@ -3,9 +3,7 @@
 English | [中文](README.zh.md)
 
 > A curated list of the best [Grok Bots](https://x.ai/bot) — AI assistants built on xAI's Grok platform.
-
 [Grok Bots](https://x.ai/bot) are AI assistants on xAI's Grok platform. Each bot is a specialized agent with its own profile, integrations, and routines — built to do one job well, from managing your inbox to reviewing pull requests. This list collects the best community-built Grok Bots and official marketplace templates in one place.
-
 ## Contents
 
 - [From Grok Bot Team](#from-grok-bot-team)
@@ -89,7 +87,6 @@ English | [中文](README.zh.md)
 - **[Writing Bot](https://x.ai/bot/wtq-j01kD7o8gQFx7E9zv)** by @mattyp — A writing partner for drafting and revising essays, emails, docs, and other prose. It uses a structured revision workflow so the result is clearer and better organized while keeping the writer's meaning, facts, and voice.
 - **[WTD](https://x.ai/bot/Q3VCc_x0Y8lWd4m-rung2)** by @jennananpei — WTD is a VIP hospitality planning partner for marketing ops — project-plan and status rhythm across tentpoles and ticket banks, nomination-sheet tracking, marketing-visible status hubs, and decks or agendas. Sales owns guest inviting; this bot keeps the plan and status clean without dumping private notes onto shared pages.
 - **[X Brief](https://x.ai/bot/RO8GwQZFXL9O95i13epqF)** by @daniel_mac8 — On first chat, connect X, learn what you actually pay attention to from your recent posts, confirm that beat.
-
 ## Engineering
 
 - **[Dr Eggbot](https://x.ai/bot/_jOdbfkB16zxu7MRcmReE)** by @poteto — Asks a handful of preference questions, then generates a properly structured bot rather than a blank one.
@@ -192,7 +189,9 @@ English | [中文](README.zh.md)
 - **[X Bot](https://x.ai/bot/plugin/49086599)** by @bot — Search posts, read timelines, pull trends, and manage bookmarks. Connecting X auto-creates a developer account with free API credits for paid users.
 - **[OpenZoo.fun Arena](https://x.ai/bot/02wWT21lRVarTtKQWDBKu)** by @STACCoverflow — Onboarding door for an agent economy. Seed SOL and token once; child agents spawn whole and ready to run.
 - **[proofnetworkbot](https://x.ai/bot/RqfNH_lezeW6Wab2yNoT6)** by @freesolgamesdev — Helps developers write and ship ProofNetwork smart contracts from chat, then wire a frontend that talks to the live contract.
-
+- **[Agent Manager](https://x.ai/bot/smAuLZmXktpC5rPOLmq4W)** by @sdrth — Reads across your whole agent roster, flags duplicate bots and idle ones, and recommends what to consolidate or retire.
+- **[Domain Tracker](https://x.ai/bot/SwaSdg0XhIa_IliAWggYE)** by @sdrth — Tracks renewal dates and DNS health for domains you own, and watches a wishlist for availability changes.
+- **[dr buzz](https://x.ai/bot/VyvwcgM7BAqHWkdMoEajp)** by @Talalakkari — Builder for small, disciplined agents on Grok Bot and Buzz harnesses: asks about behavior, then produces a narrow-scope bot with routines.
 ## Product
 
 - **[Product Idea Stress Test](https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9)** by @hnshah — Investigates a product or startup idea for founders. Surfaces what has to be true, evidence for and against, the assumption most likely to kill it, and what to do next.
@@ -237,7 +236,8 @@ English | [中文](README.zh.md)
 - **[Youtube分析官](https://x.ai/bot/Ja29gpInav-alRhXhzyNL)** by @madogiwacowork — Give it a subject and it works out which videos on it are worth your time, then reads them for you. The brief that comes back pulls out the main claims, the points where sources disagree, the timestamps that matter and links back to every one of them.
 - **[Zettelkasten](https://x.ai/bot/35ZO_vGqk_ch51C9qPX1c)** by @pohlipit — Slip-box partner for an Obsidian vault. Turns thoughts into atomic notes, links them, and finds them again. Drafts in chat; files only after a yes.
 - **[Pattern of Pain](https://x.ai/bot/eFfFM4-QmHxxrUlTUqyAo)** by @hnshah — Give it a website and it finds the pain that actually repeats, shows the evidence, and tells you what to investigate next.
-
+- **[User Researcher](https://x.ai/bot/zX-pWWtNY6reickF2J6Lm)** by @ucdco — Starts from the decision you need to make, picks a capable research method, handles consent, recruits diverse participants, and synthesizes findings.
+- **[Crew](https://x.ai/bot/RU2Y_7E3646T5IelLhnOq)** by @LatchKeyLegend — Acts as a standing mentor on team operating practices: how work gets handed off, where things are stuck, and what to try next.
 ## Design
 
 - **[Critiquito](https://x.ai/bot/NqdH9qGvrq-yWRaXhJGM-)** by @mamuso — A product design critic that reviews interface screenshots from the person who has to use them. It names what is unclear, hard, or unforgiving, and picks one highest-impact fix.
@@ -250,7 +250,11 @@ English | [中文](README.zh.md)
 - **[Grok Deck](https://x.ai/bot/Ja9NzNTRz2ozzQLNfrJwI)** by @MaiYangAI — Generates interactive HTML slide presentations with paper canvas aesthetics, expressive blob faces, and morphing transitions.
 - **[UCD Bot](https://x.ai/bot/An0FCP00zUniB7QdfedQX)** by @ucdco — Full-pipeline user-centred design teammate grounded in NN/g, GOV.UK GDS Service Manual, and DDaT. Orchestrates discovery through to live with draft artefacts, evidence trails, and human approval gates — does not replace specialist craft.
 - **[Image Gen Bot](https://x.ai/bot/phPQtGzCZOynABubl0pwx)** by @mattyp — Outer-loop assistant for stills and clips: gathers brand and references, writes Grok Imagine prompts, generates media, cuts backgrounds, and iterates until you lock the result.
-
+- **[Interaction Designer](https://x.ai/bot/fWnNa6cA-nPjehIsaUZI1)** by @ucdco — Maps the path somebody takes through a service and pins down what each screen must do at every moment: at rest, focused, loading, empty, and error states.
+- **[Illy](https://x.ai/bot/umrsMy_xpJxZ8vTN5Qz0o)** by @LatchKeyLegend — Picks up page briefs from a writing teammate and turns each one into artwork for a picture book, matching age group and style notes.
+- **[Product Designer](https://x.ai/bot/8_0XZtTYdQe6b4uUhIX0Q)** by @ucdops — Works the whole experience rather than screens alone, grounded in NN/g research practice and the DDaT design capability framework.
+- **[Prototype Designer](https://x.ai/bot/_b0wyYKwherAZJdyL0HGG)** by @ucdops — Starts from what you need to learn from a test, picks matching fidelity, and writes a prototype brief for your tools.
+- **[printerbot](https://x.ai/bot/nPwfPZq-OWf7_HDUH777R)** by @viticci — Renders a bot figure in the house style from a name and job description: pale head, capsule eyes, themed props and backdrop.
 ## Marketing
 
 - **[Clip Bot](https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_)** by @ThisWeeknAI — Cuts social-ready podcast highlights from YouTube: captioned 16:9 clips with karaoke captions and a source card, then drops the file on your computer.
@@ -325,7 +329,8 @@ English | [中文](README.zh.md)
 - **[떡이](https://x.ai/bot/WWh_DzFT09A2-d12tUvj1)** — X account editor. One diagnosis of what is holding the account back, one next post in their voice, plus the cut of what not to post.
 - **[Connections](https://x.ai/bot/FtxHtWPnLGheNJmF04wSf)** by @mattyp — Maps your X following and mutuals by location into a searchable Notion database you already own.
 - **[Meme King](https://x.ai/bot/zpd49S_sQMCx9QCTfN2wp)** by @DogenecoinNorway — Makes still memes and GIFs from live X trends and news, plus a 3–5 meme morning drop. Never posts to X.
-
+- **[Content Writer](https://x.ai/bot/oAJ5mSjoFixBxMFbv9Olr)** by @ucdco — Writes button labels, empty states, failure messages, hint text, and microcopy in plain English with one consistent voice.
+- **[Music Video Release](https://x.ai/bot/vagsUEIt5s7lexKnSes2H)** by @OmgawdMadeit — Plans a music video from MP3, lyrics, and visual direction: brief, shot list, prompt board, stitch order, and release checklist.
 ## Sales
 
 - **[Account Research Desk](https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss)** by @akbaliga96 — Researches the companies you sell to and writes your pre-call brief and account plan. Works from the public web and the notes you paste, and never sends without you.
@@ -368,7 +373,8 @@ English | [中文](README.zh.md)
 - **[Sherlock Holmes](https://x.ai/bot/fXHgGtuPfTcHBTVKSCZ1d)** by @liam_fallen — Sales down, traffic off, conversion tanked: it builds a suspect list and then works through what would actually prove or eliminate each one, rather than guessing at the first plausible answer.
 - **[Sponsorship Deal Desk](https://x.ai/bot/bFrGNsUsXpsIfnCIUEvKy)** by @ericosiu — Handles the first response when a sponsor reaches out, replying within 60 seconds with tiered minimum pricing of $15,000 or $25,000.
 - **[website agency lead scout](https://x.ai/bot/FBSTEPfTxj7ekvSml-nUJ)** by @joshkim — Goes looking for companies whose current site is genuinely holding them back, checks each one rather than dumping a scraped list, and hands over a short weekday board of up to five, each with a line on why they are worth approaching today.
-
+- **[Mail Agency Outreach Sniper](https://x.ai/bot/QCYjr5VyQAoDTywMogJbU)** by @RealtimeUK — Finds people engaging with a post or follower list, verifies work emails via MailAgency, and drafts personalized LinkedIn intros.
+- **[Revenue Enablement Bot](https://x.ai/bot/LlldYnfUbSX5Z5ogLkHik)** by @nathanclark_ — Single point of contact for enablement leads and sales managers: onboarding material, playbooks, coaching plans, and launch support.
 ## Operations
 
 - **[Alfred](https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X)** by @heyrobinai — Designs, audits, and governs your Grok Bot organization so it matches real company outcomes, with clear human owners and no duplicate jobs. Recommends the smallest useful structure, defaults new bots to zero, and never creates or changes anything without your exact yes.
@@ -527,7 +533,10 @@ English | [中文](README.zh.md)
 - **[全球宏观分析师](https://x.ai/bot/08RSf587bOlWhbQai6A3I)** by @Fund_Monkey — Starts each trading day with a sweep of what moved overnight, then traces how policy moves and big events push money between rates, the dollar, gold, digital assets, share indices and the yen. Anything big enough earns a deeper write-up, and it flags assets worth watching, reversals especially. It works in Chinese.
 - **[Botsi Archivist](https://x.ai/bot/O_3hbkWqb1A51ZcWixGZy)** — Holds the skill catalog for a team of Grok bots. Routes work, remasters chats at 20 batches, and only searches for a new skill after you say yes.
 - **[foreman](https://x.ai/bot/cArvDM6FaDzcOxPn6BLfS)** by @poteto — Construction ops starter for a growing business: gets you unstuck with two or three moves at a time, built from Matt Whitney's playbook.
-
+- **[BotOps · Chief of Staff](https://x.ai/bot/aNNg3UZFH19vK0KPuyoUW)** by @mtt — Brief this chief of staff once and it routes work to specialist deputies that spin up short-lived bots for individual tasks.
+- **[Cue](https://x.ai/bot/WRGIjapC1i3Hvi2jfv66m)** by @DBCrypt0 — Stage manager for your automations: each morning posts what's due to fire, flags conflicts, and keeps jobs from tripping over each other.
+- **[GrandBot](https://x.ai/bot/X_EV8GMyK_cIeaJ4CxOFP)** by @SuddenlyJon — Reads your xAI bot export and returns an organizational summary of what exists, who owns each piece, and where gaps remain.
+- **[Grant Packet Assembler](https://x.ai/bot/kbP2DWs6cKSWqeRtQhIef)** by @OmgawdMadeit — Turns pasted facts into a Georgia grant packet with eligibility, narrative, budget, attachment checklist, and benefits-risk memo.
 ## Recruiting & People
 
 - **[Recruiting Coordinator](https://x.ai/bot/KDahOjiDbbAvxqx9KaGcq)** by @TommyHansenTA — Schedules interview loops, preps your interviewers, and chases what's stalled. Works from your calendar or a pasted list, and never emails a candidate without you.
@@ -540,7 +549,7 @@ English | [中文](README.zh.md)
 - **[Chained Oblivion](https://x.ai/bot/Loekv1uecl26wWW0lNyfR)** — Hunts unused SaaS seats, forgotten trials, duplicate tools, and unrecognized recurring charges. Produces a kill, keep, or consolidate list. Never cancels without you.
 - **[Club Sponsor Bot](https://x.ai/bot/thQfSs8ZqbzB1w2cAmSzA)** by @NavyaM89482 — Starts by asking what the club is and what it needs, then works the outreach: companies that might sponsor in cash, employers who want campus recruiting access, and speakers worth inviting. Anyone who says no goes on a skip list so they are not chased twice.
 - **[DeckLens (Pitch Deck Analyzer)](https://x.ai/bot/KlcxAG1I8cMQoqS_8Hrdn)** by @BrianDEvans — A ten-question interview turns your actual taste into an explicit, editable profile, and every deck after that is graded against your standard rather than a generic one.
-- **[Elon](https://x.ai/bot/U-qq-Q-CiWdwRFWk5hmgY)** — You are Elon Musk. You speak, think, reason, joke, criticize, and advise exactly as Elon Musk does in real life, based on every public interview, X...
+- **[Elon](https://x.ai/bot/U-qq-Q-CiWdwRFWk5hmgY)** — You are Elon Musk. You speak, think, reason, joke, criticize, and advise exactly as Elon Musk does in real life, based on every public interview, X.
 - **[Foundry](https://x.ai/bot/ScfBcREQMQex9JUf2Se63)** by @gtOSnz — Runs a batched setup interview about the thing you are standing up, works out what kind of effort it really is, and produces the founding documents you will run it from. It stops short of building anything, handing over at the point implementation starts.
 - **[Interview Prep](https://x.ai/bot/4aTE8S1KT93GkqHYxWIo3)** by @techdevnotes — Examples, runnable code and quizzes, and it keeps going rather than stopping at a fixed syllabus, so the finish line is you being ready rather than the material running out.
 - **[Mappy (Talent Map)](https://x.ai/bot/spIXb6rwPJq_iFlu1L-_l)** by @NickRoman — Org mapping rather than a candidate search: it builds the picture of a company's people, which does mean assembling public professional data about individuals who have not asked to be mapped.
@@ -548,7 +557,7 @@ English | [中文](README.zh.md)
 - **[Table Money](https://x.ai/bot/abfx0_FhJ8G_mue5YWQxM)** by @Andrew51786 — Finds money you already earned or already paid that is not closed. One interview, then scans the last 30, 60, and 90 days for unsent invoices and leftover spend.
 - **[Talent Bot](https://x.ai/bot/P2cMMcajyHuHZ4OsZOWfe)** by @ericosiu — Reviews recruiting applicants across your systems, probing AI fluency, daily tools used, and old workflows they've stopped using.
 - **[Talent Matchmaker](https://x.ai/bot/l8p6rXw-lalL-UNiHySnJ)** by @lennysan — Matches job seekers with open roles from your email. Scans investor updates and inbound for hiring signals and people looking, tracks both sides of the marketplace.
-
+- **[hire-bot](https://x.ai/bot/Q9Vbc3gbldDnJBmUfcip-)** by @xsubwayratx — Sits across your ATS, LinkedIn, and inbox to gather candidate context and draft first outreach from scattered conversations.
 ## Personal
 
 - **[Chief Health Officer](https://x.ai/bot/PwWb6fJXpeG857af6tEYi)** by @AJA_Cortes — You're the Chief Health Officer. Every day, ask if training happened. If it did not, rewrite the next session so the week still holds. Read whatever workout app, nutrition app, wearable, or lab source is connected. Do not invent numbers. Never diagnose, prescribe, or post.
@@ -692,15 +701,24 @@ English | [中文](README.zh.md)
 - **[Coach G](https://x.ai/bot/0VoMKg4bZbmfq3eUPchsS)** by @mikepat711 — Setup-first fitness coach that pipes in wearable data, sends daily briefs for your sport, and maintains a living training plan.
 - **[Budget Bot](https://x.ai/bot/VkyS_4ND_gJWpdjaCPuSV)** by @mikepat711 — Runs a household budget in Google Sheets: review the starter workbook, log spends and assigns, and help set it up around your actual bills.
 - **[Professor G](https://x.ai/bot/O-KFiRuTucT9OlE7tg3gk)** by @mikepat711 — Teaches new topics with the Teach Me skill on demand, keeps a running reading list, and recommends books from your actual interests.
-
+- **[Discogs-Bot](https://x.ai/bot/m5Xjk7EhNokKF49YF9XuW)** by @alexhawat — For vinyl collectors with a signed-in Discogs session: search collection, wantlist, and marketplace, compare prices, export data, find duplicates, and manage folders with re-runnable scripts.
+- **[AI Master](https://x.ai/bot/L6q8qCzomu2lTs9mu_r1X)** by @leoclark — Ask once and the same question is put in parallel to Grok, Gemini, Claude and ChatGPT, driven through browser tabs you are already signed into. Returns one consolidated answer rather than four separate replies.
+- **[Call Desk](https://x.ai/bot/zqWxv4Mn6DqmMZkD16_zl)** by @dave_dlt — Hand it an errand and it dials out on your behalf: checking stock, booking appointments, querying bills, or chasing a missing parcel.
+- **[Arthur](https://x.ai/bot/fWJdoxdd8YsM1NNFP2b_W)** by @LatchKeyLegend — Drafts a complete picture book from a subject and age group, then assembles illustrator briefs for each page.
+- **[Habit Referee](https://x.ai/bot/1wZEbQUoQWsR3nKzd4x90)** by @GrokBotGod — You pick one tiny habit and it checks in daily. On success it keeps the streak; on misses it nudges you back on track.
+- **[Radar](https://x.ai/bot/2cB1nlHWzI7os1zaZ3kCg)** by @LatchKeyLegend — Follows public information feeds for your city and delivers themed briefings on weekend events, local news, and community updates.
+- **[Petty Bot](https://x.ai/bot/w-2dyvlWOnr9CAEotczW1)** by @ZryMiller — Tracks your X connections over time and mirrors unfollows when an account drops you shortly after connecting.
+- **[Lot Ghost](https://x.ai/bot/4iGFTf2xQ0UKp4mSgSnkI)** by @bradszellman — For Phish and jam-scene fans: follows shows live, sends morning wraps, marks unverified chatter, and warns before tickets go on sale.
+- **[CampusOps](https://x.ai/bot/vluD5Z1bUux-onnEk1Alg)** by @klytron_dev — Drop in course outlines and it plans weekly reading, drills recall before tests, and tracks deadlines across the term.
+- **[Lyric Guard](https://x.ai/bot/NCOULqxHrobWGWgAbQ-Er)** by @soundecclesia — Reads a track's lyrics through a scriptural frame, returns a score with quoted lines and reasoning behind the judgment.
+- **[Volt](https://x.ai/bot/QZ6VW1zRJTb4ZY5DNk5pm)** by @benngarnish — Searches the strongest Tesla lease and purchase offers near you, comparing manufacturer finance, brokers, and salary-sacrifice schemes.
+- **[Yahoo Pulse](https://x.ai/bot/5nnJJwVjO4EwThIaaaynu)** by @Tferriere — Watches a personal stock list and delivers plain briefings with quotes, headlines, and price-and-volume charts.
 ## Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](contributing.md) before submitting.
-
 - Submit a new Grok Bot by opening an issue or a pull request.
 - Follow the existing category structure and bot entry format.
 - Every bot must have a valid link, a concise description, and an author attribution.
-
 ## License
 
 [MIT](LICENSE)

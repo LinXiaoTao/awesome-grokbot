@@ -287,4 +287,19 @@ export const recruitingPeopleBots: Bot[] = [
     createdAt: "2025-06-11",
     xaiBotUrl: "https://x.ai/bot/l8p6rXw-lalL-UNiHySnJ",
   },
+  {
+    id: "991728",
+    slug: "hire-bot",
+    name: "hire-bot",
+    author: "xsubwayratx",
+    authorHandle: "@xsubwayratx",
+    description:
+      "Sits across your ATS, LinkedIn, and inbox to gather candidate context and draft first outreach from scattered conversations.",
+    integrations: ["LinkedIn", "Gmail"],
+    installs: 0,
+    category: "recruiting-people",
+    iconColor: "bg-blue-500",
+    createdAt: "2026-09-06",
+    xaiBotUrl: "https://x.ai/bot/Q9Vbc3gbldDnJBmUfcip-",
+  },
 ];
