@@ -42,6 +42,8 @@
     "copyPrompt": "Copy Prompt",
     "copied": "Copied!",
     "openInXai": "Open on xAI",
+    "official": "Official",
+    "officialTooltip": "Featured by the Grok Bot Team on xAI Marketplace",
     "promptHeading": "Bot Instructions & System Prompt",
     "promptTip": "Copy and paste into your Grok Bot setup on x.ai or agent runtime."
   },

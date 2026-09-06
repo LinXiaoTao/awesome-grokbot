@@ -4,6 +4,36 @@ export function cn(...classes: (string | boolean | undefined | null)[]): string 
   return classes.filter(Boolean).join(" ");
 }
 
+export function isBotOfficial(bot: Bot): boolean {
+  return (
+    bot.isOfficial === true ||
+    bot.category === "from-grok-bot-team" ||
+    bot.categories?.includes("From Grok Bot Team") === true
+  );
+}
+
+function compareBotsBySort(a: Bot, b: Bot, sort: SortOption): number {
+  if (sort === "popular") {
+    return b.installs - a.installs;
+  }
+  if (sort === "newest") {
+    return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+  }
+  if (sort === "name") {
+    return a.name.localeCompare(b.name);
+  }
+  const _exhaustive: never = sort;
+  return _exhaustive;
+}
+
+function compareBots(a: Bot, b: Bot, sort: SortOption): number {
+  const officialDelta = Number(isBotOfficial(b)) - Number(isBotOfficial(a));
+  if (officialDelta !== 0) {
+    return officialDelta;
+  }
+  return compareBotsBySort(a, b, sort);
+}
+
 export function filterBots(
   bots: Bot[],
   options: {
@@ -28,12 +58,7 @@ export function filterBots(
 
   if (options.category !== "all") {
     if (options.category === "from-grok-bot-team") {
-      result = result.filter(
-        (bot) =>
-          bot.isOfficial ||
-          bot.category === "from-grok-bot-team" ||
-          bot.categories?.includes("From Grok Bot Team"),
-      );
+      result = result.filter((bot) => isBotOfficial(bot));
     } else {
       result = result.filter((bot) => bot.category === options.category);
     }
@@ -47,16 +72,7 @@ export function filterBots(
     );
   }
 
-  if (options.sort === "popular") {
-    result.sort((a, b) => b.installs - a.installs);
-  } else if (options.sort === "newest") {
-    result.sort(
-      (a, b) =>
-        new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
-    );
-  } else if (options.sort === "name") {
-    result.sort((a, b) => a.name.localeCompare(b.name));
-  }
+  result.sort((a, b) => compareBots(a, b, options.sort));
 
   return result;
 }
@@ -68,7 +84,7 @@ export function getBotBySlug(bots: Bot[], slug: string): Bot | undefined {
 export function getRelatedBots(bots: Bot[], bot: Bot, limit = 3): Bot[] {
   return bots
     .filter((b) => b.slug !== bot.slug && b.category === bot.category)
-    .sort((a, b) => b.installs - a.installs)
+    .sort((a, b) => compareBots(a, b, "popular"))
     .slice(0, limit);
 }
 

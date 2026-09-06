@@ -12,8 +12,9 @@ import XPostEmbed from "@/components/XPostEmbed";
 import { Link } from "@/i18n/routing";
 import { bots } from "@/data/bots";
 import { buildBotJsonLd, buildPageMetadata } from "@/lib/seo";
-import { getBotBySlug, getRelatedBots, LOCALES, type Locale } from "@/lib/utils";
+import { getBotBySlug, getRelatedBots, isBotOfficial, LOCALES, type Locale } from "@/lib/utils";
 import { getCategoryStyle } from "@/lib/category-styles";
+import { OfficialBadge } from "@/components/OfficialBadge";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -65,6 +66,7 @@ export default async function BotDetailPage({ params }: Props) {
     ? tFilters(bot.category)
     : bot.category;
   const categoryStyle = getCategoryStyle(bot.category);
+  const official = isBotOfficial(bot);
 
   return (
     <>
@@ -108,9 +110,12 @@ export default async function BotDetailPage({ params }: Props) {
                 </div>
 
                 <div className="mt-5">
-                  <h1 className="text-3xl font-extrabold tracking-tight text-neutral-900 md:text-4xl">
-                    {bot.name}
-                  </h1>
+                  <div className="flex flex-wrap items-center gap-3">
+                    <h1 className="text-3xl font-extrabold tracking-tight text-neutral-900 md:text-4xl">
+                      {bot.name}
+                    </h1>
+                    {official && <OfficialBadge size="md" />}
+                  </div>
                   {bot.authorHandle && (
                     <p className="mt-1.5 text-sm font-medium text-neutral-500">
                       {t("by")}{" "}

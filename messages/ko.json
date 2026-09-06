@@ -42,6 +42,8 @@
     "copyPrompt": "프롬프트 복사",
     "copied": "복사됨!",
     "openInXai": "xAI에서 열기",
+    "official": "공식",
+    "officialTooltip": "xAI Marketplace Grok Bot Team 공식 등록",
     "promptHeading": "시스템 지침 및 프롬프트",
     "promptTip": "x.ai Grok Bot 설정에 직접 붙여넣어 실행하세요."
   },

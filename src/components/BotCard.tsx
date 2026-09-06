@@ -7,8 +7,9 @@ import type { Bot } from "@/types";
 import { Link } from "@/i18n/routing";
 import { BotIcon } from "./BotIcon";
 import { IntegrationPill } from "./IntegrationPill";
+import { OfficialBadge } from "./OfficialBadge";
 import { getCategoryStyle } from "@/lib/category-styles";
-import { cn } from "@/lib/utils";
+import { cn, isBotOfficial } from "@/lib/utils";
 
 interface BotCardProps {
   bot: Bot;
@@ -20,6 +21,7 @@ export function BotCard({ bot }: BotCardProps) {
   const [copied, setCopied] = useState(false);
 
   const categoryStyle = getCategoryStyle(bot.category);
+  const official = isBotOfficial(bot);
 
   const handleCopyPrompt = async (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -58,12 +60,15 @@ export function BotCard({ bot }: BotCardProps) {
         <div className="min-w-0 flex-1">
           <div className="flex items-start justify-between gap-2">
             <div className="min-w-0 flex-1">
-              <h3 className="truncate text-base font-bold text-neutral-900 group-hover:text-black">
-                <Link href={`/bot/${bot.slug}`}>
-                  <span className="absolute inset-0 z-0" aria-hidden="true" />
-                  {bot.name}
-                </Link>
-              </h3>
+              <div className="flex flex-wrap items-center gap-2">
+                <h3 className="truncate text-base font-bold text-neutral-900 group-hover:text-black">
+                  <Link href={`/bot/${bot.slug}`}>
+                    <span className="absolute inset-0 z-0" aria-hidden="true" />
+                    {bot.name}
+                  </Link>
+                </h3>
+                {official && <OfficialBadge />}
+              </div>
               {bot.authorHandle && (
                 <p className="mt-0.5 truncate text-xs font-medium text-muted">
                   {bot.authorHandle}

@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { bots } from "@/data/bots";
 import { getAllIntegrationNames } from "@/data/integrations";
 import type { Category, SortOption } from "@/types";
-import { filterBots } from "@/lib/utils";
+import { filterBots, isBotOfficial } from "@/lib/utils";
 import { Hero } from "./Hero";
 import { SearchBar } from "./SearchBar";
 import { FilterBar } from "./FilterBar";
@@ -39,11 +39,7 @@ export function BotExplorer({ botCount }: BotExplorerProps) {
       product: 0,
     };
     bots.forEach((b) => {
-      if (
-        b.isOfficial ||
-        b.category === "from-grok-bot-team" ||
-        b.categories?.includes("From Grok Bot Team")
-      ) {
+      if (isBotOfficial(b)) {
         counts["from-grok-bot-team"]++;
       }
       const cat = b.category as Category;

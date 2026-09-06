@@ -25,7 +25,8 @@ When the user says "search X for new grok bots", "collect new bots from X", or s
 - [ ] **Step 2** — Parse results into bot entries
 - [ ] **Step 3** — Check for duplicates against existing bots
 - [ ] **Step 4** — Add new bots to the appropriate category file
-- [ ] **Step 5** — Run `pnpm build` to verify
+- [ ] **Step 5** — Sync `README.md` and `README.zh.md` per `.cursor/rules/sync-readme-on-bot-update.mdc`
+- [ ] **Step 6** — Run `pnpm build` to verify
 
 Report a summary at the end: posts searched, bots found, bots added, duplicates skipped.
 
@@ -206,7 +207,7 @@ Example entry:
       "Summarizes your unread emails every Monday and sends a one-page digest.",
     integrations: ["Gmail"],
     installs: 0,
-    category: "productivity",
+    category: "operations",
     iconColor: "bg-cyan-500",
     createdAt: "2026-08-30",
     xPostUrl: "https://x.com/janedoe/status/1234567890",
@@ -218,7 +219,15 @@ Do not reorder or modify existing entries unless the user asks.
 
 ---
 
-## Step 5: Verify
+## Step 5: Sync READMEs
+
+Follow `.cursor/rules/sync-readme-on-bot-update.mdc`:
+- Add new entries to `README.md` and `README.zh.md` under their matching category section.
+- Format: `- **[Bot Name](xaiBotUrl)** by @handle — Description.`
+
+---
+
+## Step 6: Verify
 
 ```bash
 pnpm build

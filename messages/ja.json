@@ -42,6 +42,8 @@
     "copyPrompt": "プロンプトをコピー",
     "copied": "コピーしました！",
     "openInXai": "xAIで開く",
+    "official": "公式",
+    "officialTooltip": "xAI Marketplace の Grok Bot Team 公式掲載",
     "promptHeading": "システム指示 & プロンプト",
     "promptTip": "x.aiのGrok Bot設定にコピーして貼り付けます。"
   },

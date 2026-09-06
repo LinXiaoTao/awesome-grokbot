@@ -42,6 +42,8 @@
     "copyPrompt": "复制 Prompt",
     "copied": "已复制！",
     "openInXai": "在 xAI 打开",
+    "official": "官方",
+    "officialTooltip": "xAI Marketplace 官方 Grok Bot Team 精选",
     "promptHeading": "系统指令与 Prompt 模板",
     "promptTip": "可直接复制并粘贴至 x.ai Grok Bot 或你的 Agent 运行时中使用。"
   },
