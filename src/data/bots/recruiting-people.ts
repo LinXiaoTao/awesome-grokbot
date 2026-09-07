@@ -302,4 +302,22 @@ export const recruitingPeopleBots: Bot[] = [
     createdAt: "2026-09-06",
     xaiBotUrl: "https://x.ai/bot/Q9Vbc3gbldDnJBmUfcip-",
   },
+  {
+    id: "991795",
+    slug: "vote-2027-bot",
+    name: "Vote 2027 Bot",
+    author: "LeTerryBZH",
+    authorHandle: "@LeTerryBZH",
+    description:
+      "Rates French 2027 presidential candidates on five weighted qualities, runs a daily X civic watch, and feeds a Lattice wiki agent.",
+    integrations: [],
+    installs: 0,
+    category: "recruiting-people",
+    shape: "gem",
+    color: "violet",
+    iconColor: "bg-violet-500",
+    createdAt: "2026-09-07",
+    xPostUrl: "https://x.com/LeTerryBZH/status/2096081715769090422",
+    xaiBotUrl: "https://x.ai/bot/CHmLGnQyx6r8lkb3U8k9x",
+  },
 ];
