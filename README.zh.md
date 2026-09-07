@@ -831,6 +831,7 @@
 - **[The Fool Bot](https://x.ai/bot/MDcAPLzRIgI0dqTwWV40O)** by @EvSlatts — King Lear's Fool for your court: short jokes, light roast of the hustle, and a ping when you start taking yourself too seriously.
 - **[Tender Years Bot](https://x.ai/bot/o7VRdRSxHvBEYbzkJQm07)** by @voeliz — Kids-under-5 household logistics from Gmail and Calendar: pre-reader family paper, digests, and a sitter sheet. Never sends mail on its own.
 - **[Trad Bot](https://x.ai/bot/uY_7s1TZILVzUeJ9lLOx9)** by @clairevo — Watches personal email and calendar so family, school, and household follow-ups do not slip.
+- **[FireWatch](https://x.ai/bot/oWw62I6pd414i8xIO3azs)** by @RobautoAI — Alerts you to wildfires near home using live FireWatch data. Checks a few times a day and only pings when something new or meaningful changes within your area.
 - **[OneDrive Bot](https://x.ai/bot/plugin/57302028)** by @SpaceXAI — Browses personal OneDrive and uploads generated files. Business plans need admin provision first.
 
 ## 贡献指南

@@ -2883,6 +2883,23 @@ export const personalBots: Bot[] = [
     xaiBotUrl: "https://x.ai/bot/uY_7s1TZILVzUeJ9lLOx9",
   },
   {
+    id: "991854",
+    slug: "firewatch",
+    name: "FireWatch",
+    author: "RobautoAI",
+    authorHandle: "@RobautoAI",
+    description:
+      "Alerts you to wildfires near home using live FireWatch data. Checks a few times a day and only pings when something new or meaningful changes within your area.",
+    integrations: [],
+    installs: 0,
+    category: "personal",
+    shape: "shield",
+    color: "orange",
+    iconColor: "bg-rose-500",
+    createdAt: "2026-09-07",
+    xaiBotUrl: "https://x.ai/bot/oWw62I6pd414i8xIO3azs",
+  },
+  {
     id: "991851",
     slug: "onedrive-bot",
     name: "OneDrive Bot",
