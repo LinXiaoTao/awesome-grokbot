@@ -354,4 +354,22 @@ export const designBots: Bot[] = [
     xPostUrl: "https://x.com/DannyLimanseta/status/2093381938484810054",
     xaiBotUrl: "https://x.ai/bot/oSvAMKX_ahD56ZmgwtRys",
   },
+  {
+    id: "991856",
+    slug: "proto-bot",
+    name: "Proto Bot",
+    author: "5antoshernandez",
+    authorHandle: "@5antoshernandez",
+    description:
+      "UI/UX design engineer who ships three deeply different directions per concept as real, polished prototypes. Crafts requirements and testable hypotheses.",
+    integrations: [],
+    installs: 0,
+    category: "design",
+    shape: "bean",
+    color: "violet",
+    iconColor: "bg-emerald-500",
+    createdAt: "2026-09-08",
+    xPostUrl: "https://x.com/5antoshernandez/status/2097118731042492739",
+    xaiBotUrl: "https://x.ai/bot/-SSy9LBtTNY17MXMXQbYq",
+  },
 ];
