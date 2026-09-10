@@ -228,6 +228,12 @@
 
 - **[Eggbot Saver Bot](https://x.ai/bot/8-gwIOWrsPEjOvqZsT2PX)** by @oddreport — Fork of Eggbot that offloads coding and generations to Grok Build or Hermes.
 
+- **[ボット整備](https://x.ai/bot/BlTqnV5o9E35Dwo2sodyD)** by @x_stone_island — Keeps the labels on your other bots honest about what they now do.
+
+- **[KirBot](https://x.ai/bot/Jzy-isV1YW5ZLl3W6rq6h)** by @SuddenlyJon — Merges two overlapping bots into one, then helps you retire the spare.
+
+- **[App Store Review Bot](https://x.ai/bot/KzBEylM_3NFTjATszLICV)** by @stevederico — Checks your iOS app against Apple's review rules before Apple does.
+
 ## 产品管理
 
 - **[Product Idea Stress Test](https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9)** by @hnshah — Investigates a product or startup idea for founders. Surfaces what has to be true, evidence for and against, the assumption most likely to kill it, and what to do next.
@@ -276,6 +282,8 @@
 - **[Crew](https://x.ai/bot/RU2Y_7E3646T5IelLhnOq)** by @LatchKeyLegend — Acts as a standing mentor on team operating practices: how work gets handed off, where things are stuck, and what to try next.
 - **[藍苺守 織](https://x.ai/bot/OQlGXzAbIq-IAsj9rSu-K)** by @Bizuayeu — Each morning it works through newly published academic work and trade coverage on one narrow subject, blueberries, and passes on only the handful of items that genuinely tell you something. Mornings when the reading turns up nothing of substance end in silence rather than a padded digest.
 - **[Firstmate](https://x.ai/bot/__4FfrkUdvpdMk6-LKg5r)** by @kunchenguid — The only agent you talk to. No more context switching. Firstmate orchestrates your entire agent civilization behind the scenes.
+
+- **[Product Builder CoS](https://x.ai/bot/6tbtv4Tln4MvKc5duOkle)** by @sneharavindra — Turns a signed-off product plan into a checklist someone actually tracks.
 
 ## 设计
 
@@ -398,6 +406,8 @@
 
 - **[Clip Saver Bot](https://x.ai/bot/eIdc-PoIqkMb99CUwr0EQ)** by @oddreport — Cuts social-ready YouTube clips while offloading heavy work off the Grok Bot meter.
 
+- **[blogdrafter](https://x.ai/bot/A6o9Z1NYSIRBX-VIoEcQi)** by @daisuke — Drafts and edits blog posts that still sound like you wrote them.
+
 ## 销售
 
 - **[Account Research Desk](https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss)** by @akbaliga96 — Researches the companies you sell to and writes your pre-call brief and account plan. Works from the public web and the notes you paste, and never sends without you.
@@ -464,6 +474,8 @@
 - **[CrowdReply Finder Bot](https://x.ai/bot/AloagFdLLL5SoNPyIszRb)** by @dawoodkhan254 — Finds the editor or owner of a cited page and verifies their email.
 
 - **[CrowdReply Closer Bot](https://x.ai/bot/gDvJh38CGXP1Jumemg4d-)** by @dawoodkhan254 — Reads replies and drafts the offer. You still approve sends.
+
+- **[Affiliate Recruiter](https://x.ai/bot/TaCAhCtPGCvObAaK7ZDQQ)** by @zilvestro — Finds and ranks the people who could actually sell your product for you.
 
 ## 企业运营
 
@@ -725,6 +737,12 @@
 
 - **[Firstmate Bot](https://x.ai/bot/__4FfrkUdvpdMk6-LKg5r)** by @kunchenguid — Turns one prompt file into a captain that creates and upgrades your other bots.
 
+- **[slack radar](https://x.ai/bot/m4WfJ0ODD0O1runkfq0Ak)** by @parkersmith — Reads your Slack so you do not have to, and speaks only when it matters.
+
+- **[Renewals Invoice Bot](https://x.ai/bot/-9hlUkQbsgE7oUyQvUPum)** by @compileinstyle — Settles your recurring bills up to a fixed weekly limit, and asks before anything new.
+
+- **[Customer Feedback Watch](https://x.ai/bot/8Snl1TovbMwClPoBiHrWT)** by @egavrilenko11 — Monitors public X for customer feedback, complaints, and bug reports about your product, especially billing and authentication issues.
+
 ## 招聘与人事
 
 - **[Recruiting Coordinator](https://x.ai/bot/KDahOjiDbbAvxqx9KaGcq)** by @TommyHansenTA — Schedules interview loops, preps your interviewers, and chases what's stalled. Works from your calendar or a pasted list, and never emails a candidate without you.
@@ -984,6 +1002,16 @@
 - **[Spenny Bot](https://x.ai/bot/2yC0HrEtcJe-XWxMO-4-M)** by @zilarwitch — Helps research comfort purchases, pick the best products, and spread them across a manageable budget.
 
 - **[Wool Radar](https://x.ai/bot/WFW6_5N596TQpWCRjRZ5w)** by @BenXlab — Learns your grocery list and AI tools, then only pings matching Coles, Woolworths, Aldi, Costco specials, quota resets, and checkout codes.
+
+- **[Quotewise Daily](https://x.ai/bot/kmmBn74qwBr9lgedW4naf)** by @quotewiser — A quotation desk that can prove who actually said it.
+
+- **[Personal Trainer](https://x.ai/bot/t9TIKE_igItEQd6tOyyRd)** by @nathanglass — Keeps one client logging meals and sessions between coaching check-ins.
+
+- **[I'm not old yet](https://x.ai/bot/izlQpnudtxbmDRKr7GvRs)** by @AdventureNLearn — Writes memes that mock the junk mail telling you you are old.
+
+- **[Tolstoy](https://x.ai/bot/42Clq7Vdn2X7zcwJ9OGxR)** by @SuddenlyJon — A literary companion that weighs your week the way Tolstoy might.
+
+- **[Poe](https://x.ai/bot/EcUpzABnh3MfZQTN7inmP)** by @SuddenlyJon — A gothic literary companion with a taste for puzzles and dread.
 
 ## 贡献指南
 

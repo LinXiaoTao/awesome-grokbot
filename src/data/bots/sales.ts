@@ -1006,4 +1006,22 @@ export const salesBots: Bot[] = [
     xPostUrl: "https://x.com/dawoodkhan254/status/2094451439573881015",
     xaiBotUrl: "https://x.ai/bot/gDvJh38CGXP1Jumemg4d-",
   },
+  {
+    id: "991911",
+    slug: "affiliate-recruiter",
+    name: "Affiliate Recruiter",
+    author: "zilvestro",
+    authorHandle: "@zilvestro",
+    description:
+      "Finds and ranks the people who could actually sell your product for you.",
+    integrations: [],
+    installs: 0,
+    category: "sales",
+    shape: "egg",
+    color: "violet",
+    iconColor: "bg-rose-500",
+    createdAt: "2026-09-10",
+    xPostUrl: "https://x.com/zilvestro/status/2097995020217323736",
+    xaiBotUrl: "https://x.ai/bot/TaCAhCtPGCvObAaK7ZDQQ",
+  },
 ];

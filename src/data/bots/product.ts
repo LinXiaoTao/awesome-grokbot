@@ -730,4 +730,22 @@ export const productBots: Bot[] = [
     xPostUrl: "https://x.com/kunchenguid/status/2089792928092963234",
     xaiBotUrl: "https://x.ai/bot/__4FfrkUdvpdMk6-LKg5r",
   },
+  {
+    id: "991914",
+    slug: "product-builder-cos",
+    name: "Product Builder CoS",
+    author: "sneharavindra",
+    authorHandle: "@sneharavindra",
+    description:
+      "Turns a signed-off product plan into a checklist someone actually tracks.",
+    integrations: [],
+    installs: 0,
+    category: "product",
+    shape: "capsule",
+    color: "black",
+    iconColor: "bg-pink-500",
+    createdAt: "2026-09-10",
+    xPostUrl: "https://x.com/sneharavindra/status/2097897846397956553",
+    xaiBotUrl: "https://x.ai/bot/6tbtv4Tln4MvKc5duOkle",
+  },
 ];

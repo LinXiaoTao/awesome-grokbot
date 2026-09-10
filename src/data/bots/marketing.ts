@@ -1403,4 +1403,22 @@ export const marketingBots: Bot[] = [
     xPostUrl: "https://x.com/rlagos24/status/2097329900126404773",
     xaiBotUrl: "https://x.ai/bot/DOBxYb_XLVEAlO6A1eZgU",
   },
+  {
+    id: "991913",
+    slug: "blogdrafter",
+    name: "blogdrafter",
+    author: "daisuke",
+    authorHandle: "@daisuke",
+    description:
+      "Drafts and edits blog posts that still sound like you wrote them.",
+    integrations: [],
+    installs: 0,
+    category: "marketing",
+    shape: "tablet",
+    color: "gray",
+    iconColor: "bg-fuchsia-500",
+    createdAt: "2026-09-10",
+    xPostUrl: "https://x.com/daisuke/status/2097903822232518947",
+    xaiBotUrl: "https://x.ai/bot/A6o9Z1NYSIRBX-VIoEcQi",
+  },
 ];
