@@ -748,4 +748,22 @@ export const productBots: Bot[] = [
     xPostUrl: "https://x.com/sneharavindra/status/2097897846397956553",
     xaiBotUrl: "https://x.ai/bot/6tbtv4Tln4MvKc5duOkle",
   },
+  {
+    id: "991941",
+    slug: "rival-watch-desk",
+    name: "Rival Watch Desk",
+    author: "ShehjadTaus",
+    authorHandle: "@ShehjadTaus",
+    description:
+      "Pick the businesses you compete with and it keeps a permanent eye on them: money raised, roles being advertised, press coverage and the campaigns they are paying to run. Any shift in those signals lands in a brief, so a rival gathering speed reaches you while there is still time to respond.",
+    integrations: [],
+    installs: 0,
+    category: "product",
+    shape: "cloud",
+    color: "green",
+    iconColor: "bg-emerald-500",
+    createdAt: "2026-09-12",
+    xPostUrl: "https://x.com/ShehjadTaus/status/2098538235303735484",
+    xaiBotUrl: "https://x.ai/bot/WKRY_T1y-KOmOn2q5vpRW",
+  },
 ];

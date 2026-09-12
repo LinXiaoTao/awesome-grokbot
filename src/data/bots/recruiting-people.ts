@@ -320,4 +320,22 @@ export const recruitingPeopleBots: Bot[] = [
     xPostUrl: "https://x.com/LeTerryBZH/status/2096081715769090422",
     xaiBotUrl: "https://x.ai/bot/CHmLGnQyx6r8lkb3U8k9x",
   },
+  {
+    id: "991962",
+    slug: "job-applier",
+    name: "Job applier",
+    author: "aroogle",
+    authorHandle: "@aroogle",
+    description:
+      "Built for a search where volume matters. It starts by reading your CV and asking enough about you to work with, goes looking for openings that suit, and rewrites what you send so it speaks to that particular posting. What it will not do is invent experience you do not have.",
+    integrations: [],
+    installs: 0,
+    category: "recruiting-people",
+    shape: "blob",
+    color: "yellow",
+    iconColor: "bg-rose-500",
+    createdAt: "2026-09-12",
+    xPostUrl: "https://x.com/aroogle/status/2098134660677337595",
+    xaiBotUrl: "https://x.ai/bot/gfxH6sM_0QlxeDNFrRmep",
+  },
 ];

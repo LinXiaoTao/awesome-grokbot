@@ -372,4 +372,22 @@ export const designBots: Bot[] = [
     xPostUrl: "https://x.com/5antoshernandez/status/2097118731042492739",
     xaiBotUrl: "https://x.ai/bot/-SSy9LBtTNY17MXMXQbYq",
   },
+  {
+    id: "991958",
+    slug: "photo-curator",
+    name: "Photo Curator",
+    author: "jaharris13",
+    authorHandle: "@jaharris13",
+    description:
+      "Hand it a folder of raw shots and it picks out the ones worth keeping, applies the same restrained set of adjustments to each, and files the results separately. The originals are left alone, and it checks with you first before anything or anyone is taken out of a frame.",
+    integrations: [],
+    installs: 0,
+    category: "design",
+    shape: "arch",
+    color: "black",
+    iconColor: "bg-emerald-500",
+    createdAt: "2026-09-12",
+    xPostUrl: "https://x.com/jaharris13/status/2098181437979578662",
+    xaiBotUrl: "https://x.ai/bot/hig9j1KnpZyH6QQN-Af0Z",
+  },
 ];

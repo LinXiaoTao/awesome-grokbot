@@ -7,11 +7,12 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { MANUAL_INCREMENTAL } from "./manual-incremental-2026-09-12.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const BOTS_DIR = path.join(ROOT, "src/data/bots");
-const CREATED_AT = "2026-09-10";
+const CREATED_AT = "2026-09-12";
 
 const CATEGORIES = [
   "engineering",
@@ -90,153 +91,12 @@ const ICON_COLORS = [
   "bg-lime-500",
 ];
 
-const OFFICIAL_CREATORS = new Set(["@orenmeetsworld"]);
-const OFFICIAL_BOT_URLS = new Set(["https://x.ai/bot/yW-Q1yis7-VCNKbeJ6g6Z"]);
-
-/** Verified incremental bots from 2026-09-10 market scan (official + third-party). */
-const MANUAL_INCREMENTAL = [
-  {
-    slug: "affiliate-recruiter",
-    name: "Affiliate Recruiter",
-    authorHandle: "@zilvestro",
-    description:
-      "Finds and ranks the people who could actually sell your product for you.",
-    category: "sales",
-    xaiBotUrl: "https://x.ai/bot/TaCAhCtPGCvObAaK7ZDQQ",
-    xPostUrl: "https://x.com/zilvestro/status/2097995020217323736",
-  },
-  {
-    slug: "bot-maintenance-auditor",
-    name: "ボット整備",
-    authorHandle: "@x_stone_island",
-    description:
-      "Keeps the labels on your other bots honest about what they now do.",
-    category: "engineering",
-    xaiBotUrl: "https://x.ai/bot/BlTqnV5o9E35Dwo2sodyD",
-    xPostUrl: "https://x.com/x_stone_island/status/2097947982192951719",
-  },
-  {
-    slug: "blogdrafter",
-    name: "blogdrafter",
-    authorHandle: "@daisuke",
-    description:
-      "Drafts and edits blog posts that still sound like you wrote them.",
-    category: "marketing",
-    xaiBotUrl: "https://x.ai/bot/A6o9Z1NYSIRBX-VIoEcQi",
-    xPostUrl: "https://x.com/daisuke/status/2097903822232518947",
-  },
-  {
-    slug: "product-builder-cos",
-    name: "Product Builder CoS",
-    authorHandle: "@sneharavindra",
-    description:
-      "Turns a signed-off product plan into a checklist someone actually tracks.",
-    category: "product",
-    xaiBotUrl: "https://x.ai/bot/6tbtv4Tln4MvKc5duOkle",
-    xPostUrl: "https://x.com/sneharavindra/status/2097897846397956553",
-  },
-  {
-    slug: "kirbot",
-    name: "KirBot",
-    authorHandle: "@SuddenlyJon",
-    description:
-      "Merges two overlapping bots into one, then helps you retire the spare.",
-    category: "engineering",
-    xaiBotUrl: "https://x.ai/bot/Jzy-isV1YW5ZLl3W6rq6h",
-    xPostUrl: "https://x.com/SuddenlyJon/status/2097865550592417976",
-  },
-  {
-    slug: "slack-radar",
-    name: "slack radar",
-    authorHandle: "@parkersmith",
-    description:
-      "Reads your Slack so you do not have to, and speaks only when it matters.",
-    integrations: ["Slack"],
-    category: "operations",
-    xaiBotUrl: "https://x.ai/bot/m4WfJ0ODD0O1runkfq0Ak",
-    xPostUrl: "https://x.com/parkersmith/status/2097827032646529500",
-  },
-  {
-    slug: "quotewise-daily",
-    name: "Quotewise Daily",
-    authorHandle: "@quotewiser",
-    description: "A quotation desk that can prove who actually said it.",
-    category: "personal",
-    xaiBotUrl: "https://x.ai/bot/kmmBn74qwBr9lgedW4naf",
-    xPostUrl: "https://x.com/quotewiser/status/2097819326506008642",
-  },
-  {
-    slug: "renewals-invoice-bot",
-    name: "Renewals Invoice Bot",
-    authorHandle: "@compileinstyle",
-    description:
-      "Settles your recurring bills up to a fixed weekly limit, and asks before anything new.",
-    category: "operations",
-    xaiBotUrl: "https://x.ai/bot/-9hlUkQbsgE7oUyQvUPum",
-    xPostUrl: "https://x.com/compileinstyle/status/2097809676242956768",
-  },
-  {
-    slug: "personal-trainer",
-    name: "Personal Trainer",
-    authorHandle: "@nathanglass",
-    description:
-      "Keeps one client logging meals and sessions between coaching check-ins.",
-    category: "personal",
-    xaiBotUrl: "https://x.ai/bot/t9TIKE_igItEQd6tOyyRd",
-    xPostUrl: "https://x.com/nathanglass/status/2097769379274326161",
-  },
-  {
-    slug: "app-store-review-bot",
-    name: "App Store Review Bot",
-    authorHandle: "@stevederico",
-    description:
-      "Checks your iOS app against Apple's review rules before Apple does.",
-    category: "engineering",
-    xaiBotUrl: "https://x.ai/bot/KzBEylM_3NFTjATszLICV",
-    xPostUrl: "https://x.com/stevederico/status/2097765393939247601",
-  },
-  {
-    slug: "i-m-not-old-yet",
-    name: "I'm not old yet",
-    authorHandle: "@AdventureNLearn",
-    description:
-      "Writes memes that mock the junk mail telling you you are old.",
-    category: "personal",
-    xaiBotUrl: "https://x.ai/bot/izlQpnudtxbmDRKr7GvRs",
-    xPostUrl: "https://x.com/AdventureNLearn/status/2097741271456776259",
-  },
-  {
-    slug: "tolstoy",
-    name: "Tolstoy",
-    authorHandle: "@SuddenlyJon",
-    description:
-      "A literary companion that weighs your week the way Tolstoy might.",
-    category: "personal",
-    xaiBotUrl: "https://x.ai/bot/42Clq7Vdn2X7zcwJ9OGxR",
-    xPostUrl: "https://x.com/SuddenlyJon/status/2097706995507675535",
-  },
-  {
-    slug: "poe",
-    name: "Poe",
-    authorHandle: "@SuddenlyJon",
-    description:
-      "A gothic literary companion with a taste for puzzles and dread.",
-    category: "personal",
-    xaiBotUrl: "https://x.ai/bot/EcUpzABnh3MfZQTN7inmP",
-    xPostUrl: "https://x.com/SuddenlyJon/status/2097706986187948143",
-  },
-  {
-    slug: "customer-feedback-watch",
-    name: "Customer Feedback Watch",
-    authorHandle: "@egavrilenko11",
-    description:
-      "Monitors public X for customer feedback, complaints, and bug reports about your product, especially billing and authentication issues.",
-    integrations: ["X API"],
-    category: "operations",
-    xaiBotUrl: "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT",
-    xPostUrl: "https://x.com/egavrilenko11/status/2095604008555893015",
-  },
-];
+const OFFICIAL_CREATORS = new Set(["@orenmeetsworld", "@kristaletz"]);
+const OFFICIAL_BOT_URLS = new Set([
+  "https://x.ai/bot/yW-Q1yis7-VCNKbeJ6g6Z",
+  "https://x.ai/bot/yA2-Ti3sPVNFO-zRzkwuX",
+  "https://x.ai/bot/wsbOPOkHApmIYLrErnC4e",
+]);
 
 function normalizeName(name) {
   return name
@@ -357,9 +217,10 @@ function isDuplicate(candidate, existing) {
 }
 
 function formatBotEntry(bot, styleIndex) {
-  const shape = SHAPES[styleIndex % SHAPES.length];
-  const color = COLORS[styleIndex % COLORS.length];
-  const iconColor = ICON_COLORS[styleIndex % ICON_COLORS.length];
+  const shape = bot.shape || SHAPES[styleIndex % SHAPES.length];
+  const color = bot.color || COLORS[styleIndex % COLORS.length];
+  const iconColor =
+    bot.iconColor || ICON_COLORS[styleIndex % ICON_COLORS.length];
 
   const lines = [
     "  {",
@@ -383,6 +244,11 @@ function formatBotEntry(bot, styleIndex) {
   }
   lines.push("    installs: 0,");
   lines.push(`    category: "${bot.category}",`);
+  if (bot.categories?.length) {
+    lines.push(
+      `    categories: [${bot.categories.map((c) => `"${c}"`).join(", ")}],`,
+    );
+  }
   if (bot.isOfficial) lines.push("    isOfficial: true,");
   lines.push(`    shape: "${shape}",`);
   lines.push(`    color: "${color}",`);
@@ -422,11 +288,28 @@ function appendToReadme(filePath, sectionHeader, lines) {
   fs.writeFileSync(filePath, content);
 }
 
+function categoryLabel(category) {
+  const labels = {
+    engineering: "Engineering",
+    product: "Product",
+    design: "Design",
+    marketing: "Marketing",
+    sales: "Sales",
+    operations: "Operations",
+    "recruiting-people": "Recruiting & People",
+    personal: "Personal",
+  };
+  return labels[category] || category;
+}
+
 function classifyOfficial(bot) {
+  if (bot.isOfficial) return;
   if (OFFICIAL_BOT_URLS.has(bot.xaiBotUrl)) {
     bot.isOfficial = true;
-    bot.categories = ["From Grok Bot Team", "Marketing"];
-    bot.category = "marketing";
+    bot.categories = bot.categories || [
+      "From Grok Bot Team",
+      categoryLabel(bot.category),
+    ];
     return;
   }
   if (
@@ -484,12 +367,21 @@ async function main() {
     appendToCategoryFile(cat, bots);
   }
 
+  const officialBots = newBots.filter((b) => b.isOfficial);
   for (const bot of newBots) {
     const headers = CATEGORY_README[bot.category];
     appendToReadme(path.join(ROOT, "README.md"), headers.en, [
       formatReadmeLine(bot),
     ]);
     appendToReadme(path.join(ROOT, "README.zh.md"), headers.zh, [
+      formatReadmeLine(bot),
+    ]);
+  }
+  for (const bot of officialBots) {
+    appendToReadme(path.join(ROOT, "README.md"), OFFICIAL_SECTION.en, [
+      formatReadmeLine(bot),
+    ]);
+    appendToReadme(path.join(ROOT, "README.zh.md"), OFFICIAL_SECTION.zh, [
       formatReadmeLine(bot),
     ]);
   }

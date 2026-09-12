@@ -1,0 +1,367 @@
+{
+  "syncedAt": "2026-09-12",
+  "officialMarketplace": {
+    "source": "x.ai/bot/marketplace",
+    "count": 1,
+    "urls": [
+      "https://x.ai/bot/marketplace"
+    ]
+  },
+  "thirdPartySources": [
+    {
+      "source": "grokbot.dev",
+      "count": 0
+    },
+    {
+      "source": "botdirectory.ai",
+      "count": 210
+    }
+  ],
+  "existingCount": 807,
+  "manualIncremental": 47,
+  "duplicatesSkipped": 0,
+  "newBotsTotal": 47,
+  "idRange": "991925–991971",
+  "byCategory": {
+    "sales": 8,
+    "operations": 15,
+    "marketing": 8,
+    "personal": 8,
+    "product": 1,
+    "engineering": 5,
+    "design": 1,
+    "recruiting-people": 1
+  },
+  "newBots": [
+    {
+      "id": "991925",
+      "name": "EBR & Value Deck Builder",
+      "slug": "ebr-value-deck-builder",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/yA2-Ti3sPVNFO-zRzkwuX"
+    },
+    {
+      "id": "991926",
+      "name": "Signal Prospector",
+      "slug": "signal-prospector",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/wsbOPOkHApmIYLrErnC4e"
+    },
+    {
+      "id": "991927",
+      "name": "Business ops",
+      "slug": "business-ops",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/nFEJD59IJA5604hO9vqym"
+    },
+    {
+      "id": "991928",
+      "name": "Affiliate program manager",
+      "slug": "affiliate-program-operator",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/-x19CFkvT5U866BNA7q_J"
+    },
+    {
+      "id": "991929",
+      "name": "Partner referral outreach",
+      "slug": "partner-referral-outreach",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/GG7hDpauDjTRhB6VgLFAF"
+    },
+    {
+      "id": "991930",
+      "name": "UGC bounty manager",
+      "slug": "ugc-bounty-manager",
+      "category": "marketing",
+      "xaiBotUrl": "https://x.ai/bot/wT_QN-zqycu-aHPsdZMVc"
+    },
+    {
+      "id": "991931",
+      "name": "Landing page generator",
+      "slug": "landing-page-generator",
+      "category": "marketing",
+      "xaiBotUrl": "https://x.ai/bot/D0UvxRvNzDTR_xOJ6Iq08"
+    },
+    {
+      "id": "991932",
+      "name": "Store from template",
+      "slug": "store-from-template",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/3jmbbUj4_UDgbjo-Q3oEr"
+    },
+    {
+      "id": "991933",
+      "name": "Churn retention manager",
+      "slug": "churn-retention-manager",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/p0OIZUJK5sRFImh_DMujf"
+    },
+    {
+      "id": "991934",
+      "name": "Paid ads manager",
+      "slug": "paid-ads-manager",
+      "category": "marketing",
+      "xaiBotUrl": "https://x.ai/bot/SAfsqPLP0rCuQOywOguxX"
+    },
+    {
+      "id": "991935",
+      "name": "Store setup from zero",
+      "slug": "store-setup-from-zero",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/F5jwhbmO2AgA8EgyHIDLp"
+    },
+    {
+      "id": "991936",
+      "name": "Weekly P&L analyst",
+      "slug": "weekly-p-l-analyst",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/M_4xLTMY06z1Zv1gvX_Nc"
+    },
+    {
+      "id": "991937",
+      "name": "Skroutz",
+      "slug": "skroutz",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/yQH3AFCs-90xjVmW9LICV"
+    },
+    {
+      "id": "991938",
+      "name": "Creator Shortlist Crew",
+      "slug": "creator-shortlist-crew",
+      "category": "marketing",
+      "xaiBotUrl": "https://x.ai/bot/6IU2bm7uuSPk6ETC-gC4D"
+    },
+    {
+      "id": "991939",
+      "name": "ICP Map Coach",
+      "slug": "icp-map-coach",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/yrm2MJ2nInUhoneTBSwJF"
+    },
+    {
+      "id": "991940",
+      "name": "Lookalike Scout",
+      "slug": "lookalike-scout",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/mfaurGq6eY9rIvIpMfUFI"
+    },
+    {
+      "id": "991941",
+      "name": "Rival Watch Desk",
+      "slug": "rival-watch-desk",
+      "category": "product",
+      "xaiBotUrl": "https://x.ai/bot/WKRY_T1y-KOmOn2q5vpRW"
+    },
+    {
+      "id": "991942",
+      "name": "SERP Watch Team",
+      "slug": "serp-watch-team",
+      "category": "marketing",
+      "xaiBotUrl": "https://x.ai/bot/iN9VkE6H4f4CLidzMaNaZ"
+    },
+    {
+      "id": "991943",
+      "name": "Newspaper",
+      "slug": "newspaper",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/FbHjOvOfZSxht0JmBYIlj"
+    },
+    {
+      "id": "991944",
+      "name": "Creador de facturas ARCA",
+      "slug": "creador-de-facturas-arca",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/gcOAZlqYmTRNgGT_2I9oo"
+    },
+    {
+      "id": "991945",
+      "name": "Fed + X Brief",
+      "slug": "fed-x-brief",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/ojDgaVLzjbxpPV74VzQrM"
+    },
+    {
+      "id": "991946",
+      "name": "Optima",
+      "slug": "optima",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/-E8sQr0Yrd_oSQlTaAzWy"
+    },
+    {
+      "id": "991947",
+      "name": "Billionairebot",
+      "slug": "billionairebot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/jq-BFHkNoiJEtieswOYTc"
+    },
+    {
+      "id": "991948",
+      "name": "Albert",
+      "slug": "albert",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/jtFHKaEKzEZ0zSDVCl6BP"
+    },
+    {
+      "id": "991949",
+      "name": "Sales Orchestrator",
+      "slug": "sales-orchestrator",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/AMFF7LG8gxX1bLIH-_D3A"
+    },
+    {
+      "id": "991950",
+      "name": "参谋长",
+      "slug": "chief-of-staff-cursor-relay",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/nSzhldgXfVuC93CjjQptM"
+    },
+    {
+      "id": "991951",
+      "name": "The Chief",
+      "slug": "the-chief",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/dlSO3hj__nTZlJwpQB6oP"
+    },
+    {
+      "id": "991952",
+      "name": "Usage Bot",
+      "slug": "usage-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/ywZrH-Tqld2V87AJJrTNb"
+    },
+    {
+      "id": "991953",
+      "name": "Clickbait skipper",
+      "slug": "clickbait-skipper",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/i8WsjKB8KRL-kQ25VPwaB"
+    },
+    {
+      "id": "991954",
+      "name": "Announcr Voice",
+      "slug": "announcr-voice",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/h-Vxewn8CGFLx6qrzNUJJ"
+    },
+    {
+      "id": "991955",
+      "name": "LinkedIn Watch",
+      "slug": "linkedin-watch",
+      "category": "marketing",
+      "xaiBotUrl": "https://x.ai/bot/qbBlMjsKq-1coFvbmnEaR"
+    },
+    {
+      "id": "991956",
+      "name": "Kindling",
+      "slug": "kindling",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/nfX1q6Drs8FTQ0eVezjH_"
+    },
+    {
+      "id": "991957",
+      "name": "Apple Dev",
+      "slug": "apple-dev",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/VPM4_E2eqx9AJFpTF-_EA"
+    },
+    {
+      "id": "991958",
+      "name": "Photo Curator",
+      "slug": "photo-curator",
+      "category": "design",
+      "xaiBotUrl": "https://x.ai/bot/hig9j1KnpZyH6QQN-Af0Z"
+    },
+    {
+      "id": "991959",
+      "name": "Bot Portal",
+      "slug": "bot-portal",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/5R5NbvHIoJOSd3l3qto3o"
+    },
+    {
+      "id": "991960",
+      "name": "Facta",
+      "slug": "facta",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/ayQ3WlQQ2Z7LQhILzbZIR"
+    },
+    {
+      "id": "991961",
+      "name": "Quency",
+      "slug": "quency",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/JQu6e3mIfy588elZm7BTo"
+    },
+    {
+      "id": "991962",
+      "name": "Job applier",
+      "slug": "job-applier",
+      "category": "recruiting-people",
+      "xaiBotUrl": "https://x.ai/bot/gfxH6sM_0QlxeDNFrRmep"
+    },
+    {
+      "id": "991963",
+      "name": "AEO Content Producer",
+      "slug": "aeo-content-producer",
+      "category": "marketing",
+      "xaiBotUrl": "https://x.ai/bot/WEqsULsog0KJUFUbhIRXH"
+    },
+    {
+      "id": "991964",
+      "name": "Judd the Bug",
+      "slug": "judd-the-bug",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/JQWyaF4Io7cfOF-4FvMZL"
+    },
+    {
+      "id": "991965",
+      "name": "Showrunner",
+      "slug": "showrunner",
+      "category": "marketing",
+      "xaiBotUrl": "https://x.ai/bot/dLxcnhWxf9JyHIo_l8wJk"
+    },
+    {
+      "id": "991966",
+      "name": "Usage Watch",
+      "slug": "usage-watch",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/Q6-oQnCZVNLOwdzEw5i-j"
+    },
+    {
+      "id": "991967",
+      "name": "人生·财务",
+      "slug": "personal-finance-log",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/haSA0Ru28CYKDm2V5tPRB"
+    },
+    {
+      "id": "991968",
+      "name": "Colombia Move",
+      "slug": "colombia-move",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/mWxeafjXItbC0_VcpSwqm"
+    },
+    {
+      "id": "991969",
+      "name": "Executive Coach",
+      "slug": "executive-coach",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/fAAHYFBe8xpTkBX1sbGBz"
+    },
+    {
+      "id": "991970",
+      "name": "Gong Call Coach",
+      "slug": "gong-call-coach",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/KpodhhBqjA4FHv47R1HrD"
+    },
+    {
+      "id": "991971",
+      "name": "Token Officer",
+      "slug": "token-officer",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/1NG6WfAiS1HHhLdUcBQwP"
+    }
+  ],
+  "dupSample": []
+}

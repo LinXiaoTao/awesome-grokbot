@@ -95,6 +95,10 @@ English | [中文](README.zh.md)
 - **[Nom Nom](https://x.ai/bot/bdcSxv_pSQEH0E571N_fC)** by @NikolaFYI — Keeps a meal and calorie log, remembers named recipes, and sends a daily summary of what you recorded.
 - **[Klo Bot](https://x.ai/bot/yW-Q1yis7-VCNKbeJ6g6Z)** by @orenmeetsworld — TikTok creative strategy from 100 organic videos — sentiment, comments, video ideas.
 
+- **[EBR & Value Deck Builder](https://x.ai/bot/yA2-Ti3sPVNFO-zRzkwuX)** by @kristaletz — Builds an executive business review or value deck for a named account from your CRM, call history, and usage data, on your brand, and hands you an editable file. Never invents a number, and nothing goes to the customer without your yes.
+
+- **[Signal Prospector](https://x.ai/bot/wsbOPOkHApmIYLrErnC4e)** by @kristaletz — Finds the accounts and people in your CRM and product data that just showed intent, ranks them, and drafts the first touch. Runs on a schedule, explains every signal, and nothing sends without your yes.
+
 ## Engineering
 
 - **[Dr Eggbot](https://x.ai/bot/_jOdbfkB16zxu7MRcmReE)** by @poteto — Asks a handful of preference questions, then generates a properly structured bot rather than a blank one.
@@ -232,6 +236,16 @@ English | [中文](README.zh.md)
 
 - **[App Store Review Bot](https://x.ai/bot/KzBEylM_3NFTjATszLICV)** by @stevederico — Checks your iOS app against Apple's review rules before Apple does.
 
+- **[参谋长](https://x.ai/bot/nSzhldgXfVuC93CjjQptM)** by @0xlangeai — A Chinese-language relay for people who want planning and research done by a stronger model without switching models by hand inside the chat. You describe the job, it forwards the request to a Cursor Cloud Agent that runs a Claude model, waits, and returns whatever comes back without editing it.
+
+- **[Kindling](https://x.ai/bot/nfX1q6Drs8FTQ0eVezjH_)** by @FantomBuildz — Describe the app you have in mind in a single sentence and you get back a fully-formed build prompt, written out and ready for the clipboard. Where it ends is the point: handing over that text is the whole job, so it will not wander off and start the project for you.
+
+- **[Apple Dev](https://x.ai/bot/VPM4_E2eqx9AJFpTF-_EA)** by @Baconbrix — Aimed at people whose work has to compile on Apple hardware. Point it at a machine you have already paired, by its identifier, and it drives the local toolchain sitting there — editor, build, simulator — so the iOS or macOS side of a project is handled from chat rather than by hand.
+
+- **[Judd the Bug](https://x.ai/bot/JQWyaF4Io7cfOF-4FvMZL)** by @sergical — Point it at a question about your error tracking and it actually goes looking, through the Sentry MCP connection, the command-line tool and the web dashboard, rather than guessing from memory. What comes back shows where each detail was found and ends on one clear recommendation about what to do next.
+
+- **[Usage Watch](https://x.ai/bot/Q6-oQnCZVNLOwdzEw5i-j)** by @compileinstyle — Pulls figures for what Grok Bot and Cursor are costing you straight from their interfaces, holds the total against a ceiling you set for the day, and lists whatever is eating most of it. The point is that it mostly says nothing, and speaks up only when the number is worth your attention.
+
 ## Product
 
 - **[Product Idea Stress Test](https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9)** by @hnshah — Investigates a product or startup idea for founders. Surfaces what has to be true, evidence for and against, the assumption most likely to kill it, and what to do next.
@@ -283,6 +297,8 @@ English | [中文](README.zh.md)
 
 - **[Product Builder CoS](https://x.ai/bot/6tbtv4Tln4MvKc5duOkle)** by @sneharavindra — Turns a signed-off product plan into a checklist someone actually tracks.
 
+- **[Rival Watch Desk](https://x.ai/bot/WKRY_T1y-KOmOn2q5vpRW)** by @ShehjadTaus — Pick the businesses you compete with and it keeps a permanent eye on them: money raised, roles being advertised, press coverage and the campaigns they are paying to run. Any shift in those signals lands in a brief, so a rival gathering speed reaches you while there is still time to respond.
+
 ## Design
 
 - **[Critiquito](https://x.ai/bot/NqdH9qGvrq-yWRaXhJGM-)** by @mamuso — A product design critic that reviews interface screenshots from the person who has to use them. It names what is unclear, hard, or unforgiving, and picks one highest-impact fix.
@@ -308,6 +324,8 @@ English | [中文](README.zh.md)
 - **[Sable Bot](https://x.ai/bot/oSvAMKX_ahD56ZmgwtRys)** by @DannyLimanseta — Helps game developers ideate and visualize: mocks looks from real games, then 2D art or sprite sheets.
 
 - **[Proto Bot](https://x.ai/bot/-SSy9LBtTNY17MXMXQbYq)** by @5antoshernandez — UI/UX design engineer who ships three deeply different directions per concept as real, polished prototypes. Crafts requirements and testable hypotheses.
+
+- **[Photo Curator](https://x.ai/bot/hig9j1KnpZyH6QQN-Af0Z)** by @jaharris13 — Hand it a folder of raw shots and it picks out the ones worth keeping, applies the same restrained set of adjustments to each, and files the results separately. The originals are left alone, and it checks with you first before anything or anyone is taken out of a frame.
 
 ## Marketing
 
@@ -406,6 +424,22 @@ English | [中文](README.zh.md)
 
 - **[blogdrafter](https://x.ai/bot/A6o9Z1NYSIRBX-VIoEcQi)** by @daisuke — Drafts and edits blog posts that still sound like you wrote them.
 
+- **[UGC bounty manager](https://x.ai/bot/wT_QN-zqycu-aHPsdZMVc)** by @ColinMcDermott — Handles the administration behind paying creators for clips and other audience-made content. It writes the instructions participants work from, goes through everything that comes back, and calculates what each accepted submission cost you per view. Amounts arrive as proposals for you to approve, never as transfers.
+
+- **[Landing page generator](https://x.ai/bot/D0UvxRvNzDTR_xOJ6Iq08)** by @ColinMcDermott — Aimed at one specific business rather than being a generic page builder. You hand over the product and what you charge for it; it drafts the persuasive copy, assembles the page and pushes it to a real URL. The prices shown are your actual prices, and the buy button is connected rather than decorative.
+
+- **[Paid ads manager](https://x.ai/bot/SAfsqPLP0rCuQOywOguxX)** by @ColinMcDermott — Covers the whole advertising cycle instead of one slice of it: producing the creative, getting campaigns live, and checking on them every single day. Each morning it hands back a short summary of what happened overnight. Thresholds for killing a loser or putting more behind a winner are yours to set up front.
+
+- **[Creator Shortlist Crew](https://x.ai/bot/6IU2bm7uuSPk6ETC-gC4D)** by @ShehjadTaus — Tell it the subject matter and the platform you care about and it goes hunting for the people posting there, then fills in how each of them can be reached. Fresh names keep arriving over time instead of all at once, so a partnerships team always has somebody new to approach this week.
+
+- **[SERP Watch Team](https://x.ai/bot/iN9VkE6H4f4CLidzMaNaZ)** by @ShehjadTaus — Rankings are only half the picture now that people put their questions to a chatbot instead. This follows both sides: where your pages land on a results page, and whether assistants name you when the subject is your category. That becomes a regular digest with a view on what to write next.
+
+- **[LinkedIn Watch](https://x.ai/bot/qbBlMjsKq-1coFvbmnEaR)** by @AnnouncrFM — Checks LinkedIn for you at set times rather than waiting for you to open the app. Each run gathers new activity across your feed, direct messages, connection requests, profile views and job matches, then posts a digest into chat with links to each item. If you prefer listening, it can read the cards aloud too.
+
+- **[AEO Content Producer](https://x.ai/bot/WEqsULsog0KJUFUbhIRXH)** by @Jingg_n_Tonic — Takes readings of how often you surface inside AI-generated answers and turns them into an editorial plan: which existing pages need reworking, which subjects you have nothing on at all, then an outline and a draft for each. Everything is edited and then parked, waiting on your sign-off.
+
+- **[Showrunner](https://x.ai/bot/dLxcnhWxf9JyHIo_l8wJk)** by @RedSpiceX — The lead role in a five-part setup for making music videos. It settles the look, produces the reference frames, and spells out what every shot needs from Grok Imagine — feed those in yourself or let it render them — after which the finished clips are cut together against the track.
+
 ## Sales
 
 - **[Account Research Desk](https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss)** by @akbaliga96 — Researches the companies you sell to and writes your pre-call brief and account plan. Works from the public web and the notes you paste, and never sends without you.
@@ -474,6 +508,22 @@ English | [中文](README.zh.md)
 - **[CrowdReply Closer Bot](https://x.ai/bot/gDvJh38CGXP1Jumemg4d-)** by @dawoodkhan254 — Reads replies and drafts the offer. You still approve sends.
 
 - **[Affiliate Recruiter](https://x.ai/bot/TaCAhCtPGCvObAaK7ZDQQ)** by @zilvestro — Finds and ranks the people who could actually sell your product for you.
+
+- **[EBR & Value Deck Builder](https://x.ai/bot/yA2-Ti3sPVNFO-zRzkwuX)** by @kristaletz — Builds an executive business review or value deck for a named account from your CRM, call history, and usage data, on your brand, and hands you an editable file. Never invents a number, and nothing goes to the customer without your yes.
+
+- **[Signal Prospector](https://x.ai/bot/wsbOPOkHApmIYLrErnC4e)** by @kristaletz — Finds the accounts and people in your CRM and product data that just showed intent, ranks them, and drafts the first touch. Runs on a schedule, explains every signal, and nothing sends without your yes.
+
+- **[Affiliate program manager](https://x.ai/bot/-x19CFkvT5U866BNA7q_J)** by @ColinMcDermott — Looks after the people selling on your behalf. It decides the commission structure, sorts affiliates by what each one genuinely brings in, and removes anybody breaking the rules. Those producing results get a regular drop of fresh material and guidance so they always have something new to promote with.
+
+- **[Partner referral outreach](https://x.ai/bot/GG7hDpauDjTRhB6VgLFAF)** by @ColinMcDermott — Works through the whole cycle of adding new partners to your book. It identifies companies whose audience overlaps usefully with your own, gets a referral link in front of the right person, and circles back when nobody replies. Commission arising from each relationship is recorded as it accumulates.
+
+- **[ICP Map Coach](https://x.ai/bot/yrm2MJ2nInUhoneTBSwJF)** by @ShehjadTaus — It sizes up how big your addressable market really is, narrows that to the accounts which look most like your best customers, and then populates each of them with the people who would sit around the table on a purchase. The picture moves as the market does, so outbound aims at something current.
+
+- **[Lookalike Scout](https://x.ai/bot/mfaurGq6eY9rIvIpMfUFI)** by @ShehjadTaus — Start from a single account that fits your market and it fans out to businesses of the same shape, then works out who inside each one would actually sign off on a purchase and confirms those contacts. The roster keeps refreshing rather than sitting there as an export that goes stale in a week.
+
+- **[Sales Orchestrator](https://x.ai/bot/AMFF7LG8gxX1bLIH-_D3A)** by @idleshubh — Drop it into a group with your other sales assistants and it answers first, every time. It decides which single specialist should take each request, stops the rest from piling in with their own replies, and only allows work to move from one bot to another when a handoff is warranted.
+
+- **[Gong Call Coach](https://x.ai/bot/KpodhhBqjA4FHv47R1HrD)** by @scottxmetcalf — Works from what was already captured, once the conversation is over. It goes back through the recordings your team has stored and comes out with a handful of specific things to do differently, written for the person running one-to-ones rather than whispered mid-call.
 
 ## Operations
 
@@ -741,6 +791,36 @@ English | [中文](README.zh.md)
 
 - **[Customer Feedback Watch](https://x.ai/bot/8Snl1TovbMwClPoBiHrWT)** by @egavrilenko11 — Monitors public X for customer feedback, complaints, and bug reports about your product, especially billing and authentication issues.
 
+- **[Business ops](https://x.ai/bot/nFEJD59IJA5604hO9vqym)** by @ColinMcDermott — Instead of remembering which assistant handles which job, you ask this one. Its reach covers the storefront, advertising, web pages, affiliate and partner arrangements, keeping customers, paying out bounties and the books. Simple requests it answers itself; bigger ones go to whichever specialist was built for them.
+
+- **[Store from template](https://x.ai/bot/3jmbbUj4_UDgbjo-Q3oEr)** by @ColinMcDermott — Rather than designing from an empty page, it begins with a shop that is already trading well and duplicates the structure. From there the product on sale, the wording throughout and the price points all get reworked to suit your own market, and the finished version is put live.
+
+- **[Churn retention manager](https://x.ai/bot/p0OIZUJK5sRFImh_DMujf)** by @ColinMcDermott — Watches for the two moments a subscriber is about to disappear, someone clicking cancel and a card that did not go through, and intervenes while there is still something to be done. It puts a meaningful alternative in front of them rather than a token discount, then logs the reason behind each departure.
+
+- **[Store setup from zero](https://x.ai/bot/F5jwhbmO2AgA8EgyHIDLp)** by @ColinMcDermott — Meant for a very first launch, when nothing exists yet at all. Describe what you intend to sell and it produces the entire page in a single pass: the pitch, the pricing tiers a customer chooses between, and the links that carry a buyer through to payment. What lands at the end is open for business.
+
+- **[Weekly P&L analyst](https://x.ai/bot/M_4xLTMY06z1Zv1gvX_Nc)** by @ColinMcDermott — Once a week it assembles the financial picture: what came in, how many customers stayed, where money quietly drained away, and how hard the advertising budget worked. Anything heading in the wrong direction is called out and traced back to a cause. It only ever reads your data; nothing is changed.
+
+- **[Creador de facturas ARCA](https://x.ai/bot/gcOAZlqYmTRNgGT_2I9oo)** by @tomidelu_ — Built for independent sellers in Argentina. It walks you through the one-time plumbing, linking a Gmail account, installing the tax certificate and registering a point of sale, and after that it raises each Factura C and sends the PDF out by mail without anyone opening the tax portal again.
+
+- **[Optima](https://x.ai/bot/-E8sQr0Yrd_oSQlTaAzWy)** by @TOATspace — Over time a bot's notes and memory fill with instructions for jobs that no longer exist, and it keeps honouring them. Optima reads through that material, works out which files belong to which project, checks with the bot that owns each rule, and presents a removal list for you to approve before anything is deleted.
+
+- **[Albert](https://x.ai/bot/jtFHKaEKzEZ0zSDVCl6BP)** by @Skyler_Miller56 — Feed it the labour agreement a city has with its police force and it pulls out the pay scales, benefits, overtime provisions and similar terms. Do the same for several municipalities and it lines them up in an Excel workbook, so a negotiator or analyst can compare deals without reading hundreds of pages.
+
+- **[The Chief](https://x.ai/bot/dlSO3hj__nTZlJwpQB6oP)** by @PolymarketPoke — Built for someone managing several bots at once. Each day it checks what every specialist can still do, tidies up who sits in which group, and points out where a new bot would fill a gap. Anything worth knowing is routed to you, so the roster stays organised while the final decisions remain yours alone.
+
+- **[Usage Bot](https://x.ai/bot/ywZrH-Tqld2V87AJJrTNb)** by @realMattAbrams — Meant for accounts where several bots share one allowance. It watches how much capacity remains, and passes that figure to the other agents so they can slow down before the account runs dry. When it is idle, the last line of its DM shows a rough percentage, giving you a glance-level read on remaining headroom.
+
+- **[Announcr Voice](https://x.ai/bot/h-Vxewn8CGFLx6qrzNUJJ)** by @the_davey — Instead of checking screens, you hear what your bots have to say. Any alert or note another Grok Bot produces can be sent here and read aloud over whatever speaker is nearby, wherever you happen to be. It also keeps a queue of pending messages and a store of spoken notes, acting as one audio hub for the whole set.
+
+- **[Bot Portal](https://x.ai/bot/5R5NbvHIoJOSd3l3qto3o)** by @JaimeBubblehead — Somewhere between a directory and a graph. It collects assistants, tools and products that are useful alongside Grok Bot, then records how each one connects to the others, tracing those links out to six steps and citing where a connection came from rather than guessing at it.
+
+- **[Facta](https://x.ai/bot/ayQ3WlQQ2Z7LQhILzbZIR)** by @JaimeBubblehead — Sits downstream of the rest of the crew as a check on what they assert. Each statement comes back marked solid, partly true, overstated, or held for a person to look at, and every mark is anchored to something it went and read. Where it cannot confirm a thing, it says so rather than filling the gap.
+
+- **[Quency](https://x.ai/bot/JQu6e3mIfy588elZm7BTo)** by @JaimeBubblehead — Its remit is narrow on purpose: is this good enough to release, does it hold together, and does it do the job it was built for. Whether the facts are right belongs to someone else, and so does how it looks. What it owns is the call at the end, and a person still outranks it.
+
+- **[Token Officer](https://x.ai/bot/1NG6WfAiS1HHhLdUcBQwP)** by @from_glasses — Reads back through what your bots have been saying and where their recurring jobs overlap, then names the waste: a conversation circling the same ground, two timers firing for one task, an expensive model doing something trivial. Each finding arrives with the change that would stop it.
+
 ## Recruiting & People
 
 - **[Recruiting Coordinator](https://x.ai/bot/KDahOjiDbbAvxqx9KaGcq)** by @TommyHansenTA — Schedules interview loops, preps your interviewers, and chases what's stalled. Works from your calendar or a pasted list, and never emails a candidate without you.
@@ -763,6 +843,8 @@ English | [中文](README.zh.md)
 - **[Talent Matchmaker](https://x.ai/bot/l8p6rXw-lalL-UNiHySnJ)** by @lennysan — Matches job seekers with open roles from your email. Scans investor updates and inbound for hiring signals and people looking, tracks both sides of the marketplace.
 - **[hire-bot](https://x.ai/bot/Q9Vbc3gbldDnJBmUfcip-)** by @xsubwayratx — Sits across your ATS, LinkedIn, and inbox to gather candidate context and draft first outreach from scattered conversations.
 - **[Vote 2027 Bot](https://x.ai/bot/CHmLGnQyx6r8lkb3U8k9x)** by @LeTerryBZH — Rates French 2027 presidential candidates on five weighted qualities, runs a daily X civic watch, and feeds a Lattice wiki agent.
+
+- **[Job applier](https://x.ai/bot/gfxH6sM_0QlxeDNFrRmep)** by @aroogle — Built for a search where volume matters. It starts by reading your CV and asking enough about you to work with, goes looking for openings that suit, and rewrites what you send so it speaks to that particular posting. What it will not do is invent experience you do not have.
 
 ## Personal
 
@@ -1010,6 +1092,22 @@ English | [中文](README.zh.md)
 - **[Tolstoy](https://x.ai/bot/42Clq7Vdn2X7zcwJ9OGxR)** by @SuddenlyJon — A literary companion that weighs your week the way Tolstoy might.
 
 - **[Poe](https://x.ai/bot/EcUpzABnh3MfZQTN7inmP)** by @SuddenlyJon — A gothic literary companion with a taste for puzzles and dread.
+
+- **[Skroutz](https://x.ai/bot/yQH3AFCs-90xjVmW9LICV)** by @voidvexa — Built specifically around Skroutz.gr, the Greek comparison-shopping site. Tell it what you want to buy and it works through the listings looking for the lowest total, then assembles the basket ready for you. It sticks to fast-delivery options, and the final purchase step stays in your hands.
+
+- **[Newspaper](https://x.ai/bot/FbHjOvOfZSxht0JmBYIlj)** by @Carbonthecoder — Each morning it picks some corner of the world, reads up on it, and sets the result out as a single printable sheet under the masthead Understand the World. The format is deliberately finite: one page, one subject, read over coffee and then finished, rather than a feed that never ends.
+
+- **[Fed + X Brief](https://x.ai/bot/ojDgaVLzjbxpPV74VzQrM)** by @0xashrk — Every weekday morning it assembles a short macro read-out: what the Fed and markets are doing according to X news, with prediction-market FOMC odds folded in as a sentiment gauge. Then it turns to your own timeline and advises whether to quote something, write a fresh post, or sit this one out.
+
+- **[Billionairebot](https://x.ai/bot/jq-BFHkNoiJEtieswOYTc)** by @JeffreyLind — Describe a chore you dread, whether paperwork that needs notarising, a return that has to be shipped, or a queue you would rather not stand in, and it works out how a person with money would offload it. You get the type of service to hire, named providers where possible, and a rough price so you can decide quickly.
+
+- **[Clickbait skipper](https://x.ai/bot/i8WsjKB8KRL-kQ25VPwaB)** by @S_Padival — Paste a link to a YouTube video or a podcast episode, or attach the media file itself, and you get the substance with none of the build-up. It follows a fixed, deliberately frugal procedure that spends as few tokens as possible, so the answer arrives fast and cheap, and it does nothing beyond that one task.
+
+- **[人生·财务](https://x.ai/bot/haSA0Ru28CYKDm2V5tPRB)** by @KinGao476942 — Records what you spend as you say it out loud, so the habit survives contact with a busy day. Everything gathers into a ledger that is yours, with a short readout each evening and a wider review at month end. Setup points it at your own workspace tooling, so the figures stay on your side.
+
+- **[Colombia Move](https://x.ai/bot/mWxeafjXItbC0_VcpSwqm)** by @michaelheredia — Answers in Spanish or English, whichever you happen to write in. It connects to the service sitting behind the marketplace, looks after the listings and notices you have posted there, and fields the ordinary questions people ask about how the place works while planning a move to Colombia.
+
+- **[Executive Coach](https://x.ai/bot/fAAHYFBe8xpTkBX1sbGBz)** by @YanqingCheng — A coach rather than an adviser. It will not hand you a model to apply or tell you what it would do in your place; it keeps asking until you have described the situation plainly and named the step you are taking. The ground it covers is how you work and how you decide.
 
 ## Contributing
 
