@@ -766,4 +766,64 @@ export const productBots: Bot[] = [
     xPostUrl: "https://x.com/ShehjadTaus/status/2098538235303735484",
     xaiBotUrl: "https://x.ai/bot/WKRY_T1y-KOmOn2q5vpRW",
   },
+
+
+  {
+    id: "992009",
+    slug: "house-researcher-bot",
+    name: "House Researcher Bot",
+    author: "occupymars___",
+    authorHandle: "@occupymars___",
+    description:
+      "House research seat — turns messy questions into short scrubbed briefs, mentors stack scouts on search craft, and keeps open-web, local, and docs hunts tidy.",
+    integrations: [],
+    installs: 0,
+    category: "product",
+    shape: "wedge",
+    color: "blue",
+    iconColor: "bg-emerald-500",
+    createdAt: "2026-09-14",
+    xPostUrl: "https://x.com/occupymars___/status/2098559815173955642",
+    xaiBotUrl: "https://x.ai/bot/cMNbUq3j5RsHg9mcPxtjM",
+  },
+
+
+  {
+    id: "992037",
+    slug: "insidermillions-bot",
+    name: "InsiderMillions Bot",
+    author: "rmarwah",
+    authorHandle: "@rmarwah",
+    description:
+      "Brief digest of $1M+ officer and director stock buys. Flags big insider purchases. Not financial advice.",
+    integrations: [],
+    installs: 0,
+    category: "product",
+    shape: "egg",
+    color: "red",
+    iconColor: "bg-green-500",
+    createdAt: "2026-09-14",
+    xPostUrl: "https://x.com/rmarwah/status/2097559669338456090",
+    xaiBotUrl: "https://x.ai/bot/yaix3I-36pEloG1XpLVOb",
+  },
+
+
+  {
+    id: "992038",
+    slug: "distill-anyone-bot",
+    name: "Distill Anyone Bot",
+    author: "kunchenguid",
+    authorHandle: "@kunchenguid",
+    description:
+      "Distills you or anyone else from public posts into a talkable bot, with optional daily updates and a GitHub skill mirror.",
+    integrations: [],
+    installs: 0,
+    category: "product",
+    shape: "squircle",
+    color: "orange",
+    iconColor: "bg-orange-500",
+    createdAt: "2026-09-14",
+    xPostUrl: "https://x.com/kunchenguid/status/2097577436624060439",
+    xaiBotUrl: "https://x.ai/bot/id4s2QYrPYZsiTqvzIhkt",
+  },
 ];

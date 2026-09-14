@@ -390,4 +390,22 @@ export const designBots: Bot[] = [
     xPostUrl: "https://x.com/jaharris13/status/2098181437979578662",
     xaiBotUrl: "https://x.ai/bot/hig9j1KnpZyH6QQN-Af0Z",
   },
+  {
+    id: "992010",
+    slug: "gsap-bot",
+    name: "GSAP Bot",
+    author: "mrflmnlNFT",
+    authorHandle: "@mrflmnlNFT",
+    description:
+      "Implements approved motion specs with official GreenSock GSAP skills — timelines, ScrollTrigger, React/Vue cleanup, and a reduced-motion path.",
+    integrations: [],
+    installs: 0,
+    category: "design",
+    shape: "shield",
+    color: "violet",
+    iconColor: "bg-cyan-500",
+    createdAt: "2026-09-14",
+    xPostUrl: "https://x.com/mrflmnlNFT/status/2098607498999775438",
+    xaiBotUrl: "https://x.ai/bot/reahN5D6W2dIiCKd4MuF7",
+  },
 ];

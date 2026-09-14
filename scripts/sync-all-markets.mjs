@@ -7,12 +7,12 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { MANUAL_INCREMENTAL } from "./manual-incremental-2026-09-12.mjs";
+import { MANUAL_INCREMENTAL } from "./manual-incremental-2026-09-14.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const BOTS_DIR = path.join(ROOT, "src/data/bots");
-const CREATED_AT = "2026-09-12";
+const CREATED_AT = "2026-09-14";
 
 const CATEGORIES = [
   "engineering",

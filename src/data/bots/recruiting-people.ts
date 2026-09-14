@@ -338,4 +338,103 @@ export const recruitingPeopleBots: Bot[] = [
     xPostUrl: "https://x.com/aroogle/status/2098134660677337595",
     xaiBotUrl: "https://x.ai/bot/gfxH6sM_0QlxeDNFrRmep",
   },
+
+
+  {
+    id: "991995",
+    slug: "yc-startup-job-applier-bot",
+    name: "YC Startup Job Applier Bot",
+    author: "fwhittington_24",
+    authorHandle: "@fwhittington_24",
+    description:
+      "For workatastartup.com: onboards you, fills your profile on this computer, ranks openings, and sends short founder notes under a daily cap.",
+    integrations: [],
+    installs: 0,
+    category: "recruiting-people",
+    shape: "cloud",
+    color: "yellow",
+    iconColor: "bg-amber-500",
+    createdAt: "2026-09-14",
+    xPostUrl: "https://x.com/fwhittington_24/status/2098810812932501719",
+    xaiBotUrl: "https://x.ai/bot/COQAlYvqDNehPSHDBt-6z",
+  },
+
+
+  {
+    id: "991998",
+    slug: "swe-job-applier-bot",
+    name: "SWE Job Applier Bot",
+    author: "fwhittington_24",
+    authorHandle: "@fwhittington_24",
+    description:
+      "Applies to software engineering internships — collects your preferences, fills applications with Simplify, and uses your own cover-letter framework.",
+    integrations: [],
+    installs: 0,
+    category: "recruiting-people",
+    shape: "blob",
+    color: "blue",
+    iconColor: "bg-fuchsia-500",
+    createdAt: "2026-09-14",
+    xPostUrl: "https://x.com/fwhittington_24/status/2098810814668886087",
+    xaiBotUrl: "https://x.ai/bot/ZNfBRZeVANNSVza6Xyywf",
+  },
+
+  {
+    id: "991999",
+    slug: "recruiter-email-finder-bot",
+    name: "Recruiter Email Finder Bot",
+    author: "fwhittington_24",
+    authorHandle: "@fwhittington_24",
+    description:
+      "Finds university, early-careers, and technical recruiter emails at companies you care about, then delivers a company-grouped CSV.",
+    integrations: [],
+    installs: 0,
+    category: "recruiting-people",
+    shape: "pebble",
+    color: "violet",
+    iconColor: "bg-pink-500",
+    createdAt: "2026-09-14",
+    xPostUrl: "https://x.com/fwhittington_24/status/2098810811514851568",
+    xaiBotUrl: "https://x.ai/bot/lbf-biMZO02RdXeOBks_-",
+  },
+
+
+  {
+    id: "992001",
+    slug: "handshake-job-applier-bot",
+    name: "Handshake Job Applier Bot",
+    author: "fwhittington_24",
+    authorHandle: "@fwhittington_24",
+    description:
+      "Onboards you on Handshake, hunts jobs that match your search, and applies with your résumé or a cover-letter factory.",
+    integrations: [],
+    installs: 0,
+    category: "recruiting-people",
+    shape: "egg",
+    color: "gray",
+    iconColor: "bg-blue-500",
+    createdAt: "2026-09-14",
+    xPostUrl: "https://x.com/fwhittington_24/status/2098810808293626139",
+    xaiBotUrl: "https://x.ai/bot/4AcLHtvlWUWclgU5jFy2r",
+  },
+
+
+  {
+    id: "992002",
+    slug: "alumni-coffee-chat-finder-bot",
+    name: "Alumni Coffee Chat Finder Bot",
+    author: "fwhittington_24",
+    authorHandle: "@fwhittington_24",
+    description:
+      "Builds a CSV of university alumni for coffee chats — name, company, role, email, and whether you already emailed them — from LinkedIn search.",
+    integrations: [],
+    installs: 0,
+    category: "recruiting-people",
+    shape: "squircle",
+    color: "black",
+    iconColor: "bg-purple-500",
+    createdAt: "2026-09-14",
+    xPostUrl: "https://x.com/fwhittington_24/status/2098810809921003800",
+    xaiBotUrl: "https://x.ai/bot/j2bqDafGnyOv6bKMOOGOp",
+  },
 ];

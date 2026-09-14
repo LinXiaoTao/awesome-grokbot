@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-12",
+  "syncedAt": "2026-09-14",
   "officialMarketplace": {
     "source": "x.ai/bot/marketplace",
     "count": 1,
@@ -17,350 +17,560 @@
       "count": 210
     }
   ],
-  "existingCount": 807,
-  "manualIncremental": 47,
+  "existingCount": 854,
+  "manualIncremental": 77,
   "duplicatesSkipped": 0,
-  "newBotsTotal": 47,
-  "idRange": "991925–991971",
+  "newBotsTotal": 77,
+  "idRange": "991972–992048",
   "byCategory": {
-    "sales": 8,
-    "operations": 15,
-    "marketing": 8,
-    "personal": 8,
-    "product": 1,
-    "engineering": 5,
+    "engineering": 6,
+    "product": 3,
     "design": 1,
-    "recruiting-people": 1
+    "marketing": 2,
+    "sales": 2,
+    "operations": 22,
+    "recruiting-people": 5,
+    "personal": 36
   },
   "newBots": [
     {
-      "id": "991925",
-      "name": "EBR & Value Deck Builder",
-      "slug": "ebr-value-deck-builder",
-      "category": "sales",
-      "xaiBotUrl": "https://x.ai/bot/yA2-Ti3sPVNFO-zRzkwuX"
-    },
-    {
-      "id": "991926",
-      "name": "Signal Prospector",
-      "slug": "signal-prospector",
-      "category": "sales",
-      "xaiBotUrl": "https://x.ai/bot/wsbOPOkHApmIYLrErnC4e"
-    },
-    {
-      "id": "991927",
-      "name": "Business ops",
-      "slug": "business-ops",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/nFEJD59IJA5604hO9vqym"
-    },
-    {
-      "id": "991928",
-      "name": "Affiliate program manager",
-      "slug": "affiliate-program-operator",
-      "category": "sales",
-      "xaiBotUrl": "https://x.ai/bot/-x19CFkvT5U866BNA7q_J"
-    },
-    {
-      "id": "991929",
-      "name": "Partner referral outreach",
-      "slug": "partner-referral-outreach",
-      "category": "sales",
-      "xaiBotUrl": "https://x.ai/bot/GG7hDpauDjTRhB6VgLFAF"
-    },
-    {
-      "id": "991930",
-      "name": "UGC bounty manager",
-      "slug": "ugc-bounty-manager",
-      "category": "marketing",
-      "xaiBotUrl": "https://x.ai/bot/wT_QN-zqycu-aHPsdZMVc"
-    },
-    {
-      "id": "991931",
-      "name": "Landing page generator",
-      "slug": "landing-page-generator",
-      "category": "marketing",
-      "xaiBotUrl": "https://x.ai/bot/D0UvxRvNzDTR_xOJ6Iq08"
-    },
-    {
-      "id": "991932",
-      "name": "Store from template",
-      "slug": "store-from-template",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/3jmbbUj4_UDgbjo-Q3oEr"
-    },
-    {
-      "id": "991933",
-      "name": "Churn retention manager",
-      "slug": "churn-retention-manager",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/p0OIZUJK5sRFImh_DMujf"
-    },
-    {
-      "id": "991934",
-      "name": "Paid ads manager",
-      "slug": "paid-ads-manager",
-      "category": "marketing",
-      "xaiBotUrl": "https://x.ai/bot/SAfsqPLP0rCuQOywOguxX"
-    },
-    {
-      "id": "991935",
-      "name": "Store setup from zero",
-      "slug": "store-setup-from-zero",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/F5jwhbmO2AgA8EgyHIDLp"
-    },
-    {
-      "id": "991936",
-      "name": "Weekly P&L analyst",
-      "slug": "weekly-p-l-analyst",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/M_4xLTMY06z1Zv1gvX_Nc"
-    },
-    {
-      "id": "991937",
-      "name": "Skroutz",
-      "slug": "skroutz",
-      "category": "personal",
-      "xaiBotUrl": "https://x.ai/bot/yQH3AFCs-90xjVmW9LICV"
-    },
-    {
-      "id": "991938",
-      "name": "Creator Shortlist Crew",
-      "slug": "creator-shortlist-crew",
-      "category": "marketing",
-      "xaiBotUrl": "https://x.ai/bot/6IU2bm7uuSPk6ETC-gC4D"
-    },
-    {
-      "id": "991939",
-      "name": "ICP Map Coach",
-      "slug": "icp-map-coach",
-      "category": "sales",
-      "xaiBotUrl": "https://x.ai/bot/yrm2MJ2nInUhoneTBSwJF"
-    },
-    {
-      "id": "991940",
-      "name": "Lookalike Scout",
-      "slug": "lookalike-scout",
-      "category": "sales",
-      "xaiBotUrl": "https://x.ai/bot/mfaurGq6eY9rIvIpMfUFI"
-    },
-    {
-      "id": "991941",
-      "name": "Rival Watch Desk",
-      "slug": "rival-watch-desk",
-      "category": "product",
-      "xaiBotUrl": "https://x.ai/bot/WKRY_T1y-KOmOn2q5vpRW"
-    },
-    {
-      "id": "991942",
-      "name": "SERP Watch Team",
-      "slug": "serp-watch-team",
-      "category": "marketing",
-      "xaiBotUrl": "https://x.ai/bot/iN9VkE6H4f4CLidzMaNaZ"
-    },
-    {
-      "id": "991943",
-      "name": "Newspaper",
-      "slug": "newspaper",
-      "category": "personal",
-      "xaiBotUrl": "https://x.ai/bot/FbHjOvOfZSxht0JmBYIlj"
-    },
-    {
-      "id": "991944",
-      "name": "Creador de facturas ARCA",
-      "slug": "creador-de-facturas-arca",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/gcOAZlqYmTRNgGT_2I9oo"
-    },
-    {
-      "id": "991945",
-      "name": "Fed + X Brief",
-      "slug": "fed-x-brief",
-      "category": "personal",
-      "xaiBotUrl": "https://x.ai/bot/ojDgaVLzjbxpPV74VzQrM"
-    },
-    {
-      "id": "991946",
-      "name": "Optima",
-      "slug": "optima",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/-E8sQr0Yrd_oSQlTaAzWy"
-    },
-    {
-      "id": "991947",
-      "name": "Billionairebot",
-      "slug": "billionairebot",
-      "category": "personal",
-      "xaiBotUrl": "https://x.ai/bot/jq-BFHkNoiJEtieswOYTc"
-    },
-    {
-      "id": "991948",
-      "name": "Albert",
-      "slug": "albert",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/jtFHKaEKzEZ0zSDVCl6BP"
-    },
-    {
-      "id": "991949",
-      "name": "Sales Orchestrator",
-      "slug": "sales-orchestrator",
-      "category": "sales",
-      "xaiBotUrl": "https://x.ai/bot/AMFF7LG8gxX1bLIH-_D3A"
-    },
-    {
-      "id": "991950",
-      "name": "参谋长",
-      "slug": "chief-of-staff-cursor-relay",
+      "id": "991972",
+      "name": "AI CTO Bot",
+      "slug": "ai-cto-bot",
       "category": "engineering",
-      "xaiBotUrl": "https://x.ai/bot/nSzhldgXfVuC93CjjQptM"
+      "xaiBotUrl": "https://x.ai/bot/cWnyo7aDLIy0qMRC6-CF5"
     },
     {
-      "id": "991951",
-      "name": "The Chief",
-      "slug": "the-chief",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/dlSO3hj__nTZlJwpQB6oP"
-    },
-    {
-      "id": "991952",
-      "name": "Usage Bot",
-      "slug": "usage-bot",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/ywZrH-Tqld2V87AJJrTNb"
-    },
-    {
-      "id": "991953",
-      "name": "Clickbait skipper",
-      "slug": "clickbait-skipper",
+      "id": "991973",
+      "name": "Gird Coach Bot",
+      "slug": "gird-coach-bot",
       "category": "personal",
-      "xaiBotUrl": "https://x.ai/bot/i8WsjKB8KRL-kQ25VPwaB"
+      "xaiBotUrl": "https://x.ai/bot/H8XFB8Ly0EGOyU3VDmwi1"
     },
     {
-      "id": "991954",
-      "name": "Announcr Voice",
-      "slug": "announcr-voice",
-      "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/h-Vxewn8CGFLx6qrzNUJJ"
+      "id": "991974",
+      "name": "About Me Bot",
+      "slug": "about-me-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/7dfQ6zC2X2hmnIlnF4rSN"
     },
     {
-      "id": "991955",
-      "name": "LinkedIn Watch",
-      "slug": "linkedin-watch",
+      "id": "991975",
+      "name": "Visa Wari Bot",
+      "slug": "visa-wari-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/e9p9lk8EcUrrGXPI_cf4c"
+    },
+    {
+      "id": "991976",
+      "name": "Unstick Me Bot",
+      "slug": "unstick-me-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/EahHaI-kwO0hgWj6I45jC"
+    },
+    {
+      "id": "991977",
+      "name": "TIDAL Bot",
+      "slug": "tidal-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/iH7-gcR-McO8Eel9frMUA"
+    },
+    {
+      "id": "991978",
+      "name": "Root Agent Bot",
+      "slug": "root-agent-bot",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/1pTKHkJIEgxD9MjlPYE4P"
+    },
+    {
+      "id": "991979",
+      "name": "Nugget Bot",
+      "slug": "nugget-bot",
       "category": "marketing",
-      "xaiBotUrl": "https://x.ai/bot/qbBlMjsKq-1coFvbmnEaR"
+      "xaiBotUrl": "https://x.ai/bot/ia1zuEzDtPNyzFQ6o6F9x"
     },
     {
-      "id": "991956",
-      "name": "Kindling",
-      "slug": "kindling",
-      "category": "engineering",
-      "xaiBotUrl": "https://x.ai/bot/nfX1q6Drs8FTQ0eVezjH_"
+      "id": "991980",
+      "name": "JRE Campaign Bot",
+      "slug": "jre-campaign-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/VkkObYeFAOWsAU9dzu7d1"
     },
     {
-      "id": "991957",
-      "name": "Apple Dev",
-      "slug": "apple-dev",
-      "category": "engineering",
-      "xaiBotUrl": "https://x.ai/bot/VPM4_E2eqx9AJFpTF-_EA"
-    },
-    {
-      "id": "991958",
-      "name": "Photo Curator",
-      "slug": "photo-curator",
-      "category": "design",
-      "xaiBotUrl": "https://x.ai/bot/hig9j1KnpZyH6QQN-Af0Z"
-    },
-    {
-      "id": "991959",
-      "name": "Bot Portal",
-      "slug": "bot-portal",
+      "id": "991981",
+      "name": "Fomo Live Bot",
+      "slug": "fomo-live-bot",
       "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/5R5NbvHIoJOSd3l3qto3o"
+      "xaiBotUrl": "https://x.ai/bot/4fmde5VhCGJGeCiqn96D3"
     },
     {
-      "id": "991960",
-      "name": "Facta",
-      "slug": "facta",
+      "id": "991982",
+      "name": "Family Safety Monitor Bot",
+      "slug": "family-safety-monitor-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/Dc0ZGUypwwBQZE9pNxLYy"
+    },
+    {
+      "id": "991983",
+      "name": "Dungeon Master Bot",
+      "slug": "dungeon-master-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/35nt7fJwDslZSTKsBU0hE"
+    },
+    {
+      "id": "991984",
+      "name": "Directory Finder Bot",
+      "slug": "directory-finder-bot",
       "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/ayQ3WlQQ2Z7LQhILzbZIR"
+      "xaiBotUrl": "https://x.ai/bot/8wjQbE24sX8qBVHXSmjc8"
     },
     {
-      "id": "991961",
-      "name": "Quency",
-      "slug": "quency",
+      "id": "991985",
+      "name": "Bill Import Bot",
+      "slug": "bill-import-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/A3pcjyO0dAkvRGxD4VGeH"
+    },
+    {
+      "id": "991986",
+      "name": "Grocery Bot",
+      "slug": "receipt-first-grocery-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/K-bz2_bFptZdWAAW7Phxp"
+    },
+    {
+      "id": "991987",
+      "name": "Qingdaofu Bot",
+      "slug": "qingdaofu-bot",
       "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/JQu6e3mIfy588elZm7BTo"
+      "xaiBotUrl": "https://x.ai/bot/SD6hgpiXqbV_LkMetf2fC"
     },
     {
-      "id": "991962",
-      "name": "Job applier",
-      "slug": "job-applier",
+      "id": "991988",
+      "name": "Paige Turner Bot",
+      "slug": "paige-turner-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/2lbNqne5ku5VQird_s8AW"
+    },
+    {
+      "id": "991989",
+      "name": "Sue Bot",
+      "slug": "sue-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/3QlpCJKENU1wC7ka7e9O0"
+    },
+    {
+      "id": "991990",
+      "name": "Servel Ops Bot",
+      "slug": "servel-ops-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/Puh0gY4xFLf8g7SBaXQUQ"
+    },
+    {
+      "id": "991991",
+      "name": "Maples Stylist Bot",
+      "slug": "maples-stylist-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/zP5W1Sdwjo361traGRTM5"
+    },
+    {
+      "id": "991992",
+      "name": "Do Not Pay Bot",
+      "slug": "do-not-pay-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/oxhf-Gm6EEs9SVHYFYbT4"
+    },
+    {
+      "id": "991993",
+      "name": "Berliner Bot",
+      "slug": "berliner-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/YhRPa_eYk4yramoMJOo6F"
+    },
+    {
+      "id": "991994",
+      "name": "Alibaba Buyer Ops Bot",
+      "slug": "alibaba-buyer-ops-bot",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/ZTFwMWXlScRvLrkHuR3gs"
+    },
+    {
+      "id": "991995",
+      "name": "YC Startup Job Applier Bot",
+      "slug": "yc-startup-job-applier-bot",
       "category": "recruiting-people",
-      "xaiBotUrl": "https://x.ai/bot/gfxH6sM_0QlxeDNFrRmep"
+      "xaiBotUrl": "https://x.ai/bot/COQAlYvqDNehPSHDBt-6z"
     },
     {
-      "id": "991963",
-      "name": "AEO Content Producer",
-      "slug": "aeo-content-producer",
-      "category": "marketing",
-      "xaiBotUrl": "https://x.ai/bot/WEqsULsog0KJUFUbhIRXH"
-    },
-    {
-      "id": "991964",
-      "name": "Judd the Bug",
-      "slug": "judd-the-bug",
-      "category": "engineering",
-      "xaiBotUrl": "https://x.ai/bot/JQWyaF4Io7cfOF-4FvMZL"
-    },
-    {
-      "id": "991965",
-      "name": "Showrunner",
-      "slug": "showrunner",
-      "category": "marketing",
-      "xaiBotUrl": "https://x.ai/bot/dLxcnhWxf9JyHIo_l8wJk"
-    },
-    {
-      "id": "991966",
-      "name": "Usage Watch",
-      "slug": "usage-watch",
-      "category": "engineering",
-      "xaiBotUrl": "https://x.ai/bot/Q6-oQnCZVNLOwdzEw5i-j"
-    },
-    {
-      "id": "991967",
-      "name": "人生·财务",
-      "slug": "personal-finance-log",
+      "id": "991996",
+      "name": "Weekend Edition Bot",
+      "slug": "weekend-edition-bot",
       "category": "personal",
-      "xaiBotUrl": "https://x.ai/bot/haSA0Ru28CYKDm2V5tPRB"
+      "xaiBotUrl": "https://x.ai/bot/1-S1yhsX6eEcPs9yik3oh"
     },
     {
-      "id": "991968",
-      "name": "Colombia Move",
-      "slug": "colombia-move",
-      "category": "personal",
-      "xaiBotUrl": "https://x.ai/bot/mWxeafjXItbC0_VcpSwqm"
-    },
-    {
-      "id": "991969",
-      "name": "Executive Coach",
-      "slug": "executive-coach",
-      "category": "personal",
-      "xaiBotUrl": "https://x.ai/bot/fAAHYFBe8xpTkBX1sbGBz"
-    },
-    {
-      "id": "991970",
-      "name": "Gong Call Coach",
-      "slug": "gong-call-coach",
-      "category": "sales",
-      "xaiBotUrl": "https://x.ai/bot/KpodhhBqjA4FHv47R1HrD"
-    },
-    {
-      "id": "991971",
-      "name": "Token Officer",
-      "slug": "token-officer",
+      "id": "991997",
+      "name": "Task Farming Bot",
+      "slug": "task-farming-bot",
       "category": "operations",
-      "xaiBotUrl": "https://x.ai/bot/1NG6WfAiS1HHhLdUcBQwP"
+      "xaiBotUrl": "https://x.ai/bot/MmcPTdwYwr6ebmmZzswYe"
+    },
+    {
+      "id": "991998",
+      "name": "SWE Job Applier Bot",
+      "slug": "swe-job-applier-bot",
+      "category": "recruiting-people",
+      "xaiBotUrl": "https://x.ai/bot/ZNfBRZeVANNSVza6Xyywf"
+    },
+    {
+      "id": "991999",
+      "name": "Recruiter Email Finder Bot",
+      "slug": "recruiter-email-finder-bot",
+      "category": "recruiting-people",
+      "xaiBotUrl": "https://x.ai/bot/lbf-biMZO02RdXeOBks_-"
+    },
+    {
+      "id": "992000",
+      "name": "Receipt Reaper Bot",
+      "slug": "receipt-reaper-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/gIV4FpQgVmcsO0soCjHGc"
+    },
+    {
+      "id": "992001",
+      "name": "Handshake Job Applier Bot",
+      "slug": "handshake-job-applier-bot",
+      "category": "recruiting-people",
+      "xaiBotUrl": "https://x.ai/bot/4AcLHtvlWUWclgU5jFy2r"
+    },
+    {
+      "id": "992002",
+      "name": "Alumni Coffee Chat Finder Bot",
+      "slug": "alumni-coffee-chat-finder-bot",
+      "category": "recruiting-people",
+      "xaiBotUrl": "https://x.ai/bot/j2bqDafGnyOv6bKMOOGOp"
+    },
+    {
+      "id": "992003",
+      "name": "Yahoo Zero Bot",
+      "slug": "yahoo-zero-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/2OZhVriEJF4Ggj46JuHWS"
+    },
+    {
+      "id": "992004",
+      "name": "X Dispatcher Bot",
+      "slug": "x-dispatcher-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/isfPwoTeQTBqA-gk9CZN5"
+    },
+    {
+      "id": "992005",
+      "name": "Victoria Bot",
+      "slug": "victoria-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/j1-ISFFzWDSzihs9xz2MA"
+    },
+    {
+      "id": "992006",
+      "name": "Stack Huddle Bot",
+      "slug": "stack-huddle-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/lGgfUTg6izL3TDzkgw6aE"
+    },
+    {
+      "id": "992007",
+      "name": "Receipt Digester Bot",
+      "slug": "receipt-digester-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/YgI9ZyckEeovP7nP917xR"
+    },
+    {
+      "id": "992008",
+      "name": "OWP Taste Bot",
+      "slug": "owp-taste-bot",
+      "category": "marketing",
+      "xaiBotUrl": "https://x.ai/bot/TLYxh30jTi5DM3z-zvC0S"
+    },
+    {
+      "id": "992009",
+      "name": "House Researcher Bot",
+      "slug": "house-researcher-bot",
+      "category": "product",
+      "xaiBotUrl": "https://x.ai/bot/cMNbUq3j5RsHg9mcPxtjM"
+    },
+    {
+      "id": "992010",
+      "name": "GSAP Bot",
+      "slug": "gsap-bot",
+      "category": "design",
+      "xaiBotUrl": "https://x.ai/bot/reahN5D6W2dIiCKd4MuF7"
+    },
+    {
+      "id": "992011",
+      "name": "DenTrade Bot",
+      "slug": "dentrade-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/XayB4rqAREYwJcPmKwtSP"
+    },
+    {
+      "id": "992012",
+      "name": "Chat Cleaner Bot",
+      "slug": "chat-cleaner-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/OMPT37PUKmoL8MY11oDLP"
+    },
+    {
+      "id": "992013",
+      "name": "Vault Memory Bot",
+      "slug": "vault-memory-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/6KkkrATfxZYDFKOFVZzzh"
+    },
+    {
+      "id": "992014",
+      "name": "Guest Sheet Bot",
+      "slug": "guest-sheet-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/hEmSUvWxccmfAVDGri1R8"
+    },
+    {
+      "id": "992015",
+      "name": "Document Pm Bot",
+      "slug": "document-pm-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/xheAbAQYQT4esSGc8B3xX"
+    },
+    {
+      "id": "992016",
+      "name": "Api Desk Bot",
+      "slug": "api-desk-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/PqgO8EMZjN_SUdcvEmsRF"
+    },
+    {
+      "id": "992017",
+      "name": "Memory Steward Bot",
+      "slug": "memory-steward-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/9Tq1f0aSurCP7UJHm98zy"
+    },
+    {
+      "id": "992018",
+      "name": "Kids Newspaper Bot",
+      "slug": "kids-newspaper-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/KINOQ4CQiKcP57kjuYGps"
+    },
+    {
+      "id": "992019",
+      "name": "Instacart Grocery Bot",
+      "slug": "instacart-grocery-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/JY9Ly_AvMkR8iGuzJ7EJ1"
+    },
+    {
+      "id": "992020",
+      "name": "Devin Apps Bot",
+      "slug": "devin-apps-bot",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/N7Qd2fHEhsMMt_frqyeZA"
+    },
+    {
+      "id": "992021",
+      "name": "Side Hustle Bot",
+      "slug": "side-hustle-bot",
+      "category": "sales",
+      "xaiBotUrl": "https://x.ai/bot/g17AUEbD0Oo-5b1HDpuQB"
+    },
+    {
+      "id": "992022",
+      "name": "Coin Bot",
+      "slug": "coin-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/ucu-nI-yeCdPeDp4cpL4X"
+    },
+    {
+      "id": "992023",
+      "name": "Skill Import Bot",
+      "slug": "skill-import-bot",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/NhTYqcIBaPCSZtdTflnqa"
+    },
+    {
+      "id": "992024",
+      "name": "Throttle Bot",
+      "slug": "throttle-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/9-VBOKZkj7_QZoKDuZWIP"
+    },
+    {
+      "id": "992025",
+      "name": "Disk Janitor Bot",
+      "slug": "disk-janitor-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/v9qOXYXnHXvr_XN7fPZIE"
+    },
+    {
+      "id": "992026",
+      "name": "2A Bot",
+      "slug": "2a-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/N9eJfkuupWb3EpWFt76va"
+    },
+    {
+      "id": "992027",
+      "name": "Woolf Bot",
+      "slug": "woolf-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/4fP33DHTBJudWglJyeMB_"
+    },
+    {
+      "id": "992028",
+      "name": "Twain Bot",
+      "slug": "twain-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/_OV6ItDEAbbpvi3qg3VKH"
+    },
+    {
+      "id": "992029",
+      "name": "Shelley Bot",
+      "slug": "shelley-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/SzGYytJglwB_dqRt5OaTO"
+    },
+    {
+      "id": "992030",
+      "name": "Shakespeare Bot",
+      "slug": "shakespeare-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/E8XC3NO5V_u63vWoHxJF0"
+    },
+    {
+      "id": "992031",
+      "name": "Meeting Prep Bot",
+      "slug": "meeting-prep-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/Hd3GphmPZ4aHWyFiBSmu5"
+    },
+    {
+      "id": "992032",
+      "name": "Kafka Bot",
+      "slug": "kafka-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/ewFkIRV929jhuW5mHqL_a"
+    },
+    {
+      "id": "992033",
+      "name": "Dostoyevsky Bot",
+      "slug": "dostoyevsky-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/DR1LNk5p_M_7hv_wJfTPu"
+    },
+    {
+      "id": "992034",
+      "name": "Dickinson Bot",
+      "slug": "dickinson-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/UUZnEDx7jk_nNkkLJTvfo"
+    },
+    {
+      "id": "992035",
+      "name": "Austen Bot",
+      "slug": "austen-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/c8sA8W1YcoRaYu5vjYFoa"
+    },
+    {
+      "id": "992036",
+      "name": "Claims Bot",
+      "slug": "claims-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/4c6rlyshWwOpTN_d9HNhm"
+    },
+    {
+      "id": "992037",
+      "name": "InsiderMillions Bot",
+      "slug": "insidermillions-bot",
+      "category": "product",
+      "xaiBotUrl": "https://x.ai/bot/yaix3I-36pEloG1XpLVOb"
+    },
+    {
+      "id": "992038",
+      "name": "Distill Anyone Bot",
+      "slug": "distill-anyone-bot",
+      "category": "product",
+      "xaiBotUrl": "https://x.ai/bot/id4s2QYrPYZsiTqvzIhkt"
+    },
+    {
+      "id": "992039",
+      "name": "Vps Vpn Bot",
+      "slug": "vps-vpn-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/zZfASPHMDvvJ4tRtB6wDR"
+    },
+    {
+      "id": "992040",
+      "name": "Security Bot",
+      "slug": "security-bot",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/Ci1UvQUguruSmxhiGmMI6"
+    },
+    {
+      "id": "992041",
+      "name": "MacOS Disk Cleaner Bot",
+      "slug": "macos-disk-cleaner-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/Z0WBoK2sucsOAqAXRpRb8"
+    },
+    {
+      "id": "992042",
+      "name": "X Ops Expert Bot",
+      "slug": "x-ops-expert-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY"
+    },
+    {
+      "id": "992043",
+      "name": "Scouty Bot",
+      "slug": "scouty-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/jc0tOHuVUAn4MHuH2zyDn"
+    },
+    {
+      "id": "992044",
+      "name": "X Mute Desk Bot",
+      "slug": "x-mute-desk-bot",
+      "category": "personal",
+      "xaiBotUrl": "https://x.ai/bot/wGDy1T5eobC1hjqFC9-PI"
+    },
+    {
+      "id": "992045",
+      "name": "Ramp Bot",
+      "slug": "ramp-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/zMMAByt3oW_t2ua1NZa9X"
+    },
+    {
+      "id": "992046",
+      "name": "Invention Detective Bot",
+      "slug": "invention-detective-bot",
+      "category": "engineering",
+      "xaiBotUrl": "https://x.ai/bot/61rNnnNcP2_LKaz8FXw7P"
+    },
+    {
+      "id": "992047",
+      "name": "Mac Power Tools Bot",
+      "slug": "mac-power-tools-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/SktrYfnj1vy3eG90uQ971"
+    },
+    {
+      "id": "992048",
+      "name": "Gen X Saver Bot",
+      "slug": "gen-x-saver-bot",
+      "category": "operations",
+      "xaiBotUrl": "https://x.ai/bot/UfcXTzGb6_OH8ekqFlZpF"
     }
   ],
   "dupSample": []
