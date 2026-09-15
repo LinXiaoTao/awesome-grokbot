@@ -1601,4 +1601,22 @@ export const marketingBots: Bot[] = [
     xPostUrl: "https://x.com/occupymars___/status/2098573819770486919",
     xaiBotUrl: "https://x.ai/bot/TLYxh30jTi5DM3z-zvC0S",
   },
+  {
+    id: "992049",
+    slug: "x-writer-bot",
+    name: "X Writer Bot",
+    author: "starzq",
+    authorHandle: "@starzq",
+    description:
+      "Learns any X account writing style, then drafts tweets, edits, and long-form posts in that voice.",
+    integrations: [],
+    installs: 0,
+    category: "marketing",
+    shape: "cloud",
+    color: "orange",
+    iconColor: "bg-teal-500",
+    createdAt: "2026-09-15",
+    xPostUrl: "https://x.com/starzq/status/2099333570020122669",
+    xaiBotUrl: "https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we",
+  },
 ];

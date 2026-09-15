@@ -466,6 +466,8 @@
 
 - **[OWP Taste Bot](https://x.ai/bot/TLYxh30jTi5DM3z-zvC0S)** by @occupymars___ — Taste seat for a small film/game huddle — grades stills, clips, and beds KEEP/HOLD/BIN; soft KEEP only when picture and on-ear both pass.
 
+- **[X Writer Bot](https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we)** by @starzq — Learns any X account writing style, then drafts tweets, edits, and long-form posts in that voice.
+
 ## 销售
 
 - **[Account Research Desk](https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss)** by @akbaliga96 — Researches the companies you sell to and writes your pre-call brief and account plan. Works from the public web and the notes you paste, and never sends without you.
