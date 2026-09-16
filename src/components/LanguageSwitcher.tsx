@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { usePathname, useRouter } from "@/i18n/routing";
+import { usePathname, useRouter, Link } from "@/i18n/routing";
 import { LOCALE_NAMES, type Locale } from "@/lib/utils";
 import { routing } from "@/i18n/routing";
 
@@ -39,6 +39,19 @@ export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
           </option>
         ))}
       </select>
+      <nav aria-label={t("language")} className="sr-only">
+        {routing.locales.map((loc) => (
+          <Link
+            key={loc}
+            href={pathname}
+            locale={loc as Locale}
+            hrefLang={loc}
+            aria-current={locale === loc ? "page" : undefined}
+          >
+            {LOCALE_NAMES[loc as Locale]}
+          </Link>
+        ))}
+      </nav>
     </div>
   );
 }
