@@ -1,74 +1,169 @@
 {
-  "syncedAt": "2026-09-15",
-  "officialMarketplace": {
-    "source": "x.ai/bot/marketplace",
-    "status": "ok",
-    "count": 71,
-    "note": "Extracted 71 bot template IDs from page HTML and JSON-LD (client-rendered catalog; no __NEXT_DATA__ payload)",
-    "urlsSample": [
-      "https://x.ai/bot/i03IaF768-ielyzegoGye",
-      "https://x.ai/bot/SxqbG1NT5qEw7ggmHqQu_",
-      "https://x.ai/bot/0LLQmzk-yzwHi0zuiV0lC"
+  "syncedAt": "2026-09-23",
+  "runType": "ultra-deep-multi-channel-incremental",
+  "existingCountBeforeSync": 958,
+  "existingCountAfterSync": 995,
+  "manualIncrementalEntries": 63,
+  "priorRunEntriesSkipped": 26,
+  "ultraDeepBatchEntries": 37,
+  "duplicatesSkippedThisRun": 3,
+  "duplicateResolution": [
+    {
+      "name": "Grocery Bot",
+      "reason": "name collision with existing Grocery Bot",
+      "resolution": "added as Grocery Bot (Laura) id 992110"
+    },
+    {
+      "name": "Chief of Staff",
+      "reason": "name collision with existing Chief of Staff entries",
+      "resolution": "added as Chief of Staff (Amine) id 992111"
+    },
+    {
+      "name": "Ramp Bot",
+      "reason": "name collision with existing Ramp Bot",
+      "resolution": "added as Ramp Bot (Matthew) id 992112"
+    }
+  ],
+  "newBotsTotal": 37,
+  "idRange": "992076–992112",
+  "byCategory": {
+    "engineering": 13,
+    "marketing": 6,
+    "personal": 7,
+    "operations": 5,
+    "sales": 3,
+    "product": 2,
+    "design": 1
+  },
+  "agentEarthXSearch": {
+    "tools": [
+      "ae_x_twitter_searchpostsall",
+      "ae_x_twitter_searchpostsrecent"
+    ],
+    "status": "partial",
+    "creditsEstimated": 45,
+    "queries": [
+      "\"x.ai/bot/\" lang:ja -is:retweet",
+      "(\"ボット\" OR \"Grokボット\" OR \"Grok bot\") \"x.ai/bot\" -is:retweet",
+      "\"x.ai/bot/\" lang:zh -is:retweet",
+      "\"分享\" (\"grok bot\" OR \"x.ai/bot/\") lang:zh -is:retweet",
+      "(\"Grok\" OR \"Grokボット\") \"x.ai/bot/\" lang:ja -is:retweet",
+      "url:\"x.ai/bot/\" -is:retweet start_time 2026-08-01",
+      "(\"bot template\" OR \"created a bot\" OR \"built a bot\" OR \"my grok bot\") (x.ai OR \"x.ai/bot\") -is:retweet",
+      "(from:orenmeetsworld OR from:kristaletz OR from:grokbot_studio OR from:poteto) \"x.ai/bot/\" -is:retweet",
+      "\"x.ai/bot/\" -is:retweet (includes replies; no -is:reply filter)"
+    ],
+    "postsReviewed": 162,
+    "templateUrlsExtracted": 56,
+    "uniqueTemplateIds": 37,
+    "newAfterLocalDedup": 37,
+    "notes": [
+      "lang:ja direct x.ai/bot queries returned 0 template posts; Japanese discovery came via mixed-language bot-template queries and articles",
+      "lang:zh share query surfaced Matt Palmer Media Manager via @shao__meng and CEO Morning Secretary via @JyKim90832",
+      "One searchpostsall call hit upstream instability; url: filter batch succeeded"
     ]
   },
-  "grokhubFeed": {
-    "source": "grokhub.io/feed",
+  "agentEarthWebSearch": {
+    "tools": [
+      "ae_tavily_search",
+      "ae_exa_web_search_exa",
+      "ae_tavily_extract"
+    ],
     "status": "ok",
-    "feedCount": 970,
-    "itemsWithTemplateUrl": 633,
-    "newCandidatesAfterDedup": 1,
-    "note": "633 items carry x.ai/bot template_url; 632 already in local library"
+    "creditsEstimated": 28,
+    "queries": [
+      "site:github.com \"x.ai/bot/\"",
+      "site:reddit.com|zenn.dev|qiita.com|medium.com|substack.com \"x.ai/bot/\" grok bot",
+      "x.ai/bot/ grok bot template github reddit zenn qiita (Exa semantic)"
+    ],
+    "resultsReviewed": 28,
+    "newTemplateUrlsFromWebAlone": 0,
+    "note": "GitHub awesome lists and blogs overlapped X-discovered IDs; Tavily extract used to validate all 37 share pages"
   },
-  "botDirectoryApi": {
-    "source": "api.botdirectory.ai/api/bots",
-    "status": "ok",
-    "pagesScanned": 7,
-    "entriesWithGrokShareUrl": 210,
-    "newCandidatesAfterDedup": 0,
-    "note": "All 210 x.ai/bot entries already present locally"
-  },
-  "grokbotDev": {
-    "source": "grokbot.dev",
-    "status": "ok",
-    "rssXmlBytes": 119420,
-    "homepageBytes": 1848035,
-    "xaiBotUrlsFound": 0,
-    "note": "RSS and homepage contain no direct x.ai/bot/* links (plugins/collections only)"
-  },
-  "thirdPartySources": [
-    {
-      "source": "grokhub.io",
-      "count": 633
+  "thirdPartyDeepPaths": {
+    "templates.bot": {
+      "endpoint": "https://www.templates.bot/api/templates",
+      "listings": 13,
+      "newTemplateUrls": 0,
+      "note": "All listings already local"
     },
-    {
-      "source": "botdirectory.ai",
-      "count": 210
+    "botdirectory.ai": {
+      "pathsTried": [
+        "https://botdirectory.ai",
+        "https://botdirectory.ai/api/bots"
+      ],
+      "status": "html-scrape-212-links-on-homepage",
+      "apiBots404": true,
+      "newTemplateUrls": 0,
+      "note": "/api/bots not exposed; homepage HTML contains 212 x.ai/bot links, all previously indexed"
     },
-    {
-      "source": "grokbot.dev",
-      "count": 0
+    "grokbot.dev": {
+      "pathsTried": [
+        "https://grokbot.dev",
+        "https://grokbot.dev/engineering",
+        "https://grokbot.dev/product",
+        "https://grokbot.dev/design",
+        "https://grokbot.dev/marketing",
+        "https://grokbot.dev/sales",
+        "https://grokbot.dev/operations",
+        "https://grokbot.dev/personal"
+      ],
+      "status": "spa-no-direct-links-in-html",
+      "newTemplateUrls": 0,
+      "note": "Category pages return shell HTML without embeddable x.ai/bot URLs (client-rendered)"
+    },
+    "grokbottemplates.dev": {
+      "status": "referenced-in-exa",
+      "newTemplateUrls": 0
     }
-  ],
-  "remoteUniqueUrls": 803,
-  "existingCount": 931,
-  "localOnlyNotInAnySource": 151,
-  "manualIncremental": 1,
-  "duplicatesSkipped": 0,
-  "newBotsTotal": 1,
-  "idRange": "992049–992049",
-  "byCategory": {
-    "marketing": 1
+  },
+  "metadataEnrichment": {
+    "tool": "ae_tavily_extract",
+    "pagesExtracted": 37,
+    "fields": ["title", "raw_content first paragraph", "xPostUrl from matching X posts"]
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "ok",
+    "verifiedAt": "2026-09-23"
   },
   "newBots": [
-    {
-      "id": "992049",
-      "name": "X Writer Bot",
-      "slug": "x-writer-bot",
-      "category": "marketing",
-      "xaiBotUrl": "https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we",
-      "authorHandle": "@starzq",
-      "source": "grokhub.io"
-    }
-  ],
-  "dupSample": []
+    { "id": "992076", "name": "Media Manager", "slug": "media-manager-matt", "category": "marketing", "xaiBotUrl": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ", "source": "X/zh-share" },
+    { "id": "992077", "name": "Winston", "slug": "winston", "category": "personal", "xaiBotUrl": "https://x.ai/bot/pRajEKa4qSHU5-o72V3e3", "source": "X/reply-chain" },
+    { "id": "992078", "name": "Stale Leads Closer", "slug": "stale-leads-closer", "category": "sales", "xaiBotUrl": "https://x.ai/bot/GeL4XFcQHm4WIG6jp--R0", "source": "X/url-search" },
+    { "id": "992079", "name": "Miffy - Maintenance Triage", "slug": "miffy-maintenance-triage", "category": "operations", "xaiBotUrl": "https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A", "source": "X/contest-reply" },
+    { "id": "992080", "name": "Reimagination", "slug": "reimagination", "category": "design", "xaiBotUrl": "https://x.ai/bot/jhjOrq-Pp06MoA7TT_B0H", "source": "X/reply" },
+    { "id": "992081", "name": "Scribe", "slug": "scribe-code", "category": "marketing", "xaiBotUrl": "https://x.ai/bot/37D-JCYGaKjoQQf0oXCt8", "source": "X/@CodeSolutionsIL" },
+    { "id": "992082", "name": "Reboot", "slug": "reboot-code", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/l_04hfmNSIo5K83A6aQRD", "source": "X/@CodeSolutionsIL" },
+    { "id": "992083", "name": "Xcode release watcher", "slug": "xcode-release-watcher", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/prf1nUpf3jrPAtCR5Rm4Y", "source": "X/@NatashaTheRobot" },
+    { "id": "992084", "name": "Frodo", "slug": "frodo-secrets-broker", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/5wHp86g1AJqgZ-V8-RX3H", "source": "X/@CodeSolutionsIL" },
+    { "id": "992085", "name": "Easy Flow", "slug": "easy-flow", "category": "product", "xaiBotUrl": "https://x.ai/bot/i7hwU3YzCKt_27dK9aCr4", "source": "X/@CodeSolutionsIL" },
+    { "id": "992086", "name": "Babel Fish", "slug": "babel-fish", "category": "operations", "xaiBotUrl": "https://x.ai/bot/UcazP9A_LRigoW9b06QRo", "source": "X/@CodeSolutionsIL" },
+    { "id": "992087", "name": "Fulcrum", "slug": "fulcrum", "category": "marketing", "xaiBotUrl": "https://x.ai/bot/ojxNuPSu-r1ldCZ5opulH", "source": "X/@CodeSolutionsIL" },
+    { "id": "992088", "name": "Press", "slug": "press-code", "category": "marketing", "xaiBotUrl": "https://x.ai/bot/MZxv2GSWzNh8mXfMB0xla", "source": "X/@CodeSolutionsIL" },
+    { "id": "992089", "name": "Computer", "slug": "computer-code", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/Z8aPXNVasH1ogYkAuCMIZ", "source": "X/@CodeSolutionsIL" },
+    { "id": "992090", "name": "Norm", "slug": "norm", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/afzAN696RpFOIs-9uRTHo", "source": "X/@CodeSolutionsIL" },
+    { "id": "992091", "name": "Jev for computer use", "slug": "jev-for-computer-use", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/gQD_ZhGhJ_e1aLHc3RPOT", "source": "X/reply" },
+    { "id": "992092", "name": "Carson", "slug": "carson", "category": "personal", "xaiBotUrl": "https://x.ai/bot/v-anNtCSU16DhOT6XDOpn", "source": "X/reply" },
+    { "id": "992093", "name": "Invention Engineer", "slug": "invention-engineer", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/9-4S6pwoSkDHV9x0mLDdz", "source": "X/@Wardonis" },
+    { "id": "992094", "name": "ChargeRight Panel Coach", "slug": "chargeright-panel-coach", "category": "personal", "xaiBotUrl": "https://x.ai/bot/s9EKFwbfQkmKK9jL44YoP", "source": "X/reply" },
+    { "id": "992095", "name": "Loaf", "slug": "loaf", "category": "personal", "xaiBotUrl": "https://x.ai/bot/06l6Dds_nrWC-vaqyKLK9", "source": "X/reply" },
+    { "id": "992096", "name": "Codex", "slug": "codex-cli-wrapper", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/aUHkBXXwCzljCcTJSzBYw", "source": "X/reply" },
+    { "id": "992097", "name": "ShareNow Bot", "slug": "sharenow-bot", "category": "marketing", "xaiBotUrl": "https://x.ai/bot/bLjgwE9D7HtZ17fVQc53o", "source": "X/reply" },
+    { "id": "992098", "name": "Routines", "slug": "routines-neessam", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/tes3TMV3WjinLazIM9N_n", "source": "X/template-share" },
+    { "id": "992099", "name": "Deep Research", "slug": "deep-research-wardonis", "category": "product", "xaiBotUrl": "https://x.ai/bot/K_RnTzUnW2bsbRzNkbuS0", "source": "X/@Wardonis" },
+    { "id": "992100", "name": "Flip", "slug": "flip", "category": "marketing", "xaiBotUrl": "https://x.ai/bot/cgaQkN_5O5NtWep6-c0Ll", "source": "X/contest" },
+    { "id": "992101", "name": "DogTheNaughtyHunter", "slug": "dog-the-naughty-hunter", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/3nkH58KUSQG5S7A29rzWi", "source": "X/reply" },
+    { "id": "992102", "name": "RestaurantHero", "slug": "restaurant-hero", "category": "personal", "xaiBotUrl": "https://x.ai/bot/VpXAZQg8JIr4YbrgwwqCf", "source": "X/reply" },
+    { "id": "992103", "name": "Kilo", "slug": "kilo", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/KaC99w7qlJ0QTtrKwxqFm", "source": "X/reply" },
+    { "id": "992104", "name": "Garden Retail Research Specialist", "slug": "garden-retail-research", "category": "sales", "xaiBotUrl": "https://x.ai/bot/Y8YOrZBsPE8U-jyTI7Qtk", "source": "X/reply" },
+    { "id": "992105", "name": "xGas Superchain dApp Supercycle", "slug": "xgas-superchain-dapp", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/py3cDcRaSgRj_ixBOK3XN", "source": "X/reply" },
+    { "id": "992106", "name": "LinkedIn Bot", "slug": "linkedin-bot-syft", "category": "sales", "xaiBotUrl": "https://x.ai/bot/GyEovoZBfdoeEdJoYqwVP", "source": "X/reply" },
+    { "id": "992107", "name": "Orange Cat", "slug": "orange-cat", "category": "engineering", "xaiBotUrl": "https://x.ai/bot/HTygrX8LIy2waFrDOlEQK", "source": "X/reply" },
+    { "id": "992108", "name": "CEO Morning Secretary", "slug": "ceo-morning-secretary", "category": "operations", "xaiBotUrl": "https://x.ai/bot/Xs4d8TKbYwAGEY3voOBaX", "source": "X/zh-share" },
+    { "id": "992109", "name": "Personal Shopper", "slug": "personal-shopper", "category": "personal", "xaiBotUrl": "https://x.ai/bot/D0DOumUGpkN-fjE_acysw", "source": "X/reply" },
+    { "id": "992110", "name": "Grocery Bot (Laura)", "slug": "grocery-bot-laura", "category": "personal", "xaiBotUrl": "https://x.ai/bot/_SRTioxlU87XALDdBXsie", "source": "X/reply" },
+    { "id": "992111", "name": "Chief of Staff (Amine)", "slug": "chief-of-staff-amine", "category": "operations", "xaiBotUrl": "https://x.ai/bot/WMLSz9eCswzYR8nPmmxsJ", "source": "X/reply" },
+    { "id": "992112", "name": "Ramp Bot (Matthew)", "slug": "ramp-bot-matthew", "category": "operations", "xaiBotUrl": "https://x.ai/bot/Gx0HlW1t8lTnW2pVn0nKF", "source": "X/reply" }
+  ]
 }

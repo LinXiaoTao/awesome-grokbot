@@ -99,6 +99,10 @@ English | [中文](README.zh.md)
 
 - **[Signal Prospector](https://x.ai/bot/wsbOPOkHApmIYLrErnC4e)** by @kristaletz — Finds the accounts and people in your CRM and product data that just showed intent, ranks them, and drafts the first touch. Runs on a schedule, explains every signal, and nothing sends without your yes.
 
+- **[Import Bot](https://x.ai/bot/HP4Q8GHtSIjbyGeI2vg7S)** — Brings your setup from Claude Cowork, Codex, ChatGPT, OpenClaw, and Hermes into Grok Bot, then creates the expert bots that cover it or adds to the bots you already have. Changes nothing in the old tools and scrubs secrets before anything is saved.
+
+- **[Stalk Bot](https://x.ai/bot/Y7iWVNiPdorgu6oFY-PRG)** — Signs up for your competitors' newsletters and products under its own research email, walks their onboarding on video, and watches their site, pricing, changelog, jobs, and X. Each pulse reports what changed against your positioning and closes with counterpositioning moves, and it never posts or contacts anyone.
+
 ## Engineering
 
 - **[Dr Eggbot](https://x.ai/bot/_jOdbfkB16zxu7MRcmReE)** by @poteto — Asks a handful of preference questions, then generates a properly structured bot rather than a blank one.
@@ -264,6 +268,42 @@ English | [中文](README.zh.md)
 
 - **[Invention Detective Bot](https://x.ai/bot/61rNnnNcP2_LKaz8FXw7P)** by @leuner — Watches named GitHub repos for technical invention candidates, then writes a disclosure and deeper write-up into a private repo you own after approval.
 
+- **[Open Alternative Scout](https://x.ai/bot/N7-cgHvWrQs6ZF-wBjAGG)** by @VictorMotricala — Scouts fast-rising software products and plans independent open-source alternatives. Interviews you on categories, stack, and approvals, then delivers a source-linked opportunity brief and clean-room MVP plan before any repository work.
+
+- **[Connect multiple Grok Bot accounts](https://x.ai/bot/0ajHw7Ghh8oWELkrhCwxL)** by @pauloglez90 — Runs every Grok Bot seat under one roof — install, connect once, and manage all accounts from a single place.
+
+- **[Jev router](https://x.ai/bot/lS9XaHCr9QTTHhNtb0VQX)** by @grokbot_studio — Jev-powered Grok Bot for fast calibrated classification — choice, score, and yes/no judgements for routing, urgency, labels, and rubrics.
+
+- **[Tamago](https://x.ai/bot/_SuGdfXVQ06yo3woYqQVO)** by @knge_rstc — Japanese-language Grok Bot designer (Dr Eggbot-style) that builds high-quality bots with faithful Japanese output baked into every template.
+
+- **[Dmarc Specialist](https://x.ai/bot/pEUC21J4T7tQ3ORZx8w05)** by @brettev — DMARC specialist for email auth and deliverability — reviews aggregate reports, spots real fails vs gateway noise, and guides SPF/DKIM/DMARC policy.
+
+- **[Reboot](https://x.ai/bot/l_04hfmNSIo5K83A6aQRD)** by @CodeSolutionsIL — Safe computer-restart coordinator: checkpoints every teammate before shared-computer recovery, collects READY signals, then guides the correct Update or warned Reset steps.
+
+- **[Xcode release watcher](https://x.ai/bot/prf1nUpf3jrPAtCR5Rm4Y)** by @NatashaTheRobot — Checks Apple's Developer Releases page each morning and tells you when a named Xcode version ships as a non-beta release.
+
+- **[Frodo](https://x.ai/bot/5wHp86g1AJqgZ-V8-RX3H)** by @CodeSolutionsIL — Secrets fill-broker for a Grok Bot fleet: peers ask for named credential fills and get FILLED / FAILED / NEED_USER only — never plaintext secrets in chat.
+
+- **[Computer](https://x.ai/bot/Z8aPXNVasH1ogYkAuCMIZ)** by @CodeSolutionsIL — Issue-control front door for a small coding roster: reads your GitHub board, names one small work item at a time, reviews PRs with proof, and stops before merge until you approve.
+
+- **[Norm](https://x.ai/bot/afzAN696RpFOIs-9uRTHo)** by @CodeSolutionsIL — Normalizes display names and skills across the Grok Bots you already have — discovery first, naming map lock, soft skill suggestions only, one owner-approved edit at a time.
+
+- **[Jev for computer use](https://x.ai/bot/gQD_ZhGhJ_e1aLHc3RPOT)** by @aris_grivas — Automates the web with TypeSafe Jev on a Chrome you can watch. Falls back to screenshot computer-use when the page has no usable actions.
+
+- **[Invention Engineer](https://x.ai/bot/9-4S6pwoSkDHV9x0mLDdz)** by @Wardonis — Starts from what you have — tools, printer, parts, budget, skills — and fills in plans, BOM, vendor sourcing, and build steps with flags for impossible physics and unsafe materials.
+
+- **[Codex](https://x.ai/bot/aUHkBXXwCzljCcTJSzBYw)** by @DocLibertarian — Thin wrapper around the real Codex CLI: takes a coding or deep-research task, runs it through Codex on your computer, and returns the CLI result without substituting the chat model.
+
+- **[Routines](https://x.ai/bot/tes3TMV3WjinLazIM9N_n)** by @compileinstyle — Owns standing cron routines so your chief-of-staff chat stays cheap — business-day quiet gates, a cheap heartbeat, and optional usage-pulse wakes.
+
+- **[DogTheNaughtyHunter](https://x.ai/bot/3nkH58KUSQG5S7A29rzWi)** by @TheRetardedELon — Hunts X botnets on your signed-in X account — clones BotHuntersLog, opens X for your login, then deep-walks notification ticks toward crypto and brand controllers.
+
+- **[Kilo](https://x.ai/bot/KaC99w7qlJ0QTtrKwxqFm)** by @Tchap248 — Keeps Grok Bot chats small so usage stays lower — scans chat sizes, refreshes fat bots after you say yes, and nudges weekly with who to refresh.
+
+- **[xGas Superchain dApp Supercycle](https://x.ai/bot/py3cDcRaSgRj_ixBOK3XN)** by @STACCoverflow — Walks your Privy wallet through xGas HOST CONFIG MCP, funds if needed, explains staccpad/xGas tech, then runs a live end-to-end on the lane you pick.
+
+- **[Orange Cat](https://x.ai/bot/HTygrX8LIy2waFrDOlEQK)** by @ignota_regalis — Chaos QA breaker: hand it a plan, draft, flow, or "it works" claim and it finds real breaks with concrete repros and fixes — playful carnage, not corporate QA-speak.
+
 ## Product
 
 - **[Product Idea Stress Test](https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9)** by @hnshah — Investigates a product or startup idea for founders. Surfaces what has to be true, evidence for and against, the assumption most likely to kill it, and what to do next.
@@ -317,6 +357,14 @@ English | [中文](README.zh.md)
 
 - **[Rival Watch Desk](https://x.ai/bot/WKRY_T1y-KOmOn2q5vpRW)** by @ShehjadTaus — Pick the businesses you compete with and it keeps a permanent eye on them: money raised, roles being advertised, press coverage and the campaigns they are paying to run. Any shift in those signals lands in a brief, so a rival gathering speed reaches you while there is still time to respond.
 
+- **[Stalk Bot](https://x.ai/bot/Y7iWVNiPdorgu6oFY-PRG)** — Signs up for your competitors' newsletters and products under its own research email, walks their onboarding on video, and watches their site, pricing, changelog, jobs, and X. Each pulse reports what changed against your positioning and closes with counterpositioning moves, and it never posts or contacts anyone.
+
+- **[Spark](https://x.ai/bot/f0W4gAqrCJ0gRHJTlHOao)** by @Steph_Pierson — Idea-probe interviewer that runs short sharp waves on half-baked ideas until a named insight and smallest next experiment land.
+
+- **[Easy Flow](https://x.ai/bot/i7hwU3YzCKt_27dK9aCr4)** by @CodeSolutionsIL — Turns pasted notes or a GitHub doc path into a readable end-user flowchart in draw.io, Mermaid, Excalidraw, or PlantUML — ≤12 nodes on pass one with TBD where steps aren't evidenced.
+
+- **[Deep Research](https://x.ai/bot/K_RnTzUnW2bsbRzNkbuS0)** by @Wardonis — Deep research specialist for sources-first briefs. Uses a free research toolkit and prefers legal access for copyrighted material.
+
 ## Design
 
 - **[Critiquito](https://x.ai/bot/NqdH9qGvrq-yWRaXhJGM-)** by @mamuso — A product design critic that reviews interface screenshots from the person who has to use them. It names what is unclear, hard, or unforgiving, and picks one highest-impact fix.
@@ -346,6 +394,14 @@ English | [中文](README.zh.md)
 - **[Photo Curator](https://x.ai/bot/hig9j1KnpZyH6QQN-Af0Z)** by @jaharris13 — Hand it a folder of raw shots and it picks out the ones worth keeping, applies the same restrained set of adjustments to each, and files the results separately. The originals are left alone, and it checks with you first before anything or anyone is taken out of a frame.
 
 - **[GSAP Bot](https://x.ai/bot/reahN5D6W2dIiCKd4MuF7)** by @mrflmnlNFT — Implements approved motion specs with official GreenSock GSAP skills — timelines, ScrollTrigger, React/Vue cleanup, and a reduced-motion path.
+
+- **[Julie](https://x.ai/bot/jDAOcACdnrCtgz2Vb3h1m)** by @LeoNardo43480 — Takes workspace context (or finds it on its own), rewrites technical material into plain language, and handles spacing and layout for Wonder design output.
+
+- **[Longform Editor](https://x.ai/bot/lnErR-gA_t3KkPlvtwrrz)** by @Wardonis — Long-form editor for chapters, essays, and manuscripts — structure and pacing first, then line polish, with a free PDF and media toolkit when needed.
+
+- **[Handel](https://x.ai/bot/ex1gjM_9lKmE4pLJG8o_M)** by @monomyth — Track doppelgänger that captures what is playing on your machine, steals musical ideas, and remixes them with Suno — plus captions and alt text.
+
+- **[Reimagination](https://x.ai/bot/jhjOrq-Pp06MoA7TT_B0H)** by @Wardonis — Reimagines any story (video, audio, text) with your variables after asking where/when/why they go in. Matches the source's genre and maturity and prefers legal access.
 
 ## Marketing
 
@@ -466,6 +522,36 @@ English | [中文](README.zh.md)
 
 - **[X Writer Bot](https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we)** by @starzq — Learns any X account writing style, then drafts tweets, edits, and long-form posts in that voice.
 
+- **[Project Manager](https://x.ai/bot/AMa1ig4YyoxfYtWFe7PLi)** — Marketing project manager that coordinates research, positioning, landing pages, ads, and analytics across specialist bots — with screenshot check-ins and human gates on merge and spend.
+
+- **[Marketing Analyst](https://x.ai/bot/1RbG9yW5MpQ55XcQlJ0aQ)** — Google Ads–first performance analyst: turns exports into weekly and monthly reports with commentary, answers reporting asks with real numbers, and watches spend against your thresholds so you catch what's breaking before it burns budget. Never posts or touches a campaign without your yes.
+
+- **[Performance Marketer](https://x.ai/bot/JeNCKNe0ItsLMWYrLiRcb)** — A performance marketer that turns Product Marketer ad copy into paused Maximize-clicks Google Ads Search shells for messaging tests — review sheets first, then traffic with live screenshots, no spend until you say so.
+
+- **[Website Ops](https://x.ai/bot/NYDai_DOI_2pNDIKerrpD)** — Website operations and content manager. Ships site changes as PRs from your website repo, runs evidence-backed site audits (SEO, content, speed, a11y, CRO, schema), and turns Product Marketer briefs into landing-page PRs with in-chat screenshots.
+
+- **[Product Marketer](https://x.ai/bot/nXp4Rp2trKV8AK-RC1Ohf)** — Learns your product, brand, tone, and positioning principles; uses competitive research to sharpen how you stand out; drafts and crafts copy against those principles; and hands off landing-page and Ads copy to the rest of the marketing team.
+
+- **[Market Researcher](https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf)** — Monitors your competitors' public websites, ads, marketing, pricing, and positioning on a standing cadence. Collects what changed, flags moves you should know about, and suggests concrete strategy adjustments or pivots. Never posts or contacts anyone.
+
+- **[Marketing Bot](https://x.ai/bot/FaMbaDOO2WceFyiKDu6_6)** by @BragiHelvig — Turns any project into click-worthy X launch posts — single post, short thread, and reply bait from a simple brief.
+
+- **[Wirey](https://x.ai/bot/1xWEw-4E6aSOxIpQM1xJp)** by @farzyness — Owns a daily AI hard-news briefing end to end: high-signal events, neutral wire script, ElevenLabs voiceover, edit dual-gate, and publish workflow.
+
+- **[Drop Radar](https://x.ai/bot/KYM0C9BcyfXEP9uIyxlmE)** by @Steph_Pierson — Same-day DTC and beauty competitor product-drop watcher across Amazon, brand sites, and TikTok Shop — quiet on zeros, hits only.
+
+- **[Media Manager](https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ)** by @mattyp — Owns a YouTube channel's post-upload work: transcribe, captions, chapter timestamps, titles, descriptions, and thumbnails so you never open YouTube Studio by hand.
+
+- **[Scribe](https://x.ai/bot/37D-JCYGaKjoQQf0oXCt8)** by @CodeSolutionsIL — X livestream and replay note-taker: watches from a verified start, marks pivots and soft claims, delivers sanitized notes plus a paste-ready thread — draft-only, never posts.
+
+- **[Fulcrum](https://x.ai/bot/ojxNuPSu-r1ldCZ5opulH)** by @CodeSolutionsIL — Draft-only organic reply partner: surfaces ranked reply and thread opportunities with paste-ready drafts, optional daily briefs, and hard gates before anything public goes live.
+
+- **[Press](https://x.ai/bot/MZxv2GSWzNh8mXfMB0xla)** by @CodeSolutionsIL — Last-gate X publisher: QC on promo-confirmed copy, your final OK, then posts on X and proves it with the live URL — never skips brand or spend gates.
+
+- **[ShareNow Bot](https://x.ai/bot/bLjgwE9D7HtZ17fVQc53o)** by @sashimikun_void — Builds clean static pages from your topic or content and publishes them to ShareNow.today, with optional hourly topic boards when you ask.
+
+- **[Flip](https://x.ai/bot/cgaQkN_5O5NtWep6-c0Ll)** by @cmcdonnell04 — Domain flip operator: takes parked domains, ships a narrow live offer fast, runs SEO and conversion until cash shows, and kills what does not print.
+
 ## Sales
 
 - **[Account Research Desk](https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss)** by @akbaliga96 — Researches the companies you sell to and writes your pre-call brief and account plan. Works from the public web and the notes you paste, and never sends without you.
@@ -556,6 +642,14 @@ English | [中文](README.zh.md)
 - **[Recruiter Email Finder Bot](https://x.ai/bot/lbf-biMZO02RdXeOBks_-)** by @fwhittington_24 — Finds university, early-careers, and technical recruiter emails at companies you care about, then delivers a company-grouped CSV.
 
 - **[Side Hustle Bot](https://x.ai/bot/g17AUEbD0Oo-5b1HDpuQB)** by @BBBang9900 — Builds and sells digital products as a side hustle — validates demand, makes the asset, uploads to marketplaces, and skips work that will not sell.
+
+- **[Sequencer](https://x.ai/bot/6xnxd_CHg0cXVMQCwnRrZ)** — Runs your outbound sequencer as a staff function. Connects your tools, learns voice and ICP from Gmail and CRM, keeps sequence state on a sheet, and stages drafts you send.
+
+- **[Stale Leads Closer](https://x.ai/bot/GeL4XFcQHm4WIG6jp--R0)** by @robertodjg — Revives quiet sales leads: drafts warm CRM SMS, holds a Slack veto window, then auto-sends what nobody blocks. Built for service businesses in HighLevel and Slack.
+
+- **[Garden Retail Research Specialist](https://x.ai/bot/Y8YOrZBsPE8U-jyTI7Qtk)** by @dltelford — Weekly sales intel for people who sell into garden centers: trends, forecast stocking, tech/tools/merch, and real supplier leads on a Monday cadence.
+
+- **[LinkedIn Bot](https://x.ai/bot/GyEovoZBfdoeEdJoYqwVP)** by @isb — Your LinkedIn memory for sales: search your posts, network, and DMs refreshed weekly from your export, with optional Syft ICP prospect discovery.
 
 ## Operations
 
@@ -896,6 +990,22 @@ English | [中文](README.zh.md)
 - **[Mac Power Tools Bot](https://x.ai/bot/SktrYfnj1vy3eG90uQ971)** by @krisadipap — Dry-run helper for user caches, Trash, and old Downloads. A local cleanup script, not a swarm.
 
 - **[Gen X Saver Bot](https://x.ai/bot/UfcXTzGb6_OH8ekqFlZpF)** by @oddreport — Stamps save-credits rules onto named bots so heavy image/video jobs leave chat for Grok Build.
+
+- **[Elon Musk (Algorithm & constraint)](https://x.ai/bot/QCwGPAlho0dBvBds_IOWF)** by @merirand — First-principles operator bot that finds your company's single biggest constraint each week and runs the Algorithm loop: question, delete, simplify, accelerate.
+
+- **[Roster](https://x.ai/bot/z1Qf4iiLWTa8g66rXGIBC)** by @Saint_Chevalier — Tracks your people, AIs, projects, and tools — and tells you who is stale on what from your own list without inventing names.
+
+- **[Chief](https://x.ai/bot/UrO63RhN1LGXD3DzoMess)** by @cameronchristo — Drafts-only chief of staff: morning inbox and calendar scan, owns open loops, stages replies for one-line approval, and writes current.md after each job.
+
+- **[Miffy - Maintenance Triage](https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A)** by @Miffy_NYC — Coordinates residential maintenance ops bots end to end — intake, P1–P4 triage, dispatch, resident status texts, closeout/photo QA, and unit cost coding with hard stops on spend and safety.
+
+- **[Babel Fish](https://x.ai/bot/UcazP9A_LRigoW9b06QRo)** by @CodeSolutionsIL — Plain-English digest editor: turns files, links, notes, or day packs into skimmable wraps and paste-ready X summaries before you choose how to deliver the rest.
+
+- **[CEO Morning Secretary](https://x.ai/bot/Xs4d8TKbYwAGEY3voOBaX)** by @JyKim90832 — Weekday morning brief for a non-technical CEO in English (written then read aloud): calendar and email that needs a decision — never sends, pays, or publishes without a yes.
+
+- **[Chief of Staff (Amine)](https://x.ai/bot/WMLSz9eCswzYR8nPmmxsJ)** by @a_zaari — Chief of Staff for renovation and contracting operators: calendar and inbox triage, Square invoices, client email with drafts first, and weekday routines that stay quiet until something needs you.
+
+- **[Ramp Bot (Matthew)](https://x.ai/bot/Gx0HlW1t8lTnW2pVn0nKF)** by @matthewbarge — Keeps a Ramp company card unlocked by quietly filling missing receipts and memos from Gmail — good when compliance auto-locks cards when items lapse.
 
 ## Recruiting & People
 
@@ -1264,6 +1374,26 @@ English | [中文](README.zh.md)
 - **[Scouty Bot](https://x.ai/bot/jc0tOHuVUAn4MHuH2zyDn)** by @NickRoman — Reverse-searches the live job market from a resume and target city, then returns a verified CSV of openings.
 
 - **[X Mute Desk Bot](https://x.ai/bot/wGDy1T5eobC1hjqFC9-PI)** by @ryanfoxeth — Scans your X mentions for hostile or spam replies, shows mute candidates for your approval, then mutes the handles you greenlight.
+
+- **[Import Bot](https://x.ai/bot/HP4Q8GHtSIjbyGeI2vg7S)** — Brings your setup from Claude Cowork, Codex, ChatGPT, OpenClaw, and Hermes into Grok Bot, then creates the expert bots that cover it or adds to the bots you already have. Changes nothing in the old tools and scrubs secrets before anything is saved.
+
+- **[Tera](https://x.ai/bot/B1EPNTh_TsReIL-Y5Q278)** by @vonsmear — Warm household and personal-ops assistant for mail glances, morning recaps, calendar help, and everyday follow-through between home and work.
+
+- **[Liftoff](https://x.ai/bot/nSNeVcwO0QZOrOdirgRAc)** by @Steph_Pierson — Adds SpaceX launches within an hour of local sunset to Google Calendar — pick pads, monthly scan, deduped, quiet when nothing is worth watching.
+
+- **[Winston](https://x.ai/bot/pRajEKa4qSHU5-o72V3e3)** by @rizzy_sol — Personal muse-lite assistant: onboarding interview first, then inbox help, reminders, expense logging, and location-based shopping research — no work/ops lane.
+
+- **[Carson](https://x.ai/bot/v-anNtCSU16DhOT6XDOpn)** by @aarwen7 — Stands up your downstairs crew — bots that help run your life so you don't disappear into the week and you get time to read, play, and be present.
+
+- **[ChargeRight Panel Coach](https://x.ai/bot/s9EKFwbfQkmKK9jL44YoP)** by @EV_ChargeRight — Educational NEC Article 220 pre-check for Level 2 EV chargers — locked facts from the audited ChargeRight product, not a permit and not Tesla-affiliated.
+
+- **[Loaf](https://x.ai/bot/06l6Dds_nrWC-vaqyKLK9)** by @JennaLiftsLife — Tamagotchi-style step pet: log steps in chat for soft HUDs and one evening nudge. Never guilt — rest days count.
+
+- **[RestaurantHero](https://x.ai/bot/VpXAZQg8JIr4YbrgwwqCf)** by @aiMindNme — Order like a local: name a restaurant and city for a real-menu guide with top picks, proof links, and Maps — never invents dishes.
+
+- **[Personal Shopper](https://x.ai/bot/D0DOumUGpkN-fjE_acysw)** by @hovinthenorth — Builds a household person book — sizes, apparel section, birthdays — then shops live Shopify with visual shortlists and size-matched carts; you finish on the merchant checkout link.
+
+- **[Grocery Bot (Laura)](https://x.ai/bot/_SRTioxlU87XALDdBXsie)** by @thelaurahuang — Builds weekly Whole Foods and Instacart grocery carts, skips vacation weeks, and can watch a meat subscription — prepare only, never checkout unless asked.
 
 ## Contributing
 
