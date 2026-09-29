@@ -304,6 +304,9 @@ English | [中文](README.zh.md)
 
 - **[Orange Cat](https://x.ai/bot/HTygrX8LIy2waFrDOlEQK)** by @ignota_regalis — Chaos QA breaker: hand it a plan, draft, flow, or "it works" claim and it finds real breaks with concrete repros and fixes — playful carnage, not corporate QA-speak.
 
+- **[Memory](https://x.ai/bot/HDD8-K7IXKY6l_VPHag_E)** by @CodeSolutionsIL — Memory keeps a written trail of the exact wording you approved (Exact trails) and updates shared how-to skills with your front-door bot after lasting Apply is approved.
+- **[Product Ship Coder](https://x.ai/bot/Fb6pVFOCXhbUSkBt6RkMH)** by @u1tra_instinct — Ships a live creator-prompt product with a multi-agent Grok Bot squad: Pass-list seed only, honest stats bumps, deploy on explicit GO, and creator credit + Founders growth.
+
 ## Product
 
 - **[Product Idea Stress Test](https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9)** by @hnshah — Investigates a product or startup idea for founders. Surfaces what has to be true, evidence for and against, the assumption most likely to kill it, and what to do next.
@@ -364,6 +367,8 @@ English | [中文](README.zh.md)
 - **[Easy Flow](https://x.ai/bot/i7hwU3YzCKt_27dK9aCr4)** by @CodeSolutionsIL — Turns pasted notes or a GitHub doc path into a readable end-user flowchart in draw.io, Mermaid, Excalidraw, or PlantUML — ≤12 nodes on pass one with TBD where steps aren't evidenced.
 
 - **[Deep Research](https://x.ai/bot/K_RnTzUnW2bsbRzNkbuS0)** by @Wardonis — Deep research specialist for sources-first briefs. Uses a free research toolkit and prefers legal access for copyrighted material.
+
+- **[Cited Research](https://x.ai/bot/3iT9jfIRge_nu0Ojqa6sL)** by @BramForge — Research helper that answers with citations, separates facts from inference, and flags unverified claims.
 
 ## Design
 
@@ -552,6 +557,11 @@ English | [中文](README.zh.md)
 
 - **[Flip](https://x.ai/bot/cgaQkN_5O5NtWep6-c0Ll)** by @cmcdonnell04 — Domain flip operator: takes parked domains, ships a narrow live offer fast, runs SEO and conversion until cash shows, and kills what does not print.
 
+- **[Viral Analyst](https://x.ai/bot/Q6AwABs_6Nt0Lx8LzR-A_)** by @kloss_xyz — Paste any X post you want to analyze into chat. Get a quick brief back on the hook or scroll stopper, why the content worked, the psychological patterns behind it, the structure and flow, the substance of the claims, and the reach potential. The best content creators study others.
+- **[Gazetteer Scout](https://x.ai/bot/mgHgsFCkPcYyX428IB1VD)** by @JbBurcheci — You name a niche. I find what that audience is beginning to need, check whether it is already answered, and write the missing piece only after KEEP.
+- **[Five Stars](https://x.ai/bot/8SapNFXJ2M6t_3zy0y79C)** by @AustinMeyers_ — Keeps a small local business's Google, Facebook, Yelp, and TripAdvisor reviews answered. It drafts a reply to each new review in the owner's voice and flags urgent issues and complaint patterns, but never posts anything itself.
+- **[Visibility Marketer](https://x.ai/bot/DnNh9tbUQOv4WpWKRafkF)** by @Wardonis — Free organic marketer for Grok Bot templates. Writes natural, human-feeling copy; finds no-new-account visibility; posts on accounts you already own when you grant access. No paid ads, no throwaway forums.
+
 ## Sales
 
 - **[Account Research Desk](https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss)** by @akbaliga96 — Researches the companies you sell to and writes your pre-call brief and account plan. Works from the public web and the notes you paste, and never sends without you.
@@ -650,6 +660,10 @@ English | [中文](README.zh.md)
 - **[Garden Retail Research Specialist](https://x.ai/bot/Y8YOrZBsPE8U-jyTI7Qtk)** by @dltelford — Weekly sales intel for people who sell into garden centers: trends, forecast stocking, tech/tools/merch, and real supplier leads on a Monday cadence.
 
 - **[LinkedIn Bot](https://x.ai/bot/GyEovoZBfdoeEdJoYqwVP)** by @isb — Your LinkedIn memory for sales: search your posts, network, and DMs refreshed weekly from your export, with optional Syft ICP prospect discovery.
+
+- **[Webb Knox](https://x.ai/bot/7veO5EEAD-LxgkOGy4sjk)** by @gerardocasta711 — A lead specialist for anyone who sells something: tell it what you're after and it finds verified, scored leads with proof of why each needs you now, drafts honest outreach and follow-ups, and sends a weekly pipeline recap. Works for solo makers and sales teams alike.
+- **[Pipeline Scout](https://x.ai/bot/9KmU329RgFvaDOhtyc20x)** by @Screaming_Chkn — Drop 10–30 target accounts. Pipeline Scout pulls public intent and news, scores ICP fit with reasons and risks, then drafts email + LinkedIn in your voice. You get a review list — send or skip. The bot never sends, never connects, never enrolls a sequence. Built for me. Steal it. Paste 20 accounts.
+- **[Winback Desk](https://x.ai/bot/KBA_4Aap3iYEZEi12_hwW)** by @Screaming_Chkn — Find customers who quit in the last 6 months, draft personal win-back + exit-feedback emails for your approval, then overnight cluster the reasons into a 5-step retention plan. Drafts only — nothing sends without you. Built for me. Steal it.
 
 ## Operations
 
@@ -1006,6 +1020,16 @@ English | [中文](README.zh.md)
 - **[Chief of Staff (Amine)](https://x.ai/bot/WMLSz9eCswzYR8nPmmxsJ)** by @a_zaari — Chief of Staff for renovation and contracting operators: calendar and inbox triage, Square invoices, client email with drafts first, and weekday routines that stay quiet until something needs you.
 
 - **[Ramp Bot (Matthew)](https://x.ai/bot/Gx0HlW1t8lTnW2pVn0nKF)** by @matthewbarge — Keeps a Ramp company card unlocked by quietly filling missing receipts and memos from Gmail — good when compliance auto-locks cards when items lapse.
+
+- **[Tcgplayer Repricer](https://x.ai/bot/-OTWWkChA1p8rLYZO_kLV)** by @Pepsifan013 — A no-fuss ops bot for TCGPlayer sellers. Every morning it reprices your Live inventory from your own formula (or a simple match-market starter), pushes only meaningful changes, and speaks up only when something breaks.
+- **[Freelancer Finance Desk](https://x.ai/bot/RWC0ZT_Tbr-SwUcJGGXFF)** by @OmidMasoom — Closes one month of books for freelancers, contractors, and solo businesses from the transactions, receipts, and invoices you upload, and hands back a reviewed close packet. Bookkeeping prep only, not tax advice.
+- **[Therapy Scribe](https://x.ai/bot/HzH9d2YwZFhJ36prvFW1n)** by @fPelin17 — Skilled PT note drafts from a post-session voice dump, audio, or bullets. Paste into your EHR yourself — audio and transcript are wiped so PHI is not kept.
+- **[Chop Bot](https://x.ai/bot/3ITYjIFCSujYyq6rp5VAq)** by @CaliLumberJack — Chop Bot v6 chops your inbox, calendar, and X replies down to what matters. One daily brief, follow-up nudges, and heads-ups on unanswered comments, with built-in run limits and checks. Drafts only; nothing sends without your yes.
+- **[Tasks](https://x.ai/bot/BcK_tur9AvL1GiGDk3yVg)** by @natenords — Your single daily check-in board: To-Do | Proposed | Upcoming | Recently Completed. Weekdays lean work; weekends lean personal. Lane bots hand short cards here instead of parallel digests.
+- **[Boss](https://x.ai/bot/B3GjCUHLnI793bGJ1bjT8)** by @Screaming_Chkn — A chief of staff for your Grok Bot team. It routes work to one-job specialist bots and hands you only finished work and yes/no cards.
+- **[Chief of Staff (Stone)](https://x.ai/bot/gcDLC2JwcDIfXXa_VUoF3)** by @downlowfarming — Manages your other bots and pulls you in for decisions. Coordinates work, drafts social/X content packs when connected, and keeps routines from colliding.
+- **[Dagney](https://x.ai/bot/MxVncuoCs0xv2Ag3Tj_bv)** by @DiRegulator — Chief Operator for bookings, reservations, errands, and real-world fixes. Executes restaurant holds and trip logistics end to end with real confirmation numbers only; keeps you as gate for money, send/post, and facts only you know.
+- **[Daily Desk](https://x.ai/bot/vBIp-NWoTncOR8BQq5jqs)** by @BramForge — Personal admin co-pilot that drafts calendar, notes, and email moves and waits for your OK before anything is sent or changed.
 
 ## Recruiting & People
 
@@ -1394,6 +1418,27 @@ English | [中文](README.zh.md)
 - **[Personal Shopper](https://x.ai/bot/D0DOumUGpkN-fjE_acysw)** by @hovinthenorth — Builds a household person book — sizes, apparel section, birthdays — then shops live Shopify with visual shortlists and size-matched carts; you finish on the merchant checkout link.
 
 - **[Grocery Bot (Laura)](https://x.ai/bot/_SRTioxlU87XALDdBXsie)** by @thelaurahuang — Builds weekly Whole Foods and Instacart grocery carts, skips vacation weeks, and can watch a meat subscription — prepare only, never checkout unless asked.
+
+- **[Bot My Meals](https://x.ai/bot/ouezkwgSV26h5aMS0Pa4m)** by @TimDOES — ONLY job: set up and run weekly dinner planning with solo or multi-approve for ONE household — the owner who added you. You work for this household only. You are not a multi-household SaaS admin and not a helper for other products.
+- **[Chinese Culture Stories](https://x.ai/bot/Lf83iLcPR8Q6tqYl06re7)** by @weipingzhong — Short Chinese culture stories (festivals, table manners, tea, idioms) with one Mandarin line to say out loud. For English-speaking beginners.
+- **[Travel Delay Copilot](https://x.ai/bot/HUyK_n0GZRm8NXq_Sgw5I)** by @fPelin17 — When a flight is delayed, canceled, or you misconnect, pulls live airline policy + passenger-rights rules, cites sources with dates, and drafts a calm desk message. You approve any send.
+- **[Contrarian](https://x.ai/bot/BawAoz1FeYXd6HzBqWntt)** by @CaliLumberJack — A sharp thinking partner that argues the other side and runs a pre-mortem before you commit to a decision, contract, launch, or big spend. Evidence over vibes, no invented numbers, and it never sends, posts, or spends anything for you.
+- **[Longevity Health Coach](https://x.ai/bot/VffMG7y0XbYelHTFX78T-)** by @SENelson91 — The HEALTH half of a two-coach pair, built to run with Longevity Fitness Coach. Ask it anything about food, supplements or labs anytime and get answers built only on your real goals, labs and history plus trusted research. It never guesses. Import both; the power is in the pair.
+- **[Longevity Fitness Coach](https://x.ai/bot/_jHOMIvGlQoK8l4vewrhf)** by @SENelson91 — The FITNESS half of a two-coach pair, built to run with Longevity Health Coach. Ask it anything about training anytime and get answers built only on your real tests and history plus trusted standards. It never guesses. Import both; the power is in the pair.
+- **[Tesla Maintenance Reminder](https://x.ai/bot/pKfa-wIy5YSH1GOt0PN9A)** by @jbre3zii — Tracks Tesla tire, alignment, 12V battery, camera housing, HEPA/cabin filters, and wipers, then reminds you when service is due so you can book in the Tesla app.
+- **[Crux](https://x.ai/bot/pmaYkbv50yT2tHFrU5o7h)** by @Brbaumhoff — Indoor-to-outdoor climbing coach. Send a photo of your gym wall and the outdoor route you’re training for — Crux builds a practice line on that wall that mirrors the outdoor moves.
+- **[Chef (John Zertuche)](https://x.ai/bot/Fz4k0xj4eCoXkWlfhBNKx)** by @Johnzertuche — Your kitchen's chief of staff. Tell Chef what you're hungry for and it hires a brigade of food-named specialist bots, fires the tickets, and runs the line. For anyone who wants a whole team of bots, not a lone inbox assistant.
+- **[减重教练](https://x.ai/bot/MgvqAC7RBf-gsvQl6Jw6n)** by @Davidwuuu92 — 按中国大陆饮食记账估热量的减重教练：催三餐、看餐前照片确认后再入账，结合活动消耗给短反馈；可接 Apple Watch。不看诊、不推销补剂。
+- **[Car Chaser](https://x.ai/bot/_xHffm8tWVvtVic-aJmwa)** by @ibelevy — Car search with the IF/THEN and OR rules that site filters can't handle, like "under $37k with 3 owners or less, or up to $45k as a single owner." Car Chaser looks at every listing photo, catches what ads get wrong, and helps you get a great deal.
+- **[CAO](https://x.ai/bot/1QpKMVVzO9iJe-Tg_kfcC)** by @LYP0x0 — A bad delay or broken promise leaves the other person hurt — and a cold note makes it worse. I’m CAO: I turn the mess into a warm, heartfelt apology (acknowledge → explain → remorse → amends) you can actually send. Paste what happened and the impact; I draft it. No excuses, no invented facts, no send without your OK.
+- **[Fantasy Fitz](https://x.ai/bot/St4_wOEVr1kNJiVVvwi81)** by @FrankFindsOut — Your season long fantasy football partner for lineups, trades, and weekly decisions. Bring the roster; get clear calls before lock.
+- **[Parlay Pete](https://x.ai/bot/5kjrnQFj2_BPO8Divnnp7)** by @FrankFindsOut — Watches your bets and key games, then suggests parlays from recent results and matchups. Not financial advice.
+- **[Vitamin Vera](https://x.ai/bot/axsAabBC39PmcWS91EFCe)** by @FrankFindsOut — Turns how you feel into a simple supplement starting map with tracking, brand options, and light research context. Not medical advice.
+- **[Stow](https://x.ai/bot/S4bu3goWvhKDw3NVtAVSA)** by @Brbaumhoff — Trip packing coach for everyday travelers. Builds clear checklists from your trip type, activities, length, drive vs fly, destination weather, and TSA rules when you fly.
+- **[Bill Hunter](https://x.ai/bot/yNU0u9iQKOZKNCZsvLiGj)** by @Screaming_Chkn — Sweep mail and receipts for trials, renewals, price hikes, and duplicates. Recommend keep / review / cancel. Draft cancel and refund asks — never cancels or sends without your yes. Built for me. Steal it.
+- **[The Table](https://x.ai/bot/MCbora5cfpxh0qvCQkABU)** by @SleepyCovfefe — Solo TTRPG with a real party of bots — GM + players who whisper, argue rules, and surprise you.
+- **[Shawn](https://x.ai/bot/gEEv8k6WgJyU8es3eaXi7)** by @BadgersBet — Paper-first sports betting research desk. Board in, auditable CLV/EV card out — never places bets.
+- **[Movie Picker](https://x.ai/bot/2enfujV0827J75BYMrCeI)** by @zrottmann — Connect your IMDb and get brief, personalized movie and TV picks you haven't seen, checked against the streaming services you already have.
 
 ## Contributing
 

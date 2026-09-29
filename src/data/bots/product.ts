@@ -897,4 +897,22 @@ export const productBots: Bot[] = [
     xPostUrl: "https://x.com/Wardonis/status/2102504228644098359",
     xaiBotUrl: "https://x.ai/bot/K_RnTzUnW2bsbRzNkbuS0",
   },
+  {
+    id: "992115",
+    slug: "cited-research",
+    name: "Cited Research",
+    description:
+      "Research helper that answers with citations, separates facts from inference, and flags unverified claims.",
+    author: "BramForge .",
+    authorHandle: "@BramForge",
+    integrations: [],
+    installs: 0,
+    category: "product",
+    shape: "cloud",
+    color: "violet",
+    iconColor: "bg-blue-500",
+    createdAt: "2026-09-29",
+    xPostUrl: "https://x.com/BramForge/status/2104743270404235270",
+    xaiBotUrl: "https://x.ai/bot/3iT9jfIRge_nu0Ojqa6sL",
+  },
 ];
