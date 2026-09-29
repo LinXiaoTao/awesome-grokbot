@@ -211,7 +211,7 @@ export const marketingBots: Bot[] = [
   },
   {
     id: "506",
-    slug: "image-gen-bot",
+    slug: "stills-clips-desk",
     name: "Stills & Clips Desk",
     author: "Matt Palmer",
     authorHandle: "@mattyp",

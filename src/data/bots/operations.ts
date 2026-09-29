@@ -824,7 +824,7 @@ export const operationsBots: Bot[] = [
   },
   {
     id: "22",
-    slug: "dispatch",
+    slug: "dispatch-filippofonseca",
     name: "Dispatch",
     authorHandle: "@FilippoFonseca",
     description:
