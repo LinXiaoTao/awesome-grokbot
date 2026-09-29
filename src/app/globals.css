@@ -15,6 +15,7 @@
   --shadow-xs: 0 1px 2px rgb(0 0 0 / 0.04);
   --shadow-subtle: 0 1px 3px rgb(0 0 0 / 0.05);
   --shadow-lift: 0 12px 32px -8px rgb(0 0 0 / 0.12);
+  --container-container: 1200px;
 }
 
 body {

@@ -148,7 +148,7 @@ export default async function BotDetailPage({ params }: Props) {
                     href={bot.xaiBotUrl ?? "https://x.ai/bot"}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-neutral-950 px-8 py-3.5 text-base font-bold text-white transition-all hover:bg-black hover:shadow-card-hover active:scale-[0.99] sm:w-auto"
+                    className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-neutral-950 px-8 py-3.5 text-base font-bold text-white transition-all hover:bg-black hover:shadow-lift active:scale-[0.99] sm:w-auto"
                   >
                     <span>{t("install")}</span>
                     <ExternalLink className="h-4 w-4" />
