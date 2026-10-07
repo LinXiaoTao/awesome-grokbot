@@ -256,6 +256,29 @@ Optional follow-up tools:
 
 ---
 
+## Marketplace sync (official + third-party)
+
+Use this when asked to sync the official marketplace and third-party directories. Reference implementation: `scripts/manual-incremental-2026-10-07.mjs` (data) and `scripts/sync-2026-10-07.mjs` (writes `src/data/bots/*.ts`, `README.md`, `README.zh.md`).
+
+Sources:
+
+| Source | How to read it |
+|--------|----------------|
+| Official `https://x.ai/bot/marketplace` | Crawl `/bot/marketplace/<category>` including `from-grok-bot-team`. Each row has `/bot/marketplace/bots/<slug>` and an `Add` link `/bot/<id>`. Set `isOfficial: true`; add `categories: ["From Grok Bot Team", "<Category>"]` for Grok Bot Team bots. Mirror every official bot into the `From Grok Bot Team` README sections. |
+| `https://grokbot.dev` | `/marketplace/` lists all bots; each detail page `/marketplace/<slug>/` has JSON-LD (`SoftwareApplication`) with `description`, `author.name`, `installUrl` (the `x.ai/bot/<id>` URL), `citation[0]` (xPostUrl) and `datePublished`. Only fetch detail pages for rows not already matched locally. |
+| `https://botdirectory.ai` | Rows are `div.bot-row` with `data-slug`, `data-name`, `data-category`, `data-integrations`; the x.ai URL is inside the row. Descriptions are truncated with `…`. |
+
+Rules learned:
+
+- Deduplicate by `xaiBotUrl` first, then slug, then same normalized name + same `authorHandle`. Same name with a different author is kept and renamed `Name (<author>)`.
+- Compute the next `id` from the real maximum across all category files. Parse every entry block with a leading newline, otherwise the first field of each block is missed and ids restart at 1. Check id, slug and URL uniqueness after writing.
+- Verify every candidate against `https://x.ai/bot/<id>`: HTTP 404 means skip; `<title>` is `"<name> by <author>"` and `og:description` is the live description (cut at about 150 chars with `...`). A title of just `Grok Bot` is a generic template, skip it.
+- grokbot.dev data can be wrong. Some bots share one placeholder description, and some names do not match the live bot. When the grokbot.dev name does not match the x.ai title, or the description is the shared placeholder, use the x.ai title, author and description instead and classify by text.
+- Clean truncated descriptions: cut back to the last full sentence if it is at least 60 characters, otherwise strip the ellipsis and end with a period.
+- Bot IDs starting with `s` followed by 18+ hex characters are x.ai seed templates; do not attach the grokbot.dev handle.
+- `createdAt` is the sync date. Run `pnpm build` at the end.
+- Known pre-existing data issue: 18 ids are duplicated across category files (for example `991855`). Do not renumber without asking.
+
 ## Edge cases
 
 - **Ambiguous post:** Skip rather than guess. Mention in summary.
