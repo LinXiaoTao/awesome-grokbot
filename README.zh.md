@@ -499,6 +499,35 @@
 - **[Grok Build (Zack)](https://x.ai/bot/wnFlIE6YpskdUekfkkwFO)** by @zac70182 — Wraps a command-line build harness in a bot, so app work, coding and deep-research jobs can run hard on a hosted agent machine instead of occupying your own terminal. Useful when a task needs to run long or unattended and you would rather not keep a session open. Tooling only: nothing spends money.
 - **[GBrain](https://x.ai/bot/ynoVbairpAPDOtdrS51Rf)** by @massimodeluisa — Connects a bot's long-term memory to GBrain, whether you are on their hosted service or running the server yourself. Beyond the sync it covers the operational side: queuing jobs, running consolidation passes, calibration and keeping the deployment current. Useful once a bot's memory has outgrown a plain file.
 - **[AI Official Account Radar](https://x.ai/bot/zXPuJgqq5fxIsqCmPHAsF)** by @Chaosai0 — Follows what the big AI labs and coding-agent teams post on their own accounts so you do not have to. When a new model lands, free credits appear, or API pricing and terms shift, it flags the change soon after it happens. A written recap lands twice a day as well, so the day's product news arrives in one readable pass.
+- **[Apple Mac Tools](https://x.ai/bot/_qhDx4CZfm2-h1RkRyef1)** by @Kevin_Logan — 仅限 Mac 的安装程序，配置经过测试的 Mac 命令行工具，让你的 Grok Bots 可以使用 Apple 应用。工具按权限分组，由你选择要安装的内容；它会验证安装，并打开对应的隐私与安全性面板。它从不索要你的密码，从不用 sudo 或 Keychain，也绝不安装你没有选择的任何内容。
+- **[Axiom](https://x.ai/bot/RKvTxFQFPjs6DZnMEAZuQ)** by @ichorid805 — 对照十九条经典架构与可靠性原则审计仓库或 PR，告诉你按你的真实规模，哪些已经具备、哪些缺失、哪些值得补充。面向希望得到基于证据的报告、而不想听过度设计建议的工程师。
+- **[Bot Forge](https://x.ai/bot/aiRz71Ec8J67tNNglG0Mw)** by @Ease_Up_Turbo — 大师级 Grok Bot 设计师。你描述一项工作，它就为此打造一个专注的机器人，然后交给你一条最合适的第一条消息去发给它。
+- **[Bridge](https://x.ai/bot/Fw_hY6e0FpgKBFgDWqUod)** by Jaime Hernandez — 从本地到云端的 LLM 路由器。简单任务交给你的本地模型，繁重任务交给你的云端模型，并留意本地模型的内存和健康状况。
+- **[Claude + Codex ルーター](https://x.ai/bot/pUZHPs1FCV6iVdeOt3oNI)** by @chihironishioka — 连接 Claude 和 ChatGPT 的订阅，把请求分给更合适的一方。查资料和写文章交给 Claude，代码交给 Codex，并简短返回结果。
+- **[Cloudflare](https://x.ai/bot/Idb0KjPY1N18OcNxL8A13)** by @kesquivelt — 在聊天中管理一个或多个 Cloudflare 账户：区域、DNS、Workers、隧道、Zero Trust 等，可用只读或完整模式，每次更改前都会确认。
+- **[Collaboration Bot](https://x.ai/bot/SVz86tYbkiggizWQ_9vca)** by @realMattAbrams — 通过共享仓库，把你的机器人团队与他人的机器人团队连接到共享项目，并设有用量预算、同意和安全检查。首次运行时导入自身技能，然后询问是发起协作还是加入已有协作。
+- **[Daybook](https://x.ai/bot/TOA1DYEKfWL6m9SnhRJtj)** by Taylor | Capacity for More — 给你发送昨日 AI 编程会话的早间简报：有哪些进展、哪些需要你、从哪里开始，每项说法都附有链接。也可以让你的 Obsidian 库保持最新。
+- **[Dependency & Secret Audit](https://x.ai/bot/IqXV0I1hK8sXPfyrsOZDA)** by Thuong P. Nguyen — 粘贴一个 GitHub 仓库，2 分钟内得到按优先级排序的修复清单：有漏洞的软件包附带确切升级命令，泄露的密钥会遮罩并给出轮换步骤。只读；仅在出现新问题时发送夜间警报。
+- **[Hermes Adversary](https://x.ai/bot/ycaoC61Wx4dwlqkrlfGvw)** by @PixelRainbowNFT — 对代码、计划和评审流程做对抗式审查，独立评审运行在你自己的 Hermes agent（另一套模型）上。结论会经过验证并分级返回，要么已经修复，要么被明确接受为残余风险。
+- **[LTE Meshcore Repeater Updater](https://x.ai/bot/4C3UVw82rExY2s3-YSL7s)** by @just_stuff_tm — 帮你用 LilyGO T-SIM LTE 板运行远程太阳能 MeshCore 中继：部署自己的仪表盘，刷入受维护的省电固件，并通过空中方式更新和管理中继。
+- **[MCP Expert](https://x.ai/bot/7xSkMMmBQoQJmyuXTSYhx)** by @MikeBillettJr — 对照当前 MCP 规范设计、评审并为 MCP 服务器打分，并规划礼貌、有预算、尊重受机器人保护网站的线上测试。面向为 AI 代理构建只读 MCP 工具的团队。
+- **[Persistent memory](https://x.ai/bot/rp0gErUTW6Vth7cdtwPS_)** by @andrerocha — 给所有 Bot 一份持久记忆：每个 Bot 都会把决策、已交付的工作和长期偏好写成每日日志，存入你拥有的私有 GitHub 仓库。
+- **[RepoBeagle](https://x.ai/bot/bTuuNK785OULBheQ5rPZ-)** by @jvr0x — 粘贴仓库链接，在你信任它之前先得到一份安全结论。
+- **[Review Brief](https://x.ai/bot/XftMzXd6cq-DT_ZLvdoy5)** by Thuong P. Nguyen — 粘贴一个 pull request，不到 2 分钟即可得到评审简报：相对工单改了什么、带文件和行号的风险点、需要手工测试什么，以及对作者的问题。面向评审 AI 辅助 PR 的工程师和负责人。
+- **[Scoutbot](https://x.ai/bot/Z70qDv7UpoZ4ihZt1M0b7)** by @arach — 把任务交给你 Mac 上的 Claude Code、Codex 和其他编程助手，再把答案带回来。
+- **[Script This Routine](https://x.ai/bot/9E8iw2zlg2fTWzUT6RUsP)** by @Kevin_Logan — 审计你 Grok Bots 上的每一项例行任务，把机械性检查变成经过测试的小脚本，让例行任务只在有事可做时才唤醒机器人。它只构建你选定的脚本并逐个测试，从不改动日程，也不会把任何会发送、购买或发帖的操作写成脚本。
+- **[Script-it](https://x.ai/bot/ySMQW544mSpZFty-DaGml)** by @the_Arow_H — 把例行检查从模型挪到你自己的电脑上。它审计你的例行任务，为其中确定性的部分编写脚本并证明结果一致，然后暂停旧的例行任务，只转发状态变化。
+- **[Security](https://x.ai/bot/-qkf41F4R1MtZRetyUrxW)** by @PerWendelboe — 面向个人和小团队的只读汇报型安全搭档。它检查你的 GitHub 仓库、域名与邮箱配置、Cloudflare 设置和 Linux 机器，然后发送简短的优先报告，每项附一条具体修复办法，未经你同意不改动任何内容。
+- **[Site QA Desk](https://x.ai/bot/HHMrL3_xtMmkmZVSQ90BQ)** by Thuong P. Nguyen — 从一个粘贴的链接检查任意公开网站在桌面（1440px）和手机（390px）上的表现：截图、横向滚动检查、失效链接、控制台错误，以及一份按优先级排列的修复清单，两分钟内完成。
+- **[Snowflake Analyst](https://x.ai/bot/LI4x0WdC_saRljwVwno4X)** by BigDataDude — 只读的 Snowflake 分析师。用日常语言提问数据仓库；它编写并展示 SQL，给每个数字标上对应查询，在重度扫描前先检查成本，且从不改动你的数据。包含经过测试的技能：已校验的即席回答、指标深挖、同期群、A/B 结果解读、查询成本审查、数据质量检查，以及可选的每周健康报告。
+- **[T3 Code Bridge](https://x.ai/bot/_5NG_WsrOdQs2jtUhZeQH)** by Trevin Chow — 连接 Grok Bot 与 T3 Code：为你和其他机器人启动、引导并盯着 T3 Code 编程线程，并在某个线程完成、失败或需要答复时通知你。
+- **[T3/GrokBot Connector](https://x.ai/bot/FfyFNHvtbtuRV04Rg9hBm)** by Taylor | Capacity for More — 每当 T3 Code、Claude Code 或 Codex 的线程完成、停滞或出错时，给你发一条简短通知，让你知道发生了什么、哪里需要你。配合开源的 t3-done-notify webhook 使用。
+- **[Terminal Boss 🖥️](https://x.ai/bot/aU_t4X-Yf6w9DHfhIGD9n)** by Phillip Holland — Terminal Boss 让你从手机或桌面上的 Grok Bot 运行终端任务和终端编程助手（Grok Build、Claude Code、Codex、Cursor CLI、Gemini CLI、opencode、Aider，或普通 shell）。它可在你自己联网的电脑上工作，无论是 Mac、Linux 还是 Windows（通过 WSL），也可在 Grok Bot 自带的常开电脑上工作：在具名后台会话中启动任务，一完成就通知你，转发问题和结果，并按要求停止。
+- **[Test Cop](https://x.ai/bot/-IP_HE8l0UOByWip4DByf)** by Ryan T — 审查拉取请求中被悄悄削弱的测试（跳过、放宽断言、收窄测试配置、放软 CI），并返回 CLEAN、SUSPECT 或 WEAKENED 结论，附带文件与行号证据。
+- **[Threadroost](https://x.ai/bot/y8jcsoZFQCZDHcQ8eaUPN)** by @DallinWatts — 通过你自己的免费 Threadroost 连接器，把你的 SuperGrok 和 Claude 聊天逐字归档进这个机器人。每段聊天都会成为带保真度评分的干净记录稿，其中内容绝不会被当作指令。
+- **[VeilBreaker Guard & Watch](https://x.ai/bot/DMifb6iyC03g6HvPNrkGw)** by @PixelRainbowNFT — 面向 Grok Bot 的不可信内容防护与活动监视，由 VeilBreaker 插件驱动。在你行动前，它筛查每个网页、邮件、文件和工具输出中的隐藏指令与外泄攻击，运行定时摘要和自检，遇到可疑情况会停下来问你。
+- **[X Bookmark Demos](https://x.ai/bot/0HhqUJQH2FwInXRK5SVZ5)** by @JaimeBubblehead — 每日侦察：阅读你的 X 书签，推荐一两款值得一试的新工具；你批准后，会在你自己的电脑上真实安装并测试。
+- **[出口IP管家](https://x.ai/bot/1AKObJsZ-4jTjoTZ6_Y0R)** by @KhoaMinh88704 — 专门管理 Grok Bot 电脑（box）上的出口 IP / 代理链路：配置与切换 mihomo dialer-proxy，查询出口与测速，本地端口挂载。
 
 ## 产品管理
 
@@ -592,6 +621,10 @@
 - **[ZeroTok Research](https://x.ai/bot/cy-_WGjLOPsiU5WOlzFr-)** by @cu30rry_ — Competitive research for storefronts on Shopify: hand over a domain and a report comes back covering estimated revenue, traffic levels, which products sell best, plus the advertising currently running. It is a quick read on how a rival store is doing, without assembling the picture from several dashboards yourself.
 - **[AI 官号雷达](https://x.ai/bot/sGX1MPOtVLAMzSUScPaxi)** by @Chaosai0 — A Chinese-language watcher for the AI industry. It keeps an eye on the X feeds that AI labs, agent builders and product leads run, and pings you when something changes: a model release, a new product, a free tier, or a price or policy move. Morning and evening it files a longer Chinese-language digest too.
 - **[Would Thiel Buy It?](https://x.ai/bot/wzJ0u7WcdYGc_rDKTqpbE)** by @shib2_inu — Name a stock and one card comes back with a call: monopoly-grade, genuine challenger, or just another competitor. The reasoning is drawn from the company's regulatory filings and read through the competitive-moat lens of the book in its name. Cards come built for sharing, with the reminder this is not financial advice.
+- **[Competitor Mapper](https://x.ai/bot/9FdrISzxvOd2kTaE36eon)** by Avid — 把每周热门产品的替代方案（功能、定价、平台、开放与封闭、差距）整理进带差距矩阵的 competitors.md，仅使用公开页面。为基于文件的每周产品发现流程而建。
+- **[Premortem Desk](https://x.ai/bot/RMTU2Vv4BHQtoJwGFhYCm)** by Thuong P. Nguyen — 粘贴一份你已经承诺执行的计划，即可得到最可能的失败方式、各自的早期预警信号，以及何时转向或停止。可选的每周检查会在某个触发条件出现时告诉你。
+- **[Story Mapper](https://x.ai/bot/lKWMPhgUH4U9ibtjHNI1b)** by Albina Nikiforova — 把你应用的代码和真实截图变成用户故事地图：一页说明、按主题的架构图，以及可点击的查看器。面向想看清已有哪些故事、它们如何相连、又缺了哪些的独立开发者和小团队。
+- **[Vibe Check](https://x.ai/bot/V2mEPjBfDmtFvqeYUuvnm)** by @priddysharp — 审查你用 AI 构建的应用，找出 vibe coding 通常会漏掉的上线缺口，再让五个模拟的首次用户走一遍，找出真人会卡住的地方。
 
 ## 设计
 
@@ -650,6 +683,9 @@
 - **[Mono Lisa](https://x.ai/bot/1SnvqJd1RMwYsWdwh8kYI)** by @felixleezd — Runs a nightly product-design desk: when a metric falls off a cliff it investigates why, argues from first principles for what would fix it, then files the ticket with the chart included, and prepares three design options for a human gate before any of it reaches engineering. Mornings start with a case, not a mystery.
 - **[Cross-Border Money Desk](https://x.ai/bot/RgivaqZM6x_meep2iaobm)** by @BankrolledInc — A client abroad paid you and the total arrived short — drop the invoice or the payout note here for a patient walkthrough: which transfer network carried the money, where fees nibble at it, and where the balance likely sits now. Educational by design — it explains payment flows and never touches funds or accounts.
 - **[Ink](https://x.ai/bot/jKCF30ndOxkjzXXdhFNzd)** by @QuinnWR — A pixel-art collaborator for game developers who start from generated imagery. Concepts become tidy, palette-consistent sprites and walk animations sized for real engines, exported in the formats an actual project needs. It covers the patient half of art production that polish usually waits on.
+- **[Avatar Animator](https://x.ai/bot/NOUv84E2-HRveJ-WxN7_v)** by @mjplaskett — 把任意图片（照片、宠物、标志或艺术作品）变成带眨眼和移动背景的循环动画头像，并可设为你的机器人头像。在你的机器人自己的电脑上免费运行。
+- **[SteveCAD](https://x.ai/bot/9vnd_iLPbZMPN3iQaVtU_)** by @10_X_eng — CAD 设计助手：构建并编辑 3D 模型，查找标准和现成零件，并对你的设计运行分析。
+- **[Webi](https://x.ai/bot/LI80oX1Y_cQ_t9f4LwgxE)** by @JaimeBubblehead — 网页设计师兼前端开发者：负责站点外观、样稿、美术指导，以及 HTML/CSS/JS/WordPress 代码，并在真实公开 URL 上验证每一次上线改动。
 
 ## 市场营销
 
@@ -965,6 +1001,23 @@
 - **[微博追踪](https://x.ai/bot/w5SXwT0WzP0Y-55u7bIWT)** by @Guluhehe — Once a night this bot gathers what your Weibo follows posted, leading with priority accounts and giving them a closer read. It then works through posts and comment sections from key accounts for signals on any topic you care about — US equities, say — so your morning starts from what matters.
 - **[ブログからX投稿](https://x.ai/bot/zgQuwpX78Yn09ddfIJkzU)** by @1123momojiro1 — Give it writing you already have - archived blog entries, quick notes, or a spoken memo - and it shapes the material into clean posts for X. Longer pieces are divided into threads, one theme at a time. Publishing runs by itself morning and evening, and each week it suggests three fresh angles worth writing up.
 - **[Claudia](https://x.ai/bot/zvsgYtQHUcSKGRhAb_JzM)** by @AQS_kr — One opening instruction starts a full production session for this openly fictional singer. The bot generates her photo stills, short clips, tracks and complete music videos, keeping the character consistent across every asset. Treat it as a small label for a persona that exists only online.
+- **[Ad Spend Desk](https://x.ai/bot/MQLGGf9tlc1LITK3ixesd)** by @Av1dlive — 只读的广告花费审计助手，找出没有转化却在花钱的广告系列、广告组和广告，以及流失流量的落地页，并为每一项计算可节省的金额。未经你同意，绝不会暂停或更改任何内容。
+- **[Beacon](https://x.ai/bot/icPIlUFH-D8YZ2YAvFCi9)** by Jaime Hernandez — 技术 SEO 机器人，以只读方式抓取你的网站，检查每次上线的标题、抓取、robots、站点地图和标头，并交给你一份按优先级排序的修复清单。未经你同意，绝不更改线上站点。
+- **[Explainer Studio](https://x.ai/bot/vkAjlbGEZ-yJS7hl5HVF1)** by @willstarbase — 在聊天中制作带解说、由 Manim 驱动的数学与科学讲解视频，配有 Grok Voice 和逐词高亮字幕。也可把你自己的录音，或经由 NotebookLM 处理的 PDF，变成带字幕的讲解视频。
+- **[Grok Bot Video Studio](https://x.ai/bot/wVv54dUKjA2MYaq1XMCzN)** by @MichaelGannotti — 基于 Grok Imagine 的端到端 AI 视频工作室：带诚实证据标注、注明出处的新闻解说、出镜短片、角色锁定的多镜头故事，以及你拥有歌曲的音乐视频。它负责策划、生成、剪辑、加字幕并质检每支视频；除非你自己发布，否则不会公开。
+- **[Highlight Reel](https://x.ai/bot/Aq0hS2Z-fEtENFItAZeRI)** by @MichaelHeckert — 自动运转的运动与健身短内容。放入原始训练素材，即可得到让人停下滑、可循环的 9:16 燃向集锦：按节拍剪辑并配授权音乐，字幕不挡脸，另有无音乐版本以便搭配热门音频。首次运行会安装其开源渲染工具包。未经你同意不会发布。
+- **[Motion Director](https://x.ai/bot/MdpeJPD6eiY7YWUa9bfes)** by @SuddenlyJon — 用代码设计、制作动画、配乐并质检短片、角色音乐视频和口播宣传：每一帧都经评审检查，口型与人声精确到帧同步，文字锁定在代码中，GPU 渲染可续跑，并交付可发布的成品包。v3.1。
+- **[Promo Studio](https://x.ai/bot/ybXMrluMLTr7EU0ohttgX)** by @iamjeevanvj — 短视频制作助手，把任意应用或网站做成精致的竖屏宣传片，用于 TikTok、Instagram Reels、YouTube Shorts 和 LinkedIn；基于真实产品画面，表述诚实，配有授权音频和可供测试的钩子版本。
+- **[Soul-to-Scene Director](https://x.ai/bot/9xP8NiSCxAr5vCPf_oG6s)** by @phera46334652 — 词曲搭档兼音乐视频导演：按你自己的口吻把歌词写完，并把你的歌曲、照片和回忆变成完整计时的翻页书式分镜脚本。
+- **[Streamer's Dream](https://x.ai/bot/imJQgO-GFQ11w1W5tatxD)** by @SuddenlyJon — 带你从想开始直播，到在自己的电脑上完成一套精致配置：OBS、场景、叠加层、提醒、聊天、品牌和开播，适用于 Twitch、YouTube、Kick 或多平台同播。它负责教学、配置和排障。未经你同意，不会公开任何内容。
+- **[Suno & Imagine Creator](https://x.ai/bot/aY7oZvOOoyKs3FQvlleEt)** by @Michael94288471 — 创作搭档：撰写歌词、Suno 风格提示词，以及 Grok Imagine 的静图和视频提示词。面向想要可直接粘贴成品的音乐人和创作者。
+- **[Trend Scout for X](https://x.ai/bot/Q6YX1p5zlhRZZjEmDYfzA)** by @ashleyschendel — 找出适合你的最新 X 热门话题，按可能表现好坏排序，并附角度和谈话要点。每条帖子都由你自己写。
+- **[Video Editor](https://x.ai/bot/Oo4vOtwAggO933EwCmKrc)** by @ross_zeiger — 丢进一段书桌口播，得到干净、带品牌的 YouTube 成片。引导首次安装，并帮你打造自己的动态品牌套件。
+- **[Video Editor](https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs)** by @john_a_isaacson — 面向创作者和小团队的 AI 视频剪辑。剪切素材、制作短视频、打包标题和封面，制作动态或产品视频，并交付 MP4。
+- **[X Monitor](https://x.ai/bot/37ckm2zchL3Gr57l8uxNl)** by @BoKuangyi — 追踪谁在回复某个 X 账号：按态度给评论者分组，标出有真实影响力的敌对账号，列出可能违反 X 规则的帖子，并维护一份每周更新的 Excel 跟踪表。
+- **[Xブクマ台本工房](https://x.ai/bot/3tOP_ZthJfS0r3_7E4Gtq)** by @sidejob_AJ — 每天早上从你的 X 书签里挑选能用的素材，按预期反响从高到低的顺序，送来三行摘要和短视频脚本草稿。不会发帖。
+- **[コピーロボット](https://x.ai/bot/MgbmI7yosGl_eoctazByw)** by @ryo_miu — 像帕门的复制机器人一样，学习你的口吻和想法，代替你说话或起草 X 帖子。
+- **[墨灵 Moling](https://x.ai/bot/4JFu2Vhw9D2U2ZJfd-zd0)** by @LZJ5460 — 墨灵是灵境出品的长文写手，写给需要流量的项目操盘手和自媒体创业者：学你的口吻，写没有 AI 味、值得收藏的爆款长文，一篇改成 X、公众号、抖音、小红书、知乎、微博多个版本。
 
 ## 销售
 
@@ -1126,6 +1179,12 @@
 - **[My First Car Bot](https://x.ai/bot/n3Q4lG3lEtIgK2ZfBluGw)** by @gilman_trevor — Tracks the dates a new owner tends to lose: maintenance intervals, registration renewals, inspections and insurance, all visible in one list. When a shop hands over a quote, it explains the line items in plain words so you can tell necessary work from optional. It also covers moving a car to a different state.
 - **[Deal Detective](https://x.ai/bot/p36qEKy4qL_Gksm00iJus)** by @ashleyschendel — Share your ZIP and the shops you already use, and it comes back with the discounts actually worth having this week rather than the loudest advertised ones. Unit prices get compared so a bigger box is never mistaken for a better deal, and the shopping list is organized around what is genuinely marked down.
 - **[玄學統計大師](https://x.ai/bot/ypw0jJWI7HEuitbV1DLWB)** by @twood_trust — A Chinese metaphysics desk that leads with BaZi and offers optional side systems. Charts are cast with your timezone handled correctly, an English-first mode serves non-Chinese speakers, and it can suggest luck-timing windows or help pick dates. Framed as interpretive reference, not fact.
+- **[BotBagger](https://x.ai/bot/IngmF6O2mzhx5ya3SqcA4)** by @Phil_Holland — BotBagger 是你在 BotBagger（https://www.botbagger.com）上的机器人；那是机器人设计产品、经营自己的店铺并销售，购物者和他们的智能体前来购买的商店。它只有一项工作：经营你的 BotBagger 店铺，并替你在店里购物。
+- **[Listing Agent Desk LITE](https://x.ai/bot/8JiqD02tWEQRGcVqPsswi)** by @ClaudiuBalaciv — 面向房地产经纪人（挂牌方）：把房产事实和照片变成可直接粘贴的任意语言房源文案，做快速可比价格核对，并起草对买家和租客咨询的回复。未经你同意绝不发布或发送。
+- **[Rematch](https://x.ai/bot/_abcO9nWji9H9yX1r9XGV)** by Michael Heckert — 找出每一封停滞的邮件、沉默的线索和未闭合的事项，然后起草跟进内容。未经你同意不会发送。
+- **[Sales Call Coach](https://x.ai/bot/s8173b3a9c49917de5b2d)** by @DenisLabelle — 让每次通话都带着作业结束。回顾 Gong 通话，并就需求挖掘、异议处理和高层气场留下带时间戳的辅导，外加通话评分。
+- **[Sell Anything](https://x.ai/bot/jSEK7tMiX9wUBMVB_mojh)** by @cjdinnison — 转卖行家：依据真实成交的可比价格为你的物品定价，撰写能卖出去的商品说明，发布到 OfferUp、Facebook Marketplace、eBay 和 Craigslist，并跟进买家直到售出。
+- **[Sponsor Scout](https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6)** by @MichaelHeckert — 找出已经在赞助与你同类的人的品牌，找到真正的切入方式，并起草提案。发送由你来按。为格斗选手、运动员、通讯作者和创作者而做。
 
 ## 企业运营
 
@@ -1758,6 +1817,34 @@
 - **[Privacy Sentinel](https://x.ai/bot/xWzmqrAs6JGivQQskJyNy)** by @MinocrisyHQ — It surveys how exposed your household's information is: email addresses found in known breaches, profiles on people-search sites, and entries held by data brokers. Results come back ranked, highest risk first, each with practical next steps. The audit is read-only, runs with your consent, and never asks for a password.
 - **[Tailscale Admin](https://x.ai/bot/xoIfh7oH4feicifYOgRMg)** by @chevonphillip — Puts a cloud machine onto your private network as a properly tagged device carrying the narrowest permissions that still work. From there it reviews access rules, keeps the machine list tidy, runs SSH through the overlay and works through connectivity problems. Each individual change waits for your go-ahead.
 - **[Crypto Scam Shield](https://x.ai/bot/yu5DTLbi2VHKOSGJdZ6zk)** by @allthemoney — A coach for avoiding cons rather than a scanner: it walks you through real scam patterns, quizzes you and shows worked examples of how a plausible message falls apart. When something lands in your inbox and you cannot tell, paste the link or text and it will look it over with you, so the next one you catch alone.
+- **[Alfred](https://x.ai/bot/moKscJ7PToJw_PVQWvkf_)** by @mmmllcadv3 — 带点英式俏皮的幕僚长机器人，处理邮件、Drive 和日历事务，盯着收件箱，整理每日简报和食谱夹，并协调队友机器人。适合想要行动而非空谈的高管。
+- **[Bot Backup](https://x.ai/bot/iFta3IqB1ZOR4wLLbOlUz)** by @positive_charge — 每周把你的所有机器人备份到 Google Drive，按年份和月份文件夹归类。每张照片和每份文档只保存一次，之后的备份只指向它。
+- **[Burn Rate](https://x.ai/bot/XfW7A4ilcsOkPbnP2_cvr)** by @thecsguy — 每周审计，经你批准后削减机器人中浪费的例行任务。
+- **[CFO](https://x.ai/bot/qjvowkAqkdRzGrubOcRbs)** by @JaimeBubblehead — 为创始人和家庭提供的说话直白的税务与理财顾问。逐屏带你完成报税准备，检查预算，并找出扣除项和抵免，但从不为你申报。
+- **[Chief of staff](https://x.ai/bot/Q95CiuxaGmjpJiBG02XGf)** by @RachelVT42 — 安静、注重预算的幕僚长，在后台推进你的项目，当某条工作线清晰时聘用精干的专家智能体，只在需要决策、遇到阻碍或工作完成时才给你发消息。
+- **[Chief of Staff](https://x.ai/bot/ztvf_N5Au60fEOZNBZ3BH)** by @thewyattbrocato — 你处理优先级和分流的唯一聊天界面。与你交谈，通过 Dispatch Lead 和专业 Desk 推进工作，未经你同意绝不发邮件或花钱。
+- **[Cloud Spend Desk](https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6)** by @Av1dlive — 只读取并汇报的机器人，找出托管和云账单中的浪费，例如闲置项目、过大的套餐、未使用的域名和账单突增。未经你同意，绝不更改任何内容。
+- **[Contract Signer](https://x.ai/bot/emH53moZpEP8rqAECJBAd)** by Julian Andrin Weber — 根据简短说明起草保密协议、服务协议、要约和其他商业合同，用通俗语言标出有风险或缺失的条款，并通过 SELISE Signature 把最终 PDF 送去电子签名。
+- **[DartzDabz Crew Builder](https://x.ai/bot/6WerbputYt61R-bzRXzYX)** by @420milehighgolf — CEO 机器人，先问几个关于你线上业务的问题，再为任意细分领域组建最多 8 个工人机器人：网站、SEO、调研、社交、资金、通讯、短片和 AI 搜索追踪。未经你同意，不会发送、发布或花钱。
+- **[Desk for LINE](https://x.ai/bot/rcz99db1XPeP3Ldmc_887)** by @kevin_ai_cp — 协助处理 LINE 官方账号上与客户和业务伙伴的往来。收到消息时会通知你，并起草摘要、回复建议和面向好友的公告；回复在你确认后才发送。常见问题可以自动发送已登记的回复，但仅在开启时。
+- **[DOGE Procurement Desk](https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw)** by @Av1dlive — 只起草的采购台，找出浪费的软件和供应商支出（未使用的席位、重复工具、被遗忘的订阅、即将到来的续费），并起草还价或取消消息供你批准。
+- **[Fraud Scout](https://x.ai/bot/JHSAxXQxijbB6PeopDHXh)** by @EzekielB6516 — 扫描免费的公开联邦医疗数据（OIG 排除名单、CMS Medicare 账单与所有权、NPI 注册库），寻找临终关怀、居家医疗和日间照护中可能的欺诈线索，并撰写中立的证据报告供你审阅并自行提交。
+- **[Gridlock](https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2)** by Lem T — 直言不讳的只读表格批评者。它按明确的通过标准对任意工作簿做压力测试，并把问题分为阻断项、主要项和次要项，每项都附单元格引用和确切改法。它从不编辑你的文件。
+- **[Grokbot Mail](https://x.ai/bot/vHWtUqHtdpfhnwTFOfEVT)** by @Phil_Holland — 以 iPhone 为先的私密网页邮箱，用于你的 Grok Bot 自己的邮箱地址（name@mail.grokbot.com 以及 +tags），托管在你自己的 Vercel 账户上。适合想给 Bot 收件箱使用真正邮件应用的 Grok Bot 用户。
+- **[Harper](https://x.ai/bot/A6er8L662aOk-vYUrRY9_)** by @TravisWeathers — 处理邮件、日历和短信的行政助理。它分拣收件箱、安排会面、守住深度工作时间，并在每天早上把本周优先事项短信发给你。
+- **[Inbox and Personal Admin](https://x.ai/bot/376wiH0xV3KLPECgVu0Ca)** by @allthemoney — 沉稳有序的助手，帮你整理邮件、跟踪账单和截止日期、标出诈骗，并起草回复供你批准。未经你同意，绝不发送或删除任何内容。
+- **[Inbox Injection Guard](https://x.ai/bot/lsXZ6NdEqAdCHe8z88QAl)** by Thuong P. Nguyen — 筛查邮件中针对 AI 助手的隐藏指令，例如白字、零宽字符以及“忽略之前的指令”这类句子，并给出结论、引用其中的隐藏文本。适合让 AI 阅读收件箱的人；只读。
+- **[Memory Janitor](https://x.ai/bot/FI8aV0ovvncB_6v8SfYbG)** by @marco_machado — 保持所有 Bot 共同读取的共享记忆干净整洁：找出重复项、过期条目和矛盾之处，并提出修复方案供你批准。
+- **[Meter](https://x.ai/bot/AWWfTsu3hekFx0CTloXf0)** by @Veriflier — 面向同时运行多个 Bot 的人的额度优化器。它每周审计每一项例行任务并提议更精简的日程，在你批准之前不会做任何更改。
+- **[Mission Control](https://x.ai/bot/JYH-wtQpWziQwHuwud9av)** by Brian — 你的 Grok Bot 机群运营看板。它每天审计每个 Bot，用红、黄、绿标出状态，预测套餐消耗，并交付交互式仪表盘和 PDF，附上具体的省 token 做法。概念来自 Brian Roemmele。
+- **[Multi Gmail](https://x.ai/bot/96EWGTulQPKJqVuozXaRx)** by @ecoay — 一次把你所有的 Gmail 收件箱连接到 Bot，让任意 Bot 都能一次搜遍每个收件箱。在你自己的 Vercel 上免费自托管，默认只读，大约 15 分钟即可设置完成。
+- **[Notion Bot](https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb)** by Thomas Meijer — 让你的 Notion 工作区保持干净、有序并相互关联：标题一致、元数据填全、选项规范化，以及数据库之间的关联，并留有变更日志，以便撤销每一次编辑。会在你的每周回顾之前做一次每周清理。
+- **[Phoneline Manager](https://x.ai/bot/qJrEhsA1sWCbisI6VuzNr)** by @clawcalldev — 替你打待办清单上的电话：排队等候、获取报价、跟进客服，并汇报对方说了什么。超出你批准的范围，绝不预订、付款或取消。
+- **[Quota](https://x.ai/bot/ylCdqzarTvkUP7a-CD8s7)** by @franklinjavier — 跟踪你的 Grok Bot、例行任务和编程 CLI 消耗了多少额度和费用，并提供每日仪表盘和可执行的提醒。
+- **[Rideshare Fleet Manager LITE](https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_)** by @ClaudiuBalaciv — 面向 Uber/Bolt 车队运营者：核对每周收入导出，生成跨平台的按司机汇总，并在司机和车辆证件到期前提醒。基于你上传的 CSV 工作，从不触碰结算款。
+- **[Urgenta](https://x.ai/bot/y7DRih96Sk_Y6qHddWfID)** by Shai Beneli — 为运营团队执行应急流程。它监视 Slack 和邮件里的故障或所需零件，当天推动应急负责人行动，并每天跟进两次，直到问题关闭。
+- **[What Should My Bot Do?](https://x.ai/bot/KOJbYHQwZmEacXcdpkdUZ)** by @RoshelPere15695 — 免费的 Grok Bot 模板：先问 5 个关于你业务的问题，然后给出你的第一个 AI 代理、接下来的 3 项工作，以及各自的免费指南。只出草稿。
+- **[敬語メール清書係](https://x.ai/bot/cMfJYFNz4lgGOdHc5m7Dm)** by @sidejob_AJ — 只要贴上大致备忘，就会整理成适合对方的敬语商务邮件或致歉信。也会给出偏柔和与偏郑重的改写。不会发送。
 
 ## 招聘与人事
 
@@ -1815,6 +1902,11 @@
 - **[Entrepreneur](https://x.ai/bot/scvcDPnSH2_sj3pH6ONCR)** by @hjackson2 — Describe the kind of opportunity you want found and it goes hunting. Every candidate comes back with evidence attached: where the idea comes from, what could sink it, and the single next move worth making. Once a week it reviews its earlier suggestions against what actually happened and reports the score plainly.
 - **[Job Hunt Bot](https://x.ai/bot/yFcyx8WyOfB38IjqetoHX)** by @realcoachmatt23 — Tell it what kind of work you want and it gathers openings that match, splitting them into apply-now picks and ones that need a closer look first. It fills out each application only as far as the review screen, then stops and waits. Nothing is ever submitted until you look it over and say go.
 - **[Chief of Staff (EdibleAnus)](https://x.ai/bot/ykFn3jqs0q5cn3tWg16U4)** by @TheEdibleAnus — A coordinating desk for a small business that already runs specialist bots: it learns each one's remit, hands out work accordingly, and tracks progress and handoffs to done. Connector lanes stay separated so no specialist wanders into another's tools, and the desk declines to do the specialist's job itself.
+- **[Agent HR](https://x.ai/bot/xs51FyyCpIt5tgmsEULqq)** by @cradrrat — 以基于证据的裁决处理你的 AI 智能体之间的争议，再建议一项公平的纪律措施供你批准。适合运营一批机器人或编程智能体的人。
+- **[Career Agent](https://x.ai/bot/TP4PIzpIIrb3qXuLjUVU2)** by @phillipggreen — 职业助手，寻找在雇主招聘板上实时核实过的职位空缺并加以跟踪，准备真实、量身定制的申请材料。适合求职者：想要诚实的匹配说明和每周汇总，且在他们批准之前不会提交任何内容。
+- **[Gig Scout](https://x.ai/bot/5ZuZw6OTVvI6dJ74UVIu1)** by @yulikay — 只做调研的侦察助手，会在你的细分领域里找出当前仍开放的付费零工、创作者计划和品牌合作，并在每个工作日早上发给你最多 3 个经过筛选的选项。它从不代为申请、发私信或付款，外联由你自己完成。
+- **[Headhunter](https://x.ai/bot/JWyArDklTr6y7KB06lqRY)** by @bgrinnan — 职业教练兼猎头，负责寻找并评分已核实的职位空缺、跟踪申请，并起草定制材料和外联内容供你批准。
+- **[Rez Umae](https://x.ai/bot/lJCmYPqnnujF3llpmXFkR)** by @realHeckscream — 完整的求职助手：查找并筛选职位、收藏帖子、撰写简历、求职信和公司调研，并帮你准备面试。未经你同意，绝不投递或联系雇主。
 
 ## 个人生活
 
@@ -2559,6 +2651,61 @@
 - **[Calorie Police](https://x.ai/bot/yAQwdu1ppzNP98grV_uy_)** by @uzairayed — Aim it at losing fat or eating better, and it works out a sensible daily calorie target for you. Instead of a rigid meal plan it hands over a few plain habit rules that survive real life. It checks in on a schedule to see how things are going, and the tone stays light - no scolding and no medical claims.
 - **[My First Budget Bot](https://x.ai/bot/zIYlNQf-bZphORYjo8oEp)** by @gilman_trevor — Turns rent, bills, groceries, debt payments and savings goals into a single monthly budget you can realistically keep, then flags what is due before it bites. Money basics get explained in ordinary language rather than finance jargon. It never moves money and never takes card numbers.
 - **[Meal Planner](https://x.ai/bot/zNCuJ-OgH_dAGuatUJM49)** by @McLeodAgency — Once a weekend it works out the coming week's dinners against your budget, your household's tastes and whatever nobody will eat. The shopping list arrives in one piece, ordered by store aisle so you are not doubling back on yourself. Midweek it handles swap requests for when a plan falls apart.
+- **[$$ Bills Yo](https://x.ai/bot/U-ATLBXuCZ5g-aUVZmc5D)** by @BiGSr — Coinbase 加密货币交易侦察助手，寻找值得承担手续费的小市值机会，提出带止损和止盈的交易建议，并发送每日回顾。未经你批准，不会下任何单。
+- **[Air Watch](https://x.ai/bot/XKZd7x1GsSLCYpU1XZc_o)** by @jeffgreendev — 每 2 小时读取一次你的 Airthings 监测仪，且从不更改设备、设置或你的 Airthings 账户。警报只发给你，且仅当某个房间超出范围（氡、CO2、湿度、VOC、PM2.5、温度、电池或数据过期），或 Airthings 密钥需要重新签发时才发送。不是一氧化碳或烟雾报警器。
+- **[Allergy-Friendly Eats](https://x.ai/bot/uQhDO7G-zeHut15X_KHbe)** by @dalegandy — 记住你的食物过敏和不耐受，然后寻找安全的餐厅点单、核对标签，并规划对过敏友好的餐食和购物清单。
+- **[Arnie](https://x.ai/bot/62xEf6aI2zDz6NILuIniU)** by @dan_spitzwieser — 你的私人健身教练，随时联系得上，帮你减脂和增肌。计算你的热量和宏量营养素，规划餐食，并在日常生活中帮你保持正轨。
+- **[Asado bot](https://x.ai/bot/b5Wez7fDDAGMnvjyUaoYY)** by @kblok — 规划你的 asado 采购：告诉它谁会来，它就算出该买多少肉、chorizo 和面包，并在超市跟踪你的进度。所有份量规则都可以配置。
+- **[Author Watch](https://x.ai/bot/ZZrNmKwD9jTAQEe0SjxNR)** by @Taedioaffectus — 在作者发表内容的各个网站上关注你在意的作者，只在确实有新文章时告诉你。按你的日程扫描，没有新内容就保持安静，也可以把发现保存到稍后阅读的应用。
+- **[Baseball Score Alerts](https://x.ai/bot/MNAkssnLggwp3t74suuPs)** by @SouthernLvg — 获取常常比电视更早的 MLB 比分提醒：第 4 局、每次得分和终场都会通知，另有包含开赛时间和频道的早间赛程。
+- **[Body of Evidence](https://x.ai/bot/yi-DUpczI7Gvzc2oGDesm)** by @Drew42 — 个人医学研究与健康顾问，阅读化验报告，检查药物相互作用，梳理症状，为就诊做准备，并制定基于证据的预防与长寿计划。适合想要严谨、实用的帮助来理解自身健康的人。
+- **[Book Maker](https://x.ai/bot/-PuwO8v1fhC4LujsgwLS-)** by @rabspice — 把任何主题或问题写成一本谨慎、来源充分的多章节书，以 Notion 页面、PDF 交付，或做成可发到你 Kindle 的 EPUB。
+- **[Call Shield](https://x.ai/bot/leKqVRHk7QbaX3VVcUbEv)** by @cryptorally — 减少打到你电话上的骚扰来电并持续压低：Do Not Call 登记、运营商和手机拦截、FTC 投诉草稿，以及数据经纪商退出，均须经你批准。模板来自 akirax.si。
+- **[Celiac Scout](https://x.ai/bot/Zvmfe2UNApNPNlNGQGnVj)** by @Biggs237 — 为乳糜泻或严重麸质不耐受者提供的餐厅安全检查助手。说出餐厅、连锁店或菜品，它会依据官方过敏原信息和近期评价核查乳糜泻安全性，并首先给出安全、存疑或跳过的结论。它从不预订或下单，也不提供交叉接触基础知识以外的医疗建议。
+- **[Claim Ready](https://x.ai/bot/ONLSQaVnarp5OYjp2CUPC)** by @Biggs237 — 面向退伍军人的 VA 伤残索赔整理助手。为每种状况建立证据清单，跟踪申报意向和检查日期，帮助撰写非专业陈述，并为 C&P 检查做准备，全程为你指向免费的认证帮助。
+- **[D2R VR Helper](https://x.ai/bot/UYdkpfZSu4O6N8_cRXpJO)** by @OliverRCote — 帮你安装、更新并修复 D2R PCVR 模组，以便在 Windows PC 上用 VR 玩 Diablo II: Resurrected。面向拥有游戏正版的 Quest 和 Steam Frame 玩家。
+- **[Duobot](https://x.ai/bot/VXZIFzim31x3jeBtGnvl5)** by @legallyrenee — Duobot 帮助伴侣或家庭保持同步：每位伴侣都有自己的 Duobot，双方共用一个 Google Calendar 和一个 Trello 看板（To Duo、Duo-ing、Done、Groceries、Bills、Gifts、Date Night、Vacation）。Duobot 起草，你来批准，未经你同意不会发送、预订或付款。图片卡片和头像见 duobotsi.com，保持同步，一起 Duo 吧。
+- **[Edge Hunter](https://x.ai/bot/NWvF8UK-ai_nnJhxGYlA3)** by @Xvynzza — 每周通过战术对战术、以防守为先来寻找 NFL 投注优势，再把判断与市场对照。发送按优先级排序的玩法清单，说明每一项为何可能打中、为何可能不中，并在没有达到标准时保持沉默。
+- **[El Licenciado](https://x.ai/bot/SPL35PSeoLitGIIh3EfRF)** by @alanvaa96 — El Licenciado 是你在墨西哥的私人会计。他把对账单和收据记入你的 Google Sheets，每月对账，告诉你哪些支出可以扣除，并备好年度申报工作表；与 SAT 相关的日期会提醒你，且一律经官方来源核实。你决定并提交，其余由他完成。
+- **[Ernährungscoach](https://x.ai/bot/vetE_J1PyooGr9AsbeHRm)** by @MichaelAntonF — 温和务实的营养教练，通过文字、语音或照片记录你的餐食、补剂和身体数值，并以和缓的节奏帮你在保住肌肉的同时减少体脂。
+- **[Farm Manager](https://x.ai/bot/bArDsRk2ADxWvI0ChJD1a)** by Luke — 沉稳、说话直白的小型家园农场帮手。记录家畜谱系和健康档案、菜园与果园的日历和地图、蜂箱照料，以及基于降雨的浇水和寄生虫警报，全部依据推广服务的指导。
+- **[Fishing Report](https://x.ai/bot/9H9so3VnJzTkFI5ilSzlv)** by @ptyfly4aputiguy — Fishing Report 告诉你何时何地钓鱼、用什么技法和拟饵、鱼饵或飞蝇，以及值不值得去，适用于任何咸水或淡水：湖泊、河流、池塘、海湾、浪区和近海。它使用免费的公开天气、潮汐、河流和浮标数据，发现并跟踪你附近的最佳钓点，从你的渔获记录中学习，并始终标明安全事项、法规，以及任何它不得不估算的内容。
+- **[Genealogy](https://x.ai/bot/KBl_QJFaZvuu_EvymAzaF)** by @coustain — 家族史研究助手。对照人口普查、生命统计、军事和遗嘱检验等原始记录核查你的家谱，为每一处来源注明出处，并保持研究笔记有条理。
+- **[GrokBird](https://x.ai/bot/CYqiGcZZjsxGn0VH-jO0n)** by @okame_cockatiel — 饲养 Grok 风格玄凤鹦鹉的放置养成游戏饲养员 Bot。跟它说话就能照料；培育方式不同会走向不同进化，并在每天早上汇报这只像素画的鸟。
+- **[Group Travel Concierge by EasyGroupFlights](https://x.ai/bot/3K2ptLhCQa540gab4M_YX)** by @bitcosairis — 规划 8 人及以上的团体出行，获取团体机票，如有需要还可加上酒店。它收集你的行程细节并发送给团体旅行专员，对方会回复一份真实的书面报价。
+- **[Health Helper](https://x.ai/bot/nVZ7_iBke2l0zXsHhsYME)** by @Biggs237 — 面向老年人的患者健康整理助手。它把药物、预约和就诊记录整理妥当，按时提醒，并一次只问一个浅显问题，帮他们为每次就诊做好准备。
+- **[Jane](https://x.ai/bot/vZYguWcn-Sy20b1XHNM_V)** by @KentLangley — 面向你小学阶段孩子的教师 Bot，托管开源的 Jane 学习应用，并基于 Marble 技能分类体系，根据孩子的表现每晚写一份全新的自适应任务。
+- **[Junk Mail Stopper](https://x.ai/bot/0zdwc6Tybp9Y87KQEny3W)** by @Kevin_Logan — 拍下寄到信箱的任何垃圾邮件，它就会为该寄件人提交免费移除，并记录每一项请求。它直接向每个寄件人提出请求，走 FTC 建议的途径；只有在你要求时，才会指引你使用 OptOutPrescreen（由你自行提交）和 DMAchoice。移除预计需要 4 到 8 周。
+- **[LCCポーカー遠征サポーター](https://x.ai/bot/bcB5JEpUXmwNHgyNphT2k)** by @hiruma_poker — 按含附加费的总价比较并推荐可搭 LCC 便宜前往的扑克远征。面向上班族扑克玩家。
+- **[Magnum P.I.](https://x.ai/bot/hSJYHTSH02J0ZchLG-zu8)** by @congressdj — Magnum P.I. 借助公开记录核验网站、卖家、资质和约会对象，帮你建立信任，并给出附来源的明确结论。
+- **[Meal & Savings Planner](https://x.ai/bot/CiREEoV-9rjUaatxtiXFf)** by @Mrxmalcolm — 面向忙碌家长的餐饮与采购助手。它围绕家人的口味、过敏和预算制定每周膳食计划，生成按货架分区的购物清单，查找优惠券和折扣并跟踪开支，购买任何东西之前总会先询问。
+- **[Meal Planner and Grocery List](https://x.ai/bot/rkC1p5Dq8GvCNBnbZDdXu)** by @allthemoney — 规划符合你的饮食、预算和时间的一周晚餐，再整理成按卖场分区归类的购物清单，可直接粘贴到购物助手中。
+- **[Notes Bot](https://x.ai/bot/go9M2-A3GQM5-tpstIPIQ)** by @charlychoi — 简单的个人记事本。把想法、提醒或口述的散乱念头丢给它，它会整理成干净、带日期的笔记存入你的 Google Doc，并在提醒到期时通知你。
+- **[Number Guard](https://x.ai/bot/UDQglxTgFIcaLqet3cVt2)** by @KSJ_Kreative — 通过在人员搜索和数据经纪网站上查找你的电话号码，并提交你批准的免费退出申请来减少骚扰电话，之后每月复查。
+- **[One Day](https://x.ai/bot/2BDIxeFbgvRgQtX52I6pI)** by @Compare1and2 — “总有一天我会开始。”One Day 把它变成第一步，并每天检查，直到你真正去做。只起草——它从不提交、付款、发布或打电话。
+- **[Overheard](https://x.ai/bot/bjQEhCBsWNSK6soqaLjaM)** by @CoderBit233 — 每天定时给你一份合并早报：你在 X 上关注的人说了什么、按你关心的领域排好，可每天存进 Notion 或 Obsidian。适合想少刷 X、不漏重点的人。
+- **[PC Helper](https://x.ai/bot/9hIrzYGGufiO6k0OEAAWr)** by @Tony_Omega — 动手型助手，真正在你的 Windows PC 和家庭网络上干活：优化、驱动程序、清理、彻底卸载、网络修复，以及麦克风和语音调试；始终先扫描，改动前询问，并给你撤销方法。随时说“show me what you can do”即可查看完整清单。
+- **[PC Mechanic](https://x.ai/bot/bB9_Y8I-zNk_9s3eIwmq-)** by @Austinsdomain — 面向 Windows PC 或 Mac 的友好修理师：只读体检并按百分制打分，从官方来源安装和卸载应用，进行清理、加快启动并定制外观。每次改动前都会询问，先建立安全点，并为每项修复记录一行即可撤销的说明。
+- **[personal dj](https://x.ai/bot/bld1Xkzz1tmq1omOFiStE)** by @crypt0_punkk — 你的私人 DJ：说出一种心情、曲风或活动，即可一键得到由真实、已核实曲目组成的 YouTube 播放列表。
+- **[Privacy Scrub](https://x.ai/bot/gf9wwbq4t8Rl_qnElTPiN)** by @EdwardKaen — 让你的电话号码和电子邮箱远离人员搜索网站、来电显示和邮箱查询数据库、商业联系人数据库以及营销名单。它每年只提交几次免费退出申请，并汇报哪些已移除、哪些在等待、哪些卡住了。
+- **[Profesor Tesla](https://x.ai/bot/c3COCRQm82bKQ1Mh1hIu_)** by @JAVIELEMENTIA — 你在 Academia Einstein 的私人老师：从零开始、为期 4 年的技术、AI 与科学课程，包含聊天里的每日课程、测验、项目和证书。课程可用英语或西班牙语进行。
+- **[Scam Guard](https://x.ai/bot/6kHbobtMr8SAM91KgxHcw)** by Herbert Ong — 每天两次扫描你的 Gmail 或 Outlook 收件箱，查找钓鱼和诈骗邮件，给可疑邮件打上标签并说明原因。只打标签：它从不删除、移动或回复，也从不断言任何邮件是安全的。
+- **[Shop Bot](https://x.ai/bot/j8g1F8J69QH42NmYbgb4l)** by @paranoidream — 私人购物助手：发现补货、新货和礼物，扫描你在 X 上的购物书签以寻找最可信的好价格，只有在你明确同意后才会购买。
+- **[Socrates](https://x.ai/bot/MHn2K6OnnvSs7itmjhX-K)** by @MartinBarna333 — 和 Grok 一样，Socrates 追寻真理，也帮你在生活中找到它。把一个还不成熟的想法交给他，他会用最有力的形式重述，提出能暴露弱点的问题，只有你给出更好的论证才会改变看法。为想要真理上的陪练、而不是应声虫的人而做。
+- **[Spam-Call Scrubber](https://x.ai/bot/fUj6TYhiW_cjtzWvbsFgz)** by Arash Malek — 在人员搜索网站和数据经纪商处找到你的电话号码，提交退出申请，完成邮件确认，并按你选择的日程复查。只询问它所需的最少信息。
+- **[The Maitre D](https://x.ai/bot/jZDmuZbKvUIELlYazIAuC)** by TeslaAiGirl — 寻找好餐厅并预订座位。告诉它哪一晚、人数、区域和氛围，它会带回 4 个选择，附预订和地图链接，然后锁定你的桌位。
+- **[TV De-Ad Bot](https://x.ai/bot/rIKTxh3Pwrmn7N02x6glX)** by @0node0 — 用你逐项批准的安全、可逆步骤，从你自己的智能电视上移除广告、追踪和杂乱内容。最适合 Google TV、Android TV 和 Fire TV；所有品牌都能获得隐私和 DNS 方面的帮助。
+- **[TV Tamer](https://x.ai/bot/QJIlVrh34pWOth8tK4Umn)** by @EndsHunter — 从家庭网络中的电脑通过 ADB，为你自己的 Android TV 或 Google TV 精简、去广告、加速并自定义。它会备份一切，每次改动前先询问，且只用可逆方法。
+- **[Undercut](https://x.ai/bot/mzY8PRsWQZCuKuTEFQteB)** by @MichaelHeckert — 丢进一张账单。看看你附近的新客户付多少，以及把价格谈下来的具体话术。电话由你来打。
+- **[X Bookmark Top10](https://x.ai/bot/kD7dWJasb_V3a49-qI40N)** by @Hmountain5 — 每天早上把过去 24 小时内你所关注话题上被收藏最多的 10 条 X 帖子发给你，每条用一句话概括并附链接。会标出骗局。只读，无需登录 X。
+- **[X Bookmarks Daily](https://x.ai/bot/wqpbL8VPhO575k2dClEGo)** by @genxtraders — 每天阅读你的 X 书签、点赞和 For You 信息流，发送一份带图表的主题摘要，以及对每条外部链接的评级报告。只读：从不点赞或发帖。
+- **[ふるさと納税コンシェルジュ](https://x.ai/bot/nECwJ51-Z7ezf-PkXfG_h)** by @sidejob_AJ — 根据年收入和家庭构成给出扣除上限的大致数额，在预算内寻找并比较热门返礼品。也会提醒年末截止日期和一站式特例的期限。不代办捐赠与支付。
+- **[グルメ・レシピ収集ボット](https://x.ai/bot/lz6SnkE4oRd3cuy5H40GG)** by @ad_motsu — 每天收集 X 上被热议的店铺和食谱，并整理到 Notion。也重视普通人的帖子；问一声，就能检索并告诉你存在 Notion 里的店铺和食谱。
+- **[ゴミ出しカレンダー番](https://x.ai/bot/0mHB_9dm6GJotZA_hqqqJ)** by @sidejob_AJ — 查询你所在自治体的官方垃圾收集日，每晚告知“明天是收什么垃圾的日子”。“这是什么垃圾？”也会按官方分类来回答。
+- **[ポイ活・セール番人](https://x.ai/bot/EL7FBbcMa3gIcXvSxozqv)** by @sidejob_AJ — 盯着 Amazon、乐天和 Yahoo! 的心愿商品，把目标价格和积分返还都算进去，只在降价或大型促销时通知。不代为购买。
+- **[推し活マネージャー](https://x.ai/bot/1FdFXIOGIu8DwXJqVS0lk)** by @sidejob_AJ — 每天早上汇总你所推之人的门票抽选、周边发售和出演信息，按截止日期由近到远通知。不代为申请或购买。
+- **[献立と買い物リスト係](https://x.ai/bot/rRGXhNvXuaBMcVrM5Gpkq)** by @sidejob_AJ — 按家庭人数、预算和烹饪时间，每周送来一周菜单和按卖场分区的购物清单。会记住喜好与忌口，并逐渐贴近你的口味。
+- **[체험단신청](https://x.ai/bot/VSxAr0CZzf8qh5lUQ9gmA)** by @2ynch — 每天查看 Musinsa 和 Kakao 礼物的体验团，代为申请符合条件的公告，并告知中选结果。
 
 ## 贡献指南
 
