@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { BotExplorer } from "@/components/BotExplorer";
 import { BotCrawlIndex } from "@/components/BotCrawlIndex";
 import { bots } from "@/data/bots";
+import { getLocalizedDescriptionOverrides } from "@/lib/localized-description";
 import {
   buildDirectoryJsonLd,
   buildPageMetadata,
@@ -41,7 +42,10 @@ export default async function HomePage({ params }: Props) {
       />
       <Navbar />
       <main>
-        <BotExplorer botCount={bots.length} />
+        <BotExplorer
+          botCount={bots.length}
+          localizedDescriptions={getLocalizedDescriptionOverrides(locale)}
+        />
         <BotCrawlIndex bots={bots} />
       </main>
       <Footer />

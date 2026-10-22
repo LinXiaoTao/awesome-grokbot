@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getLocalizedDescription } from "@/lib/localized-description";
 import { SITE_URL, LOCALES, type Locale } from "@/lib/utils";
 import type { Bot } from "@/types";
 
@@ -101,7 +102,7 @@ export function buildDirectoryJsonLd(locale: Locale, botsList?: Bot[]) {
     "@type": "ListItem",
     position: index + 1,
     name: bot.name,
-    description: bot.description,
+    description: getLocalizedDescription(bot, locale),
     url: `${SITE_URL}/${locale}/bot/${bot.slug}`,
   }));
 
@@ -154,6 +155,11 @@ export function buildBotJsonLd(bot: Bot, locale: Locale) {
   const botUrl = `${SITE_URL}/${locale}/bot/${bot.slug}`;
   const categoryName =
     bot.category.charAt(0).toUpperCase() + bot.category.slice(1);
+  const localizedDescription = getLocalizedDescription(bot, locale);
+  const schemaDescription =
+    localizedDescription !== bot.description
+      ? localizedDescription
+      : (bot.longDescription ?? bot.description);
 
   return {
     "@context": "https://schema.org",
@@ -162,7 +168,7 @@ export function buildBotJsonLd(bot: Bot, locale: Locale) {
         "@type": "SoftwareApplication",
         "@id": `${botUrl}#software`,
         name: bot.name,
-        description: bot.longDescription ?? bot.description,
+        description: schemaDescription,
         url: botUrl,
         applicationCategory: "UtilitiesApplication",
         operatingSystem: "Web",

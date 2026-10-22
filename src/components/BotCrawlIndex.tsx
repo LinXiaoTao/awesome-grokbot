@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import type { Bot, Category } from "@/types";
 import { getCategoryStyle } from "@/lib/category-styles";
@@ -18,7 +19,9 @@ interface BotCrawlIndexProps {
   bots: Bot[];
 }
 
-export function BotCrawlIndex({ bots }: BotCrawlIndexProps) {
+export async function BotCrawlIndex({ bots }: BotCrawlIndexProps) {
+  const t = await getTranslations("directory");
+  const tCategories = await getTranslations("directory.categories");
   const grouped = CATEGORY_ORDER.map((category) => ({
     category,
     items: bots
@@ -39,21 +42,20 @@ export function BotCrawlIndex({ bots }: BotCrawlIndexProps) {
     >
       <div className="mx-auto max-w-container">
         <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-neutral-500">
-          Index · {bots.length} entries
+          {t("indexLabel", { count: bots.length })}
         </p>
         <h2
           id="bot-directory-index"
           className="mt-2 text-2xl font-semibold tracking-tight text-white md:text-3xl"
         >
-          Complete Directory
+          {t("title")}
         </h2>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-400">
-          Full archive of verified Grok Bot templates, grouped by category.
-          Expand a section to browse every entry.
+          {t("subtitle")}
         </p>
 
         <nav
-          aria-label="All Grok Bots by category"
+          aria-label={t("navLabel")}
           className="mt-10 space-y-0 divide-y divide-neutral-800 border-y border-neutral-800"
         >
           {grouped.map(({ category, items }) => {
@@ -68,7 +70,7 @@ export function BotCrawlIndex({ bots }: BotCrawlIndexProps) {
                       aria-hidden="true"
                     />
                     <span className="font-mono text-sm uppercase tracking-wider text-neutral-200">
-                      {category}
+                      {tCategories(category)}
                     </span>
                   </div>
                   <span className="shrink-0 font-mono text-xs text-neutral-500">

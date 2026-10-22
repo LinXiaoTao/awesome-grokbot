@@ -57,7 +57,7 @@ Respond accurately according to the instructions above.`;
       <div className="border-t border-neutral-200">
         <div className="flex items-center justify-between border-b border-neutral-800 bg-neutral-950 px-4 py-2">
           <span className="font-mono text-[11px] uppercase tracking-wider text-neutral-500">
-            system prompt
+            {t("systemPromptLabel")}
           </span>
           <button
             type="button"
