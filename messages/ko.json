@@ -3,7 +3,8 @@
     "discover": "탐색",
     "categories": "카테고리",
     "submit": "봇 제출",
-    "brand": "Awesome Grok Bot"
+    "brand": "Awesome Grok Bot",
+    "toggleMenu": "메뉴 전환"
   },
   "hero": {
     "badge": "Grok Bot 발견 및 공유",
@@ -45,7 +46,10 @@
     "official": "공식",
     "officialTooltip": "xAI Marketplace Grok Bot Team 공식 등록",
     "promptHeading": "시스템 지침 및 프롬프트",
-    "promptTip": "x.ai Grok Bot 설정에 직접 붙여넣어 실행하세요."
+    "promptTip": "x.ai Grok Bot 설정에 직접 붙여넣어 실행하세요.",
+    "systemPromptLabel": "시스템 프롬프트",
+    "viewOnX": "X에서 보기",
+    "xPostTitle": "X 게시물"
   },
   "submit": {
     "title": "Grok Bot 제출",
@@ -77,7 +81,17 @@
     "privacy": "개인정보 처리방침",
     "terms": "이용약관",
     "about": "소개",
-    "copyright": "© 2025–2026 Awesome Grok Bot. xAI와 무관합니다."
+    "copyright": "© 2025–2026 Awesome Grok Bot. xAI와 무관합니다.",
+    "mitLicensed": "MIT 라이선스",
+    "github": "GitHub",
+    "explore": "탐색",
+    "forAgents": "AI 에이전트용",
+    "feedApi": "Feed API (JSON)",
+    "llmsTxt": "llms.txt",
+    "sitemap": "사이트맵",
+    "community": "커뮤니티",
+    "xTwitter": "X (Twitter)",
+    "githubRepository": "GitHub 저장소"
   },
   "common": {
     "loading": "로딩 중...",
@@ -93,7 +107,25 @@
     "submitTitle": "Grok Bot 제출 — Awesome Grok Bot",
     "submitDescription": "커뮤니티에 Grok Bot을 공유하세요. Awesome Grok Bot 디렉터리에 제출.",
     "botTitle": "{name} — Awesome Grok Bot",
-    "botDescription": "{description}"
+    "botDescription": "{description}",
+    "botNotFound": "봇을 찾을 수 없습니다"
+  },
+  "directory": {
+    "indexLabel": "색인 · {count}개",
+    "title": "전체 디렉터리",
+    "subtitle": "검증된 Grok Bot 템플릿의 전체 아카이브입니다. 카테고리별로 묶여 있습니다. 섹션을 펼치면 모든 항목을 볼 수 있습니다.",
+    "navLabel": "카테고리별 모든 Grok Bot",
+    "categories": {
+      "from-grok-bot-team": "공식 팀 제작",
+      "sales": "영업",
+      "marketing": "마케팅",
+      "design": "디자인",
+      "engineering": "엔지니어링",
+      "personal": "개인 생활",
+      "recruiting-people": "채용 및 인사",
+      "operations": "운영",
+      "product": "프로덕트"
+    }
   },
   "ticker": {
     "item1": "🔥 200개 이상의 검증된 Grok Bot 템플릿",

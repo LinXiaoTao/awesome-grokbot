@@ -3,7 +3,8 @@
     "discover": "発見",
     "categories": "カテゴリ",
     "submit": "Botを投稿",
-    "brand": "Awesome Grok Bot"
+    "brand": "Awesome Grok Bot",
+    "toggleMenu": "メニューを切り替える"
   },
   "hero": {
     "badge": "Grok Botを発見・共有",
@@ -45,7 +46,10 @@
     "official": "公式",
     "officialTooltip": "xAI Marketplace の Grok Bot Team 公式掲載",
     "promptHeading": "システム指示 & プロンプト",
-    "promptTip": "x.aiのGrok Bot設定にコピーして貼り付けます。"
+    "promptTip": "x.aiのGrok Bot設定にコピーして貼り付けます。",
+    "systemPromptLabel": "システムプロンプト",
+    "viewOnX": "Xで見る",
+    "xPostTitle": "Xの投稿"
   },
   "submit": {
     "title": "Grok Botを投稿",
@@ -77,7 +81,17 @@
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "about": "概要",
-    "copyright": "© 2025–2026 Awesome Grok Bot。xAIとは無関係です。"
+    "copyright": "© 2025–2026 Awesome Grok Bot。xAIとは無関係です。",
+    "mitLicensed": "MIT ライセンス",
+    "github": "GitHub",
+    "explore": "探索",
+    "forAgents": "AIエージェント向け",
+    "feedApi": "Feed API (JSON)",
+    "llmsTxt": "llms.txt",
+    "sitemap": "サイトマップ",
+    "community": "コミュニティ",
+    "xTwitter": "X (Twitter)",
+    "githubRepository": "GitHub リポジトリ"
   },
   "common": {
     "loading": "読み込み中...",
@@ -93,7 +107,25 @@
     "submitTitle": "Grok Botを投稿 — Awesome Grok Bot",
     "submitDescription": "コミュニティにGrok Botを共有しましょう。Awesome Grok Botディレクトリに投稿。",
     "botTitle": "{name} — Awesome Grok Bot",
-    "botDescription": "{description}"
+    "botDescription": "{description}",
+    "botNotFound": "Botが見つかりません"
+  },
+  "directory": {
+    "indexLabel": "索引 · {count} 件",
+    "title": "完全なディレクトリ",
+    "subtitle": "検証済み Grok Bot テンプレートの全アーカイブです。カテゴリ別にまとめています。セクションを開くとすべての項目を閲覧できます。",
+    "navLabel": "カテゴリ別のすべての Grok Bot",
+    "categories": {
+      "from-grok-bot-team": "公式チーム製",
+      "sales": "セールス",
+      "marketing": "マーケティング",
+      "design": "デザイン",
+      "engineering": "エンジニアリング",
+      "personal": "パーソナル",
+      "recruiting-people": "採用・人事",
+      "operations": "オペレーション",
+      "product": "プロダクト"
+    }
   },
   "ticker": {
     "item1": "🔥 200以上の検証済みGrok Botとプロンプト",

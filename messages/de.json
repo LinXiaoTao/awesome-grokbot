@@ -3,7 +3,8 @@
     "discover": "Entdecken",
     "categories": "Kategorien",
     "submit": "Bot einreichen",
-    "brand": "Awesome Grok Bot"
+    "brand": "Awesome Grok Bot",
+    "toggleMenu": "Menü umschalten"
   },
   "hero": {
     "badge": "Grok Bots entdecken & teilen",
@@ -45,7 +46,10 @@
     "official": "Offiziell",
     "officialTooltip": "Vom Grok Bot Team im xAI Marketplace empfohlen",
     "promptHeading": "Bot-Anweisungen & System-Prompt",
-    "promptTip": "Kopieren und in Ihr Grok-Bot-Setup auf x.ai einfügen."
+    "promptTip": "Kopieren und in Ihr Grok-Bot-Setup auf x.ai einfügen.",
+    "systemPromptLabel": "System-Prompt",
+    "viewOnX": "Auf X ansehen",
+    "xPostTitle": "X-Beitrag"
   },
   "submit": {
     "title": "Grok Bot einreichen",
@@ -77,7 +81,17 @@
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "about": "Über uns",
-    "copyright": "© 2025–2026 Awesome Grok Bot. Nicht mit xAI verbunden."
+    "copyright": "© 2025–2026 Awesome Grok Bot. Nicht mit xAI verbunden.",
+    "mitLicensed": "MIT-lizenziert",
+    "github": "GitHub",
+    "explore": "Entdecken",
+    "forAgents": "Für KI-Agenten",
+    "feedApi": "Feed-API (JSON)",
+    "llmsTxt": "llms.txt",
+    "sitemap": "Seitenübersicht",
+    "community": "Community",
+    "xTwitter": "X (Twitter)",
+    "githubRepository": "GitHub-Repository"
   },
   "common": {
     "loading": "Wird geladen...",
@@ -93,7 +107,25 @@
     "submitTitle": "Grok Bot einreichen — Awesome Grok Bot",
     "submitDescription": "Teile deinen Grok Bot mit der Community. Reiche deinen Bot beim Awesome Grok Bot Verzeichnis ein.",
     "botTitle": "{name} — Awesome Grok Bot",
-    "botDescription": "{description}"
+    "botDescription": "{description}",
+    "botNotFound": "Bot nicht gefunden"
+  },
+  "directory": {
+    "indexLabel": "Index · {count} Einträge",
+    "title": "Vollständiges Verzeichnis",
+    "subtitle": "Vollständiges Archiv geprüfter Grok-Bot-Vorlagen, nach Kategorie gruppiert. Klappe einen Abschnitt auf, um jeden Eintrag zu sehen.",
+    "navLabel": "Alle Grok Bots nach Kategorie",
+    "categories": {
+      "from-grok-bot-team": "Grok Bot-Team",
+      "sales": "Vertrieb",
+      "marketing": "Marketing",
+      "design": "Design",
+      "engineering": "Entwicklung",
+      "personal": "Persönlich",
+      "recruiting-people": "Recruiting & Personal",
+      "operations": "Betrieb",
+      "product": "Produkt"
+    }
   },
   "ticker": {
     "item1": "🔥 Über 200 verifizierte Grok Bots & Vorlagen",

@@ -12,6 +12,7 @@ import XPostEmbed from "@/components/XPostEmbed";
 import { Link } from "@/i18n/routing";
 import { bots } from "@/data/bots";
 import { buildBotJsonLd, buildPageMetadata } from "@/lib/seo";
+import { getLocalizedDescription } from "@/lib/localized-description";
 import { getBotBySlug, getRelatedBots, isBotOfficial, LOCALES, type Locale } from "@/lib/utils";
 import { getCategoryStyle } from "@/lib/category-styles";
 import { OfficialBadge } from "@/components/OfficialBadge";
@@ -33,16 +34,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const bot = getBotBySlug(bots, slug);
 
-  if (!bot) {
-    return { title: "Bot Not Found" };
-  }
-
   const t = await getTranslations({ locale, namespace: "seo" });
+
+  if (!bot) {
+    return { title: t("botNotFound") };
+  }
 
   return buildPageMetadata({
     locale,
     title: t("botTitle", { name: bot.name }),
-    description: t("botDescription", { description: bot.description }),
+    description: t("botDescription", {
+      description: getLocalizedDescription(bot, locale),
+    }),
     path: `/bot/${bot.slug}`,
     type: "article",
   });
@@ -65,6 +68,11 @@ export default async function BotDetailPage({ params }: Props) {
   const categoryLabel = tFilters.has(bot.category)
     ? tFilters(bot.category)
     : bot.category;
+  const localizedDescription = getLocalizedDescription(bot, locale);
+  const bodyDescription =
+    localizedDescription !== bot.description
+      ? localizedDescription
+      : (bot.longDescription ?? bot.description);
   const categoryStyle = getCategoryStyle(bot.category);
   const official = isBotOfficial(bot);
 
@@ -127,7 +135,7 @@ export default async function BotDetailPage({ params }: Props) {
                 </div>
 
                 <p className="mt-6 max-w-prose text-base leading-relaxed text-neutral-700 md:text-lg">
-                  {bot.longDescription ?? bot.description}
+                  {bodyDescription}
                 </p>
 
                 {bot.integrations.length > 0 && (
@@ -191,7 +199,11 @@ export default async function BotDetailPage({ params }: Props) {
               </div>
               <div className="grid auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 {relatedBots.map((related) => (
-                  <BotCard key={related.id} bot={related} />
+                  <BotCard
+                    key={related.slug}
+                    bot={related}
+                    localizedDescription={getLocalizedDescription(related, locale)}
+                  />
                 ))}
               </div>
             </section>

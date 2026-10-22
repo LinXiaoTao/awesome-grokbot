@@ -11,6 +11,18 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 31536000,
   },
+  async redirects() {
+    // Bare /bot/:slug has no locale prefix and 404s. Always send it to the
+    // English canonical (x-default). localeDetection stays off so this does
+    // not negotiate Accept-Language or disturb the vercel.json "/" → "/en" rewrite.
+    return [
+      {
+        source: "/bot/:slug",
+        destination: "/en/bot/:slug",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

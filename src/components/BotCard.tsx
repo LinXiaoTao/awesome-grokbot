@@ -13,9 +13,10 @@ import { cn, isBotOfficial } from "@/lib/utils";
 
 interface BotCardProps {
   bot: Bot;
+  localizedDescription?: string;
 }
 
-export function BotCard({ bot }: BotCardProps) {
+export function BotCard({ bot, localizedDescription }: BotCardProps) {
   const tFilters = useTranslations("filters");
   const tBot = useTranslations("bot");
   const [copied, setCopied] = useState(false);
@@ -88,7 +89,7 @@ export function BotCard({ bot }: BotCardProps) {
       </div>
 
       <p className="mb-4 line-clamp-3 flex-1 text-sm leading-relaxed text-neutral-600">
-        {bot.description}
+        {localizedDescription || bot.description}
       </p>
 
       <div className="relative z-10 mt-auto space-y-3 border-t border-neutral-100 pt-3">

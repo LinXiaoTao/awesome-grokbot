@@ -34,7 +34,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2.5">
           <Image
             src="/logo-64.png"
-            alt="Awesome Grok Bot"
+            alt={t("brand")}
             width={28}
             height={28}
             className="rounded-md shadow-xs"
@@ -90,7 +90,7 @@ export function Navbar() {
             className="inline-flex items-center justify-center rounded-lg p-2 text-black md:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-expanded={mobileOpen}
-            aria-label="Toggle menu"
+            aria-label={t("toggleMenu")}
           >
             {mobileOpen ? (
               <X className="h-5 w-5" />

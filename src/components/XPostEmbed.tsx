@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 interface XPostEmbedProps {
   url: string;
 }
@@ -10,6 +12,7 @@ function extractTweetId(url: string): string | null {
 }
 
 export default function XPostEmbed({ url }: XPostEmbedProps) {
+  const t = useTranslations("bot");
   const tweetId = extractTweetId(url);
 
   if (!tweetId) {
@@ -20,7 +23,7 @@ export default function XPostEmbed({ url }: XPostEmbedProps) {
         rel="noopener noreferrer"
         className="text-sm text-muted underline"
       >
-        View on X
+        {t("viewOnX")}
       </a>
     );
   }
@@ -32,7 +35,7 @@ export default function XPostEmbed({ url }: XPostEmbedProps) {
         className="w-full border-0"
         height="400"
         allowFullScreen
-        title="X Post"
+        title={t("xPostTitle")}
         loading="lazy"
       />
     </div>

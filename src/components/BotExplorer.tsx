@@ -4,6 +4,10 @@ import { useMemo, useState } from "react";
 import { bots } from "@/data/bots";
 import { getAllIntegrationNames } from "@/data/integrations";
 import type { Category, SortOption } from "@/types";
+import {
+  buildSearchTextBySlug,
+  categoryNamesForSearch,
+} from "@/lib/bot-search";
 import { filterBots, isBotOfficial } from "@/lib/utils";
 import { Hero } from "./Hero";
 import { SearchBar } from "./SearchBar";
@@ -14,10 +18,16 @@ import { RotateCcw } from "lucide-react";
 
 interface BotExplorerProps {
   botCount: number;
+  /** Sparse slug → translated description for the active locale. */
+  localizedDescriptions: Record<string, string>;
 }
 
-export function BotExplorer({ botCount }: BotExplorerProps) {
+export function BotExplorer({
+  botCount,
+  localizedDescriptions,
+}: BotExplorerProps) {
   const t = useTranslations("common");
+  const tFilters = useTranslations("filters");
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState<Category>("all");
   const [integration, setIntegration] = useState("all");
@@ -50,9 +60,27 @@ export function BotExplorer({ botCount }: BotExplorerProps) {
     return counts;
   }, []);
 
+  const categoryNames = useMemo(
+    () => categoryNamesForSearch((key) => tFilters(key)),
+    [tFilters],
+  );
+
+  const searchTextBySlug = useMemo(
+    () =>
+      buildSearchTextBySlug(bots, localizedDescriptions, categoryNames),
+    [localizedDescriptions, categoryNames],
+  );
+
   const filteredBots = useMemo(
-    () => filterBots(bots, { search, category, integration, sort }),
-    [search, category, integration, sort]
+    () =>
+      filterBots(bots, {
+        search,
+        category,
+        integration,
+        sort,
+        searchTextBySlug,
+      }),
+    [search, category, integration, sort, searchTextBySlug],
   );
 
   const isFiltered = search.trim() !== "" || category !== "all" || integration !== "all";
@@ -99,7 +127,10 @@ export function BotExplorer({ botCount }: BotExplorerProps) {
             )}
           </div>
 
-          <BotGrid bots={filteredBots} />
+          <BotGrid
+            bots={filteredBots}
+            localizedDescriptions={localizedDescriptions}
+          />
         </div>
       </section>
     </>

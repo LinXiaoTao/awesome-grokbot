@@ -9,9 +9,10 @@ const PAGE_SIZE = 12;
 
 interface BotGridProps {
   bots: Bot[];
+  localizedDescriptions?: Record<string, string>;
 }
 
-export function BotGrid({ bots }: BotGridProps) {
+export function BotGrid({ bots, localizedDescriptions }: BotGridProps) {
   const t = useTranslations("common");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const sentinelRef = useRef<HTMLDivElement>(null);
@@ -61,7 +62,11 @@ export function BotGrid({ bots }: BotGridProps) {
     <>
       <div className="grid auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {visibleBots.map((bot) => (
-          <BotCard key={bot.id} bot={bot} />
+          <BotCard
+            key={bot.id}
+            bot={bot}
+            localizedDescription={localizedDescriptions?.[bot.slug]}
+          />
         ))}
       </div>
 

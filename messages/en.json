@@ -3,7 +3,8 @@
     "discover": "Discover",
     "categories": "Categories",
     "submit": "Submit a Bot",
-    "brand": "Awesome Grok Bot"
+    "brand": "Awesome Grok Bot",
+    "toggleMenu": "Toggle menu"
   },
   "hero": {
     "badge": "Discover & Share Grok Bots",
@@ -45,7 +46,10 @@
     "official": "Official",
     "officialTooltip": "Featured by the Grok Bot Team on xAI Marketplace",
     "promptHeading": "Bot Instructions & System Prompt",
-    "promptTip": "Copy and paste into your Grok Bot setup on x.ai or agent runtime."
+    "promptTip": "Copy and paste into your Grok Bot setup on x.ai or agent runtime.",
+    "systemPromptLabel": "system prompt",
+    "viewOnX": "View on X",
+    "xPostTitle": "X Post"
   },
   "submit": {
     "title": "Submit a Grok Bot",
@@ -77,7 +81,17 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "about": "About",
-    "copyright": "© 2025–2026 Awesome Grok Bot. Not affiliated with xAI."
+    "copyright": "© 2025–2026 Awesome Grok Bot. Not affiliated with xAI.",
+    "mitLicensed": "MIT Licensed",
+    "github": "GitHub",
+    "explore": "Explore",
+    "forAgents": "For AI Agents",
+    "feedApi": "Feed API (JSON)",
+    "llmsTxt": "llms.txt",
+    "sitemap": "Sitemap",
+    "community": "Community",
+    "xTwitter": "X (Twitter)",
+    "githubRepository": "GitHub Repository"
   },
   "common": {
     "loading": "Loading...",
@@ -93,7 +107,25 @@
     "submitTitle": "Submit a Grok Bot — Awesome Grok Bot",
     "submitDescription": "Share your Grok Bot with the community. Submit your bot to the Awesome Grok Bot directory.",
     "botTitle": "{name} — Awesome Grok Bot",
-    "botDescription": "{description}"
+    "botDescription": "{description}",
+    "botNotFound": "Bot Not Found"
+  },
+  "directory": {
+    "indexLabel": "Index · {count} entries",
+    "title": "Complete Directory",
+    "subtitle": "Full archive of verified Grok Bot templates, grouped by category. Expand a section to browse every entry.",
+    "navLabel": "All Grok Bots by category",
+    "categories": {
+      "from-grok-bot-team": "from-grok-bot-team",
+      "sales": "sales",
+      "marketing": "marketing",
+      "design": "design",
+      "engineering": "engineering",
+      "personal": "personal",
+      "recruiting-people": "recruiting-people",
+      "operations": "operations",
+      "product": "product"
+    }
   },
   "ticker": {
     "item1": "🔥 {count}+ Verified Grok Bots & Agent templates",

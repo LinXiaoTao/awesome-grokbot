@@ -12,12 +12,25 @@ export function isBotOfficial(bot: Bot): boolean {
   );
 }
 
+function compareNumericIdDesc(a: Bot, b: Bot): number {
+  const idDelta = Number(b.id) - Number(a.id);
+  if (Number.isFinite(idDelta) && idDelta !== 0) {
+    return idDelta;
+  }
+  return 0;
+}
+
 function compareBotsBySort(a: Bot, b: Bot, sort: SortOption): number {
   if (sort === "popular") {
     return b.installs - a.installs;
   }
   if (sort === "newest") {
-    return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+    const aTime = new Date(a.createdAt).getTime();
+    const bTime = new Date(b.createdAt).getTime();
+    const byDate =
+      (Number.isFinite(bTime) ? bTime : 0) - (Number.isFinite(aTime) ? aTime : 0);
+    if (byDate !== 0) return byDate;
+    return compareNumericIdDesc(a, b);
   }
   if (sort === "name") {
     return a.name.localeCompare(b.name);
@@ -27,9 +40,13 @@ function compareBotsBySort(a: Bot, b: Bot, sort: SortOption): number {
 }
 
 function compareBots(a: Bot, b: Bot, sort: SortOption): number {
-  const officialDelta = Number(isBotOfficial(b)) - Number(isBotOfficial(a));
-  if (officialDelta !== 0) {
-    return officialDelta;
+  // Official-first is the primary key for the default "popular" sort and for
+  // "name". "newest" is createdAt only — pinning hid new bots after the officials.
+  if (sort !== "newest") {
+    const officialDelta = Number(isBotOfficial(b)) - Number(isBotOfficial(a));
+    if (officialDelta !== 0) {
+      return officialDelta;
+    }
   }
   return compareBotsBySort(a, b, sort);
 }
@@ -41,19 +58,27 @@ export function filterBots(
     category: Category;
     integration: string;
     sort: SortOption;
+    /** Pre-lowercased per-bot haystack for the active locale. */
+    searchTextBySlug?: Record<string, string>;
   },
 ): Bot[] {
   let result = [...bots];
 
-  if (options.search.trim()) {
-    const query = options.search.toLowerCase();
-    result = result.filter(
-      (bot) =>
+  const query = options.search.trim().toLowerCase();
+  if (query) {
+    const searchTextBySlug = options.searchTextBySlug;
+    result = result.filter((bot) => {
+      const haystack = searchTextBySlug?.[bot.slug];
+      if (haystack) {
+        return haystack.includes(query);
+      }
+      return (
         bot.name.toLowerCase().includes(query) ||
         bot.description.toLowerCase().includes(query) ||
         bot.authorHandle?.toLowerCase().includes(query) ||
-        bot.author?.toLowerCase().includes(query),
-    );
+        bot.author?.toLowerCase().includes(query)
+      );
+    });
   }
 
   if (options.category !== "all") {

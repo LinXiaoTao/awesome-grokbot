@@ -20,7 +20,7 @@ export function Footer() {
               {t("tagline")}
             </p>
             <div className="mt-4 flex items-center gap-3 text-xs text-slate-400">
-              <span>MIT Licensed</span>
+              <span>{t("mitLicensed")}</span>
               <span>·</span>
               <a
                 href={AUTHOR.githubRepo}
@@ -29,14 +29,14 @@ export function Footer() {
                 className="inline-flex items-center gap-1 transition-colors hover:text-slate-900"
               >
                 <GitHubIcon className="h-3.5 w-3.5" />
-                <span>GitHub</span>
+                <span>{t("github")}</span>
               </a>
             </div>
           </div>
 
           <div>
             <h4 className="mb-3 text-xs font-semibold uppercase tracking-wider text-slate-900">
-              Explore
+              {t("explore")}
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
@@ -64,7 +64,7 @@ export function Footer() {
 
           <div>
             <h4 className="mb-3 text-xs font-semibold uppercase tracking-wider text-slate-900">
-              For AI Agents
+              {t("forAgents")}
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
@@ -75,7 +75,7 @@ export function Footer() {
                   className="inline-flex items-center gap-1.5 transition-colors hover:text-black"
                 >
                   <Rss className="h-3 w-3 text-orange-500" />
-                  <span>Feed API (JSON)</span>
+                  <span>{t("feedApi")}</span>
                 </a>
               </li>
               <li>
@@ -86,7 +86,7 @@ export function Footer() {
                   className="inline-flex items-center gap-1.5 transition-colors hover:text-black"
                 >
                   <Terminal className="h-3 w-3 text-purple-500" />
-                  <span>llms.txt</span>
+                  <span>{t("llmsTxt")}</span>
                 </a>
               </li>
               <li>
@@ -96,7 +96,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-black"
                 >
-                  Sitemap
+                  {t("sitemap")}
                 </a>
               </li>
             </ul>
@@ -104,7 +104,7 @@ export function Footer() {
 
           <div>
             <h4 className="mb-3 text-xs font-semibold uppercase tracking-wider text-slate-900">
-              Community
+              {t("community")}
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
@@ -114,7 +114,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-black"
                 >
-                  X (Twitter)
+                  {t("xTwitter")}
                 </a>
               </li>
               <li>
@@ -124,7 +124,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-black"
                 >
-                  GitHub Repository
+                  {t("githubRepository")}
                 </a>
               </li>
             </ul>
