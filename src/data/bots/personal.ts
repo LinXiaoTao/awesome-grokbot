@@ -12294,4 +12294,21 @@ export const personalBots: Bot[] = [
     xPostUrl: "https://x.com/2ynch/status/2111439852722115050",
     xaiBotUrl: "https://x.ai/bot/VSxAr0CZzf8qh5lUQ9gmA",
   },
+  {
+    id: "993410",
+    slug: "sommelier-bot",
+    name: "sommelier.bot",
+    author: "Johannes Nielsen",
+    authorHandle: "@sommelierbot",
+    description:
+      "Your personal sommelier for everything in the glass, with or without alcohol: wine, beer, spirits, sake, cider, and non-alcoholic drinks like tea and kombucha. Get a pairing from a dish, recipe, or photo, plan a multi-course menu with a non-alcoholic pick for every course, find the right gift in a couple of questions, identify a label from a photo, and track down bottles online or in shops nearby. It can also look up bars whose published wine lists offer a wine by the glass.",
+    integrations: [],
+    installs: 0,
+    category: "personal",
+    shape: "teardrop",
+    color: "red",
+    iconColor: "bg-orange-500",
+    createdAt: "2026-10-26",
+    xaiBotUrl: "https://x.ai/bot/UPAg1Vque_5YKcSDtdZEq",
+  },
 ];

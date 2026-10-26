@@ -6350,4 +6350,20 @@ export const engineeringBots: Bot[] = [
     xPostUrl: "https://x.com/KhoaMinh88704/status/2111629966022762730",
     xaiBotUrl: "https://x.ai/bot/1AKObJsZ-4jTjoTZ6_Y0R",
   },
+  {
+    id: "993409",
+    slug: "claude-remote",
+    name: "Claude Remote",
+    author: "Nick Salerni",
+    description:
+      "Hand tasks to Claude Code sessions on your Mac and get results back.",
+    integrations: [],
+    installs: 0,
+    category: "engineering",
+    shape: "squircle",
+    color: "brown",
+    iconColor: "bg-green-500",
+    createdAt: "2026-10-26",
+    xaiBotUrl: "https://x.ai/bot/aB0M7wQOAcFgd_G0rTEWF",
+  },
 ];
