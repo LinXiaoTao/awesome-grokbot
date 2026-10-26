@@ -528,6 +528,7 @@
 - **[VeilBreaker Guard & Watch](https://x.ai/bot/DMifb6iyC03g6HvPNrkGw)** by @PixelRainbowNFT — 面向 Grok Bot 的不可信内容防护与活动监视，由 VeilBreaker 插件驱动。在你行动前，它筛查每个网页、邮件、文件和工具输出中的隐藏指令与外泄攻击，运行定时摘要和自检，遇到可疑情况会停下来问你。
 - **[X Bookmark Demos](https://x.ai/bot/0HhqUJQH2FwInXRK5SVZ5)** by @JaimeBubblehead — 每日侦察：阅读你的 X 书签，推荐一两款值得一试的新工具；你批准后，会在你自己的电脑上真实安装并测试。
 - **[出口IP管家](https://x.ai/bot/1AKObJsZ-4jTjoTZ6_Y0R)** by @KhoaMinh88704 — 专门管理 Grok Bot 电脑（box）上的出口 IP / 代理链路：配置与切换 mihomo dialer-proxy，查询出口与测速，本地端口挂载。
+- **[Claude Remote](https://x.ai/bot/aB0M7wQOAcFgd_G0rTEWF)** — 把任务交给 Mac 上的 Claude Code 会话，再把结果收回来。
 
 ## 产品管理
 
@@ -1018,6 +1019,7 @@
 - **[Xブクマ台本工房](https://x.ai/bot/3tOP_ZthJfS0r3_7E4Gtq)** by @sidejob_AJ — 每天早上从你的 X 书签里挑选能用的素材，按预期反响从高到低的顺序，送来三行摘要和短视频脚本草稿。不会发帖。
 - **[コピーロボット](https://x.ai/bot/MgbmI7yosGl_eoctazByw)** by @ryo_miu — 像帕门的复制机器人一样，学习你的口吻和想法，代替你说话或起草 X 帖子。
 - **[墨灵 Moling](https://x.ai/bot/4JFu2Vhw9D2U2ZJfd-zd0)** by @LZJ5460 — 墨灵是灵境出品的长文写手，写给需要流量的项目操盘手和自媒体创业者：学你的口吻，写没有 AI 味、值得收藏的爆款长文，一篇改成 X、公众号、抖音、小红书、知乎、微博多个版本。
+- **[X Virality Score](https://x.ai/bot/BIvSSU3sukmkTpMeSnft-)** by @thegreatest_sv — 创作者/博主工作台：盯紧你的观察列表，找出已经爆火的帖子，挖掘关键词，起草英文帖子蹭热点，并在首次运行时搭好你自己的公开 GitHub Pages 看板。每日摘要 + 看板刷新。默认只读 X，发帖需你批准。
 
 ## 销售
 
@@ -1845,6 +1847,8 @@
 - **[Urgenta](https://x.ai/bot/y7DRih96Sk_Y6qHddWfID)** by Shai Beneli — 为运营团队执行应急流程。它监视 Slack 和邮件里的故障或所需零件，当天推动应急负责人行动，并每天跟进两次，直到问题关闭。
 - **[What Should My Bot Do?](https://x.ai/bot/KOJbYHQwZmEacXcdpkdUZ)** by @RoshelPere15695 — 免费的 Grok Bot 模板：先问 5 个关于你业务的问题，然后给出你的第一个 AI 代理、接下来的 3 项工作，以及各自的免费指南。只出草稿。
 - **[敬語メール清書係](https://x.ai/bot/cMfJYFNz4lgGOdHc5m7Dm)** by @sidejob_AJ — 只要贴上大致备忘，就会整理成适合对方的敬语商务邮件或致歉信。也会给出偏柔和与偏郑重的改写。不会发送。
+- **[Create and Defend your Clinical Note](https://x.ai/bot/LIrj8NNdiKTxDV8FwTNNQ)** by @ScribeArchAI — 认识 Archy，你的 ScribeArch 书记员。面向牙医：粘贴速记或口述，或上传录音，即可得到干净的 SOAP 病历、可辩护性评分，以及一份该补什么的短清单。需要完整检查？访问 scribearch.com。
+- **[Bot Phone Line by CosVoice](https://x.ai/bot/jnIfY8WX6xUVvjs26aDnI)** — 在 CosVoice 上替你接听和拨打电话。每次通话后你会收到书面邮件摘要；随时可问最近进展。每月 29 美元，含 60 分钟通话。
 
 ## 招聘与人事
 
@@ -2706,6 +2710,7 @@
 - **[推し活マネージャー](https://x.ai/bot/1FdFXIOGIu8DwXJqVS0lk)** by @sidejob_AJ — 每天早上汇总你所推之人的门票抽选、周边发售和出演信息，按截止日期由近到远通知。不代为申请或购买。
 - **[献立と買い物リスト係](https://x.ai/bot/rRGXhNvXuaBMcVrM5Gpkq)** by @sidejob_AJ — 按家庭人数、预算和烹饪时间，每周送来一周菜单和按卖场分区的购物清单。会记住喜好与忌口，并逐渐贴近你的口味。
 - **[체험단신청](https://x.ai/bot/VSxAr0CZzf8qh5lUQ9gmA)** by @2ynch — 每天查看 Musinsa 和 Kakao 礼物的体验团，代为申请符合条件的公告，并告知中选结果。
+- **[sommelier.bot](https://x.ai/bot/UPAg1Vque_5YKcSDtdZEq)** by @sommelierbot — 你的私人侍酒师，涵盖杯中一切——含酒精或不含：葡萄酒、啤酒、烈酒、清酒、苹果酒，以及茶和康普茶等无酒精饮品。根据一道菜、食谱或照片给出配餐建议，规划多道菜菜单并为每道配上无酒精选择，几个问题帮你挑礼物，拍照识别酒标，并在网上或附近店铺找酒。还能查找公开酒单里有杯卖葡萄酒的酒吧。
 
 ## 贡献指南
 

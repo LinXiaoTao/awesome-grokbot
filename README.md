@@ -526,6 +526,7 @@ English | [中文](README.zh.md)
 - **[VeilBreaker Guard & Watch](https://x.ai/bot/DMifb6iyC03g6HvPNrkGw)** by @PixelRainbowNFT — An untrusted-content guard and activity watch for Grok Bot, powered by the VeilBreaker plugin. It screens every web page, email, file and tool output for hidden-instruction and exfiltration attacks before you act, runs scheduled digests and self-tests, and stops to ask you on anything suspicious.
 - **[X Bookmark Demos](https://x.ai/bot/0HhqUJQH2FwInXRK5SVZ5)** by @JaimeBubblehead — A daily scout that reads your X bookmarks, pitches one or two new tools worth trying, and once you approve, installs and tests them for real on your own computers.
 - **[出口IP管家](https://x.ai/bot/1AKObJsZ-4jTjoTZ6_Y0R)** by @KhoaMinh88704 — 专门管理 Grok Bot 电脑（box）上的出口 IP / 代理链路：配置与切换 mihomo dialer-proxy，查询出口与测速，本地端口挂载。
+- **[Claude Remote](https://x.ai/bot/aB0M7wQOAcFgd_G0rTEWF)** — Hand tasks to Claude Code sessions on your Mac and get results back.
 
 ## Product
 
@@ -1016,6 +1017,7 @@ English | [中文](README.zh.md)
 - **[Xブクマ台本工房](https://x.ai/bot/3tOP_ZthJfS0r3_7E4Gtq)** by @sidejob_AJ — 毎朝あなたのXブックマークから使えるネタを選び、3行要約とショート動画の台本下書きを反応が良さそうな順に届けるボット。投稿はしません。
 - **[コピーロボット](https://x.ai/bot/MgbmI7yosGl_eoctazByw)** by @ryo_miu — パーマンのコピーロボットのように、あなたの口調と考え方を学んで、代わりに話したりX投稿の下書きを作ったりするボットです。
 - **[墨灵 Moling](https://x.ai/bot/4JFu2Vhw9D2U2ZJfd-zd0)** by @LZJ5460 — 墨灵是灵境出品的长文写手，写给需要流量的项目操盘手和自媒体创业者：学你的口吻，写没有 AI 味、值得收藏的爆款长文，一篇改成 X、公众号、抖音、小红书、知乎、微博多个版本。
+- **[X Virality Score](https://x.ai/bot/BIvSSU3sukmkTpMeSnft-)** by @thegreatest_sv — Creator/blogger desk: watches YOUR watchlist, finds posts that already hit, mines keywords, drafts EN posts to ride the meta, and on first run scaffolds YOUR own public GitHub Pages dashboard. Daily digest + board refresh. Read-only on X unless you approve a post.
 
 ## Sales
 
@@ -1843,6 +1845,8 @@ English | [中文](README.zh.md)
 - **[Urgenta](https://x.ai/bot/y7DRih96Sk_Y6qHddWfID)** by Shai Beneli — Runs an emergency protocol for operations teams. It watches Slack and email for anything down or any part needed, gets the emergency owner moving the same day, and follows up twice a day until the issue is closed.
 - **[What Should My Bot Do?](https://x.ai/bot/KOJbYHQwZmEacXcdpkdUZ)** by @RoshelPere15695 — Free Grok Bot template: 5 questions about your business, then your first AI agent, 3 next jobs and a free guide for each. Drafts only.
 - **[敬語メール清書係](https://x.ai/bot/cMfJYFNz4lgGOdHc5m7Dm)** by @sidejob_AJ — ざっくりしたメモを貼るだけで、相手に合った敬語のビジネスメールやお詫び文に整えるボット。やわらかめ・しっかりめの言い換えも出します。送信はしません。
+- **[Create and Defend your Clinical Note](https://x.ai/bot/LIrj8NNdiKTxDV8FwTNNQ)** by @ScribeArchAI — Meet Archy, your ScribeArch scribe. For dentists: paste shorthand or dictation, or upload a recording, and get a clean SOAP note, a defensibility score, and a short list of what to add. Want the full check? Visit scribearch.com.
+- **[Bot Phone Line by CosVoice](https://x.ai/bot/jnIfY8WX6xUVvjs26aDnI)** — Answers your phone and makes calls for you on CosVoice. After every call you get a written email summary; ask any time to hear the latest. $29 a month with 60 minutes of calls.
 
 ## Recruiting & People
 
@@ -2704,6 +2708,7 @@ English | [中文](README.zh.md)
 - **[推し活マネージャー](https://x.ai/bot/1FdFXIOGIu8DwXJqVS0lk)** by @sidejob_AJ — 推しのチケット抽選、グッズ発売、出演情報を毎朝まとめて、締切が近い順にお知らせするボット。申込や購入は代行しません。
 - **[献立と買い物リスト係](https://x.ai/bot/rRGXhNvXuaBMcVrM5Gpkq)** by @sidejob_AJ — 家族の人数・予算・調理時間に合わせて1週間の献立と売り場別の買い物リストを毎週届けるボット。好き嫌いを覚えてだんだん好みに合わせます。
 - **[체험단신청](https://x.ai/bot/VSxAr0CZzf8qh5lUQ9gmA)** by @2ynch — 무신사와 카카오 선물하기 체험단을 매일 확인해서 조건에 맞는 공고에 대신 신청하고, 당첨 결과까지 알려주는 봇이에요.
+- **[sommelier.bot](https://x.ai/bot/UPAg1Vque_5YKcSDtdZEq)** by @sommelierbot — Your personal sommelier for everything in the glass, with or without alcohol: wine, beer, spirits, sake, cider, and non-alcoholic drinks like tea and kombucha. Get a pairing from a dish, recipe, or photo, plan a multi-course menu with a non-alcoholic pick for every course, find the right gift in a couple of questions, identify a label from a photo, and track down bottles online or in shops nearby. It can also look up bars whose published wine lists offer a wine by the glass.
 
 ## Contributing
 

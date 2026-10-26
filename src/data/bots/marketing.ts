@@ -5136,4 +5136,21 @@ export const marketingBots: Bot[] = [
     xPostUrl: "https://x.com/LZJ5460/status/2112534395198517572",
     xaiBotUrl: "https://x.ai/bot/4JFu2Vhw9D2U2ZJfd-zd0",
   },
+  {
+    id: "993407",
+    slug: "x-virality-score",
+    name: "X Virality Score",
+    author: "theGreatest",
+    authorHandle: "@thegreatest_sv",
+    description:
+      "Creator/blogger desk: watches YOUR watchlist, finds posts that already hit, mines keywords, drafts EN posts to ride the meta, and on first run scaffolds YOUR own public GitHub Pages dashboard. Daily digest + board refresh. Read-only on X unless you approve a post.",
+    integrations: [],
+    installs: 0,
+    category: "marketing",
+    shape: "blob",
+    color: "orange",
+    iconColor: "bg-blue-500",
+    createdAt: "2026-10-26",
+    xaiBotUrl: "https://x.ai/bot/BIvSSU3sukmkTpMeSnft-",
+  },
 ];
