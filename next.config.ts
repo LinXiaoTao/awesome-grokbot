@@ -12,12 +12,41 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 31536000,
   },
   async redirects() {
-    // Bare /bot/:slug has no locale prefix and 404s. Always send it to the
-    // English canonical (x-default). localeDetection stays off so this does
-    // not negotiate Accept-Language or disturb the vercel.json "/" → "/en" rewrite.
+    // GSC 404 export 2026-10-30 (233 URLs): almost all were locale-less /bot/:slug
+    // for live bots, plus a few retired slugs under /:locale/bot/...
+    // localeDetection stays off so Accept-Language is not negotiated and the
+    // vercel.json "/" → "/en" permanent redirect stays authoritative.
+    const locales = "en|zh|ja|ko|es|fr|de";
     return [
+      // Retired slugs → nearest live bot (keep before the generic /bot/:slug rule)
+      {
+        source: `/:locale(${locales})/bot/product-lead`,
+        destination: "/:locale/bot/mercury-product-lead",
+        permanent: true,
+      },
+      {
+        source: "/bot/product-lead",
+        destination: "/en/bot/mercury-product-lead",
+        permanent: true,
+      },
+      {
+        source: `/:locale(${locales})/bot/firstmate-the-only-bot-you-talk-to`,
+        destination: "/:locale/bot/firstmate",
+        permanent: true,
+      },
+      {
+        source: "/bot/firstmate-the-only-bot-you-talk-to",
+        destination: "/en/bot/firstmate",
+        permanent: true,
+      },
+      // Bare /bot/:slug(+/) → English canonical for live bots
       {
         source: "/bot/:slug",
+        destination: "/en/bot/:slug",
+        permanent: true,
+      },
+      {
+        source: "/bot/:slug/",
         destination: "/en/bot/:slug",
         permanent: true,
       },

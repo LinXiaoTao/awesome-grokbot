@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { bots } from "@/data/bots";
 import { SITE_URL, LOCALES } from "@/lib/utils";
+// Sitemap locs are built only from the live `bots` catalog — retired GSC 404
+// slugs (product-lead, firstmate-the-only-bot-you-talk-to, …) are not listed.
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];

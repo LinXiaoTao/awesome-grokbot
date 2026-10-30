@@ -117,8 +117,13 @@ export function formatInstallCount(count: number): string {
   return count.toLocaleString();
 }
 
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://awsomebot.com";
+const RAW_SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.awsomebot.com";
+/** Prefer www host — Vercel 308s apex→www; apex canonicals cause index thrash. */
+export const SITE_URL = RAW_SITE_URL.replace(
+  "://awsomebot.com",
+  "://www.awsomebot.com",
+);
 
 export const LOCALES = ["en", "zh", "ja", "ko", "es", "fr", "de"] as const;
 export type Locale = (typeof LOCALES)[number];
