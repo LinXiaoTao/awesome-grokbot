@@ -9,6 +9,10 @@ interface PageMetadataOptions {
   description: string;
   path: string;
   type?: "website" | "article";
+  /** When false, emit noindex (thin / untranslated locale bot pages). */
+  index?: boolean;
+  /** Limit hreflang to these locales; default all LOCALES. */
+  hreflangLocales?: readonly string[];
 }
 
 const DEFAULT_KEYWORDS = [
@@ -32,17 +36,23 @@ export function buildPageMetadata({
   description,
   path,
   type = "website",
+  index = true,
+  hreflangLocales,
 }: PageMetadataOptions): Metadata {
   const cleanPath = path === "/" ? "" : path;
   const url = `${SITE_URL}/${locale}${cleanPath}`;
 
+  const languageLocales = hreflangLocales?.length
+    ? hreflangLocales
+    : LOCALES;
+
   const languages: Record<string, string> = {};
-  for (const loc of LOCALES) {
+  for (const loc of languageLocales) {
     languages[loc] = `${SITE_URL}/${loc}${cleanPath}`;
   }
   languages["x-default"] = `${SITE_URL}/en${cleanPath}`;
 
-  const alternateLocales = LOCALES.filter((loc) => loc !== locale);
+  const alternateLocales = languageLocales.filter((loc) => loc !== locale);
 
   return {
     title: { absolute: title },
@@ -55,10 +65,10 @@ export function buildPageMetadata({
     creator: "LinXiaoTao",
     publisher: "Awesome Grok Bot",
     robots: {
-      index: true,
+      index,
       follow: true,
       googleBot: {
-        index: true,
+        index,
         follow: true,
         "max-video-preview": -1,
         "max-image-preview": "large",
