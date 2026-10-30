@@ -1018,6 +1018,7 @@ English | [中文](README.zh.md)
 - **[コピーロボット](https://x.ai/bot/MgbmI7yosGl_eoctazByw)** by @ryo_miu — パーマンのコピーロボットのように、あなたの口調と考え方を学んで、代わりに話したりX投稿の下書きを作ったりするボットです。
 - **[墨灵 Moling](https://x.ai/bot/4JFu2Vhw9D2U2ZJfd-zd0)** by @LZJ5460 — 墨灵是灵境出品的长文写手，写给需要流量的项目操盘手和自媒体创业者：学你的口吻，写没有 AI 味、值得收藏的爆款长文，一篇改成 X、公众号、抖音、小红书、知乎、微博多个版本。
 - **[X Virality Score](https://x.ai/bot/BIvSSU3sukmkTpMeSnft-)** by @thegreatest_sv — Creator/blogger desk: watches YOUR watchlist, finds posts that already hit, mines keywords, drafts EN posts to ride the meta, and on first run scaffolds YOUR own public GitHub Pages dashboard. Daily digest + board refresh. Read-only on X unless you approve a post.
+- **[Scrollstopper](https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw)** by @_DanielWilson — Your hands-on social media manager for one brand or several: learn each brand's voice, draft platform-native posts, prepare a schedule, cross-post where appropriate, and summarize what worked in a weekly report. Everything stays draft-only until you approve.
 
 ## Sales
 
@@ -2709,6 +2710,9 @@ English | [中文](README.zh.md)
 - **[献立と買い物リスト係](https://x.ai/bot/rRGXhNvXuaBMcVrM5Gpkq)** by @sidejob_AJ — 家族の人数・予算・調理時間に合わせて1週間の献立と売り場別の買い物リストを毎週届けるボット。好き嫌いを覚えてだんだん好みに合わせます。
 - **[체험단신청](https://x.ai/bot/VSxAr0CZzf8qh5lUQ9gmA)** by @2ynch — 무신사와 카카오 선물하기 체험단을 매일 확인해서 조건에 맞는 공고에 대신 신청하고, 당첨 결과까지 알려주는 봇이에요.
 - **[sommelier.bot](https://x.ai/bot/UPAg1Vque_5YKcSDtdZEq)** by @sommelierbot — Your personal sommelier for everything in the glass, with or without alcohol: wine, beer, spirits, sake, cider, and non-alcoholic drinks like tea and kombucha. Get a pairing from a dish, recipe, or photo, plan a multi-course menu with a non-alcoholic pick for every course, find the right gift in a couple of questions, identify a label from a photo, and track down bottles online or in shops nearby. It can also look up bars whose published wine lists offer a wine by the glass.
+- **[VibeYourTV](https://x.ai/bot/7iH14dp1VnBLUbqq2oEne)** by @orpheuskaze — Set up your Android TV or Google TV from your PC over Wi-Fi with adb, no phone app needed. Reversible debloat, install the open-source VibeYourTV launcher as Home, and apply themes with family and seasonal presets.
+- **[IRS Demystifier](https://x.ai/bot/dR8fXUdrOBaF-HLMyxXCS)** by @iustinafractals — A calm, plain-spoken, privacy-first helper for anything involving the IRS—notices, filing, payments, refunds, audits, and scams—for individuals, the self-employed, small businesses, and nonprofits. Explains letters in plain words and points you to official IRS.gov sources.
+- **[Emergency Ready](https://x.ai/bot/ugZSyRMArNeLGOSu0mGco)** by @iustinafractals — A calm, plain-spoken emergency preparedness helper for anyone in the US. Helps you build a family emergency plan, assemble a kit for household and pets, keep a printable quick-reference sheet, and stay safe without deciding beyond your instructions.
 
 ## Contributing
 
