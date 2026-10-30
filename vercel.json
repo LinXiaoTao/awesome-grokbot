@@ -63,6 +63,16 @@
       "permanent": true
     },
     {
+      "source": "/:locale(en|zh|ja|ko|es|fr|de)/bot/apps",
+      "destination": "/:locale?category=engineering",
+      "permanent": true
+    },
+    {
+      "source": "/bot/apps",
+      "destination": "/en?category=engineering",
+      "permanent": true
+    },
+    {
       "source": "/bot/:slug",
       "destination": "/en/bot/:slug",
       "permanent": true

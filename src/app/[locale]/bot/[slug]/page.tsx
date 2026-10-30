@@ -12,7 +12,11 @@ import XPostEmbed from "@/components/XPostEmbed";
 import { Link } from "@/i18n/routing";
 import { bots } from "@/data/bots";
 import { buildBotJsonLd, buildPageMetadata } from "@/lib/seo";
-import { getLocalizedDescription } from "@/lib/localized-description";
+import {
+  getIndexableLocalesForBot,
+  getLocalizedDescription,
+  shouldIndexBotPage,
+} from "@/lib/localized-description";
 import { getBotBySlug, getRelatedBots, isBotOfficial, LOCALES, type Locale } from "@/lib/utils";
 import { getCategoryStyle } from "@/lib/category-styles";
 import { OfficialBadge } from "@/components/OfficialBadge";
@@ -40,6 +44,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: t("botNotFound") };
   }
 
+  const index = shouldIndexBotPage(bot, locale);
+
   return buildPageMetadata({
     locale,
     title: t("botTitle", { name: bot.name }),
@@ -48,6 +54,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }),
     path: `/bot/${bot.slug}`,
     type: "article",
+    index,
+    hreflangLocales: getIndexableLocalesForBot(bot),
   });
 }
 

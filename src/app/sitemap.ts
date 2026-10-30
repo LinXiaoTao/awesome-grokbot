@@ -1,8 +1,12 @@
 import type { MetadataRoute } from "next";
 import { bots } from "@/data/bots";
+import {
+  getIndexableLocalesForBot,
+} from "@/lib/localized-description";
 import { SITE_URL, LOCALES } from "@/lib/utils";
-// Sitemap locs are built only from the live `bots` catalog — retired GSC 404
-// slugs (product-lead, firstmate-the-only-bot-you-talk-to, …) are not listed.
+// Sitemap locs: locale homes for all UI languages + bot detail only for
+// indexable locales (en + zh-with-translation). GSC 404 bare /bot/:slug
+// redirects already live in next.config / vercel.json (#7).
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
@@ -23,14 +27,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: homeLanguages,
       },
     });
+  }
 
-    for (const bot of bots) {
-      const botLanguages: Record<string, string> = {};
-      for (const loc of LOCALES) {
-        botLanguages[loc] = `${SITE_URL}/${loc}/bot/${bot.slug}`;
-      }
-      botLanguages["x-default"] = `${SITE_URL}/en/bot/${bot.slug}`;
+  for (const bot of bots) {
+    const indexableLocales = getIndexableLocalesForBot(bot);
+    if (indexableLocales.length === 0) continue;
 
+    const botLanguages: Record<string, string> = {};
+    for (const loc of indexableLocales) {
+      botLanguages[loc] = `${SITE_URL}/${loc}/bot/${bot.slug}`;
+    }
+    botLanguages["x-default"] = `${SITE_URL}/en/bot/${bot.slug}`;
+
+    for (const locale of indexableLocales) {
       entries.push({
         url: `${SITE_URL}/${locale}/bot/${bot.slug}`,
         lastModified: bot.createdAt ? new Date(bot.createdAt) : new Date(),

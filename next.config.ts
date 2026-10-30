@@ -39,6 +39,17 @@ const nextConfig: NextConfig = {
         destination: "/en/bot/firstmate",
         permanent: true,
       },
+      // Empty-description stub (GSC + sitemap slim) → category home
+      {
+        source: `/:locale(${locales})/bot/apps`,
+        destination: "/:locale?category=engineering",
+        permanent: true,
+      },
+      {
+        source: "/bot/apps",
+        destination: "/en?category=engineering",
+        permanent: true,
+      },
       // Bare /bot/:slug(+/) → English canonical for live bots
       {
         source: "/bot/:slug",
