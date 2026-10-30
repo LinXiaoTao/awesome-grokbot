@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { getLocale } from "next-intl/server";
 import { toHtmlLang } from "@/lib/html-lang";
+import { SITE_URL } from "@/lib/utils";
 import "./globals.css";
 
 const GA_ID = "G-0SYLDM57RR";
@@ -26,11 +27,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://awsomebot.com",
-  ),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "Awesome Grok Bot — Curated Grok Bot Directory",
+    default: "Awesome Grok Bot Directory — Discover Grok Bots",
     template: "%s | Awesome Grok Bot",
   },
   description:

@@ -8,7 +8,7 @@
   },
   "hero": {
     "badge": "Discover & Share Grok Bots",
-    "title": "There's a Grok Bot for that.",
+    "title": "Discover Grok Bots — the Awesome Grok Bot directory.",
     "subtitle": "Discover the best Grok Bots for work, coding, research, and everyday tasks.",
     "searchPlaceholder": "Search bots...",
     "statsBots": "{count}+ Verified Bots",
@@ -102,8 +102,8 @@
     "resetFilters": "Reset Filters"
   },
   "seo": {
-    "homeTitle": "Awesome Grok Bot — Discover Grok Bots",
-    "homeDescription": "Discover the best Grok Bots for work, coding, research, and everyday tasks. A curated directory of community-built Grok Bots.",
+    "homeTitle": "Awesome Grok Bot Directory — Discover Grok Bots",
+    "homeDescription": "Browse and discover curated Grok Bots for work, coding, research, and everyday tasks. The Awesome Grok Bot directory of community-built agents.",
     "submitTitle": "Submit a Grok Bot — Awesome Grok Bot",
     "submitDescription": "Share your Grok Bot with the community. Submit your bot to the Awesome Grok Bot directory.",
     "botTitle": "{name} — Awesome Grok Bot",

@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
   async redirects() {
     // Bare /bot/:slug has no locale prefix and 404s. Always send it to the
     // English canonical (x-default). localeDetection stays off so this does
-    // not negotiate Accept-Language or disturb the vercel.json "/" → "/en" rewrite.
+    // not negotiate Accept-Language or disturb the vercel.json "/" → "/en" permanent redirect.
     return [
       {
         source: "/bot/:slug",

@@ -1,7 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
-  "regions": ["iad1"],
+  "regions": [
+    "iad1"
+  ],
   "headers": [
     {
       "source": "/(.*)\\.(js|css|svg|png|jpg|jpeg|webp|woff|woff2)",
@@ -34,10 +36,11 @@
       ]
     }
   ],
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/en"
+      "destination": "/en",
+      "permanent": true
     }
   ]
 }
