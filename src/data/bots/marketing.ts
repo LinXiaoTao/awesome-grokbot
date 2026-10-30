@@ -5153,4 +5153,22 @@ export const marketingBots: Bot[] = [
     createdAt: "2026-10-26",
     xaiBotUrl: "https://x.ai/bot/BIvSSU3sukmkTpMeSnft-",
   },
+  {
+    id: "993413",
+    slug: "scrollstopper",
+    name: "Scrollstopper",
+    author: "Daniel",
+    authorHandle: "@_DanielWilson",
+    description:
+      "Your hands-on social media manager for one brand or several: learn each brand's voice, draft platform-native posts, prepare a schedule, cross-post where appropriate, and summarize what worked in a weekly report. Everything stays draft-only until you approve.",
+    integrations: [],
+    installs: 0,
+    category: "marketing",
+    shape: "pebble",
+    color: "violet",
+    iconColor: "bg-violet-500",
+    createdAt: "2026-10-30",
+    xPostUrl: "https://x.com/_DanielWilson/status/2115237269573443698",
+    xaiBotUrl: "https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw",
+  },
 ];

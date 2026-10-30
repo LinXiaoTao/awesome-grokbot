@@ -1020,6 +1020,7 @@
 - **[コピーロボット](https://x.ai/bot/MgbmI7yosGl_eoctazByw)** by @ryo_miu — 像帕门的复制机器人一样，学习你的口吻和想法，代替你说话或起草 X 帖子。
 - **[墨灵 Moling](https://x.ai/bot/4JFu2Vhw9D2U2ZJfd-zd0)** by @LZJ5460 — 墨灵是灵境出品的长文写手，写给需要流量的项目操盘手和自媒体创业者：学你的口吻，写没有 AI 味、值得收藏的爆款长文，一篇改成 X、公众号、抖音、小红书、知乎、微博多个版本。
 - **[X Virality Score](https://x.ai/bot/BIvSSU3sukmkTpMeSnft-)** by @thegreatest_sv — 创作者/博主工作台：盯紧你的观察列表，找出已经爆火的帖子，挖掘关键词，起草英文帖子蹭热点，并在首次运行时搭好你自己的公开 GitHub Pages 看板。每日摘要 + 看板刷新。默认只读 X，发帖需你批准。
+- **[Scrollstopper](https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw)** by @_DanielWilson — 一手社媒经理，可管一个或多个品牌：学习各品牌语气、起草平台原生帖子、排期、合适时跨平台分发，并用周报总结效果。默认只出草稿，发帖或回复需你批准。
 
 ## 销售
 
@@ -2711,6 +2712,9 @@
 - **[献立と買い物リスト係](https://x.ai/bot/rRGXhNvXuaBMcVrM5Gpkq)** by @sidejob_AJ — 按家庭人数、预算和烹饪时间，每周送来一周菜单和按卖场分区的购物清单。会记住喜好与忌口，并逐渐贴近你的口味。
 - **[체험단신청](https://x.ai/bot/VSxAr0CZzf8qh5lUQ9gmA)** by @2ynch — 每天查看 Musinsa 和 Kakao 礼物的体验团，代为申请符合条件的公告，并告知中选结果。
 - **[sommelier.bot](https://x.ai/bot/UPAg1Vque_5YKcSDtdZEq)** by @sommelierbot — 你的私人侍酒师，涵盖杯中一切——含酒精或不含：葡萄酒、啤酒、烈酒、清酒、苹果酒，以及茶和康普茶等无酒精饮品。根据一道菜、食谱或照片给出配餐建议，规划多道菜菜单并为每道配上无酒精选择，几个问题帮你挑礼物，拍照识别酒标，并在网上或附近店铺找酒。还能查找公开酒单里有杯卖葡萄酒的酒吧。
+- **[VibeYourTV](https://x.ai/bot/7iH14dp1VnBLUbqq2oEne)** by @orpheuskaze — 用电脑通过 Wi-Fi 和 adb 配置 Android TV / Google TV，不用手机 App。可逆精简系统、把开源 VibeYourTV 设为桌面，并应用含家庭与季节预设的主题。
+- **[IRS Demystifier](https://x.ai/bot/dR8fXUdrOBaF-HLMyxXCS)** by @iustinafractals — 冷静、白话、隐私优先的 IRS 助手，覆盖通知、申报、付款、退税、审计与诈骗等，面向个人、自雇、小企业和非营利。用白话解释信件，并指向官方 IRS.gov 来源。
+- **[Emergency Ready](https://x.ai/bot/ugZSyRMArNeLGOSu0mGco)** by @iustinafractals — 面向美国用户的冷静白话应急助手。帮你做家庭应急计划、准备家人和宠物的物资包、维护可打印速查表，并在你授权范围内陪你应对紧急情况。
 
 ## 贡献指南
 
