@@ -41,6 +41,36 @@
       "source": "/",
       "destination": "/en",
       "permanent": true
+    },
+    {
+      "source": "/bot/product-lead",
+      "destination": "/en/bot/mercury-product-lead",
+      "permanent": true
+    },
+    {
+      "source": "/bot/firstmate-the-only-bot-you-talk-to",
+      "destination": "/en/bot/firstmate",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|zh|ja|ko|es|fr|de)/bot/product-lead",
+      "destination": "/:locale/bot/mercury-product-lead",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|zh|ja|ko|es|fr|de)/bot/firstmate-the-only-bot-you-talk-to",
+      "destination": "/:locale/bot/firstmate",
+      "permanent": true
+    },
+    {
+      "source": "/bot/:slug",
+      "destination": "/en/bot/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/bot/:slug/",
+      "destination": "/en/bot/:slug",
+      "permanent": true
     }
   ]
 }
