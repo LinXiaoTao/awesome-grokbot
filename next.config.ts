@@ -12,12 +12,26 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 31536000,
   },
   async redirects() {
-    // GSC 404 export 2026-10-30 (233 URLs): almost all were locale-less /bot/:slug
-    // for live bots, plus a few retired slugs under /:locale/bot/...
+    // GSC 404 export 2026-10-30 (233 URLs, scripts/seo/awsomebot-gsc-404-2026-10-30.txt):
+    // - 223 bare /bot/:slug for bots still in catalog → /en/bot/:slug
+    // - 10 retired product-lead / firstmate-the-only-bot-you-talk-to → nearest live slug
+    // - stub /bot/apps → category home
+    // Verified 2026-10-31 Asia/Shanghai: 233/233 follow to HTTP 200 on www.
     // localeDetection stays off so Accept-Language is not negotiated and the
     // vercel.json "/" → "/en" permanent redirect stays authoritative.
     const locales = "en|zh|ja|ko|es|fr|de";
     return [
+      // Legacy list paths (not in GSC export; keep a safe fallback target)
+      {
+        source: `/:locale(${locales})/bots`,
+        destination: "/:locale",
+        permanent: true,
+      },
+      {
+        source: "/bots",
+        destination: "/en",
+        permanent: true,
+      },
       // Retired slugs → nearest live bot (keep before the generic /bot/:slug rule)
       {
         source: `/:locale(${locales})/bot/product-lead`,
