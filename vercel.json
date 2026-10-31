@@ -43,6 +43,16 @@
       "permanent": true
     },
     {
+      "source": "/:locale(en|zh|ja|ko|es|fr|de)/bots",
+      "destination": "/:locale",
+      "permanent": true
+    },
+    {
+      "source": "/bots",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
       "source": "/bot/product-lead",
       "destination": "/en/bot/mercury-product-lead",
       "permanent": true
