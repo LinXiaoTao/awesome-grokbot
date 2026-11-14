@@ -114,6 +114,7 @@
 - **[Startup QA Bot](https://x.ai/bot/XBauviUoNcdi05-ExoOo4)** — Walks your product every weekday in its own test account and tells you what shipped, what got unshipped, what broke (with repro steps and screenshots), and which calls need you. Reads its own verification emails or takes pasted codes, and never touches real data.
 - **[Pfp Bot](https://x.ai/bot/eFnHzlDcKdoA406SzZbNZ)** — Turns your X photo, an upload, a selfie, or a pet pic into a tiny Grokbot-style icon with capsule eyes that keeps the hair, colors, and signature look. Style and prompt by @Multi_Serio_Ai. Asks for more photos when unsure, and never makes realistic likenesses or posts anything.
 - **[PM bot](https://x.ai/bot/FeeqMRMJr2jwixCROZcIh)** — Acts as your PM. Writes the dated cut: what's in, what's out, and how you'll know it's done. Engineering doesn't start until you approve it.
+- **[Director Bot](https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF)** — 你的视频导演：把需求简报变成短片、广告、讲解视频、音乐视频、微短剧等，从策划、拍摄、剪辑到交付一手包办。
 
 ## 工程研发
 
@@ -529,6 +530,8 @@
 - **[X Bookmark Demos](https://x.ai/bot/0HhqUJQH2FwInXRK5SVZ5)** by @JaimeBubblehead — 每日侦察：阅读你的 X 书签，推荐一两款值得一试的新工具；你批准后，会在你自己的电脑上真实安装并测试。
 - **[出口IP管家](https://x.ai/bot/1AKObJsZ-4jTjoTZ6_Y0R)** by @KhoaMinh88704 — 专门管理 Grok Bot 电脑（box）上的出口 IP / 代理链路：配置与切换 mihomo dialer-proxy，查询出口与测速，本地端口挂载。
 - **[Claude Remote](https://x.ai/bot/aB0M7wQOAcFgd_G0rTEWF)** — 把任务交给 Mac 上的 Claude Code 会话，再把结果收回来。
+- **[Grok Bot Factory](https://x.ai/bot/SbuZfViNYHIEvK1jaBF85)** by @jimaggie — 为你的 Grok Bot 集群维护一间可视化的工厂办公室。盘点所有 bot 和例行任务，生成每个 bot 一张工位的页面，展示职责、头像、模板链接和状态，并给出调整建议，经你批准后才发布。
+- **[Usage Watch Walt](https://x.ai/bot/aPgoCcrr2G2TOjYzjocbz)** by @jimaggie — 用白话盯着 Grok 用量的助手。检查你的 bot 和例行任务，用绿、黄、红仪表加预测展示用量，找出消耗最多的项目，并建议如何减少浪费或控制在额度内。
 
 ## 产品管理
 
@@ -626,6 +629,9 @@
 - **[Premortem Desk](https://x.ai/bot/RMTU2Vv4BHQtoJwGFhYCm)** by Thuong P. Nguyen — 粘贴一份你已经承诺执行的计划，即可得到最可能的失败方式、各自的早期预警信号，以及何时转向或停止。可选的每周检查会在某个触发条件出现时告诉你。
 - **[Story Mapper](https://x.ai/bot/lKWMPhgUH4U9ibtjHNI1b)** by Albina Nikiforova — 把你应用的代码和真实截图变成用户故事地图：一页说明、按主题的架构图，以及可点击的查看器。面向想看清已有哪些故事、它们如何相连、又缺了哪些的独立开发者和小团队。
 - **[Vibe Check](https://x.ai/bot/V2mEPjBfDmtFvqeYUuvnm)** by @priddysharp — 审查你用 AI 构建的应用，找出 vibe coding 通常会漏掉的上线缺口，再让五个模拟的首次用户走一遍，找出真人会卡住的地方。
+- **[Tinker Tom](https://x.ai/bot/jzXeYcCP2fU5YhoQhCWcq)** by @jimaggie — 把粗糙的发明点子变成可行的概念。厘清问题、给出设计方案、写出含材料和步骤的原型计划，并查询官方专利和产品资料，区分灵感与潜在冲突。
+- **[Idea Ike](https://x.ai/bot/9zBbCo8cw3SggdO28xXbK)** by @jimaggie — 帮你梳理粗略想法的头脑风暴搭档。把每个想法扩展成一批不同的可能性，挑出最好的两三个并列出利弊，再为每个给出一个可执行的第一步。
+- **[Research Ruby](https://x.ai/bot/bcVY9sJKoeZSzFcfNlhVW)** by @jimaggie — 社交媒体帖子的调研与事实核查台。用实时网络检索审查每条事实性说法，评为属实、虚假、误导或未证实，并附带注明日期的来源和简短说明。
 
 ## 设计
 
@@ -1021,6 +1027,9 @@
 - **[墨灵 Moling](https://x.ai/bot/4JFu2Vhw9D2U2ZJfd-zd0)** by @LZJ5460 — 墨灵是灵境出品的长文写手，写给需要流量的项目操盘手和自媒体创业者：学你的口吻，写没有 AI 味、值得收藏的爆款长文，一篇改成 X、公众号、抖音、小红书、知乎、微博多个版本。
 - **[X Virality Score](https://x.ai/bot/BIvSSU3sukmkTpMeSnft-)** by @thegreatest_sv — 创作者/博主工作台：盯紧你的观察列表，找出已经爆火的帖子，挖掘关键词，起草英文帖子蹭热点，并在首次运行时搭好你自己的公开 GitHub Pages 看板。每日摘要 + 看板刷新。默认只读 X，发帖需你批准。
 - **[Scrollstopper](https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw)** by @_DanielWilson — 一手社媒经理，可管一个或多个品牌：学习各品牌语气、起草平台原生帖子、排期、合适时跨平台分发，并用周报总结效果。默认只出草稿，发帖或回复需你批准。
+- **[All Art Calls](https://x.ai/bot/cX8izZ4tOnoniyBefx1pX)** by @iustinafractals — 艺术征集信息助手。按你的媒介、所在地和职业阶段查找征集，在主办方官网核实，检查资格、费用和版权条款，标出收费陷阱，并提醒截止日期。
+- **[AI Character Studio](https://x.ai/bot/RDa3UxaLxHIts4XVIX73W)** by @jimaggie — 为无脸 AI 网红制作内容。撰写带多个开头方案的脚本，生成带弹出文字和 B-roll 的虚拟形象视频，起草配套帖子，所有内容发布前都会交给你审批。
+- **[Director Bot](https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF)** — 你的视频导演：把需求简报变成短片、广告、讲解视频、音乐视频、微短剧等，从策划、拍摄、剪辑到交付一手包办。
 
 ## 销售
 
@@ -1188,6 +1197,9 @@
 - **[Sales Call Coach](https://x.ai/bot/s8173b3a9c49917de5b2d)** by @DenisLabelle — 让每次通话都带着作业结束。回顾 Gong 通话，并就需求挖掘、异议处理和高层气场留下带时间戳的辅导，外加通话评分。
 - **[Sell Anything](https://x.ai/bot/jSEK7tMiX9wUBMVB_mojh)** by @cjdinnison — 转卖行家：依据真实成交的可比价格为你的物品定价，撰写能卖出去的商品说明，发布到 OfferUp、Facebook Marketplace、eBay 和 Craigslist，并跟进买家直到售出。
 - **[Sponsor Scout](https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6)** by @MichaelHeckert — 找出已经在赞助与你同类的人的品牌，找到真正的切入方式，并起草提案。发送由你来按。为格斗选手、运动员、通讯作者和创作者而做。
+- **[Sponsorship Hunter](https://x.ai/bot/3MexeCXjeWw5cdIOROMtT)** by @jimaggie — 为你的受众或小生意寻找正规的赞助、联盟计划和品牌合作。按匹配度和可信度排序，标出疑似骗局，用简单的管道追踪进度，并起草推广邮件供你审阅。
+- **[eBay Seller Assistant](https://x.ai/bot/25biN96GINlZc7oouZlhU)** by @jimaggie — 协助经营小型 eBay 店铺。检查新订单，在你的预算上限内购买标准 USPS 面单，追踪扫描状态，并标出会低于底价的商品，改价需经你批准。
+- **[Computer Shop Bot](https://x.ai/bot/xwAkiiQRwbuxAASGkaCPs)** by @jimaggie — 协助经营小型电脑维修与销售店。在 eBay 上采购和出售电脑配件，计算预期售价、手续费、运费、成本和利润，并维护库存与利润率表。
 
 ## 企业运营
 
@@ -1850,6 +1862,8 @@
 - **[敬語メール清書係](https://x.ai/bot/cMfJYFNz4lgGOdHc5m7Dm)** by @sidejob_AJ — 只要贴上大致备忘，就会整理成适合对方的敬语商务邮件或致歉信。也会给出偏柔和与偏郑重的改写。不会发送。
 - **[Create and Defend your Clinical Note](https://x.ai/bot/LIrj8NNdiKTxDV8FwTNNQ)** by @ScribeArchAI — 认识 Archy，你的 ScribeArch 书记员。面向牙医：粘贴速记或口述，或上传录音，即可得到干净的 SOAP 病历、可辩护性评分，以及一份该补什么的短清单。需要完整检查？访问 scribearch.com。
 - **[Bot Phone Line by CosVoice](https://x.ai/bot/jnIfY8WX6xUVvjs26aDnI)** — 在 CosVoice 上替你接听和拨打电话。每次通话后你会收到书面邮件摘要；随时可问最近进展。每月 29 美元，含 60 分钟通话。
+- **[Network Ned](https://x.ai/bot/qHJHrp64deGRRHLmMP0Ql)** by @jimaggie — 为小型办公室、店铺、教会或家庭办公室设计实用的网络方案。输出拓扑图、设备与端口规划、Wi-Fi 和访客网络设置、摄像头与备份考虑，以及实施清单。
+- **[Organizer CEO Bot](https://x.ai/bot/CyjldyfTbNSO5kks2XH2o)** by @jimaggie — 统筹你的 Grok Bot 团队。每天以简短晨报开始，把请求分派给合适的专才 bot，整理产出的文档，并记录收据和 bot 相关花费，发送、发布或购买前都需你批准。
 
 ## 招聘与人事
 
@@ -2715,6 +2729,51 @@
 - **[VibeYourTV](https://x.ai/bot/7iH14dp1VnBLUbqq2oEne)** by @orpheuskaze — 用电脑通过 Wi-Fi 和 adb 配置 Android TV / Google TV，不用手机 App。可逆精简系统、把开源 VibeYourTV 设为桌面，并应用含家庭与季节预设的主题。
 - **[IRS Demystifier](https://x.ai/bot/dR8fXUdrOBaF-HLMyxXCS)** by @iustinafractals — 冷静、白话、隐私优先的 IRS 助手，覆盖通知、申报、付款、退税、审计与诈骗等，面向个人、自雇、小企业和非营利。用白话解释信件，并指向官方 IRS.gov 来源。
 - **[Emergency Ready](https://x.ai/bot/ugZSyRMArNeLGOSu0mGco)** by @iustinafractals — 面向美国用户的冷静白话应急助手。帮你做家庭应急计划、准备家人和宠物的物资包、维护可打印速查表，并在你授权范围内陪你应对紧急情况。
+- **[Bench Coach](https://x.ai/bot/5patx2eCnpNfJ2VMWN28y)** by @_DanielWilson — 为你的 Yahoo Fantasy 橄榄球、篮球、棒球或冰球队当教练。在阵容截止前，以及伤病、waiver 和交易窗口期检查联赛，并按你的计分与阵容规则推荐阵容、认领和交易。
+- **[Coder Cole](https://x.ai/bot/eFdYaseSE-E37MclyuU5O)** by @jimaggie — 面向学生、成人学习者和家长的编程与计算机科学家教。教 Python、JavaScript、Java、HTML/CSS、Scratch、AP 计算机科学和 CompTIA A+，先给提示再给答案，并附实践题和免费资源。
+- **[Credit Score Scotty](https://x.ai/bot/tWqWRfMl2V0b_H6xEAHxl)** by @jimaggie — 用白话帮你修复信用的助手。通过 AnnualCreditReport.com 获取免费信用报告并整理，标出可能的错误，起草争议、债务核实和善意信函供你审阅，不承诺提高分数。
+- **[Diploma Dana](https://x.ai/bot/XMMTF1EY-B5VbizW64-0T)** by @jimaggie — 陪你规划高中毕业后的路。依据最新官方资料并排对比大学、社区学院、职业学校、学徒制和参军选项，用白话讲解 FAFSA、奖学金和 GI Bill，并把截止日期整理成个人计划。
+- **[Mindful Maya](https://x.ai/bot/_JGbtyHWGcvOM1e1P2T-d)** by @jimaggie — 健康、心理学、学习方法和考试焦虑方面的家教。分步骤讲解，配有测验、记忆技巧、免费资源，并按你的可用时间制定学习计划。
+- **[Paperwork Pam](https://x.ai/bot/Okb9bVTZkq9EVeNjdFYuS)** by @jimaggie — 处理法律文书，从德州开始并可适配其他州。找出对应的官方免费表格，用白话解释每个栏目，整理材料清单，并把草稿放进标记清楚的文件夹供你审阅。
+- **[Artsy Abby](https://x.ai/bot/bbsuaI0s8yxRnDXmiS5RS)** by @jimaggie — 面向学生和家长的艺术家教。通过分步课程、练习测验和温和的作品点评，教授绘画、色彩理论、艺术史、乐理、戏剧、电影、摄影和数字艺术。
+- **[Civics Clara](https://x.ai/bot/NixYZEef9AlmcCIcdlm8s)** by @jimaggie — 严格保持中立的公民与政府课家教，面向学生、家长和入籍考试考生。用中立的例子、练习题和纠错讲解政府机构、权利与责任。
+- **[Econ Eli](https://x.ai/bot/Woc9bIHrg5bO8-P7FbxOf)** by @jimaggie — 面向学生和家长的经济学与个人理财家教。按你的水平分步讲解微观、宏观、AP 经济学和个人理财概念，配有清晰例子和短练习。
+- **[Gearhead Grace](https://x.ai/bot/3KC3DeMny5MVtuSKPpsqM)** by @jimaggie — 面向学生和家长的工程家教。分步骤教授电路、静力学、CAD、机器人、Arduino 和科创比赛项目，每行都标注单位并强调安全。
+- **[Lingo Leo](https://x.ai/bot/_sHN_JUGOxTsffRBcRywQ)** by @jimaggie — 面向学生、成人学习者和家长的外语家教。通过分级课程、对话练习、词汇、语法、发音指导和温和纠错，教西班牙语、法语或德语。
+- **[Earth and Sky Eddie](https://x.ai/bot/huz0MjNp2ozoD17fZytGu)** by @jimaggie — 面向学生和家长的地球与空间科学家教。讲解岩石、板块构造、天气、海洋、太阳系和恒星，用练习测验和引导式提问代替直接给答案。
+- **[History Hal](https://x.ai/bot/6znS35U48Z72PgZoiNzRW)** by @jimaggie — 面向学生和家长的历史与政府课家教。通过时间线、背景、基于史料的提问、对比和练习测验讲授美国、州和世界历史，先引导提问再揭示结论。
+- **[Mathlete Mo](https://x.ai/bot/nylpBfJCwgYRyEWD1kRWO)** by @jimaggie — 面向学生和家长的分步数学家教，覆盖从预代数到微积分。通过引导式提问、清晰的演算和逐步检查，配合针对性的练习，不直接给答案。
+- **[Quantum Physics Quinn](https://x.ai/bot/KKkQewUvgA-LCHWYiZB-h)** by @jimaggie — 面向高中生、大学生和家长的物理家教。通过引导式提问、例题、练习测验以及适当的交互式模拟，教授基于代数、AP 和基于微积分的物理。
+- **[Sam Shakespeare](https://x.ai/bot/0Pmax1BqlaK5ioimvYi_x)** by @jimaggie — 面向学生和家长的文学与英语家教。通过精读指导、段落分析、历史背景、讨论题和测验，带你读小说、诗歌和莎士比亚，并帮助你形成自己的理解。
+- **[Biology Brenda](https://x.ai/bot/TpA4Ji65MF7b4jeecYGUF)** by @jimaggie — 面向学生和家长的生物家教。讲授细胞、遗传、进化和生态，配有标注示例、误区检查和回忆式提问，不会直接替你完成评分作业。
+- **[Chemistry Casey](https://x.ai/bot/4SzF5eTdp-3HJUgQHAoh1)** by @jimaggie — 面向高中生、大学生和家长的化学家教。从原子讲到 AP 和大学普通化学，配有方程式、例题和误区检查，先给提示再给完整解答。
+- **[Game On Gary](https://x.ai/bot/93nFrBAPgKvx0BUipoyjk)** by @jimaggie — 不剧透的游戏搭档。提供由浅入深的提示，推荐下一个该玩的游戏，检查你的电脑能否运行，并监控你关注的商店的折扣和免费游戏。
+- **[Physical Science Phil](https://x.ai/bot/0Rn9eVmT2dZgnzZzGzXWJ)** by @jimaggie — 面向初中、高中和大学入门阶段的物理科学家教。讲授物质、能量、运动与力，配有例题和难度递增的练习，不会直接替你完成评分作业。
+- **[Realty Rita](https://x.ai/bot/_Cu3rtG0IfKa84YsUe7tc)** by @jimaggie — 为你搬家选房的搭档。按预算和必需条件查找房源，并整理本地经纪人、市场趋势、当天房贷利率、值得做的改造，以及搬家后需要的水电、学校和服务。
+- **[Appliance Fix Annie](https://x.ai/bot/g1AmwULv-28QM-l_yIVbb)** by @jimaggie — 家电维修助手。收集品牌、型号、症状和故障码，找到对应说明书，讲解安全的排查与维修步骤，估算配件和更换成本，并提示何时该找专业人员。
+- **[Grease Monkey Wally](https://x.ai/bot/XQ4VrU9JJ7lHgbEIM2e8F)** by @jimaggie — 自己修车的好帮手。根据车辆信息和故障灯代码判断可能原因，提供规格和维修步骤，查找对应车型的视频，比较配件与价格，检查召回，并审核维修店报价。
+- **[Test Prep Tess](https://x.ai/bot/GEih8F6WlyPJ_oyuVLEAt)** by @jimaggie — SAT、ACT、GED、ASVAB、GRE、IT 认证等考试的备考教练。制定逐周计划，提供带详细解析的练习题，链接免费官方备考资源，并追踪你的完成进度。
+- **[Thrifty Theo](https://x.ai/bot/xKi2VkyukiwEAm_LmDppc)** by @jimaggie — 二手与寄售淘货搭档。查找附近的旧货店、遗物拍卖、车库甩卖和折扣日，监控线上转售网站上你想要的物品，并比较价格、成色、运费和自提信息。
+- **[Utility Eugene](https://x.ai/bot/w3yzHuZdi-x0I-7j7sP9H)** by @jimaggie — 帮你省水电费的助手。找出你所在地址可选的供应商，对比电力套餐，发现省钱机会，并用白话解释费率、合约、费用和服务差异。
+- **[Ballot Box Bob](https://x.ai/bot/y7i2ei-6EN0AAKvKaLLB9)** by @jimaggie — 中立的选举向导。查询你的选民登记，说明如何以及何时投票，列出你选票上的内容，只链接官方选举来源，并在投票结束后帮你找到官方结果。
+- **[Congressional Connection](https://x.ai/bot/QBeeqwxvrPiYYixsntYi1)** by @jimaggie — 帮你了解并联系代表你的民选官员。找到你的国会议员和州议员，用白话解释相关法案并附官方链接，起草反映你观点的信件，不编造事实。
+- **[Green Thumb Granny](https://x.ai/bot/OOFh9h6yfDuzJCAjk80Ez)** by @jimaggie — 根据照片识别杂草、害虫和病株，并优先推荐最安全的处理办法。说明判断的把握和警示信号，维护适合你所在地区的种植日历，并推荐本地原生、耐旱的植物。
+- **[Lifehack Jack](https://x.ai/bot/ab76yi9i0xGRTg7SsMFM-)** by @jimaggie — 提供实用、经过验证的生活小窍门，帮你省时间和钱，可随时索取或每天推送。涵盖清洁、烹饪、省账单、旅行和电脑技巧，说明原理并提示安全风险。
+- **[Local Services Samantha](https://x.ai/bot/zUQwIdQgoK-uaxur73Nmv)** by @jimaggie — 在你的邮编附近寻找可靠的本地服务。按电话、执照核查、评价、距离、营业时间和资质对比水管工、修车厂、兽医、县政府办公室等服务，并附官方链接。
+- **[Comic Book Carl](https://x.ai/bot/DnBW-zVBFHvnRk1NgJrCk)** by @jimaggie — 漫画收藏搭档。追踪你的收藏，依据真实成交价（附链接）识别和估值，标出关键期数，监控你的订阅清单，并找出你可能想入手的漫画。
+- **[Pastor Pete](https://x.ai/bot/YrxlAlCd7MQujjCOlStvm)** by @jimaggie — 温暖的圣经与信仰陪伴者。根据你的处境分享相关的圣经故事和经文并标明出处，用白话回答圣经问题，送上祷告，推荐读经计划，并按邮编查找附近的教会。
+- **[Rookie Card Ray](https://x.ai/bot/TyUoZv-3xRqbY_zHQIRvO)** by @jimaggie — 体育球星卡与纪念品收藏搭档。维护你的收藏清单，识别每张卡，依据近期成交记录（附链接）估值，并在某张卡价值突出时提醒你。
+- **[Forecast Fred](https://x.ai/bot/YTe1w-QQgpo-rBQpE26mw)** by @jimaggie — 由冷面幽默的电视气象员播报你所在美国城镇的每日天气。涵盖气温、降水、风力和时间点，偶尔夹带冷笑话，但天气预警和海事预报会严肃直述。
+- **[Goldie Gems](https://x.ai/bot/q16DvYUAADvhc9KL7n1s5)** by @jimaggie — 把珠宝照片整理成清单并估算熔金价值。记录每件首饰的金属、重量、成色和备注，按当前金银现货价生成分项估算，并标出不确定的识别结果。
+- **[Max News](https://x.ai/bot/WjQ0Az3myfhbARRzoAK89)** by @jimaggie — 围绕你选定的主题和地区推送简短、中立的新闻简报。每天几条精炼更新，每条都链接原始来源，并区分已报道的事实与不确定信息。
+- **[Silver Dollar Duke](https://x.ai/bot/iwweEXz16SL6637wWjw4O)** by @jimaggie — 老派钱币商风格的助手，根据照片维护你的钱币和金银条清单。记录面值、年份、铸币厂、品相和金属含量，按现货价计算分项熔值，并把收藏价值与熔值分开。
+- **[Skywatcher Buzz](https://x.ai/bot/Y5p-9MeT7dEayoyxX_s2q)** by @jimaggie — 提醒你所在城镇上空值得观看的天象。检查空间站过境、极光、流星雨、日月食、行星、月相事件和火箭发射，并在云量和时间合适时通知你。
+- **[Boating Assistant](https://x.ai/bot/X1BJi0XhPPsQ4kXqmzi8z)** by @jimaggie — 帮你保养和享受自己的船。分步骤诊断维护和维修问题，整理配件清单，管理船舶档案，制定航行计划，并推荐船上娱乐内容。
+- **[Jenny Genealogy](https://x.ai/bot/KSXfBuFK1GZbJ0GusU2Xu)** by @jimaggie — 逐个人物整理你的家谱。审阅 Ancestry 提示，找出可能重复的人物，核对冲突的日期，并在更新家谱前展示证据和拟议修改。
+- **[Vacation Vicky](https://x.ai/bot/Ust023GCgyUqViovDUky9)** by @jimaggie — 规划并打磨你的整个假期。对比航班、住宿和租车，查看价格，生成含餐饮和景点的逐日行程，所有预订和付款都等你批准。
+- **[Gun Collection Assistant](https://x.ai/bot/yVkCnDFOvTpp5huaGAlmm)** by @jimaggie — 维护你合法持有的枪械收藏记录，并帮你评估潜在交易。更新清单、品相、购买记录和保险估值，并按你的偏好监控相关在售信息。
+- **[Online Vehicle Search](https://x.ai/bot/VMgzGAG8M5slayjBsKGM5)** by @jimaggie — 查找并持续监控你想买的车。按你的要求搜索轿车、卡车、SUV 或电动车，核实配置和基于 VIN 的召回，追踪置换估价和贷款信息，仅在有变化时通知你。
+- **[Stock Ladder Bot](https://x.ai/bot/qTPLJ7D8X0QwW1orQy3Bd)** by @jimaggie — 管理基于规则的股票逢低买入、逢高卖出阶梯。对照你的买入价位和卖出目标追踪持仓，计算订单与敞口，并在提出调整前模拟不同价格下的反应。
 
 ## 贡献指南
 

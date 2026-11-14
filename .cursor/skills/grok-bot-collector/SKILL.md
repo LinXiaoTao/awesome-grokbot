@@ -268,6 +268,20 @@ Sources:
 | `https://grokbot.dev` | `/marketplace/` lists all bots; each detail page `/marketplace/<slug>/` has JSON-LD (`SoftwareApplication`) with `description`, `author.name`, `installUrl` (the `x.ai/bot/<id>` URL), `citation[0]` (xPostUrl) and `datePublished`. Only fetch detail pages for rows not already matched locally. |
 | `https://botdirectory.ai` | Rows are `div.bot-row` with `data-slug`, `data-name`, `data-category`, `data-integrations`; the x.ai URL is inside the row. Descriptions are truncated with `…`. |
 
+Latest reference implementation: `scripts/manual-incremental-2026-11-14.mjs` and `scripts/sync-2026-11-14.mjs`. To run a new sync, copy both files, replace the date, fill the data file, then run the sync script, `node scripts/export-descriptions.mjs` and `pnpm build`.
+
+botdirectory.ai machine-readable feeds (preferred over scraping HTML):
+
+- `https://botdirectory.ai/updates.json`: slug, name, summary, `grokShareUrl`, `addedAt`.
+- `https://botdirectory.ai/api/bots.json`: full prompt, `contributor`, `grokShareUrl`, `sources`. Only entries with a non-null `grokShareUrl` have an official `x.ai/bot/<id>` link. `sourceUrl` can contain typos; use `grokShareUrl`.
+- Write English `description` and `descriptionZh` yourself from the prompt (2 sentences, third person). The feed has no descriptions for most share-linked bots.
+
+Fetching notes:
+
+- Fetch grokbot.dev with `curl` or Node `fetch`. Python `urllib` gets HTTP 403.
+- Compare grokbot.dev and the official marketplace by `x.ai/bot/<id>`, not by slug. Local slugs often differ from the source slugs.
+- Take `author` from the live `x.ai/bot/<id>` title (`"<name> by <author>"`), not from the botdirectory `contributor` handle. Example: contributor `jimaggie` is displayed as `James`.
+
 Rules learned:
 
 - Deduplicate by `xaiBotUrl` first, then slug, then same normalized name + same `authorHandle`. Same name with a different author is kept and renamed `Name (<author>)`.
